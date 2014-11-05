@@ -1,0 +1,1569 @@
+Elizabeth Cascio
+Economics
+Cracks in the Melting Pot
+        Cracks in the Melting Pot: Immigration, School Choice, and Segregation 
+       
+             By Elizabeth U. Cascio and Ethan G. Lewis* 
+           
+We examine whether low-skilled immigration to the U.S. has contributed to 
+immigrants' residential isolation by reducing native demand for public 
+schools. We address endogeneity in school demographics using established 
+Mexican settlement patterns in California and use a comparison group to account for immigration's broader effects. We estimate that between 1970 
+and 2000, the average California school district lost more than 14 non- 
+Hispanic households with children to other districts in its metropolitan area 
+for every 10 additional households enrolling low-English Hispanics in its 
+public schools. By disproportionately isolating children, the native reaction to immigration may have longer-run consequences than previously thought. 
+
+
+
+      Americans have long revealed distaste for racial and socioeconomic diversity in social 
+     
+interactions by sorting residentially. In recent years, this distaste has been manifested in the 
+
+native response to a large wave of low-skilled immigration to the U.S. from the developing 
+
+world, particularly Central America. These new immigrants are residentially isolated (David M. 
+
+Cutler, Edward L. Glaeser, and Jacob L. Vigdor 2008a), due in part to relocation of natives from 
+
+the neighborhoods where they settle (Albert Saiz and Susan Wachter 2011). Physical separation 
+
+from natives may reduce immigrants' access to social networks, economic opportunities, and 
+
+public services, like education, that weigh heavily in their future economic prospects. 
+
+      The consequences of "native flight" for immigrants nevertheless depend on what is 
+     
+driving it. If native relocation is driven in part by reductions in demand for public schools, for 
+
+example, then immigrant children may be especially isolated, and it could have impacts that last 
+
+generations. We investigate this possibility in the present paper, testing whether school districts 
+
+                                       
+that saw greater increases in low-skilled Hispanic school enrollment in recent decades have also 
+
+experienced greater reductions in the settlement rate of non-Hispanic children. The hypothesis 
+
+has not received much attention. Yet, demographic change in public schools has historically 
+
+played an important role in residential choice in the U.S. For example, increases in minority 
+
+enrollment in predominantly white schools generated considerable departures of white children 
+
+from school districts court-ordered to desegregate starting in the 1960s (Sarah J. Reber 2005, 
+
+Nathaniel Baum-Snow and Byron F. Lutz forthcoming).1 
+
+      The fact that rising low-skilled Hispanic enrollment is tied to immigrant settlement - not 
+     
+to policy - presents two challenges for our analysis. First, rising low-skilled Hispanic enrollment 
+
+is associated with an increased immigrant presence in a community overall, which could have 
+
+independent effects on where non-Hispanic children reside. Second, immigrant settlement in a 
+
+district may be non-random with respect to other district characteristics that non-Hispanic 
+
+parents value when choosing a residence. 
+
+      We account for the other impacts of immigration by comparing changes in the settlement 
+     
+patterns of non-Hispanic children to those of non-Hispanic adults of "parenting age," which we 
+
+define as under age 50.2 Differencing across these groups attenuates our estimates, since the 
+
+settlement response of parents in the comparison group will be identical to that of children. But 
+
+the presence of adults who are not parents in the comparison group means that differencing rids 
+
+our estimates of some bias from immigration's broader effects. While this approach may not 
+
+remove all such bias, childless non-Hispanic adults under age 50 are similar in many ways to 
+
+
+
+
+1
+
+
+
+
+The appearance of declining school performance can also lead to population losses (David N. Figlio and Maurice 
+
+E. Lucas 2004). A considerable hedonic literature also speaks to these issues. For example, Sandra E. Black (1999) 
+estimates willingness to pay for a neighborhood school with higher average test scores, while Thomas J. Kane, 
+Stephanie K. Riegg, and Douglas O. Staiger (2006) and Leah Platt Boustan (forthcoming) estimate willingness to 
+
+pay for schools with lower minority enrollment shares. 
+2 More specifically, we define 0 to 19 year olds as children and 20 to 49 year olds as parent-age adults. It is 
+unfortunately impossible for us to conduct the analysis on households with and without children given constraints in 
+available data. We can however approximate what we would observe at the household level if data were available, as discussed below. 
+                                       2
+                                       
+their counterparts with children, as we discuss below, suggesting that their reaction to 
+
+immigration may be similar to the reaction we would see from parents if immigration had no 
+
+impact on school demographics. 
+
+      We confront endogeneity in immigrant inflows by borrowing an instrument from 
+     
+research on immigration's labor market impacts that exploits the initial size of immigrant 
+
+communities (e.g., David Card 2001), the idea being that these communities attract new 
+
+immigrants but are on average similar to other locations in their appeal to natives. In particular, 
+
+our analysis exploits variation in the initial size of Mexican communities and focuses on 
+
+California over 1970 to 2000. Mexican immigration was the main driver of growth in the low- 
+
+skilled Hispanic U.S. population over this period and had particularly dramatic impacts on 
+
+California's demographics: As shown in Figure 1, first- and second-generation Mexicans 
+
+accounted for over a quarter of children in the state by 2000, up from 5.4 percent in 1970. Given 
+
+the differencing approach described above, our use of this instrument does not require that it be 
+
+related to unobserved determinants of overall non-Hispanic settlement, but rather only that it be 
+
+unrelated to unobserved determinants of the difference in settlement patterns across non- 
+
+Hispanic children and adults of parenting age. 
+
+      The historical roots of Mexican immigration to California make for compelling 
+     
+application of this instrumental variables strategy. By 1970, Mexicans were spread throughout 
+
+California, not concentrated in few places where they would have already been differentially 
+
+affecting the residential choices of non-Hispanic parents.3 Supporting this, the instrument does 
+
+not predict differences in school district of residence between non-Hispanic children and parent- 
+
+age adults in California as of 1970 or changes in this difference over the 1960s - before the 
+
+massive influx of Mexican immigrants to the state shown in Figure 1. Many potential correlates 
+
+
+
+
+
+3
+
+
+
+
+
+For example, the Bracero Program drew Mexicans to the California countryside as farm labor starting in the 1940s. 
+                                      3
+                                      
+                                      
+of trends in district choice of non-Hispanic parents, such as public school resources prior to 
+
+California's school finance equalization, are also not significantly correlated with the instrument. 
+
+                         [Figure 1 about here] 
+                    
+      The data to carry out our analysis come from numerous sources. Federal administrative 
+     
+data offer counts of Hispanic students in grades K through 12 with low English proficiency, a 
+
+hallmark of low skill among recent immigrants and a salient marker of immigrant status for non- 
+
+Hispanics. These data were collected to monitor compliance with federal civil rights law and 
+
+have previously been used for research on school desegregation (e.g., Elizabeth Cascio et al. 
+
+2010). District population data are drawn from published Census tabulations. 
+
+      Our findings show that Mexican-receiving school districts in metropolitan California saw 
+     
+larger departures of non-Hispanic children than parent-age adults between 1970 and 2000. The 
+
+estimates imply that a school district in California lost on average more than 14 non-Hispanic 
+
+households with children for every 10 additional households enrolling low-English Hispanic 
+
+children in its public schools across these three decades.4 Non-Hispanic children in districts with 
+
+larger increases in low-English Hispanic enrollment shares also saw a greater increase in the 
+
+probability of enrolling in private school over the period.5 This finding complements our 
+
+interpretation that the differential relocation of non-Hispanic children to Mexican immigration 
+
+was driven by reductions in demand for public education. Our estimates are furthermore 
+
+comparable in magnitude to the white enrollment and population losses associated with increased 
+
+exposure to blacks after court-ordered school desegregation in the 1960s and 1970s (Reber 2005, 
+
+Baum-Snow and Lutz forthcoming). 
+
+
+
+
+
+
+4
+
+
+
+
+
+
+That the household displacement rate is larger than one-for-one implies that our estimates cannot be entirely 
+
+accounted for by an inelastic supply of housing suitable for households with children. 
+5 This complements evidence of such an effect at the metropolitan area level (Julian R. Betts and Robert W. Fairlie 2003). 
+                                       4
+                                       
+       The comparison to desegregation is helpful in placing our estimates into historical 
+     
+context, suggesting that shocks to school demographics continue to shape patterns of residential 
+
+segregation today. More generally, our estimates suggest that residential sorting by natives in 
+
+response to immigration may disproportionately affect children. The residential segregation of 
+
+recent immigrants may thus limit their acquisition of human capital for generations.6 This issue 
+
+is a pressing one for future research, as immigration will likely drive growth in school enrollment 
+
+in the U.S. into the foreseeable future. 7 
+
+I. 	Immigration and District Choice in Theory 
+
+      While the empirical analysis to follow focuses on movements of people in response to 
+     
+immigration due to data constraints, at base our research question concerns the location decisions 
+
+of households. The framework presented in this section highlights the conditions under which 
+
+we might interpret household location decisions as isolating an impact of immigration on 
+
+demand for public education, providing a starting point for discussion of our empirical strategy. 
+
+      Suppose that households are exogenously assigned to different metropolitan areas by job 
+      
+opportunities, and within metropolitan area, choose a school district in which to reside.8 In 
+
+equilibrium, the utility, V, associated with the school district of settlement for a household must 
+
+be at least as large as the highest available to it elsewhere in the metropolitan area, v: 
+
+(1) 	V?? p, q, k , i???? v . 
+
+
+
+
+
+
+
+
+6
+
+
+
+
+
+
+
+
+Cutler, Glaeser, and Vigdor (2008b) show that residential isolation may reduce the skill acquisition of low-skilled 
+
+i7mmigrants. 
+ Low-English enrollment accounts for almost all of recent enrollment growth in public schools. (See "New to 
+English (Interactive Graphic)." The New York Times, March 13, 2009. Accessed August 8, 2009 at 
+http://www.nytimes.com/interactive/2009/03/13/us/EL-students.html?ref=education.) 
+8 Metropolitan areas are constructed to capture labor markets. It is common to assume that metropolitan areas also define markets for schools (e.g., Caroline M. Hoxby 2000, Miguel Urquiola 2005, Jesse M. Rothstein 2006). The 
+assumption of exogeneity in metropolitan area of settlement is a simplification and is not required for identification in our analysis. 
+                                       5
+                                       
+Utility is decreasing in housing costs, p, and (weakly) increasing in the output of public schools, 
+
+q.9 Utility is also (weakly) decreasing in both the low-English Hispanic enrollment share in 
+
+public schools, k, and the overall low-skilled Hispanic share in the population, i. Both capture 
+
+distaste for diversity, but on different dimensions: in schools (k) and elsewhere in the 
+
+community (i).10 k is increasing in i. 
+
+      Now suppose that a district's schools receive an influx of low-English Hispanic students 
+     
+as a result of immigration. Non-Hispanic demand for district residence may decline because of a 
+
+distaste for diversity in schools (??V??k?? 0 ), or because low-English Hispanic students lower 
+
+
+school output, e.g., through reductions in school resources or peer effects in the classroom 
+
+(???V??q??? q??k??? 0 ).11 The reduced-form effect of interest could work through either channel. 
+
+But non-Hispanic demand for the district may also fall if low-skilled Hispanic neighbors are 
+
+undesirable for other reasons (??V??i?? 0 ). If the housing supply is not perfectly elastic, the 
+
+
+underlying population growth will also lower non-Hispanic demand for the district by raising 
+
+housing costs (???V??p???p??i??? 0 ) (Saiz 2003, Saiz 2007). 
+
+      Thus, there are reasons besides changing school demographics that non-Hispanic 
+     
+households with children may choose not to locate in districts with growing low-English 
+
+Hispanic enrollment shares. As described, we attempt to isolate the effect of changing school 
+
+demographics by using a comparison group. If some set of other households (group 0) on 
+
+
+
+
+9
+
+
+
+
+Housing costs include both the (rental) price of housing and taxes. Utility would generally be modeled as 
+
+increasing in income less these housing costs, or potential consumption. We abstract from the effects of income here since cross-district moves within a labor market are not likely to change it. 
+10 i also captures the effects of immigration on local public goods besides education. 
+11 California institutions may have limited the impact of low-English Hispanics on school output. For most of the period of study, California maintained systems of bilingual education, whereby students could spend an extended 
+period in separate classes taught in Spanish, and highly egalitarian school finance. Thus, spillovers to native 
+students would have been attenuated, and reductions in property values as a result of immigration would not have manifested in lower school spending. On the other hand, since California's system equalizes current funding and 
+not facilities, increases in low-English Hispanic enrollment may have exacerbated crowding in schools. These 
+students may have also indirectly reduced already limited resources for native students if bilingual education is more expensive and inadequately funded. 
+                                       6
+                                       
+average reacts in the same way as non-Hispanic households with children (group 1) to changes in 
+
+other district attributes that accompany an increase in k (i.e.,??V1??i????V0??i and 
+
+?V1??p????V0??p ), the difference in the two groups' probabilities of choosing the district will 
+
+reveal whether the presence of low-English Hispanics in public schools has made it less 
+
+attractive. Differencing will however understate the effect of interest to that extent that changes 
+
+in k also affect the utility of households without children; for example, some households without 
+
+children may anticipate having them soon. 
+
+      An additional complication for estimation is that the same basic model in (1) underlies 
+     
+the residential choices of immigrants. They may be attracted to declining school districts by 
+
+lower rents, in which case departures of non-Hispanic children from a district might generate 
+
+increases in k, not the opposite.12 Or a positive shock might disproportionately attract 
+
+households with children, regardless of origin, possibly generating a positive correlation between 
+
+k and the presence of non-Hispanic children.13 We approach this identification problem using 
+
+the instrumental variables approach described below. The basic idea is that an initial Mexican 
+
+presence attracted substantial new Mexican settlement - and drove up low-English Hispanic 
+
+enrollment - independently of other, unobserved factors that made the district more or less 
+
+attractive for non-Hispanic children over time. 
+
+II. 	Econometric Specification and Data 
+
+A. 	Basic Model 
+
+      Working off the framework presented above, we would ideally test whether the change 
+     
+over time in the relative probability that non-Hispanic households with children chose a district 
+
+
+
+
+
+12 
+
+
+
+
+
+
+For example, Boustan (2010) shows that the foreign-born were attracted to center cities that whites had earlier fled 
+
+in response to black in-migration. 
+13 Saiz and Wachter (2011), for example, argue that new housing development attracted immigrants and natives to the same Census tracts over the period that we study here. 
+                                       7
+                                       
+is related to the change over time in the district's low-English Hispanic enrollment share. Such a 
+
+model is: 
+
+
+(2) 
+
+
+? N 1d,m N 1m???? N 0,m N 0??????kd?? x?d,m????? d,m , 
+
+?
+
+???
+
+d
+
+m
+
+?
+
+
+
+where ?kd represents the change over time in the low-English Hispanic enrollment share in 
+
+
+district d,???N 1d,m N 1m??????N 0,m N 0?? represents the change over time in the proportion of non- 
+
+d
+
+m
+
+
+
+Hispanic households with children (group 1) relative to the comparison group (group 0) in 
+
+metropolitan area m who chose district d, and xd,m represents other observed factors that may 
+
+affect a district's desirability among non-Hispanic parents.14 If the comparison group satisfies 
+
+the assumptions laid out in the previous section, the parameter?? will isolate the non-Hispanic 
+
+location in response to changing school demographics. 
+
+      Data constraints make it impossible for us to estimate model (2).15 Instead, we define the 
+     
+treatment group as non-Hispanic 0 to 19 year olds (children) and the comparison group as non- 
+
+Hispanic 20 to 49 year olds (adults of parenting age) using available data on population by age 
+
+and ethnicity at the district level. That is, our estimating equation is: 
+
+
+
+(3) 
+
+
+? N 0?m19 N 0?19???? N 20,m?49 N 20?49????~??kd?? x?d,m~?? ud,m , 
+
+?
+
+d, 
+
+m
+
+???
+
+d
+
+m
+
+?
+
+?
+
+
+where???N a,m N a?? represents the change over time in the share of non-Hispanics in age group 
+d	m
+
+a in metropolitan area m living in district d.??~ is similar in interpretation to?? , giving how 
+
+much larger a proportion of a metropolitan area's non-Hispanic children than adults of parenting 
+
+age chose an alternative district with a rise in its low-English Hispanic enrollment share. But 
+
+because many parenting-age adults are "treated" by having children in the household,??~ should 
+
+
+
+
+14 
+
+
+
+
+We show in Online Appendix B that ? can be interpreted as the difference across groups in the sensitivity of 
+
+location decisions to low-English Hispanic enrollment share, k, in a household-level linear model of district choice that is motivated by the theoretical model presented in Section I. We specify the model in differences because our 
+instrumental variable for??kd derives from flows of Mexican immigrants and thus cannot be specified in levels. 
+15 Counts of households by presence of children are not broken out by the age of the householder at the school 
+district level. Below, we describe the importance of age in defining the comparison group. 
+                                       8
+                                       
+be lower in magnitude than?? in model (1). In approximation,??~ in fact understates?? by a 
+
+factor proportional to the share of parenting-age adults with children in the household, which we 
+
+use below to convert estimates of??~ to "displacement rates" at the household level.16 
+
+      The comparison group implicit in our analysis thus consists of childless non-Hispanics 
+     
+under age 50. For our estimates to have the desired interpretation - capturing residential choices 
+
+tied to demand for public schools - the assumption that must hold in an analysis of household 
+
+data must also hold here. That is, it must be the case that the comparison group on average 
+
+reacts in the same way as the treatment group to all other changes in district attributes that 
+
+accompany a rise in low-English Hispanic enrollment. Our comparison group is not the same as 
+
+the treatment group in all respects,17 but it is quite similar along a dimension that should matter: 
+
+non-Hispanics under age 50 express similar views about immigration regardless of the presence 
+
+of children in their household. By contrast, older non-Hispanics express relatively negative 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We show in Online Appendix B that??~????1???? 20?49??? where?? 20?49 represents the fraction of non-Hispanic 20 to 
+
+49 year olds who are parents. In 2000 Census microdata for metropolitan California (Steven J. Ruggles et al. 2010), 
+? 20?49?? 0.55 , suggesting that our estimates should be scaled up by about 2.2 (=1/0.45) to represent the outflows of 
+non-Hispanic households with children. This is the conversion factor we use below, but we also describe sensitivity 
+of the estimates to alternative assumptions on its value. It is also possible to directly estimate?? using population 
+data and a more complex estimation procedure, also described in Online Appendix B. 
+17 As of the 2000 Census (Ruggles et al. 2010), California's non-Hispanics with kids had about nine percent higher 
+household income than other California non-Hispanics under age 50, largely because the adults in them are older (on 
+average, 4.5 years). They were, however, slightly less educated. It is not immediately obvious how such 
+characteristics would affect settlement patterns in response to immigration, but it seems plausible that the effects of education and income could be offsetting. 
+                                       9
+                                       
+views.18 Elimination of older Californians from the comparison group is also justified in light of 
+
+the considerably higher tax costs of moving they face as a result of Proposition 13.19 
+
+      In estimating (3), we restrict attention to a long change - from 1970 to 2000. We 
+     
+construct the dependent variable using data from the 1970 and 2000 school district tabulations 
+
+(SDT) of the U.S. Census of Population (National Center for Education Statistics (NCES) 1970, 
+
+NCES 2000).20 For the change in the low-English Hispanic enrollment share, we use district- 
+
+level public school enrollment in grades K-12 by ethnicity and need for accommodation for poor 
+
+English language skills from the Elementary and Secondary School Civil Rights Surveys. The 
+
+first year in which these data are available for all districts is 1976 (Office for Civil Rights (OCR) 
+
+1978).21 The next year in which these surveys included all districts was 2000 (OCR 2000). Thus, 
+
+while we would have liked to estimate (3) with higher frequency (e.g., decadal) data, such data is 
+
+not available for a key variable.22 Our main estimates are also unweighted, representing how 
+
+low-English Hispanic enrollment growth affected the average district, but our findings are 
+
+substantively similar when we weight by the (initial) number of non-Hispanic children in the 
+
+
+18 
+
+
+We examined responses to four questions asking "How much do you agree or disagree with the statement[s]" in 
+
+the 2004 wave of the General Social Survey (James A. Davis and Tom W. Smith 2009): (1) "Immigrants increase 
+crime rates," (2) "Immigrants take jobs away from people who were born in America," (3) "Immigrants are generally good for America's economy," and (4) "America should take stronger measures to exclude illegal 
+immigrants." Among non-Hispanics under age 50 with and without kids, the fraction with negative views of 
+immigrants for each question are, respectively: (1) 0.227 and 0.266; (2) 0.442 and 0.445; (3) 0.270 and 0.273; and (4) 0.655 and 0.646. None of these differences are statistically significant. In contrast, non-Hispanics over age 50 
+are 7 percentage points more likely (than non-Hispanics under age 50 with kids) to agree that immigration raises 
+crime, and 16 percentage points more likely to want to take stronger measures to exclude illegal immigrants (both 
+
+significant). 
+19 Proposition 13 (1978) effectively locked in property taxes for existing homeowners by establishing a statewide 
+property tax rate of 1 percent and setting assessed valuations of property at 1975 levels, with a maximum increase of 2 percent per year and no re-assessment. Propositions 60 and 90 in 1986 and 1988, respectively, allowed individuals aged 55 and over to transfer this tax benefit to a new home, but only one of equal or lesser value (Fernando Ferreira 
+
+2010). 
+20 Because school districts are sometimes missing in the SDT, we obtain non-Hispanic population at the MSA level using separately-reported county level aggregates downloaded from the National Historical Geographic Information 
+
+System (Minnesota Population Center 2004), rather than by aggregating across school districts. 
+21 These surveys were conducted to monitor compliance with civil rights law. Non-native English speakers became 
+protected under federal law as a result of the Equal Educational Opportunity Act of 1974, and the Department of 
+Health, Education, and Welfare set forth guidelines for accommodation and began monitoring district compliance in 
+1975. The lack of data prior to 1976 likely has little effect on our findings since most of the 1970 to 2000 increase in California's Mexican population occurred after 1976 (Figure 1). 
+22 The 1980 SDT also lacks sufficient disaggregation of population by age and ethnicity to apply our empirical strategy. 
+                                      10 
+                                      
+district to represent effects for the average non-Hispanic child. Standard errors in all tables allow 
+
+for arbitrary error correlation within metropolitan areas. 
+
+B. 	Instrument 
+
+      Ordinary least squares (OLS) estimates of??~ in equation (3) will be biased toward a 
+     
+finding of "flight" if low-skilled Hispanics chose to settle in districts that non-Hispanic 
+
+households with children were already departing. 23 They will be biased against such a finding, 
+
+on the other hand, if both groups were attracted to the same places. Measurement error in ?kd 
+
+will also lead to attenuation bias. We confront these potential biases using a two stage least 
+
+squares (TSLS) approach. Our instrument for ?kd is constructed in two steps using data from 
+
+multiple sources. 
+
+      The first step is to generate a prediction of the change in the number of low-English 
+     
+Hispanic students enrolled in a district's public schools over 1976 to 2000, given Mexican 
+
+immigration over the period and initial patterns of Mexican settlement. This prediction is given 
+
+by: 
+
+
+
+(4) 
+
+
+?K d?? M 1970 M 1970????K 1976?2000 , 
+
+ˆ
+
+?
+
+d
+
+?
+
+
+where M 1970 M 1970 is the share of the California Mexican-born population (of all ages) residing d
+
+in district d in 1970 (from the 1970 SDT), and??K 1976?2000 represents the number of low-English 
+
+Hispanic children enrolled in California public schools (grades K to 12) in 2000 who were either 
+
+born in Mexico or born in the U.S. to at least one Mexican-born parent (or if both parents are 
+
+foreign-born, to a Mexican-born mother) who arrived in the U.S. in 1976 or later. 24 The latter 
+
+
+
+
+
+
+
+
+23 
+24 
+
+
+
+
+
+
+
+
+Purely mechanically, departures of non-Hispanic children will also inflate ?kd. 
+Table A1, Panel A lists the top ten districts in our sample ranked by the share of California's Mexicans residing in 
+
+the district in 1970. Los Angeles Unified alone was home to over 28 percent of California's Mexicans in 1970. 
+                                      11 
+                                      
+statistic was computed using the 2000 Census (Ruggles, et al. 2010). We define as "low- 
+
+English" children who are not fluent in English.25 
+
+      In the second step, we obtain the instrument itself, Zd, which gives the predicted change 
+      
+     
+in ?kd under the assumption that??K d represents the only source of enrollment change: ˆ
+
+
+
+(5) 
+
+
+
+Z d?? K 1976????K d 
+
+???
+
+d
+
+ˆ
+
+???Enr 
+
+1976 
+d
+
+???K d?? K 1976 Enrd1976 . ˆ
+
+?????
+
+d
+
+?
+
+
+
+K 1976 and Enrd1976 represent the initial (1976) enrollment of low-English Hispanics and total d
+
+enrollment, respectively, in district d. The second component of Zd is thus the initial share low- 
+
+English Hispanic in the district, while the first represents what that share would have been in 
+
+2000 had nothing else changed. A first stage coefficient on Zd of one would be expected if, on 
+
+average, the settlement patterns of Mexican immigrants in California had not changed since 
+
+1970, and enrollments were otherwise changing little. 
+
+      The instrument's power thus derives from the tendency of new immigrants to settle in 
+     
+existing Mexican communities. Its validity hinges on the size of these existing Mexican 
+
+communities being unrelated to other future changes in a district's desirability for non-Hispanic 
+
+families with children. As described above, we assess this assumption in multiple ways, testing 
+
+whether Zd is uncorrelated with relative population flows of non-Hispanic children over the 
+
+1960s - before the big wave of Mexican immigration - or with other district characteristics 
+
+observed in the early 1970s that may predict whether a district will later become less (or more) 
+
+attractive for non-Hispanic children. For example, a series of California Supreme Court 
+
+decisions in the 1970s led to an equalization of school funding across California school districts, 
+
+
+
+
+
+
+25 
+
+
+
+
+
+
+This definition produces low-English Hispanic shares similar across the two data sources. Our TSLS estimates 
+
+are, however, not sensitive to this definition. This is to be expected given that ?K 1976-2000 depends in no way on the district. For the same reason, using 1976 data to estimate a true change in the number of low-English Mexicans has no impact on our estimates. Further, defining M1970 and ?K 1976-2000 using data on Mexican immigration to the entire U.S. rather than California only has little effect on the results. 
+                                      12 
+                                      
+which may have made initially low-spending districts more attractive over the period we study.26 
+
+We capture the possible intensity of this effect with district property tax revenues and 
+
+expenditures per pupil prior to these court decisions using data from the 1972 Census of 
+
+Governments (Bureau of the Census 1972). Information on a number of other district 
+
+characteristics used to evaluate our identification strategy is drawn from various historical 
+
+sources described in Online Appendix A. 
+
+III.C. Estimation Sample 
+
+      We restrict our analysis to California's 23 metropolitan statistical areas (MSAs), by their 
+     
+1990 definition. We define "districts" to serve all grade levels and to have constant boundaries 
+
+between 1970 and 2000 and aggregate key variables accordingly. School districts occasionally 
+
+reorganize, and we want to ensure that we follow consistent geographic units over time.27 
+
+Including both secondary districts (which operate high schools) and elementary districts (which 
+
+operate primary and middle schools) would be redundant, as elementary districts feed secondary 
+
+districts and thus cover an overlapping geographic area. We focus on secondary district 
+
+boundaries, since secondary districts represent elementary districts that are not directly observed 
+
+in the 1970 SDT due to their small size (see Online Appendix A). In our main sample, there are 
+
+a total of 50 combined elementary-secondary districts and 179 unified districts, for a total of 229 
+
+observations.28 
+
+III. 	Exploratory Analysis 
+
+A. 	Descriptive Statistics 
+
+
+
+
+
+26 
+
+
+
+
+
+School finance equalization led to increases in private school enrollment (Thomas A. Downes and David 
+
+Schoeman 1998) and affected the income heterogeneity of populations within districts (Daniel Aaronson 1999). See Eric J. Brunner and Jon Sonstelie (2006) for a discussion of school finance in California. 
+27 For example, if districts A and B in 1970 merge to form C by 2000, we aggregate A and B to create an observation for C in 1970. See Online Appendix A for details. 
+28 There are 295 total secondary district boundaries (after accounting for reorganizations) in the 23 California 
+metropolitan areas under observation. We lose 45 of these boundaries because they are not represented in the 1970 SDT due to their small size, and another 21 boundaries primarily due to poor data quality in the OCR data. 
+                                      13 
+                                      
+       Table 1 shows summary statistics for our estimation sample. Panel A gives statistics on 
+     
+the key variables in our analysis. The low-English Hispanic public school enrollment share on 
+
+average rose a substantial 10.9 percentage points between 1976 and 2000, up from 2.5 percent in 
+
+1976. The standard deviation on this variable is also 10 percentage points, suggesting substantial 
+
+variation across districts. The instrument is in a similar range, with a mean of 0.075, and a 
+
+standard deviation of 0.07. The components of the main outcome - changes in the proportions of 
+
+an MSA's non-Hispanic children and adults of parenting age residing in a district - are on 
+
+average close to zero. This is expected by definition; deviations from zero come about because 
+
+district coverage in our sample is incomplete. We also explore changes in non-Hispanic private 
+
+school enrollment below. The private school enrollment rate of non-Hispanics, also calculated 
+
+using the SDT, rose by a considerable 9.8 percentage points between 1970 and 2000, a seven- 
+
+fold increase over its 1970 level of 1.4 percent (Panel B). This change could be a consequence 
+
+of school finance equalization or other factors, not necessarily a consequence of changes in 
+
+school demographics stemming from immigration. Equalization is a potential confounder that 
+
+we hope to rule out through our identification strategy. 
+
+                         [Table 1 about here] 
+                     
+      Descriptive statistics on control variables, including per-pupil expenditures and property 
+     
+tax revenues, are shown in Panel C. The average district in our sample enrolled about 14,754 
+
+students in 1976 and raised $640 per-pupil in revenues through the property tax and spent $1,087 
+
+per student in 1971-72, with a standard deviation of around $300 in each. About 10 percent of 
+
+districts in our sample are in center cities. The typical district's non-Hispanics had a dropout rate 
+
+of 7.8 percent at ages 16 to 17 and a median family income of $9,760 in 1970.29 
+
+B. 	Evaluating the Identification Strategy 
+
+
+
+29 
+
+
+
+Because the data are on the income distribution are given only as family counts in income bins (e.g., $10,000- 
+
+12,000), the median income estimates actually represent a lower bound. For example, if the median income in a district is found to be in the $10,000-$12,000 range, it is recorded as $10,000. 
+                                      14 
+                                      
+       Our identification strategy relies on the assumptions that the instrument is related to 
+     
+changes in the actual presence of low-English Hispanics in a district's public schools, but is 
+
+unrelated to other factors that might have differentially pushed out non-Hispanic households with 
+
+children (like a loss in the district's fiscal autonomy as a result of school finance equalization) or 
+
+attracted them (like a low cost of living). It is useful to begin by examining the credibility of 
+
+these assumptions. 
+
+      Panel A of Table 2 speaks to the former, showing that there is a strong first-stage 
+     
+relationship between the instrument and the change in a district's low-English Hispanic 
+
+enrollment share in our baseline specification, which includes fixed effects for MSA by district 
+
+type.30 Figure 2 shows this relationship graphically. The first-stage coefficient is statistically 
+
+distinguishable from zero, at the one percent level, but also significantly less than one. This 
+
+deviation from one largely arises because the instrument is constructed as if the arrival of low- 
+
+English Hispanics was the only source of enrollment change in the district. Since enrollment 
+
+was actually growing for other reasons - 33 percent in the average district in our sample - the 
+
+instrument predicts changes in low-English Hispanic share that are systematically too large 
+
+(undiluted by other growth).31 
+
+[Figure 2 about here] 
+
+[Table 2 about here] 
+
+      To explore the second identifying assumption, the remainder of Table 2 shows slope 
+     
+estimates from comparable reduced-form regressions of many potential correlates of outcomes 
+
+on the instrument. Non-Hispanic median family income in 1970 is significantly lower, by about 
+
+
+30 
+
+
+
+These effects account for the fact that districts are sometimes missing from the sample, so that district shares of 
+
+the MSA non-Hispanic population do not always sum to one within MSA. Nearly 80 percent of the variation in Zd 
+in our sample is within metropolitan areas. Standard errors are clustered on metropolitan area, as noted above, and t- 
+statistics are compared to critical values in a t-distribution with 21 degrees of freedom (the number of clusters less two, a rule of thumb explored in A. Colin Cameron, Jonah B. Gelbach, and Douglas L. Miller 2008). 
+31 To confirm this, we also created a version of the instrument that factors in this 33 percent growth from other 
+sources, and found it makes the first stage coefficient close to one. This alternative version does not systematically affect our TSLS results. 
+                                      15 
+                                      
+$600 for a one standard deviation increase in the instrument (=0.07) (Panel C). This relationship 
+
+arises because, unsurprisingly, the very highest income districts (like Beverly Hills) have very 
+
+few Mexicans in 1970. For example, if we drop the top income quartile of districts from the 
+
+sample, the relationship disappears.32 In addition, we show below that this correlation, if 
+
+anything, works against finding relocation of non-Hispanic children in response to immigration. 
+
+      Importantly, however, the instrument is not related to the pre-existing (1970) location 
+     
+decisions of non-Hispanic parents, or to non-Hispanic private school enrollment rates, as shown 
+
+in Panel B. It also unrelated to prior trends in relative population movements of children, shown 
+
+in a separate table below. 33 Further, it is also uncorrelated with many initial district 
+
+characteristics that might have especial bearing on the future location decisions of non-Hispanic 
+
+parents. Relationships between the instrument and the initial school finance variables, for 
+
+example, are statistically insignificant and small, amounting to only about $10 differences in per- 
+
+pupil property tax revenues and per-pupil expenditures for a one standard deviation change in the 
+
+instrument. This is reassuring since school finance equalization may have made initially low 
+
+revenue districts more attractive to families with children over this period, as discussed. The 
+
+instrument is also not significantly correlated with the district's 1971-72 pupil-teacher ratio, with 
+
+the dropout rate of non-Hispanic 16-17 year olds in 1970, or with initial enrollment in logs and 
+
+levels (not shown) and center city status.34 It is also not correlated with the density of public 
+
+schools within district, captured with a dummy for having an above average number of schools 
+
+(in 1972) given 1976 enrollment and land area.35 
+
+
+
+
+
+32 
+33 
+
+
+
+
+
+These results are not shown, but are available on request from the authors. 
+We cannot perform a similar exercise for the private school enrollment rate due to lack of sufficient data for 1960. 
+
+34 Related, Table A1 shows that the largest districts in our sample are not those with the largest predicted increases 
+
+in low-English Hispanic share. 
+35 This could also be interpreted as showing that the instrument is uncorrelated the median voter's preferences for 
+segregation. We arrive at this prediction by regressing the natural log number of schools on the natural log in 
+enrollment, the natural log of land area, their interaction, and all of the other pre-existing district characteristics 
+listed in Table 1, Panel C and classifying as "high choice" those with non-negative residuals. We explored 
+                                      16 
+                                      
+IV. 	Choice of School District 
+
+A. 	Reduced-Form Estimates by Age Group 
+
+      To make our estimation strategy transparent, we begin the presentation of our findings by 
+     
+decomposing the reduced-form specification of model (3) into its constituent parts - separate 
+
+estimates of the relationship between the instrument and the changes in the proportions of non- 
+
+Hispanic children and non-Hispanic adults of parenting age who reside in a district. We do this 
+
+in the first two columns of Table 3, again conditioning on metropolitan area by district type fixed 
+
+effects. The difference between these estimates, presented in column (3), is the reduced-form of 
+
+the model of interest. 
+
+                         [Table 3 about here] 
+                     
+      Panel A presents these estimates for the full sample. The instrument is negatively related 
+     
+to the 1970 to 2000 change in the proportion of an MSA's non-Hispanic children residing in a 
+
+district: the coefficient in column (1) is -0.077. However, the coefficient is -0.033 in the same 
+
+regression for non-Hispanic adults of parenting age (column (2)). The difference in these 
+
+coefficients, -0.044 (column (3)), implies, for every standard deviation increase in the 
+
+instrument, the proportion of an MSA's non-Hispanic children residing in a district fell by 0.30 
+
+percentage points more than the proportion of an MSA's non-Hispanic parenting age adults. 
+
+This is a lower bound on the loss of non-Hispanic households with children due to changing 
+
+school demographics, since many adults in the comparison group have children. 
+
+                         [Figure 3 about here] 
+                    
+      Figure 3 is a graphical representation of the regression in column (3). With the exception 
+     
+of large districts like Los Angeles Unified, San Francisco Unified, and San Diego Unified - 
+
+which naturally account for larger shares of their respective MSA's non-Hispanics at baseline - 
+
+
+
+alternative regression models (e.g., in levels, not logs), as well as considered schools per square mile and schools per child enrolled. All yielded insignificant relationships with the instrument. 
+                                      17 
+                                      
+districts are tightly clustered around the downward sloping line. Below, we show that our 
+
+findings continue to hold when large center city school districts are dropped from the sample - 
+
+which is not surprising given that the instrument is uncorrelated with district enrollment and 
+
+center city status (Table 2) - and under alternative specifications of the dependent variable that 
+
+are less sensitive to scale. We also present the TSLS estimate that corresponds to this reduced- 
+
+form model, explore the sensitivity of this model to inclusion of controls, and discuss ways to 
+
+interpret the magnitude of the estimate. 
+
+      The remainder of Table 3 presents a falsification exercise which complements Table 2. 
+     
+Here, we test whether there was an "effect" of predicted changes in future school demographics 
+
+on relocation in the 1960s - prior to the big wave of Mexican immigration, but when a district 
+
+may already have been in decline.36 If there were, it would suggest that "outflows" of non- 
+
+Hispanic children were driven not by increases in the low-English Hispanic enrollment share, but 
+
+some other correlated factor. Limiting the sample to the 13 MSAs observable in 1960 (see 
+
+Online Appendix A), the 1970 to 2000 finding is still negative, significant, and similar to that 
+
+found for the full sample, at -0.054 (Panel B, column (3)). 
+
+                         [Figure 4 about here] 
+                    
+      The final panel shows the findings from the falsification exercise; Figure 4 shows scatter 
+     
+plots that correspond to this model (Panel B) and its 1970 to 2000 counterpart for the restricted 
+
+sample (Panel A). The estimate is imprecise, but there is little evidence to suggest that the greater 
+
+loss of children between 1970 and 2000 in districts with larger values of the instrument was a 
+
+continuation of a prior trend: the coefficient in column (3) is -0.008 and is not statistically 
+
+significant. Even when we multiply this coefficient by three to extrapolate to a change over a 30 
+
+year period (italicized figures below coefficients in Panel C), it remains less than half of the 
+
+
+
+
+36It 
+
+
+
+
+would perhaps be ideal to also estimate the pre-trend over a thirty year period, 1940 to 1970, but the data do not 
+
+exist to do this. Nor can we show our outcome for just 1970 to 1980, since the 1980 SDT is inadequate. 
+                                      18 
+                                      
+magnitude of the effect we estimate between 1970 and 2000. Furthermore, one might expect at 
+
+least some negative relationship during the 1960s, as there were Mexican inflows in that decade 
+
+as well (Figure 1).37 Although the estimates for the 1960s are noisy, it is reassuring that a 
+
+significant negative relationship between the instrument and relative loss of children from a 
+
+district appears limited to the period in which Mexicans were arriving in California in large 
+
+numbers. 
+
+B. 	Main Findings 
+
+      Table 4 shows our main results - TSLS (Panel A) and OLS (Panel B) estimates of model 
+     
+(3). The TSLS estimate in column (1) corresponds to the reduced form estimate in column (3) of 
+
+Table 3, Panel A, and is thus based on a specification that includes fixed effects for MSA by 
+
+district type. The statistically significant point estimate of -0.0612 implies that a 10 percentage 
+
+point increase in the low-English Hispanic enrollment share induced 0.612 percent of an MSA's 
+
+non-Hispanic children to locate elsewhere, or about 7.8 percent (0.612/7.8) of non-Hispanic 
+
+children in a district of average size initially. 
+
+                         [Table 4 about here] 
+                     
+      Table 2 showed that the instrument was correlated with a district's initial non-Hispanic 
+     
+median family income. If lower income districts were in decline for other reasons, the estimate 
+
+in column (1) would overstate the magnitude of non-Hispanic "flight" in response to changing 
+
+school demographics. In fact, the opposite is the case. A control for median income, added in 
+
+column (2), makes the estimated coefficient larger in magnitude. Rather than declining, the 
+
+relative proportion of non-Hispanic children was rising faster in initially lower income districts. 
+
+
+
+
+
+
+37 
+
+
+
+
+
+
+In fact, the ratio of the reduced-form estimate on the instrument in for the 1960s (Panel C, column (3)) to the 
+
+implied reduced-form estimate over all of 1960-2000 (0.13=-0.008/(-0.008-0.054)) is only slightly larger than the 
+fraction of total 1960-2000 growth in the Mexican child share in California that occurred during the 1960s (0.089=0.0203/0.227, using figures underlying Figure I). 
+                                      19 
+                                      
+       As anticipated by the lack of correlation with other variables found in Table 2, the TSLS 
+     
+estimate changes little with the addition of controls for the further initial district characteristics 
+
+listed in Table 1, Panel C (column (3)) and for the initial (1970) level of the dependent variable 
+
+(column (4)). 	By contrast, OLS estimates fall in magnitude with the addition of these controls 
+
+(Panel B). The OLS estimates are also considerably smaller in magnitude than TSLS at the 
+
+outset (-0.0202 in column (1)) and not statistically significant in subsequent specifications. The 
+
+OLS estimates may be attenuated by measurement error or by the fact that other forces (e.g., cost 
+
+of new homes) led non-Hispanic and Hispanic families alike to spread out in similar directions. 
+
+Using an instrumental variable with similar motivations to that used here, for example, Saiz and 
+
+Wachter (2011) obtain OLS estimates that are positive and TSLS estimates that are negative 
+
+when examining the response of native and white non-Hispanic population to changes in the 
+
+foreign-born population at the tract level in the entire U.S., and provide evidence that the 
+
+common movement of both groups to newly developing tracts contributed to the OLS estimates 
+
+being positive. 
+
+      We present estimates for different subsamples in the remaining columns. Column (5) 
+     
+drops center city districts from the sample. The TSLS point estimate is slightly smaller than that 
+
+in column (1), but remains highly significant, confirming that our main estimates are not driven 
+
+by the sensitivity of the outcome measure to district size, or by non-Hispanic families with 
+
+children moving out of center cities. The final column shows the estimate for unified districts 
+
+alone, which are statistically indistinguishable from the full-sample estimates. 
+
+      As Section II described, these coefficients understate the loss of households with non- 
+     
+Hispanic children as a result of changes in school demographics, because many in the 
+
+comparison group have children. So we also convert our estimates to a household "displacement 
+
+rate," that is, the change in the number of non-Hispanic households for each household enrolling 
+
+
+                                      20 
+                                      
+a low-English Hispanic student in the public schools. This informs our interpretation of the 
+
+estimates. In particular, one might expect some displacement if the supply of housing did not 
+
+fully expand to accommodate the new arrivals. 38 However, a household displacement rate larger 
+
+than one suggests that crowding in the housing market alone cannot account for our estimates 
+
+(Boustan 2010). 
+
+      Household displacement rates are shown beneath the TSLS estimates in Table 4. They 
+     
+are computed for a district of the average initial size (in the specified subpopulation) and given 
+
+average fertility and public school enrollment rates of non-Hispanics and low-English Hispanic 
+
+households. To illustrate, it is useful to walk through calculation of the displacement rate in 
+
+column (1). In a district of average initial size, it would have required about 1,679 additional 
+
+low-English Hispanics to increase their enrollment share by 10 percentage points.39 Since the 
+
+average household that enrolls low-English Hispanic students in the public schools enrolls 1.629 
+
+of them, this is equivalent to the arrival of 1,679/1.629 = 1,031 low-English Hispanic 
+
+households.40 As we calculated above, this 10 percentage point increase in low-English Hispanic 
+
+share led to a 7.8 percent reduction in the population of non-Hispanic children relative to adults, 
+
+or a loss of 1,429 households with non-Hispanic children in a district of the average initial size.41 
+
+Overall, then, the TSLS coefficient implies a displacement rate of 1.4 (=1,429/1,031), meaning 
+
+
+
+38 
+
+
+
+In the framework presented in Section I, we assumed one housing market, which returns to equilibrium when p 
+
+adjusts sufficiently to restore (1) for both household types. If instead Mexican immigrants and non-Hispanic 
+households with children tend to compete for the same types of houses (e.g., detached single-family residences), 
+immigration may raise house prices more for type 1 households, prompting greater losses of non-Hispanic 
+households with children even absent reductions in demand for public education. In the extreme with zero supply 
+elasticity, such "crowding" would lead each low-English Hispanic household to displace one non-Hispanic household without even affecting demand for public schools. 
+39 The average district in our sample had 14,754 students in 1976 (Table 1), 315 (about 2 percent) of whom were 
+low-English Hispanics. To raise the low-English Hispanic share by 10 percentage points, to 12 percent, required the 
+
+addition of about 1,679 low-English Hispanic students, since (315 + 1,679)/(14,754 + 1,679) ? 0.12. 
+40 The 1.629 figure was computed for California using the 2000 Census of Population (Ruggles et al. 2010). The 
+typical Hispanic household has more than 1.629 children, but not all are low-English and not all are enrolled in 
+
+public schools. 
+41 To convert this to a loss of households with kids, we first scale the 0.078 upward by dividing by (1-0.5467), where 0.5467 is the fraction of 20 to 49 year old California non-Hispanics who have children in the 2000 Census (Ruggles et al. 2010). See Online Appendix B for derivation of this conversion. This calculation also uses that, according to the 1970 SDT, there were 8,306 non-Hispanic households with kids in the average sample in our district. 
+                                      21 
+                                      
+that 14 non-Hispanic households located elsewhere for every 10 additional households enrolling 
+
+low-English Hispanic students in the district. 
+
+      The displacement rates presented in the other columns are all also larger than one, 
+     
+including column (5), which excludes center city districts. So an inelastic supply of housing by 
+
+itself cannot account for the negative relationship between low-English Hispanic enrollments and 
+
+the relative size of the non-Hispanic child population in the typical district. On top of this, some 
+
+households without children may respond to changes in low-English Hispanic share in schools as 
+
+if they did, because they anticipate having kids in the future. As a result, these displacement 
+
+rates may be conservative. To get a sense of the importance of this, note that our displacement 
+
+rates are proportional to (1-?)-1, where?? is the fraction of adults who have kids or act as if they 
+
+do. We use for?? the actual fraction of California non-Hispanic 20 to 49 year-olds with children 
+
+in the 2000 Census (Ruggles et al. 2010), or 0.55. If instead we used?? = 0.6, the displacement 
+
+rates in Table 4 would rise by 12.5 percent = (1-0.55)/(1-0.6).42 
+
+C. 	Additional Sensitivity Analysis 
+
+                               [Table 5 about here] 
+                          
+      Table 5 examines various alternative formulations of the dependent variable. To make 
+     
+the estimates comparable across specifications, each TSLS estimate is also again converted to a 
+
+household displacement rate. 
+
+      Row (a) of Panel A repeats the TSLS and OLS estimates that appeared in column (1) of 
+     
+the previous table, and repeats the implied displacement rate in column (3). Row (b) replaces the 
+
+district's share of the MSA's non-Hispanic population, sd,m?? N d,m N m , with the logit 
+
+
+
+
+
+42 
+
+
+
+
+
+Our calculations already include households with children too young to be in school, which we hope captures 
+
+many of these anticipated moves. An anonymous referee suggested we use?? = fraction of all non-Hispanic 
+households who ever had children or who will in the future. According to the 1990 Census of Population (Ruggles 
+et al. 2010) about 80 percent of non-Hispanic women in California have had a child by age 50. If?? = 0.8, it would 
+roughly double the displacement rates. 
+                                      22 
+                                      
+
+transformation, ln?sd,m??1? sd,m???. Logit is an attractive specification here, since the distribution 
+
+of district size is right skewed.43 Both OLS and TSLS estimates are statistically significant in 
+
+this specification, and the marginal effect, evaluated for a district of average initial size 
+
+(coefficient*0.078*(1-0.078)), is larger than was estimated in the linear model. So is the 
+
+corresponding displacement rate. We also see the same pattern: TSLS exceeds OLS in 
+
+magnitude, and OLS is more sensitive to controls (not shown). 
+
+      We also estimate these two models weighted by the district's 1970 population of non- 
+     
+Hispanic children in Panel B. Weighting provides insight into whether the effects of changing 
+
+school demographics for the typical non-Hispanic of school age differ from those for the typical 
+
+district. In the main specification (row (a)), the weighted TSLS coefficient is larger than the 
+
+unweighted TSLS coefficient. The weighted TSLS logit coefficient in Panel B (row (b)) is a bit 
+
+smaller than its unweighted counterpart in Panel A, though the marginal effect, evaluated at the 
+
+weighted mean, is larger. When evaluated as a displacement rate, both weighted estimates are 
+
+very similar in magnitude to the unweighted linear estimate in Panel A. 
+
+      Returning to the bottom two rows of Panel A, we present (unweighted) estimates for 
+     
+dependent variables that may be easier to interpret. In TSLS, a 10 percentage point increase in 
+
+the low-English Hispanic share in enrollment is associated with an 12 percentage point decline in 
+
+the relative population growth rate of non-Hispanic children (row (c)). This is similar to 
+
+estimates of "white flight" after school desegregation. Using a similar growth rate specification, 
+
+for example, Baum-Snow and Lutz (forthcoming) find that court orders to desegregate center 
+
+city districts in the 1960s and 1970s on average led to an increase in white exposure to black 
+
+peers of 0.09 and declines in white enrollment and population of 12 percent and 6 percent, 
+
+
+
+
+
+
+43 
+
+
+
+
+
+
+
+This specification would be appropriate if the household-level model underlying district choice were logit. 
+                                    23 
+                                    
+                                    
+respectively. 44 This supports that demand for public schools underlies our findings, a point to 
+
+which we return below. TSLS estimates also imply that a 10 percentage point increase in low- 
+
+English Hispanic enrollment share is associated with a 2.8 percentage point decline in the child 
+
+share of the non-Hispanic population under 50 (row (d)). 
+
+V. 	Private Schools 
+
+      Our estimates imply that the location decisions of non-Hispanic households with children 
+     
+are relatively sensitive to changes in school demographics associated with Mexican immigration. 
+
+But can we infer that this finding reflects a reduction in non-Hispanic demand for public 
+
+schools? As described above, the answer is "yes" if the comparison group values changes in 
+
+other district attributes the same as families with children. Non-Hispanics under age 50 appear 
+
+similar on many dimensions regardless of whether they have children in the household, as noted 
+
+above. But it is useful to try to rule out competing hypotheses on other grounds. 
+
+      Unlike decisions about where to live, for example, the decision to attend private school 
+     
+should be driven only by the characteristics of public schools themselves. Exploring the effect of 
+
+rising low-English Hispanic enrollment shares on the non-Hispanic private school enrollment 
+
+rate can therefore provide direct, complementary evidence that changes in school demographics 
+
+associated with low-skilled Hispanic immigration reduced non-Hispanic demand for public 
+
+schools. 
+
+                         [Table 6 about here] 
+                     
+      Table 6 presents TSLS and OLS estimates of the effect of the change in low-English 
+     
+Hispanic enrollment share on the 1970 to 2000 change in the non-Hispanic private school 
+
+enrollment rate of district residents; as above, the baseline model controls for MSA by district 
+
+type fixed effects. Both the TSLS estimates (Panel A) and OLS estimates (Panel B) are positive. 
+
+
+
+44 
+
+
+
+See also Reber (2005). A 10 percentage point increase in low-English Hispanic share will lead to a 10 percentage 
+
+point increase in the exposure of non-Hispanics to low-English Hispanics if there is no sorting response within the district. 
+                                      24 
+                                      
+The TSLS coefficient of roughly 0.18 (column (1)) implies that a 10 percentage point increase in 
+
+the low-English Hispanic share in public school enrollment prompted about 1.8 percent of a 
+
+district's non-Hispanic children to enroll in private school.45 This estimate suggests that rising 
+
+low-English Hispanic enrollments can account for about 20 percent of the 9.8 percentage point 
+
+increase in California's non-Hispanic private school enrollment rate over 1970 to 2000. Controls 
+
+do not diminish the magnitude of this estimate, though they do make it less precise. 
+
+VI. 	Conclusion 
+
+      This paper has examined whether increases in low-English Hispanic school enrollment 
+     
+have lowered the relative proportion of non-Hispanic households with children choosing to 
+
+reside in metropolitan California school districts between 1970 and 2000, a period in which the 
+
+low-English Hispanic presence increased tremendously in the state as a whole. Our empirical 
+
+approach accounts for endogeneity of school demographics using 1970 settlement patterns of 
+
+Mexican immigrants and uses a comparison group to account for the broader effects of 
+
+immigration on communities. Supporting the credibility of our research design, districts 
+
+predicted on the basis of 1970 Mexican settlement to receive more low-English Hispanics in 
+
+their schools in future years were not already losing relatively more non-Hispanic children in the 
+
+1960s and were initially comparable to other districts along many observable dimensions that 
+
+should matter for parents. 
+
+      We find that districts with larger increases in their low-English Hispanic enrollment 
+     
+shares saw greater relative reductions in the rate of settlement of non-Hispanic children between 
+
+1970 and 2000. These effects are too large to be accounted for by an inelastic housing supply, 
+
+and districts with larger increases in low-English Hispanic shares saw larger increases in their 
+
+non-Hispanic private school enrollment rates over 1970 to 2000 as well, providing 
+
+
+
+45 
+
+
+
+This response is close to the effect that Betts and Fairlie (2003) found at the MSA level for secondary students - 
+
+that two natives enroll in private school for every 10 immigrant arrivals. Our study differs from theirs in several ways beyond the unit of observation, so this comparison should be made cautiously. 
+                                      25 
+                                      
+complementary evidence of reductions in non-Hispanic demand for public education as a result 
+
+of immigration. Our approach nevertheless leaves open the question of whether there have in 
+
+fact been real negative spillovers from immigration for native students.46 Reductions in non- 
+
+Hispanic demand for public schools may simply reflect distaste for diversity. 
+
+      Regardless of the mechanism, our findings suggest that the native sorting may leave 
+     
+immigrant children especially isolated, with potential long-run and intergenerational 
+
+consequences. More generally, our findings suggest that public services may be an important 
+
+determinant of the residential choices of natives in response to immigration, and in turn, the 
+
+residential isolation of immigrants. Existing research on the residential isolation of immigrants 
+
+has had little comment on the role of local public goods in shaping residential decisions, and, for 
+
+that matter, there has not been much research on the effects of immigration on public goods at 
+
+all.47 This is a fruitful area for future research. 
+
