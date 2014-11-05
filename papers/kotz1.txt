@@ -1,0 +1,1010 @@
+Dave Kotz
+Computer Science
+ZEBRA
+
+
+     Abstract--Common authentication methods based on pass-                 The consequence of not logging out from a terminal can
+  words, tokens, or fingerprints perform one-time authentication         be severe: an adversary with access to your terminal can
+  and rely on users to log out from the computer terminal when
+                                                                         snoop through your private information, modify or delete
+  they leave. Users often do not log out, however, which is a
+                                                                         your data, or steal your credentials to take actions on your
+  security risk. The most common solution, inactivity timeouts,
+  inevitably fail security (too long a timeout) or usability (too        behalf. Even in a non-adversarial setting, other authorized
+  short a timeout) goals. One solution is to authenticate users con-     users could accidentally misuse your account if you forget to
+  tinuously while they are using the terminal and automatically          log out. For instance, Koppel et al. [1] report that physicians
+  log them out when they leave. Several solutions are based on
+                                                                         frequently enter data into the wrong patient's record because
+  user proximity, but these are not sufficient: they only confirm
+                                                                         they thought the open record belonged to the patient they
+  whether the user is nearby but not whether the user is actually
+  using the terminal. Proposed solutions based on behavioral             were treating; in fact, while they were away from the terminal
+  biometric authentication (e.g., keystroke dynamics) may not            another physician used that terminal to update a different
+  be reliable, as a recent study suggests.                               patient's record and forgot to log out. Sometimes clinicians
+     To address this problem we propose Zero-Effort Bilateral
+                                                                         leave terminals intentionally logged in, as a professional
+  Recurring Authentication (ZEBRA). In ZEBRA, a user wears a
+                                                                         courtesy, so that the next user does not have to log in.
+  bracelet (with a built-in accelerometer, gyroscope, and radio) on
+  her dominant wrist. When the user interacts with a computer            This deauthentication problem is a major concern in a busy
+  terminal, the bracelet records the wrist movement, processes           multi-user environment where users have to authenticate and
+  it, and sends it to the terminal. The terminal compares the            deauthenticate often, e.g., when users' use of terminals is
+  wrist movement with the inputs it receives from the user (via
+                                                                         interlaced or when they have to use a terminal multiple
+  keyboard and mouse), and confirms the continued presence
+                                                                         times but for short durations. For example, in a clinical
+  of the user only if they correlate. Because the bracelet is
+  on the same hand that provides inputs to the terminal, the             inpatient setting where physicians, nurses, residents, and
+  accelerometer and gyroscope data and input events received             medical students come and go, check on patients, and use any
+  by the terminal should correlate because their source is the           available terminal to view and update patient medical records;
+  same ­ the user's hand movement. In our experiments ZEBRA
+                                                                         or in a busy restaurant or retail shop where employees share
+  performed continuous authentication with 85 % accuracy in
+                                                                         kiosks to place orders and manage bills.
+  verifying the correct user and identified all adversaries within
+  11 s. For a different threshold that trades security for usability,       Even in workspaces where users have their own personal
+  ZEBRA correctly verified 90 % of users and identified all              terminals, deauthentication is an important problem. Users
+  adversaries within 50 s.                                               either forget to log out or intentionally do not log out as a
+                                                                         workaround to avoid logging in later; they find password-
+                         I. INTRODUCTION                                 based authentication (the most common authentication
+     Desktop computers (also called computer terminals or                method) tedious and time consuming. Thus, users often log
+  simply terminals) are still being used in large numbers at             in once when they arrive at work and log out when they leave,
+  workplaces and at homes, often by multiple users. To prevent           but they do not log out during their shift when they step
+  unauthorized access users authenticate themselves before               away from the terminal, leaving their terminal vulnerable to
+  using the terminal (e.g., by logging in with username and              snooping and attacks by a co-worker or a passerby.
+  password) and deauthenticate (i.e., log out) after their use.             The most common solution to the deauthentication problem
+  This important deauthentication step, however, is overlooked           is `timeouts', i.e., to execute automatic logout after inactivity
+  by most authentication schemes. Common schemes such as                 for a timeout period. The problem with this approach is
+  password-based or fingerprint-based authentication provide             that a single timeout period does not work for everyone and
+  one-time authentication and rely on the users to log out.              often timeout periods are blind to context [2], [3]. Another
+  Unfortunately, users often do not log out, they either forget          approach is to use a proximity sensor that detects a users'
+  to log out or intentionally do not log out to avoid logging            departure and log them out, but these sensors are unreliable
+  in again. Although deauthentication is important for many              in crowded environments [4].
+  different devices, our focus in this work is to address the               One way to automate the deauthentication process is to
+  deauthentication problem on computer terminals; future                 continuously authenticate the current user and, when the user
+  extensions will support laptops, tablets, and phones.                  changes, deauthenticate the previous user and ask the new
+
+
+© 2014, Shrirang Mare. Under license to IEEE.                        705
+DOI 10.1109/SP.2014.51
+
+user to authenticate herself. There are two goals that make         correlate, the terminal infers that a different person is now
+this method challenging. First, continuous authentication           using the terminal and can take action (e.g., to lock the screen,
+should be passive (i.e., without requiring explicit action by       log out the former user, or require initial authentication for
+the user) and unobtrusive so that it is not a burden on the         the new user).
+user. Second, the system should quickly identify that the              We make three main contributions. First, we introduce a
+user has departed or changed without relying on users to            new type of authentication, bilateral authentication, which
+log themselves out, because users often forget to log out.          falls into a new category of authentication of `what the user
+Computer use that is frequent, irregular, and short-lived ­ as      does when interacting' with a terminal. It is worth mentioning
+is the case in hospitals ­ makes continuous authentication          again that this is distinct from behavioral biometrics that fall
+particularly challenging.                                           into the category `how the user interacts'. Second, we propose
+   Our approach is to continuously authenticate a user based        ZEBRA, a novel mechanism to continuously authenticate the
+on her interactions with a terminal by monitoring her hand          current user passively and unobtrusively, and to automatically
+movements and comparing them with her inputs to the                 deauthenticate the user. We further describe how ZEBRA
+terminal using input devices (i.e, the keyboard and mouse).         can be used to improve the initial authentication process
+As with behavioral biometrics based on keystroke and mouse          (e.g., username and password). Third, we evaluate ZEBRA's
+dynamics, our approach is based on the user's interactions ­        performance with a user study and demonstrate strong results.
+but there is an important distinction. Behavioral biometrics
+                                                                              II. BACKGROUND AND RELATED WORK
+rely on how the user does a particular interaction (e.g.,
+how the user types or how the user moves a mouse) and                  Passwords are one of the oldest and the most common
+hence require user-specific training and typically require          authentication schemes. Passwords are convenient because
+long periods of observation to authenticate the user. Our           users do not have to carry anything, they are intuitive, and
+approach relies on what interactions the user does when             are efficient to use. However, the plight of passwords is well
+using a terminal and hence does not require user-specific           documented [5], [6]. Users find it hard to remember strong
+training or long periods of observation to authenticate the user.   passwords, and they use workarounds such as choosing weak
+We confirm the user's continued presence by observing what          passwords, sharing them, reusing them, writing them down,
+the user is doing from two different sources and comparing          or intentionally leaving their terminals unlocked so that they
+those observations; we call this bilateral authentication. This     do not have to enter the password again [4], [7]­[12]. One
+approach complements any method that may be used for                problem with password-based authentication schemes is that
+initial authentication, such as a password, a token, or a           there is no reliable and convenient way to deauthenticate
+fingerprint biometric.                                              users, so if a user leaves a terminal unlocked any passerby
+   Zero-Effort Bilateral Recurring Authentication, or ZEBRA,        can access it. Organizations have tried timeouts for auto
+monitors a user's hand movements via a bracelet worn on             deauthentication, but efforts have failed because they are not
+their wrist that they use to control the mouse. This bracelet       reliable [2].
+is registered to the user, like any authentication token, so its       To address the limitation of a timeout approach to deau-
+presence should imply the presence of the associated user.          thenticate, some have proposed using proximity sensors that
+ZEBRA goes beyond mere proximity, however. After logging            detect close proximity of a human, and when the user walks
+in (using additional credentials) the user interacts with the       away, they detect the user's departure and log out the user if
+terminal and the bracelet records the user's hand movements         necessary. Proximity-based deauthentication, like timeouts, is
+using built-in accelerometer and gyroscope sensors and              blind to context, and one proximity setting may not work for
+transmits their data to the terminal over a short-range radio       all users. Moreover, as Sinclair et al. [4] report, these sensors
+(e.g., Bluetooth). The terminal then compares the user's hand       were not reliable when they were tested in a hospital ­ they
+movements with the inputs it observes and confirms the              will trigger when someone walks past in the hallway and
+presence of the user if they correlate. For example, when           would sometimes log a user out when she was still using the
+the user clicks the mouse and then starts typing (with both         terminal. Their deauthentication solution frustrated the users,
+hands) his hand used to control the mouse (bracelet hand)           who developed a work-around by covering the proximity
+moves from the mouse to the keyboard; when the user scrolls         sensor with an empty cup.
+using the mouse scroll-wheel his hand is relatively stationary.        A proximity-based authentication scheme using a wearable
+It is these kinds of hand motions that the terminal expects for     token (e.g., ZIA [13]) also provides passive continuous
+inputs that it receives from the user. The core idea of ZEBRA       authentication, but such schemes are not reliable in dense
+is that if the bracelet is on the same hand that provides inputs    workspaces such as hospitals, where multiple authorized
+to the terminal then the accelerometer and gyroscope data           users may be near the terminal at the same time. Although
+(from the bracelet) and the terminal input events should            proximity-based authentication schemes are well suited for
+correlate because their source is the same ­ the user's mouse       single-user machine scenarios, their attack window lasts until
+hand movement. Conversely, if these movements no longer             the user walks out of the proximity range, which may be many
+
+
+
+
+                                                                 706
+
+minutes. When there is a group of clinicians near a device,       Table I: Comparative evaluation of ZEBRA against other
+whom should the device authenticate? Sinclair et al. [4]          continuous authentication schemes.
+note these shortcomings of proximity-based authentication
+mechanisms from their observations of clinicians' terminal
+                                                                                                                                                                                                                        2
+use and their discussions with the clinicians.                                                                   -
+   Biometrics are convenient because users do not have to                                  1                                                                                                                                                                                                     2
+
+remember their credentials ­ they are always with them.                                                                                                              1                                    1
+                                                                                                                                                                                                                                                 aint-on-Using-          2
+However, biometrics can be stolen by physical observation
+                                                                                                                                                                                                                                                                          vice
+or internal observation (from within the device) and they                                                                             1
+                                                                                                                  gligible-Cost-per
+are hard to recover from theft or loss, because it may not                                                                                                                                                               erifying-Actual-User                                         utomatic-
+                                                                          Scheme            Nothing-to-Carry                       Ne  User   Resilient-to-Physical-  Observation  Resilient-to-Internal-  Observation                       V                 No-Constr      the-De           A  Deauthentication
+be possible to change the biometric. Some biometrics such                 ZEBRA
+as fingerprint or iris require user input, which makes them              Passwords
+unsuitable for continuous user authentication. Biometrics            Proximity-based
+
+based on voice or face may be suitable for continuous                   Fingerprint
+
+authentication provided they can be captured easily and                 Voice-based
+
+correctly without interrupting the user, which is not always        Facial recognition
+
+                                                                     Keystrokes-based
+possible when the user is not speaking or in front of her
+                                                                        Pulse-based
+camera. Behavioral biometrics based on keystroke dynamics
+                                                                     = offers the benefit;                  = almost offers the benefit; no circle= does not
+or mouse dynamics provide unobtrusive passive continuous
+                                                                   offer the benefit. = better than ZEBRA;                                                                        = worse than ZEBRA; no
+authentication. However, they require a user-enrollment step       pattern= equivalent to ZEBRA.
+and as a user's behavior changes they need to be re-enrolled,
+which may increase the maintenance cost of this scheme.           1Properties from the UDS framework. Additional properties, not in UDS.     2
+
+Moreover, keystroke-based biometric is not resilient to theft
+or internal observation, as Meng et al. [14] show that an
+attacker with some training can successfully mimic a user's       bumping) is observed by two different devices and compared
+typing behavior. Rasmussen et al. [15] propose a pulse-           to generate an encryption key or match two devices. In
+based biometric for continuous authentication where a metal       both these cases, the user must take explicit action, so these
+keyboard sends small electric current through the user's body     methods are not passive or unobtrusive. Furthermore, the
+and verifies the user based on the user's body's resistance       signals being observed and compared are of the same type ­
+to the current. Such an approach has significant deployment       accelerometer signals. In our work, we have two different
+cost, because it requires modifying every input device. This      types of signals to correlate ­ one is from the sensors in the
+scheme requires users' hands to be in-touch with the keyboard     bracelet and the other is a set of input events on a terminal.
+at the same time for the pulse to pass through the body, and        Consider the following two use cases that motivate the
+this restricts how the user may use a keyboard.                   need for ZEBRA.
+   Table I shows a comparative evaluation of ZEBRA with             Sally is a member of clinical staff in a hospital. She walks
+the authentication schemes described above, using the             to a computer terminal and logs in to update her patient's
+usability-deployability-security (UDS) framework [16]. UDS        record. She needs some more information from her colleague
+framework is actually for evaluating web authentication           to update the record. She steps away to talk to that colleague,
+schemes, but some of its evaluation properties are applicable     leaving the terminal open because she is planning to come
+to authentication schemes for devices; we use some of             back and update that record. Sally does not return before
+those properties and 3 additional properties to compare           the timeout period expires, so the terminal automatically
+continuous authentication schemes: Verifying-Actual-User,         logs Sally out. In the meantime another clinician, Tina, logs
+the scheme should verify who is actually using a terminal;        into the same terminal and updates a record and leaves,
+No-Constraint-on-Using-the-Device, the scheme should work         again forgetting to log out. Soon Sally returns and finds that
+irrespective of how the user uses the device; and Automatic-      terminal open. She assumes that it is still her account and
+Deauthentication, the scheme should automatically deauthen-       her patient's record, since she was using it earlier. Sally does
+ticate users. Due to lack of space we do not provide a detailed   not check whether it is indeed her account and her patient,
+comparative evaluation here; we refer readers to our technical    nor does the system, and she accidentally updates the wrong
+report for details [17].                                          patient's record under Tina's name. Incidents like these are
+   The closest work is perhaps `shake well before use' [18],      not uncommon in hospitals [1], [3].
+in which a user shakes two devices to generate a shared
+                                                                    Claire, a chemical engineer, is authorized to alter the
+encryption key between them. Also similar is the product
+                                                                  operation of a drug manufacturing plant using a terminal
+Bump [19], wherein users bump their phones to exchange
+                                                                  linked to the plants SCADA system. After logging in she
+contacts. In these works, the same action (shaking or
+                                                                  gets an emergency call from her sister and walks around a
+
+
+
+
+                                                               707
+
+nearby corner to hear her sister better, knowing the terminal       3) The bracelet and the terminal are already paired; they
+automatically logs out in 15 minutes. Jake, a biomedical                share encryption keys that they can use to secure
+engineer competing with Claire for a promotion, happens by              their communication. Pairing is a one-time task and
+and notices the open terminal is logged into Claire's account.          any suitable pairing method may be used [23]. In an
+He makes a subtle change in the plants operation that reduces           enterprise setting, we assume administrative tools pair
+efficiency and gets logged as Claire's doing, and then quickly          all bracelets with all terminals in a distributed fashion.
+walks away. Claire, the better and more honest engineer is          4) We assume that all communication between the bracelet
+passed over for promotion in favor of devious Jake because              and terminal is secured by other means (e.g., Bluetooth
+of her "mistake". The US Code of Federal Regulations, Title             Low Energy or ANT+ protocols). The terminal does
+21, Part 11 requires many FDA-regulated industries such as              not communicate wirelessly to untrusted/unknown
+drug makers, medical device manufacturers, biotechnology                bracelets.
+companies, biologics developers and others to implement             5) There exists an initial authentication scheme (e.g.,
+measures to control, monitor and report access to critical              username-password) that users use to log in to termi-
+terminal control systems [20], [21]. Terminal timeouts are              nals. Once they log in, ZEBRA continuously verifies
+an important part of these protections but may be inadequate            that the current user is the same user who logged in.
+to prevent tampering.                                             Desired properties. We desire ZEBRA to be
+                                                                    1) Continuous: It should continuously authenticate the
+                     III. SYSTEM MODEL                                  current user as long as the user is logged in.
+                                                                    2) Passive: It should not require any explicit user inter-
+  ZEBRA is designed to prevent intentional and accidental
+                                                                        vention and should not interrupt the user.
+misuse of a user's account on a terminal. ZEBRA is not
+                                                                    3) Unobtrusive: It should be completely unobtrusive and
+a method for initial authentication; rather, it compliments
+                                                                        should not invade the user's privacy; the user should
+any existing initial authentication schemes by providing
+                                                                        be comfortable using the system.
+continuous authentication and automatic deauthentication.
+                                                                    4) Quick: It should be quick to identify when a user other
+When a user logs in (e.g., by providing username and
+                                                                        than the logged-in user starts using the terminal so that
+password), ZEBRA continuously authenticates the current
+                                                                        it can deauthenticate the logged-in user to prevent any
+user (i.e., verifies whether the current user is the same user
+                                                                        access misuse.
+who logged in), and when a different user starts using the
+                                                                    5) Accurate: It should not incorrectly deauthenticate a
+same terminal while the current user is logged in, ZEBRA
+                                                                        user nor falsely authenticate a user.
+deauthenticates the current user, thereby preventing account
+                                                                    6) User-agnostic: It should not require any user-specific
+misuse. In this section, we state the assumptions that we
+                                                                        training.
+make for ZEBRA, its desired properties, and its adversary
+                                                                  Adversary model. We are primarily concerned with the
+model.
+                                                                  threat of unauthorized access when the user forgets to log
+Assumptions. We make the following assumptions.
+                                                                  out when stepping away from the terminal, even if the user
+  1) We assume that each user wears a bracelet on the
+                                                                  remains in the terminal's proximity doing other tasks (e.g.,
+       hand she uses to control the mouse interface. The
+                                                                  walking, writing, talking to someone, or working on another
+       bracelet has built-in accelerometer and gyroscope
+                                                                  nearby terminal). If the user steps out of the radio's proximity
+       sensors and a wireless radio (e.g., Bluetooth) that it
+                                                                  range of the terminal one can use proximity-based solutions.
+       uses to communicate with the terminal. Today, many
+                                                                  We consider two types of adversaries. First, an innocent
+      wrist-worn fitness devices meet these assumptions,
+                                                                  authorized user who wants to use a terminal for her own
+       demonstrating that such a device is feasible and can
+                                                                  task: she finds an open terminal and uses it, either because
+       have long battery life.
+                                                                  she assumes the logged-in account on the terminal is hers
+  2) Each bracelet is associated with a single user, and users
+                                                                  or because she does not want to do the login step. Second,
+       do not share bracelets. This association can be imple-
+                                                                  a malicious individual wants to use an open (logged-in)
+       mented using a variety of approaches. For instance,
+                                                                  terminal while the already logged-in user is nearby, perhaps
+       one can use a biometric bracelet [22], or a user may
+                                                                  because the logged-in user has privileges desired by the
+       be required to enter a PIN when she puts the bracelet
+                                                                  adversary, or the adversary wants to take action in the name
+       on to activate it, and the bracelet would deactivate
+                                                                  of the logged-in victim. This adversary may try to observe
+      when it is removed from the wrist or after a period of
+                                                                  and mimic the logged-in user's hand movements to fool the
+       time (e.g., 24 hours). This assumption is similar to the
+                                                                  terminal into falsely authenticating himself as that user.
+       photo ID-cards used by many organizations. In other
+       instances there might be a biometrically-authenticated                            IV. APPROACH
+
+       station where employees check out bracelets at the           In this section we introduce bilateral authentication, com-
+       start of a shift.                                          pare it with traditional authentication methods, and give an
+
+
+
+
+                                                               708
+
+overview of ZEBRA.                                                      user-specific behavior, only on the fact that the user is
+                                                                        doing specific interactions with the terminal.
+A. Bilateral authentication
+                                                                    4) No hardware modifications to the terminal, assuming
+   Traditional user-authentication schemes authenticate a user          it has short-range radio such as Bluetooth.
+by comparing an attribute that the user produces with a
+                                                                    Bilateral authentication, however, cannot always be used
+previously stored attribute. For instance, password-based
+                                                                  because it is not always possible to monitor the users'
+authentication schemes compare the hash of the user-entered
+                                                                  interaction externally. Not all interactions between the user
+password with the stored password hash, voice-based authen-
+                                                                  and desktop involve the dominant hand; notably, periods of
+tication schemes compare features of the user's voice against
+                                                                  screen reading involve no motion at all. We expect that, much
+stored features of authorized users' voices, and a keystroke-
+                                                                  as with common screen-saver software, users will need to
+based biometric scheme compares keystroke dynamics of the
+                                                                  periodically jiggle the mouse while reading extensively.
+user with the user's stored keystroke dynamics.
+   In our case, bilateral authentication, the user is authenti-   B. ZEBRA
+cated by comparing two observations of the same attribute           ZEBRA provides continuous authentication, that is, it
+of the user, measured separately in real-time by two sources      continuously verifies the identity of the logged-in user.
+(hence the term bilateral). A related example of a bilateral      Although continuous authentication has many uses, it is a
+authentication method is the `same-body authentication'           necessary foundation for a smart deauthentication mechanism.
+solution by Cornelius et al. [24]. They measure a user's          Such a mechanism can automatically take protective action
+motion using multiple accelerometer sensors placed at             (such as locking the screen) when another user starts using
+different positions on the body and compare these sensors'        a terminal that a previous user had logged in to.
+signals (which measure the same attribute, the user's motion)       ZEBRA works as follows: Jane, a ZEBRA user, logs in to
+to determine whether all the sensors are on the same body.        the terminal, the terminal connects wirelessly to her bracelet
+   A general bilateral user-authentication method can be          (because she had paired them earlier, the terminal can look
+described as a user-authentication method where an attribute      up her bracelet's network address, given her username, and
+about the user, a, is observed and measured by two indepen-       seek that bracelet on the short-range radio connection). The
+dent parties P and Q, where these measured signals could          presence of the bracelet may optionally be required by the
+be the same (as in the above example) or different (as in         login process, serving as a second-factor token, strengthening
+ZEBRA) but the user is authenticated only if the two signals      the initial authentication step. We are concerned here with
+correlate. The attribute a could be physiological (e.g., heart    what happens after login, continuously verifying that Jane
+rate, body temperature), behavioral (e.g., walking, user's        remains the active user of the terminal. As Jane uses the
+interaction with device), or environmental (e.g., being in the    terminal, the bracelet captures the sensor data (accelerometer
+same room, radio signal).                                         and gyroscope) from Jane's dominant wrist movement and
+   There are several benefits of bilateral authentication,        sends it to the terminal. From the acceleration data the
+some of which overlap with desired properties identified          terminal receives, it generates, using a classifier, a sequence
+by previous research [16]. These include:                         of `interactions' (mouse scrolling or typing) that Jane appears
+   1) No need to store sensitive information in the authenti-     to be doing. The terminal also generates the actual sequence
+      cating device. Although sensitive information can be        of interactions, based on the inputs it receives from keyboard
+      stored securely, in practice it is not stored securely,     and mouse. By comparing these two sequences of interactions,
+      and when the system is compromised users' sensitive         the terminal verifies whether the user using the terminal is
+      information is leaked [25]. By eliminating the need to      Jane, i.e., the one wearing the bracelet.
+      store any sensitive information we eliminate this risk.       When Jane steps away from the terminal and another user
+   2) No mental burden on users. Users have to remember           starts using the terminal, the two sequences of interactions
+      their password if they use a password-based authen-         will not match because the interaction sequence that Jane's
+      tication scheme; previous work has shown that users         bracelet generates when she is away from her terminal will
+      are not good at remembering passwords and they use          be different from the interaction sequence of the other user
+      work-arounds to avoid using passwords [4], [8].       In    on the terminal. Since the two interaction sequences will not
+      bilateral authentication there is no secret for users to    match, the terminal will deauthenticate Jane and take action
+      remember.                                                   to prevent another user from misusing her account.
+   3) No hassle for users over time. Users' habits and              The idea of ZEBRA stems from two observations: i) people
+      behaviors change over time, either naturally or due         interact with most input devices with their hands, and ii) a
+      to an injury or illness. Behavior-based authentication      user's hand movements when the user interacts with an input
+      schemes are susceptible to these changes, and they need     device can be correlated to the inputs the device receives. For
+      to be re-trained for the user whose behavior changed        example, when the user is scrolling or clicking, her fingers
+      over time. Bilateral authentication does not rely on any    are moving but her wrist is relatively stationary; when the
+
+
+
+
+                                                               709
+
+user clicks the mouse and then starts typing on the keyboard         e.g., updating a patient's record, with another authorized
+(typically with both hands), her hand will move from the             user's credentials.
+mouse to keyboard. Thus, the hypothesis driving ZEBRA is                ZEBRA deals with the case of a malicious individual in
+that if we can capture the user's hand movement and compare          a similar fashion. In the second use-case, Claire leaves her
+it with the inputs the terminal receives, we can determine           terminal unattended, and Jake manages to get access to her
+whether the user is using the terminal.                              terminal before the terminal times out and auto-locks. As
+   Figure 1 shows a user's wrist acceleration when she was           Jake tries to navigate the terminal using the keyboard and
+interacting with the terminal. The x-axis represents the time        mouse, the terminal will try to correlate Jake's inputs with
+(in seconds) from the start of the experiment and the y-axis         Claire's hand movements. Assuming that it is hard to control
+represents the magnitude of the acceleration, as measured by         a terminal at will by mimicking Claire's hand movements
+the bracelet on the wrist. We marked, with shaded regions,           while she is around the corner talking on the phone, the
+three types of user interactions in the figure: scrolling, typing,   correlation will fail in a similar manner to the previous case
+and MKKM, where MKKM stands for `Mouse to Keyboard                   and, therefore, the terminal will lock, preventing Jake from
+or Keyboard to Mouse' interaction representing the action            misusing Claire's account. Our evaluation shows that our
+of switching between keyboard and mouse. As shown in                 assumption is reasonable in the case of humans trying to
+the figure, the user scrolled the mouse at 65.5 s, from 66.3 s       mimic human hand movements. We touch on the resilience
+to 74.4 s, and then briefly at 75.1 s. The graph shows that          of ZEBRA to automated attacks in Section VII-C.
+her wrist was relatively still during scrolling, as one would
+                                                                                               V. METHOD
+expect. When she moved her hand from mouse to keyboard
+(around 77 s) to type, we see a sudden spike in acceleration            In this section, we describe the ZEBRA architecture and
+caused as she lifted her hand off the mouse and as she rested        our approach to correlate a terminal's input with bracelet
+her hands on the keyboard. As she typed (77.5 s to 83.4 s),          acceleration data.
+we see small changes in the acceleration, implying that her
+                                                                     A. Architecture
+wrist moves little during typing. After typing she switched
+from keyboard to mouse (around 83.5 s), and we see another              Figure 2 shows the architecture of ZEBRA. As shown
+sudden spike in the acceleration.                                    in the figure, there are five main components in ZEBRA.
+   We can see the differences in the acceleration patterns           The interaction extractor extracts interactions from a user's
+between interactions. For instance, broadly speaking, there          keyboard and mouse inputs, and sends the sequence of
+is more wrist movement during typing than scrolling, but             interactions to the authenticator and the time intervals of the
+less than when she switches between keyboard and mouse.              interactions to the segmenter. The segmenter segments the
+This example supports our hypothesis that we can generate            accelerometer and gyroscope data into blocks based on the
+a sequence of interactions from a user's wrist movement.             time intervals it receives from the interaction extractor. The
+   The acceleration data that is not marked in the graph             feature extractor extracts features for each block of data that
+represents the user's other interactions with the terminal           it receives from the segmenter. The interaction classifier takes
+such as mouse-dragging, clicking, or hand movements not              these features and classifies them into one of our specified
+involving interaction with the terminal; we highlighted only         interactions. The authenticator compares the actual sequence
+three types of interactions on the graph for readability.            of interactions that it receives from the interaction extractor
+                                                                     and the inferred sequence of interactions that it receives from
+C. Dealing with adversaries
+                                                                     the interaction classifier, and it makes a decision whether the
+   ZEBRA deals with the two adversaries described in                 two users ­ the current terminal user and the user wearing
+Section III as follows:                                              the bracelet ­ are the same or different. If they are different
+   In the case of the innocent authorized user who wants             then we need to deauthenticate the bracelet user, who is
+to use an already open terminal for her own task, if Sally           currently logged in to the terminal. Based on the system
+attempts to use the terminal that Tina left open, the terminal       policy or user preference, ZEBRA can either logout the user,
+will try to verify whether the current user (Sally) is Tina.         lock the screen, raise an alarm, or take some other action.
+If the terminal does not receive data from Tina's bracelet,          Below we discuss each component in detail.
+e.g., because Tina is not near the terminal, ZEBRA will log
+                                                                     B. Interaction extractor
+Tina out and will attempt to log Sally in. If Tina is near the
+terminal but not using the terminal, e.g., she may be talking           As mentioned, this component extracts `interactions' from
+to a nurse, then ZEBRA will attempt to correlate Tina's              the input events stream generated by the OS when the user
+bracelet movements with Sally's inputs on the terminal. The          provides inputs to the terminal via keyboard or mouse. We
+classification will fail with high probability, and ZEBRA will       use three main types of user interactions with a terminal:
+log Tina out and attempt to log Sally in. Thus, ZEBRA will           MKKM, scrolling, and typing. There are other interactions,
+prevent an innocent authorized user from performing a task,          such as moving the mouse, dragging the mouse, or clicking
+
+
+
+
+                                                                  710
+
+                        Figure 1: Acceleration of user's wrist when she is using a computer terminal.
+
+
+
+
+                                           Input
+
+                   Inputs          Input   events
+
+                                 events                          Interaction Extractor
+                                 listener
+
+         User                                                                                      Actual
+                                                                                                 Interaction
+                                                                                                                   "Same user"
+                                                                                                 sequence
+                                               Interaction
+                                             time intervals                           Authenticator                     OR
+
+                                                                                                  Predicted
+                     Acceleration                                                                Interaction     "Different user"
+                         and                      segmented
+                                                                           features               sequence
+                    Gyroscope data                   data
+                                                             Feature                   Interaction
+                                      Segmenter
+                                                             Extractor                  classifier
+
+       Bracelet
+
+                                                     Figure 2: ZEBRA architecture.
+
+
+
+the mouse, but we do not consider them because in our                     may press a key with her non-dominant hand while keeping
+evaluation they did not contribute to ZEBRA's performance.                her dominant hand on the mouse. With one bracelet, we
+                                                                          cannot identify such events with certainty. We account for
+MKKM. This interaction captures the users' dominant hand                  such events by dividing the keys on the keyboard into three
+(here, we mean the mouse hand) movement when she                          zones, depending on which hand the user is likely to use to
+switches from the mouse to the keyboard or from the                       press that key: left zone, middle (or ambiguous) zone, and
+keyboard to the mouse; MKKM is short for `Mouse to                        right zone, as shown in Figure 3. We introduced the `middle'
+Keyboard or Keyboard to Mouse'. An MKKM interaction                       zone because not everyone types according to two-handed
+consists of a mouse-related event followed by a keypress                  typing guidelines, which divides the keyboard into two zones,
+event or vice-versa.                                                      and we noticed some subjects used either hand to type the
+  There is, however, a challenge in identifying whether the               keys in the middle zone. So, if the user is right handed (that
+keypress event followed by a mouse-related event was caused               is, uses the mouse with her right hand) and presses a key in
+by the dominant hand or the other hand, because the user
+
+
+
+
+                                                                    711
+
+the right zone after a mouse event, we assume she moved
+her dominant hand. Thus, we assume that users will stick
+with our zone divisions, i.e., use their left hand for keys in
+the left zone and their right hand for keys in the right zone.
+Some users may break this assumption, but this heuristic
+seemed to work well, because to identify MKKM we only
+need the user to press any one key in the right (or left) zone
+with their right (or left) hand, and we observed that all our
+subjects did use two hands when typing.
+
+                                                                 Figure 3: Keyboard divided into left, middle, and right zones.
+Scrolling. This interaction captures users' use of a scroll-
+wheel built-in to the mouse. When a user is scrolling,
+ScrollWheel events are continuously generated by the
+OS, each event reporting the amount of scroll performed
+by the user since the last scroll, so that the application can
+                                                                 Extraction. When extracting interactions from input events,
+update the UI accordingly. We define a scrolling interaction
+                                                                 we apply three constraints: idle threshold, minimum duration,
+as a sequence of uninterrupted ScrollWheel events.
+                                                                 and maximum duration. Idle threshold is the maximum time
+   However, sometimes the mouse is slightly moved because
+                                                                 difference between two consecutive events in an interaction.
+the user's hand is not still, and we observe some MouseMove
+                                                                 The rationale behind this constraint is to capture only the
+events in the ScrollWheel events stream. The idea behind
+                                                                 interactions that involve the user's continuous interaction
+this interaction is to capture the durations during which
+                                                                 with the terminal and eliminate interactions during which the
+the user was using the mouse and her hand (wrist) was
+                                                                 user does tasks other than using the mouse and the keyboard.
+relatively stationary, so we ignore small mouse movements.
+                                                                 During a pause, there is no input to the terminal; we do not
+We consider a mouse movement as small if the associated
+                                                                 know what the user is doing, and thus cannot correlate with
+MouseMove events in the ScrollWheel events stream
+                                                                 the user's wrist movement. If there is a pause greater than
+are few in number (e.g., 5 events) and the cumulative
+                                                                 the threshold, we split the interaction into two interactions
+mouse displacement indicated by these MouseMove events
+                                                                 separated by the pause. For example, if in a series of keypress
+is small (e.g., 5 pixels). These thresholds (minimum number      events there is a 2 min pause, then we split these keypress
+of MouseMove events and maximum mouse displacement)
+                                                                 events into two typing interactions, one before the pause
+are parameters in our experiments.
+                                                                 begins and one after the pause ends.
+   Thus, we define a scrolling interaction as a sequence of
+                                                                    The other constraints refer to the minimum and maximum
+ScrollWheel events with few intervening MouseMove
+                                                                 duration of interactions. If an interaction lasts for less than the
+events such that the total mouse displacement is small (below
+                                                                 minimum duration, we ignore it, and if an interaction exceeds
+a certain threshold).
+                                                                 the maximum duration we split it into two consecutive
+                                                                 interactions. While splitting the interaction we do ensure
+Typing. This interaction captures the users' use of the
+                                                                 that the new interaction is longer than the minimum duration:
+keyboard. When a user hits a key, she first presses the key
+                                                                 if the new split interaction has duration less than the minimum
+down, and then as she removes her finger she releases the
+                                                                 duration, we do not split the interaction; thus, we can have
+key up. Associated to these actions, two events are generated
+                                                                 interactions that are almost as long as minimum duration +
+by the OS for each keypress: KeyDown and KeyUp. Thus,
+                                                                 maximum duration.
+we define a typing interaction as a sequence of KeyDown
+and KeyUp events.                                                   Based on these three constraints and the definitions of
+                                                                 the interactions described above, this component outputs
+   If there is a continuous keypress events stream with mouse-
+                                                                 a sequence of interactions from given input events. This
+related events in between, we count those keypress events as
+                                                                 sequence of interactions, IE, is of the form
+separate typing interactions, separated by the mouse-related
+events. Unlike scrolling, where we ignored small numbers of
+mouse-related events, during typing any mouse-related event                           (I0, t0, t1), (I1, t2, t3), . . .
+means that the user moved her hand from keyboard to mouse,
+which is an MKKM interaction. Thus, for a keypress events        where I0 is an interaction ID (corresponding to one of the
+sequence with few mouse-related events in between, we            three described interactions) that starts at time t0 and ends
+extract at least four interactions: typing, MKKM (to switch      at t1, and similarly interaction I1 spans (t2, t3).
+to mouse), MKKM (to switch back to keyboard), typing, and           From       the   sequence    IE,     interaction    IDsequence
+maybe scrolling between the two MKKM events if the user          (I0, I1, . . .) is sent to the authenticator. The interaction tim-
+scrolled the mouse-wheel.                                        ings sequence ((t0, t1), (t2, t3), . . .) is sent to the segmenter.
+
+
+
+
+                                                              712
+
+C. Segmenter                                                         and for each gyroscope data sample (t, a, b, c), the magnitude
+                                                                     r is given by
+  This component receives accelerometer and gyroscope data                                        
+from the user's bracelet. The accelerometer data is of the                                    r =    a2 + b2 + c2.
+form
+                                                                       After computing these magnitudes, we now have for each
+               (ti, xi, yi, zi), (tj, xj, yj, zj), . . .             block a series of magnitudes (m0, r0), (m1, r1), . . ..
+where (ti, xi, yi, zi) represents one acceleration data sample         We compute the following 12 features over each series
+taken at time ti and the instantaneous accelerations along x,        of acceleration and angular velocity magnitudes in a seg-
+y, and z axes are xi, yi, zi, respectively. The gyroscope data       mented interaction block: mean, median, variance, standard
+is of the similar form                                               deviation, median absolute deviation (MAD), inter-quartile
+                                                                     range (IQR), power, energy, peak-to-peak amplitude, auto-
+               (ti, ai, bi, ci), (tj, aj, bj, cj), . . .             correlation, kurtosis, and skew. We chose the first seven
+
+where (ti, ai, bi, ci) represents one gyroscope data sample          features because others have used them successfully for
+
+taken at time ti and represents the instantaneous rotational         activity recognition [26] and for correlation among different
+
+velocity along x, y, and z axes, ai, bi, ci, respectively.           accelerometer signals [24]. We add the latter five features to
+                                                                     capture the patterns of the three interactions that we noticed.
+  As shown in Figure 2 the segmenter receives actual
+                                                                     During MKKM, there is a sudden spike in positive and
+interaction time intervals from the interaction extractor. The
+                                                                     sometimes in negative direction, so we use peak-to-peak
+segmenter breaks the acceleration data stream into blocks
+                                                                     amplitude. Because the placement of the peaks in a MKKM is
+corresponding to each time interval, using the time of each
+                                                                     towards the start of the interactions, we use skew as a feature.
+data sample and the time of the intervals. For the time-
+interval sequence, ((t0, t1), (t2, t3), . . .) this component will   During typing, the peakedness is distinct, and so we included
+                                                                     kurtosis as one of our features. The wrist movement pattern
+place all the accelerometer and gyroscope data samples with
+time t0  t  t1 into the first block, all the data samples with       during a typing or scrolling interaction should be roughly
+
+time t2  t  t3 into the second block, and so on. These               similar, unlike MKKM, so we use the auto-correlation feature
+                                                                     to capture that difference.
+data blocks are sent to the feature extractor. Acceleration and
+                                                                       For each block of data, we compute a feature vector
+gyroscope samples outside interaction intervals are discarded.
+                                                                     F = (f0, . . . , f11), and send the sequence of feature vectors
+  In most signal-processing algorithms, data is segmented
+                                                                     F0, F1, . . . (each corresponding to one interaction block) to
+into blocks (also called windows) of equal size, but in our
+                                                                     the interaction classifier.
+case the block sizes are variable. There are two main reasons
+to perform segmentation this way. First, when the user is not        E. Interaction classifier
+interacting with the terminal, we do not have any interaction
+                                                                       The classifier takes a feature vector F as input and outputs
+sequences to use for authentication, so we ignore the sensor
+                                                                     an interaction ID, its inference that the sensor data associated
+data for durations when she is not interacting with the
+                                                                     with that feature vector represents that interaction.
+terminal. Second, the user's interactions themselves are of
+                                                                       To train the classifier, we segment a subject's wrist
+variable duration so it makes sense to chunk accelerometer
+                                                                     sensor data based on her actual interaction timings, as
+data this way. For the durations when she is interacting,
+                                                                     described above. We feed the classifier with feature vectors
+one could segment sensor data into blocks of equal size
+                                                                     corresponding to the actual interaction and provide the actual
+and infer an interaction for each block, but given that a
+                                                                     interaction labels. Later, when evaluating our approach with
+user's interactions are of variable duration, it is likely that
+                                                                     a given subject, we use a classifier that was trained with
+one sensor data block would contain data for one or more
+                                                                     other subjects' data, because our intent is for the classifier
+interactions, which would reduce the classifier performance.
+                                                                     to be user agnostic.
+Variable segmentation ensures that each sensor data block
+                                                                       The classifier receives a sequence of feature vectors
+contains data for just one interaction.
+                                                                     and it outputs its inference, a sequence of interaction IDs
+D. Features                                                          (i0, i1, . . .). It then sends this sequence to the authenticator.
+                                                                       We explored two classifiers: Naive Bayes classifier and
+  This component receives sensor data in blocks, and it
+                                                                     Random Forest classifier. For our dataset, the Random Forest
+computes a feature vector over each block. We do not
+                                                                     classifier outperformed the Naive Bayes classifier; the results
+know the orientation of the user's bracelet, so we ignore
+                                                                     reported in Section VI are with the Random Forest classifier.
+the orientation (individual axis accelerations and angular
+velocities) and just use the magnitude of acceleration and
+                                                                     F. Authenticator
+angular velocity. For each acceleration data sample (t, x, y, z),
+the magnitude m is given by                                            The authenticator matches two sequences: the sequence of
+                                                                     actual interactions and the sequence of interactions inferred
+                     m =       x2 + y2 + z2                          by the classifier based on the user's wrist movement. If the
+
+
+
+
+                                                                  713
+
+two sequences match, the authenticator outputs 1 indicating           Table II: Demographics of user study participants.
+that the current terminal and the bracelet user are the same.
+                                                                                           Category       # of subjects
+On the other hand, if the two sequences do not match, it                                      Male             7
+outputs 0 indicating that the two users are different. If the                 Gender
+                                                                                            Female             13
+
+users are different, we need to deauthenticate the bracelet                             Computer Science       8
+                                                                               Field
+                                                                                            Non-CS             12
+user, who is logged in the terminal.
+                                                                                             18-25             15
+                                                                               Age
+  To match the two sequences, we use four parameters:                                        25-30             5
+window size, overlap fraction, match threshold, and grace                                    Right             19
+                                                                           Handedness
+period. The window size, w, is the number of interactions                                     Left             1
+
+the authenticator compares at a time. The overlap fraction,
+f (0  f < 1), indicates how much we should overlap the
+moving window, 0 being no overlap. For each window the           compensation. Our research protocol was approved by our
+authenticator computes a matching score (between 0 and 1)        campus IRB.
+indicating how well the two sequences match in that window;         The user study consisted of three experiments. The
+0 being no match at all, and 1 being a complete match. If        first experiment was designed to capture the users' hand
+the matching score for a window is greater than the match        movements as they interact with a desktop in normal use.
+threshold, m, we output 1 for that window, indicating that       Subjects were instructed to imagine that they were in a public
+the terminal user and the bracelet users are the same for that   cafe and were asked to browse the web for 10 min. They
+window. Otherwise, we output 0 for that window.                  were told that everything they typed would be logged and so
+  If we incorrectly output 0 for a window and deauthenticate     were asked not to enter any sensitive information. Further,
+the user immediately, it would frustrate the user. To account    they were asked not to read any long articles or watch videos,
+for such false negatives, we introduce the grace period          as it would not provide much data for our study.
+parameter, g. This parameter indicates how many consecutive         We designed our second experiment to collect user
+window scores of 0 are measured to deauthenticate the user.      interaction data in a more controlled setting. Users were
+For example, if g = 3 then we should get 0 for three             asked to fill out a small web form, which required users to
+consecutive windows before we deauthenticate the user. We        type, scroll, drag the mouse, click, and move the mouse; they
+reset the zero-count when we get a window with output            were asked to fill this web form five times.
+1. This parameter increases convenience but also increases          Our third experiment was designed to collect data to test
+security risk; we keep its default value low.                    a malicious adversarial case. For this experiment, we asked
+                                                                 each subject to be a malicious adversary whose goal was to
+                      VI. EVALUATION
+                                                                 mimic the victim user's mouse-hand movements to the best
+  As mentioned in Section III, we desire ZEBRA to be             of their abilities. The victim user (one of the researchers)
+continuous, passive, unobtrusive, user-agnostic, quick, and      filled out the same web form that the subjects used in
+accurate. We achieve the first four properties by design.        Experiment 2; thus, the subjects were already accustomed to
+ZEBRA requires no explicit input from the user and as long       the task. We realize that a real adversary can be motivated
+as the user is in (radio) proximity, i.e., the user's bracelet   and skilled enough to mimic users very well, compared to
+can send data to the terminal, ZEBRA continuously verifies       our subjects. So we decided to assist the subjects when they
+the presence of the user; thus, ZEBRA does continuous            were performing the role of a malicious adversary. To assist
+authentication passively. The bracelet can potentially monitor   them in mimicking the victim, we made sure they had a
+a user's physical activity, which may be sensitive information   good view of the screen and the victim's hand movement,
+for some users. ZEBRA respects users' privacy, and it does       we increased the cursor size, and the victim user gave verbal
+not monitor the user's movements when the user (and no one       clues before he began an action. For example, the victim
+else) is not using her logged-in terminal. While evaluating      would say `typing' before he began typing. He would say
+ZEBRA for a user, we did not train the classifier using that     `2' when he was going to fill the question number 2 in the
+user's data. Hence, ZEBRA is user-agnostic, i.e., independent    web form. The victim tried to use the same pace to fill out
+of the user's behavior when she is using a terminal. We          the web form for all subjects, but reduced the pace for some
+evaluate accuracy and quickness through a user study and         subjects when they were lagging too far behind. It should
+present the results in this section.                             be noted that this experiment was intended to be favorable
+                                                                 for the adversary.
+A. User study                                                       Each subject performed, on average, about 192 Scrolling
+  We recruited 20 subjects for our user study, using flyers      interactions, 293 Typing interactions, and 146 MKKM
+posted across our college campus and online. Table II shows      interactions in the three experiments. After these three
+demographic data about the subjects. Subjects took about 30      experiments, we asked each subject to walk for a few minutes
+to 40 mins to complete the user study; they received $10 as      and to write on a paper, so we could collect data for walking
+
+
+
+
+                                                              714
+
+and writing activities, because these are common activities                 1) Accuracy: We use two metrics to evaluate the accuracy
+for a user that steps away from the terminal. We use this                of ZEBRA. The false-positive rate (FPR) is the fraction of
+data to evaluate how quickly ZEBRA can deauthenticate a                  the testing data that is negative but misclassified as positive;
+user when she does one of these tasks while another user                 in ZEBRA the FPR is the fraction of all interactions where
+attempts to use her terminal.                                            an unauthorized user is authenticated as an authorized user.
+                                                                         Similarly, the false-negative rate (FNR) is the fraction of all
+B. Data collection
+                                                                         interactions where an authorized user is misclassified as an
+   In our user study, we collected two types of data about               unauthorized user.
+subjects' interaction with the terminal: i) inputs received by              A high FNR indicates that the system classifies an
+the OS through keyboard and mouse, captured by a script                  authorized user incorrectly as an unauthorized user more
+we wrote; and ii) the subject's hand movement, captured by               often. When this happens, the system takes protective action,
+a sensor worn by the subject on her dominant wrist.                      such as logging out the user or locking the terminal; both
+   We used iMacs for our subject study. Subjects used an                 actions will annoy the authorized user using the terminal. A
+iMac with an Apple keyboard and Apple mouse with a                       negative result indicates to the system that an unauthorized
+scroll ball. We wrote a Python script that uses Apple's                  individual is using the terminal and the system takes action,
+Cocoa APIs for OS X and captures all keyboard and                        such as logging out the user or locking the terminal. A false
+mouse input events generated by the operating system when                negative is, as one might imagine, annoying to an authorized
+the subject provides input using those input devices. The                user of the terminal. Thus, from the usability point of view
+captured input events were KeyDown, KeyUp, MouseMove,                    a low FNR is desirable. Figure 4 shows the average false-
+ScrollWheel, LeftMouseDown, LeftMouseUp, and                             negative rate across all subjects for different window sizes
+LeftMouseDragged, which are generated when the sub-                      and thresholds.
+ject presses and releases a key, moves the mouse, uses the                  As described above, ZEBRA classifies the terminal user as
+scroll-wheel, presses and releases the left mouse button (left           the bracelet user by comparing the actual interaction sequence
+click), and drags the mouse, respectively. For each keypress
+                                               1                         and the interaction sequence inferred by the classifier from
+event the OS reports the time when it is pressed/released,               bracelet data. The comparison is performed over a given
+the key value, whether the subject is holding the key down,              window size. Thus, we compute an FNR as the fraction of
+and whether the subject is repeatedly pressing the key. For              all windows where ZEBRA misclassified the authorized user
+mouse-related events, the OS reports the time the event was              as an unauthorized user. Then each data point in the Figure 4
+generated, absolute coordinates of the mouse pointer on                  is the average of the FNR across all subjects for a given
+the screen, pointer displacement (in pixels) since the last              window size and threshold value.
+mouse event, and scroll length (i.e., how much the subject                  The threshold parameter indicates the fraction of interac-
+scrolled the wheel). We log all this information, but in the             tions in a window that should match for ZEBRA to consider
+current implementation of ZEBRA, we use only the time                    the user as the authorized user. Thus, the threshold value
+of event, event type, key value for keypress events, scroll              indicates how strict ZEBRA is when correlating interactions,
+duration, absolute mouse pointer coordinates, and mouse                  and as expected the FNR is smaller for smaller threshold
+pointer displacement.                                                    values and it increases with threshold values. Window size is
+   We used a Shimmer [27] to capture the subjects' hand                  the number of interactions matched at a time to authenticate
+movements, by asking each subject to wear a Shimmer device               the user; a larger window size allows more interactions to
+on the wrist of the hand they normally use to operate a mouse.           be matched, so the FNR drops as the window size increases.
+The Shimmer contains an accelerometer sensor, a gyroscope                ZEBRA performs best in terms of authenticating a user for
+sensor, and a Bluetooth radio. Once connected to the terminal            window sizes greater than 20; thus, the more interactions
+over Bluetooth, the Shimmer streams its accelerometer and                a user provides while working on the terminal, the better
+gyroscope readings to the terminal at 500 Hz, where they are             ZEBRA performs. In terms of threshold values ZEBRA
+logged to a file. We calibrated all Shimmers' accelerometers             provides best FNR for 0.5 and 0.55, and reasonably well
+and gyroscopes prior to their use.                                       for threshold value of 0.6. A low threshold value improves
+                                                                         usability but, as we show below, it reduces security, so we
+C. Results
+                                                                         need to choose the trade-off carefully.
+   In this section we evaluate ZEBRA's accuracy and how                     For a given subject and adversary, the FPR is the fraction
+quickly it deauthenticates users when an adversary starts                of all windows where ZEBRA misclassified the adversary
+using their logged-in terminal.                                          as the subject (authorized user). We compute a FPR for
+                                                                         each subject as the average FPR across all adversaries; each
+                                                                         data point in the following FPR graphs is the average of
+  1Although our implementation is for MacOS X, the same kinds of
+                                                                         these FPR across all subjects. A high FPR indicates that we
+information are available in Windows and Linux so our method should be
+easily portable to other systems.                                        falsely authenticate an unauthorized user as the logged-in
+
+
+
+
+                                                                      715
+
+Figure 4: Average false-negative rate vs. window size for         Figure 5: Average false-positive rate when the adversary is
+different thresholds (0.5, 0.55, 0.6, 0.65 and 0.7). ZEBRA        accessing the terminal while the logged-in user is walking
+performs best in continuously authenticating users for window     nearby.
+sizes larger than 20.
+
+
+
+user, allowing him to access the logged-in user's account,
+which is undesirable. Thus, a low FPR is good from a security
+point of view. Window size is the number of interactions
+that ZEBRA is allowed to consider to issue the decision
+whether the current user is the same as the logged-in user.
+Thus, ideally we want a low FPR for a small window size.
+   Figures 5 and 6 show the average false-positive rate when
+the adversary is using the terminal and the logged-in user is
+walking and writing, respectively, near the terminal. (Note the
+different y-axis scales.) As expected, the FPR is smaller for
+the higher thresholds. The FPR is low and drops quickly with
+respect to window size, when the user is walking compared
+to when she is writing because the wrist movements while          Figure 6: Average false-positive rate when the adversary is
+walking are very different to wrist movements when a user         accessing the terminal while the logged-in user is writing
+is using the terminal, whereas the wrist movements during         nearby.
+writing are somewhat similar to terminal use. Figure 5 shows
+that the FPR is below 0.02 for thresholds 0.6 and above,
+even for short window sizes. The FPR in the user-writing          and hands were clearly visible to the subject. Figure 7 shows
+case drops below 0.03 for threshold 0.6 for windows of size       the false-positive rate for this case. The FPR rate drops below
+15 or greater. Thus, ZEBRA performs reasonably well even          0.04 for windows of size 15, and threshold 0.6 and above.
+if the user is performing an activity that is somewhat similar    Thus, even when the adversary and the user were performing
+to working on a terminal in terms of hand movements.              the same task on nearby terminals, and the adversary was
+   In our third experiment, we imagine a malicious adversary:     trying to mimic the user's actions, ZEBRA performed well
+the user is logged-in on a terminal A but steps aside to          in recognizing the adversary. Thus, ZEBRA should be able
+work on a nearby terminal B, and the adversary starts using       to recognize a change in user even in an environment where
+terminal A while trying to mimic the user's hand movements        the previous user is working on a nearby terminal when a
+and similar interactions. If the adversary succeeds in mim-       new user walks to the unlocked terminal to use it.
+icking the user's hand movements while providing similar            In Table III we show the mean and standard-deviation
+interactions to terminal A, then ZEBRA will misclassify           of FNR and FPR for all subjects for threshold of 0.6 and
+the adversary as the user and the adversary can continue          four window sizes. The high variability in FNR is because
+using the terminal. In our experiment we asked the subjects       of Subject 1, whose wrist movement during keyboard and
+to be the malicious adversary and try to mimic a user (a          mouse interaction were very different compared to the other
+researcher). Both the subject and researcher performed the        subjects. To keep ZEBRA user-agnostic, for each subject we
+same tasks (filling web forms), and the researcher's screen       train the classifier using other subjects' data, but if a subject's
+
+
+
+
+                                                               716
+
+Figure 7: Average false-positive rate when the adversary is                 Figure 8: Fraction of authorized users that have access to
+trying to access the user's logged-in terminal by mimicking                 the terminal at time t, for optimal window size = 21 and
+the user who is using a nearby terminal.                                    optimal threshold = 0.6.
+
+
+interaction is very different than other subjects, the classifier           windows, where a window represents a fixed number of
+cannot accurately classify that subject's interactions, which               interactions. We use the `duration of attack success' as a
+affects ZEBRA's accuracy in verifying that subject. This can                metric to evaluate how quickly ZEBRA detects an adversary
+be resolved by training the classifier on a larger population               and `duration of inappropriate lockout' as a metric to evaluate
+or training the classifier for these specific subjects. If we               how often ZEBRA will lock out an authorized user because
+exclude Subject 1, we get low variability and even better                   it misclassified the user as an adversary. A smaller duration
+FNR, as shown in the last column (FNR ) in Table III.
+                                                  3
+                                                                            of attack success is better as it gives a smaller attack window
+  From the FPR and FNR results we found the parameters                      for the adversary. On the other hand, it is desirable to have
+that give a reasonable tradeoff between usability and security              extended periods of time without inappropriate lockouts in
+with ZEBRA are window size of 21 and threshold of 0.6.                      order to improve usability.
+For window size of 21, ZEBRA verifies the user after every                     Figure 8 shows the fraction of users that are recognized as
+21 interactions, which can take at most 21 s if the user is                 authorized users by ZEBRA at time t for a grace period (g)
+providing inputs continuously, because each interaction is                  of 1 and 2 windows. This figure shows the first instance in
+at most 1 s long. However, in our experiment subjects took                  time when ZEBRA misclassifies the user as an adversary and
+about 6 s for 21 interactions. We use these optimal parameters              takes action according to the system/user policy, which can be
+to evaluate quickness of ZEBRA in terms of the time ZEBRA                   to lock the terminal or log out the user. For instance, 95 % of
+takes to recognize an unauthorized user.                                    users were still recognized as authorized users at 50 s, or said
+                                                                            another way, 5 % of users were misclassified by ZEBRA by
+Table III: Average FNR and FPR for different Window sizes                   time 50 s and may be required to re-authenticate themselves.
+(W). Mean (and standard-deviation) of all subjects.                         For grace period of 1 window, ZEBRA correctly recognized
+                                                                            85 % of users throughout their session on the terminal. We
+  W       FNR               FPR 1            FPR 2            FNR  3
+                                                                            can improve this number by increasing the grace period. As
+  5   0.164 (0.155)     0.016 (0.012)   0.061 (0.064)     0.140 (0.118)
+  13  0.041 (0.077)     0.007 (0.008)   0.061 (0.088)     0.026 (0.038)     shown in the figure, for grace period of 2 windows, ZEBRA
+  21  0.037 (0.096)     0.001 (0.002)   0.031 (0.057)     0.017 (0.044)     recognizes 90 % of users correctly throughout their use of
+  29  0.035 (0.094)     0.001 (0.001)   0.017 (0.035)     0.015 (0.034)
+                                                                            the terminal.
+1The adversary is using the terminal while the user is walking nearby.         Figure 9 shows the fraction of adversaries that are
+2The adversary is using the terminal while the user is writing nearby.3                                                                           recognized as authorized users by ZEBRA at time t for
+ Mean (and standard-deviation) FNR for all subjects, excluding Subject 1.
+                                                                            grace periods (g) of 1 and 2. This graph shows how
+                                                                            quickly ZEBRA can recognize an adversary and terminate
+  2) Quickness: When the user changes (i.e., when the                       his access to the logged-in user's account on the terminal.
+current user is different than the logged-in user), we want                 As shown in the figure, for grace period of 1 window at
+to identify the change immediately so we can prevent any                    time t = 0, all adversaries have access to the terminal, but
+accidental or intentional misuse of the logged-in user's                    within 5 s only 40 % of adversaries have access ­ ZEBRA
+account. We define quickness as how `soon' we can identify                  identified on average 60 % of adversaries as unauthorized
+a changed user, where `soon' can be measured in time or                     users within 5 s, and by t = 11 s, ZEBRA identified all
+
+
+
+
+                                                                         717
+
+                                                                                          VII. DISCUSSION
+
+                                                                      ZEBRA allows the adversary a small attack window before
+                                                                   it can identify him as an unauthorized user; the adversary can
+                                                                   misuse the logged-in user's account within this window. This
+                                                                   window arises because ZEBRA identifies an unauthorized
+                                                                   user based on that user's inputs, and it needs to collect
+                                                                   enough inputs to make a decision with high probability. This
+                                                                   attack window exists for all passive continuous authentication
+                                                                   schemes that leverage user inputs for authentication, including
+                                                                   keystroke biometrics and mouse biometrics. The effects of
+                                                                   this attack window could be reduced with some help from
+                                                                   the operating system (OS), if the OS buffers the user's inputs
+                                                                   and actions, and has the ability to roll-back actions whenever
+Figure 9: Fraction of adversaries that have access to the          the inputs fail to authenticate the user. Nonetheless, without
+terminal at time t, for optimal window size = 21 and optimal       ZEBRA, an adversary will have unrestricted access to the
+threshold = 0.6.                                                   terminal until he is caught, whereas with ZEBRA, he has
+                                                                   unrestricted access for only a short duration.
+                                                                      Sometimes there may be two users giving input to a
+                                                                   terminal, e.g., two users working together or a clinician
+                                                                   asking for IT help from a staff. If the two users are giving
+                                                                   input one at a time, then ZEBRA can be easily configured
+                                                                   to authenticate both users for that terminal. However, if the
+                                                                   users are giving input at the same time, e.g., one user is
+                                                                   typing and another is handling the mouse, ZEBRA currently
+                                                                   cannot verify either user; the user could temporarily disable
+                                                                   ZEBRA to allow access to both users.
+
+                                                                   A. Deauthentication response
+
+                                                                      At its heart, ZEBRA is a method for continuous authenti-
+                                                                   cation. In this paper, we motivate the need for continuous
+                                                                   authentication as a tool for automating deauthentication when
+                                                                   a new person tries to use a terminal that has another another
+                                                                   user logged-in. We emphasize, however, that the desired
+Figure 10: Fraction of adversaries that have access to the
+                                                                   response to such situations is a matter of policy. Once
+terminal at the end of window w, for optimal window
+                                                                   ZEBRA decides that the terminal is now being used by
+size = 21 and optimal threshold = 0.6.
+                                                                   someone other than the logged-in user, the policy might
+                                                                   dictate that it lock the screen, or that it log-out the current user.
+                                                                   With small modifications, a graduated response is possible.
+                                                                   Recall that ZEBRA uses a threshold parameter m and a
+adversaries. A grace period of 2 windows improves usability        grace-period parameter g in making its decision; instead of
+of ZEBRA, as shown in Figure 8, but it also increases the
+                                                                   outputting a binary decision, we could arrange for ZEBRA
+attack duration for adversaries; nonetheless ZEBRA still
+                                                                   to output a probability intended to indicate its confidence
+identified all adversaries within 50 s, much faster than typical
+                                                                   that the user input is coming from the logged-in user. As
+deauthentication timer methods.
+                                                                   long as the probability remains high, the terminal operates
+   Figure 10 represents the above graph but in terms of            normally. When the probability drops, the screen may dim,
+windows instead of time, i.e., the fraction of the adversaries     then darken, then lock, then log out ­ in each case offering the
+that have access to the terminal at the end of window w,           user an opportunity to take an action (increasingly complex,
+where window size is 21 and threshold is 0.6. ZEBRA                as the confidence gets lower) to restore confidence in her
+identified all adversaries for grace periods of 1 and 2 by the     authenticity. Such an approach can improve usability without
+end of window 2 and 4 respectively. As we mentioned above,         necessarily lowering security and is a topic for future work.
+the window size is determined by the number of interactions
+(in this case 21), but interactions have variable duration;        B. Application to initial authentication
+
+to compare with the previous figure, for all adversaries a            We describe ZEBRA as a complement to initial authenti-
+duration of 2 windows was approximately 11 s.                      cation methods such as passwords, biometrics or hardware
+
+
+
+
+                                                                718
+
+tokens [28]. If the ZEBRA bracelet (token) can be strongly        energy-efficient to be able to run continuously on mobile
+tied to a specific user, such as through wrist biometrics [22],   devices. On the other hand, mobile devices do present some
+it may be possible for ZEBRA itself (with major modifica-         opportunities. For example, most mobile devices have built-in
+tions) to be used for initial authentication. Since ZEBRA         motion sensors, which could be leveraged for authentication.
+authenticates users based on their inputs from the keyboard         ZEBRA could also be extended to other devices such as
+and mouse, a ZEBRA-based initial authentication method            TV-remotes, game controllers, medical devices ­ any device
+would involve tasks the user has to perform as part of the        where the user provides frequent inputs with her hand. For
+initial authentication, and these tasks will generate enough      these devices, however, the application may be more for
+inputs for authentication. For example, as part of initial        improving usability than security. For example, if the TV
+authentication, the user could be asked to type a displayed       remote could identify who is holding it, it could provide
+text, draw a circle, or scroll through a window. There exist      personalized functionality, which could lead to a better user
+authentication methods that require the user to perform tasks     experience; identifying who is using a particular medical
+such as choosing a specific face among a group of faces. The      device or sensor could help provide a secure user-attestation
+benefit of a ZEBRA-based method would be that it does not         that is useful for healthcare professionals.
+place any mental burden on the user to remember any secret ­
+users do the tasks displayed on the terminal. The challenge                             VIII. CONCLUSION
+
+would be to design initial authentication that is short but         In this paper, we introduce Zero-Effort Bilateral Recurring
+generates enough user inputs to achieve high confidence.          Authentication (ZEBRA), a novel mechanism that enables
+                                                                  continuous authentication of users who wear a simple bracelet
+C. Automated attacks
+                                                                  as an authentication token and without the need for any
+   We designed experiment 3 to explore the extent to which        specialized hardware at computer terminals. Such a mech-
+an adversary may be able to defeat ZEBRA in an open               anism provides the foundation for smart deauthentication
+terminal, by observing the wearer of the bracelet that opened     of computer terminal users in dense, dynamic work spaces.
+the terminal. Our results suggest that it is hard to use an       Our approach is continuous, user-agnostic, and unobtrusive.
+open terminal while mimicking an individual.                      Our evaluation of ZEBRA ­ via a user study ­ shows that
+   In principle, it is possible to automate the observation and   ZEBRA can achieve high accuracy, correctly identifying 90 %
+monitor the victim using a video camera in combination            of users and locking out adversaries in less than 50 seconds.
+with the use of special hardware (keyboard and mouse) that        For stronger security, ZEBRA can lock out adversaries in less
+would release keystrokes and mouse input to the system at the     than 11 seconds with a small penalty in usability. ZEBRA's
+specific times when the camera observes motion that may be        continuous authentication complements nearly any initial
+consistent with a keyboard, MKKM, or scrolling interaction.       authentication (login) method and can drive a range of
+In this way, the attacker would only have to worry about          automatic deauthentication policies.
+operating the terminal without having to consciously observe
+the victim. Our view is that this kind of sophisticated attack                              REFERENCES
+is stronger than what is necessary to beat passwords today.
+                                                                

@@ -1,0 +1,1386 @@
+Pamela Crossley
+History
+Thinking About Ethnicity in Early Modern China
+
+    THINKING ABOUT ETHNICITY IN EARLY MODERN CHINA
+
+                                   Pamela Kyle Crossley*
+
+
+   "Ethnicity," whatever one may mean by it, has emerged as a seminal
+issue in historical, sociological and cultural exchange. It has become a
+catchphrase whose elasticity is in some ways welcome, in some ways to be
+regretted. This short essay will discuss the apparent problems in the histor-
+ical origins of "minority nationalities" concepts in China and of "ethnic
+groups" concepts in the West, together with the implications for social and
+cultural history of the present discourse on "ethnicity" in China. Any one
+of these topics would be worth a book, and the space allotted to each of
+them here will be insufficient. The central arguments of the essay are, first,
+that there is an irreconcilable incompatibility between sinological concepts
+(including "sinicization") and contemporary ethnic studies. Second, the
+importance of diachronic studies of the concepts of "race," "ethnicity" and
+"nationality" will be advocated both for the study of China and for the
+study of the study of China. Priorities for discussion have been formed
+around the presentation in this issue of three important and innovative
+studies     concerning social           phenomena associated with ethnicity in
+nineteenth-century China, which has put a particular emphasis upon the
+importance of the concept of "ethnicity" for social and cultural history.
+The present work, in other words, is simply that of a historian surveying
+the challenges anthropology and sociology offer our field at present.
+   It is not self-evident that "ethnicity" is an appropriate or exceptionally
+fruitful concept for the analysis of Chinese late imperial social history.1
+
+   I am indebted to Dm Gladney and Sergei Kan, who have kindly looked over the
+manuscript and attempted to suggest improvements; to the editors of Late Imperial China;
+and to Barbara Calli for editorial assistance. James Tatum, Robin Yates, William Scott,
+Gene Garthwaite, Mary Wilson, Marilyn Young and Po-chia Hsia have all provided il-
+luminating discussion of some particulars introduced into this essay. I claim all stubbornly
+persisting errors of fact or interpretation. The essay was written and revised during a period of
+support by the Darthmouth College Junior Faculty Fellowship program and the Marion and
+Jasper Whiting Foundation, for which I am grateful. I am also indebted for institutional sup-
+port to the history faculties and libraries of Smith College and Yale University.
+1 A similar argument (for a different audience) is made very forcefully by Tapper 1988, which
+was kindly shown to me by Gene Garthwaite after reading a completed text of the present ar-
+ticle. Tapper places far greater stress upon the issue of political and anthropological manipu-
+lation of ethnic criteria, but his distillation of "discourses" (scholarly, official and popular) is
+fundamentally consonant with many of the points I am attempting to make here.
+
+                       Late Imperial China 11, No. 1     (June 1990): 1-34
+                                T by the Society for Qing Studies
+
+                                                1
+
+2                                                                          Pamela Kyle Crossley
+
+
+Though it is not explicitly stated in any of the essays in this issue, the
+implicit assumption is that ethnicity in one form or another was present in
+China and was significant. As must always be the case when a large ana-
+lytic concept is invoked, the first ground of revelation is the intellectual
+context of the writer, and China's past as an "objective" phenomenon
+remains at some remove. The present predilection for identifying ethni-
+city as a phenomenon in China and using it as an analytical tool has evi-
+dently grown out of an awareness that the "sinicization" (or "sinification")
+commonplace received from previous generations of China scholars was
+conceptually flawed, intellectually inert and impossible to apply to real his-
+tory.2 Sinicization was not merely a convenient word describing accultura-
+tion to Chinese culture or assimilation by it, but was a bundle of assump-
+tions regarding the reasons for and the manifestations of cultural change
+throughout a very broad expanse of Asia. In itself, the idea of sinicization
+(hanhua) may someday be a suitable object for study and analysis. Its con-
+ceptual flaw lay in its circularity. To be "sinicized" was to become "like the
+Chinese," who were only those who had been previously sinicized. This is
+self-evidently counterhistorical in the sense that Chinese culture, the char-
+acter of which is at issue in "sinicization," has been an uninterrupted pro-
+cess of mutation due in part to the challenging and differentiating effects
+of aboriginal, border and heterodox cultures. The barest implications of
+"sinicization" were that Chinese culture was somehow autochthonous, rigid
+and exclusive, and in contact with other worlds either obliterated or was
+obliterated. Secondarily, it was implied that through nothing much more
+subtle than the sheer charisma of Chinese culture, peoples were attracted
+to China and its society from elsewhere and, no great obstacle withstand-
+ing, were consumed in the flames of hanhua. In fact, no very accom-
+plished practitioner of "sinicization" theory would rest with these unsophis-
+ticated generalizations, and the phrases "semi-sinicized," "partially sini-
+cized," the like were frequently coined, despite the fact that qualified sinici-
+zation can hardly be sinicization, and in the end means exactly nothing.
+   The decline of "sinology" as an intellectual system has forced scholars
+working in all disciplines to confront the basic unpersuasiveness of the
+special pleadings at work in the notion of "sinicization." China is not a dis-
+cipline unto itself, and commands no unique concepts, methods or para-
+digms for its study. On the contrary sinology3 was what structuralists
+2 A portion of the conclusion of my book is devoted to a discussion of the role of "siniciza-
+tion" in the historical hypotheses of Wittfogel and Wright as they related to nineteenth-
+century Manchus in China. See Crossley 1990:223-228.
+3 I do not use "sinology" in the minor sense it has acquired in the social sciences as a term for
+a China specialist within an established discipline, as a proctologist is a specialized physician.
+I use it in the older, still more widely recognized sense of one whose field is precisely China,
+or more properly Chinese culture. Sinologists, eqyptologists, indologists and so on could all,
+
+Thinking About Ethnicity in Early Modern China3
+
+
+would identify as a phenomenology, a self-referential theory of empathie
+knowledge that led only toward idiolect.4 Moreover, no culture has been
+shown to be charismatic in the sense implied by the concept of siniciza-
+tion. Inevitably, "sinicization" depended upon an unskeptical approach to
+the civil ideal in Chinese elite culture, and upon looking uncuriously at
+the history of Chinese conquest in what is now south and southwest
+China, northwest China, the Northeast, Taiwan and Tibet, as well as the
+continuous internal reconquests that were frequently necessary.
+   As integral to China's social history as militarization has been economic
+vitality and diversity. Speaking Chinese and catering to Chinese tastes
+could be commercially advantageous, and it is not miraculous that many
+border peoples with no other very profound interest in Chinese culture
+adapted in limited ways. The vibrancy of Chinese economic life has been
+explored, again, in direct proportion to the decline of "sinicization" and to
+the rise of its nemesis, "popular culture." The renewed emphasis upon
+social economics has also allowed a new approach to the question of
+subaltern elites, particularly with respect to the emergence of commercially
+oriented education and the evolution of merchant cultures in localities
+such as Fuzhou and Huizhou. Markets, roads, canals, guilds, temples,
+mosques, and commercial production and exchange have become better
+defined as nodal points in our understanding of China's social rhythms,
+allowing local cultures, religions and solidarities to emerge sharply from
+
+alternatively, call themselves "orientalists." The intellectual assumptions and limitations of
+orientalism, all of which apply equally to sinology, were of course identified by Edward Said
+1978. The book's most labored points--the role of racism in orientalist discourse and the
+status of the Orient as a historically deconstructable construction--would not need to be la-
+bored today; on the other hand, the work's subtleties on the intellectual heritages of oriental-
+ism remain somewhat neglected and--though it contains no direct comment on the problem
+of constructing ethnicity--deserve to be reread by all who would introduce ethnic discourse
+into their works.    Raymond Schwab's 1950 classic work on eighteenth and nineteenth-
+century orientalist scholarship has recently been reissued in English with a forward by Said
+(formerly "Raymond Schwab and the Romance of Ideas, Daedalus 105:1 [Winter 19761), see
+Schwab 1984.
+4 Use of the word "empathie" here should not necessarily be read to mean sympathetic, since
+it is well known that orientalists in general frequently came to condemn the "Eastern mind"
+as ill-prepared for science, justice, or history. To analyze the contradictory sentiments--
+which were not incidental to the discipline, but were necessarily its foundation--of sinologists
+toward their objects of study is obviously far afield of the present discussion.
+    I use the term "structuralist" here and elsewhere loosely, to include many cultural histori-
+ans and social theorists (e.g. Claude Lévi-Strauss) who are famous for resisting the label even
+though their scholarship is widely recognized to be structuralistic in spirit and in influence.
+For a compact but by no means neutral overview see Pettit 1975. On the unstructural origins
+of structuralism (and an analogy to the unprimordial origins of primordialism) see also Boon
+1972.
+
+4                                                          Pamela Kyle Crossley
+
+
+the fog of "sinicization."
+   Finally, the Chinese imperial institution, which proved repeatedly its
+allure for chieftains on China's periphery, was unique in the region, and
+was regarded as a package: The emperor stabilized his position through
+reification of his power to choose his own heir, he based himself in an
+imperial capital where noble rivals had few or no ancestral claims,
+employed a bureaucracy which used a script and which adhered to certain
+rituals, all of which interacted to create the facade of legitimacy and to
+provide the precise tools for the excising of the power of noble rivals. In
+the cases of Xiaowen di of the Northern Wei, Abaoji of the Liao, Aguda
+of the Jurchen Jin, Hung Taiji of the Later Jin/Qing, the manipulation of
+the Chinese imperial tradition was conscious, calculated and tailored to
+optimize the discretionary powers of the new "emperor" as an individual;
+tensions between these men and their nobles were immediate, for the
+nobles in question (who would not be writing their own histories, in any
+event) were under no illusions that these imperial revolutions had any pur-
+pose other than unprecedented concentration of power in the hands of a
+single man.
+   One might say, then, that "sinicization" as a habit of thought among
+China scholars depended for its sustenance upon a rather firm commit-
+ment to what were perceived as the tenets of Chinese classicism: a rever-
+ence for the imputedly inherent transformative power of civilization, a dis-
+taste for displays of military power, a contempt for commerce and semi-
+literate or illiterate cultural values. It should not, of course, be thought
+that all Chinese scholars were sinicizationists; on the contrary many scho-
+lars in China and in Taiwan have attempted to avoid the assumptions of
+hanhua and have introduced a small but to date rather unstable vocabu-
+lary (e.g. tonghua, xianghua, ronghe) to give more definitive expression to
+the varieties of cultural exchange occurring continuously between the
+center and the periphery (a dichotomy that is more informed by power
+than by geography).     Indeed sinicization as a historical concept was so
+weak and was so frequently challenged by scholars both in China and in
+the West--see for example almost any work by Wolfram Eberhard; Owen
+Lattimore's "frontier style;" Chen Yinke's and Xiang Da's theses on alien
+exploitation of Chinese political instruments and Central and Inner Asian
+impact upon the cultural traditions of the Northern Qi, Sui and Tang
+regimes; Wittfogel and Feng's "symbiosis" model; or Jin Yufu's "exploiting
+of Han scholars" (liyong hanren)--that its survival as part of the vocabu-
+lary of China study up very nearly to the present moment might best be
+addressed in terms of devotion to its basic conceits by generations of
+
+Thinking About Ethnicity in Early Modern China5
+
+Western scholars trained in part by Chinese mentors with the strongest
+possible ideological commitments to the underpinnings of sinology and
+"sinicization."5 To wonder whether the Western stalwarts of "sinicization"
+were attracted to the study of China because of their sympathy with this
+complex of values or whether they acquired it in the course of their train-
+ing would be to enter an endless circle of reasoning. It would be unfair
+too, for no one advocates socializing China scholars to be hostile toward
+Chinese elite values on the supposition that this will lead to more "objec-
+tive" thinking. But as the disciplines of China study have become more
+integrated with established and evolving disciplinary discourse, it has inev-
+itably occurred that questions of imperialism, localism, and popular cul-
+ture have been directed to Chinese history of the early modern period.
+Consequently, "hegemony" and "ethnicity" have risen; sinology and sinici-
+zation have set.
+   The importance of this relationship, between the emergence of what is
+in essence a post-structuralist approach and the disintegration of "sinol-
+ogy," is underscored by the fact that symbolic anthropology has played a
+similar part in the opening up of the cultural and social history of Europe,
+where local histories, studies of popular mentalités, and of social ideology,
+all of which are part of a new discourse of historical "ethnography," have
+come to dominate.6 The works of historians directly or indirectly
+influenced by Geertzian views, such as Natalie Zemon Davis, Robert
+Darnton, Le Roy Ladurie and Carlo Ginsburg are most prominent,
+perhaps, but are merely representative of a broad change in historical
+inquiry and writing over the course of the past twenty years. Certainly eth-
+nographies in this spirit have been produced in the China field, yet beyond
+a claim that they represent a new interest in "popular culture," there has
+
+5 Perhaps the most subtle and persuasive recent discussion of "sinicization" in medieval China
+is a passage in BoI 1987. In its basic distinction between "adoption of institutions and value
+structures" and "social transformation," (following in part upon earlier distinctions made by
+John Dardess) as well as its identification of a wen complex of official acculturation associated
+with the emperorship, the passage makes obsolete many previous attempts to sustain "sinici-
+zation" analysis on the basis of Jin political history, and this is only one virtue of an eassay
+that is in all respects a maor addition to scholarship, in any language, on the Jurchen Jin. It
+is unlikely, however, that a majority of readers will find the thesis too novel, or in the
+author's words, "far-fetched," to be accepted. It fits very neatly into the chain already forged
+by the authors noted here, and is certainly in agreement with the analysis of the Later
+Jin/Qing state that I have been developing since 1984 ("The 'Culturing' Emperor," "Emperor-
+ship and Identity in Qing China." See Lattimore 1940; Wittfogel and Feng 1947; Chen 1977;
+Jin 1974; Xiang 1957, 1979).
+6 My observation has been paralleled by the argument of Shanin 1980 on the connections
+between the rise of ethnology and that of peasant studies.
+
+6                                                                          Pamela Kyle Crossley
+
+been little attempt to trace the intellectual momentum behind this style of
+inquiry.7
+   Ethnic discourse has not completely outgrown its ancestral relationship
+to a racial discourse of earlier times, and thus its character as a series of
+constructs--or, in Geertz' usage, "ideations"--does not emerge tran-
+sparently from most writing on ethnicity. To the historian, the role of
+constructive discourse is particularly salient. Certainly contemporary his-
+torians are not obliged to adopt the rather ahistorical (anadiachronic)
+analysis of those anthropologists or sociologists who continue to debate the
+issue of whether there is anything essential, or objective, underlying histor-
+ical manifestations of ethnicity or ethnic consciousness.8 The comparison
+7 This applies, in my opinion, to the flagship collection on popular culture edited by Johnson,
+Nathan and Rawski 1985. Several authors refer to works on French or English history for
+comparison in their discussions, and two (Johnson and Rawski) refer to theoretical works of
+Geertz and Gramsci. None, however, attempt to place themselves--as opposed to their
+subjects--within the context of the rise of "popular history" as a broader discourse and a
+coherent conceptual development.
+8    Harrell      1990     has     very    usefully    simplified      and    summarized       the
+"primordialist/circumstantialist" controversy for readers, and the disagreement brushes the
+surface of all three essays. The scholar viewing this debate from outside anthropology proper
+assumes that the dichotomy is heuristic.          The issue of primordial, or "pre-existing"
+qualities--whose articulation is attributed to Edward Shils and with major qualifications to
+the early Clifford Geertz (but the historian suspects they were adumbrated by Max Weber)--
+entails a proposition that certain cultural phenomena are in fact pre-interpretive, pre-
+historical--i.e. pre-cultural. The interpretive, historical, cultural fundaments of identity--for
+instance, a people's belief that identity may be realized through immutable ancestral
+connections--have been effectively characterized as "charters" by scholars diverging from the
+primordialist terminology, and many writers who discuss primordial characteristics do in fact
+mean something like ethnic charters (for instance, Judith Nagata characterizes ethnic senti-
+ments as those :" ...that draw on a (putative) notion of common blood, origin, descent or kin-
+ship connection as a reason for being or acting ..." from Gladney 1987. The revised theme of
+primordial "sentiments" is also historically elusive, since sentiments must have a beginning,
+which can only mean that they have a circumstance. In the final analysis this comes down to
+a question of ritual (as Harrell's essay here very strongly suggests), which returns it again to
+the work of Geertz and, to certain degree, Mary Douglas. An illuminating meditation on pri-
+mordiality and syntheticism (circumstantialism, process) in cultural history is Needham 1978.
+   As Harrell has noted, Charles Keyes and others have begun to revise the circumstantialist
+position--the dominant position in recent years--by according some role for primordiality.
+See    particularly    Keyes    1976,  which     provides    a   succinct   discussion    of   the
+primordial/circumstantial disagreement, then proceeds to refute the circumstantialist
+position--anticipated by Emile Durkheim and Alfred Kroeber, but associated until recently
+with Marshall Sahlins and now with Eric Wolf--with the statement that ethnicity that was
+not even partially primordial, but wholly circumstantial ("situational") would be "entirely arbi-
+trary and without analytic value," a premise that can only strike the historian as remarkable.
+The "nature vs. nurture" analogy used by some revisionists to justify such an intermediary po-
+sition appears to the historian to be false. Ethnic primordialism is undemonstrable by histori-
+cal criteria, is not genuinely analogous to the question of innate, genetically determined or in-
+stinctual traits of humanity, and its reintroduction for the sake of providing a "balanced" revi-
+sion seems questionable.
+    The only primordial characteristics that can be truly "pre-existing" are self-evidently biolog-
+ical (which primordialists have suggested is affectively analogized by beliefs in common des-
+
+Thinking About Ethnicity in Early Modern China7
+
+
+of academic ethnic discourse to earlier discussions of "race" is not merely a
+comparison, after all, but is also substantially relevant. In discussions of
+ethnicity with respect to China thus far there has been a common failure
+to deal with levels of ambiguity in the applications of "ethnicity," "nation,"
+and "race" as words. The crudest sort of default, in this author's opinion,
+is that of failing to distinguish between a phenomenon and a concept.
+Many ideas that have no discernable objective foundation have proven to
+be significant ideas nevertheless, and one may read a history of astrology,
+alchemy or creationism not in order to learn the "science" behind them
+but to understand their place in cultural history. One finds in current
+writing about China a delicacy in use of the word "race." The fear seems
+to be that readers will mistake a reference to the idea of race for a refer-
+ence to the phenomenon of race. As a consequence "ethnic group" seems
+to play a role in contemporary China scholarship that is rather like its
+appearance among American sociologists of the 1960's. "Race"--whether
+the descent model of the Enlightenment or the biologically-based,
+Darwinistic model of the nineteenth century is irrelevant here--as an
+empirical concept had been rejected.                  "Ethnic group," in the sense it
+fulfilled in Glazer and Moynihan's "melting pot," was a more acceptable
+way of referring to the perceived physical, religious, linguistic, sartorial and
+cultural distinctness of groups within plural and pluralistic societies. In
+many cases it was no more than a substitute for "race," in the sense that it
+indicated undifferentiated bundles of social, cultural, linguistic and reli-
+gious issues, with no address given to the roles of the consciousness of
+either social actors or the scholar attempting to analyze their actions.
+Insofar as "race" as a putatively objective phenomenon (outside, perhaps,
+the professional lexicons of physical anthropology and epidemiology) is
+intellectually bankrupt, the mere substitution of "ethnic group" for "race" is
+equally invalid, yet in much contemporary writing on China this is the
+sum total of the effect of using the terms "ethnicity" and "ethnic group."
+"Race" and "ethnic group" are frequently confounded, so that not only
+their peculiarities as intellectual constructs but also their historical rela-
+tionship to one another are obscured. Though the defining character of
+cent), and it is perhaps this, combined with the circularity of the primordialist argument
+when applied to history, that has prompted what appears to be the rather extreme revisionism
+of Pierre L. van den Berghe (guest editor of the Ethnicity volume in which the Keyes' essay
+cited above appears), who has adapted sociobiology to the study of ethnicity. In earlier work
+van den Berghe has emphasized the importance of kinship structures in ethnic and national
+relationships; and in van den Berghe 1981 he replies to the "anti-primordialists"--whom he
+identifies as liberals and Marxists--by claiming ethnicity to be, in essence, a social and cultur-
+al strategy for genetic survival. Van den Berghe takes the circumstantialists to task for dis-
+carding "race" as an objective phenomenon and treating it instead as a feature of cultural and
+social history. For a rebuttal of sociobiology as a discipline and of its application to the study
+of human culture, see Sahlins 1976. For a more specific discussion of the implications of so-
+ciobiology for the study of ethnicity see Smith 1983.
+
+8                                                                          Pamela Kyle Crossley
+
+"ethnic group" is commonly agreed to be ethnic consciousness, the term is
+casually used to describe peoples of all periods of Chinese history, for
+whom no ethnic consciousness can be remotely demonstrated; the practice
+is a residual effect of the period when such groups were called "races," and
+the discredited word is now replaced not by the malleable "peoples" but by
+the inoffensive (though anachronistic and intellectually slack) "ethnic
+group."
+   This tendency has been effectively characterized by Michael Banton as
+an error of "presentism," and it threatens to impoverish analyses of the
+emergence of racial thinking and the extent of its consequences.                              In
+China, for instance, it can hardly be denied that orthodox thought of the
+Ming period encompassed a concept of racial descent, one that was
+roughly consonant with the descent-group construct of early modern
+Europe. For a time the Qing state rejected this as a philosophy of identity.
+Ultimately, Qianlong court ideology in China embraced (with some
+difficulty) a concept of race bearing basic similarities to the earlier con-
+struct, and that concept subsequently played a role in the shaping of the
+ethnic consciousness of some peoples at the end of the Qing period. In
+other words, identity during the Qing period seems to have an internal
+diachronicity, a development from cultural to racial to ethnic arenas of
+negotiation.9 Unless one has resort to the term "race," it is impossible to
+distinguish the late phenomenon of ethnic consciousness from one of its
+ancestral roots in racial thinking of the eighteenth century or earlier.
+Diachronie studies of "racial," "national" and "ethnic" consciousnesses
+would be handicapped, while "race" and "ethnicity" would remain mingled
+with each other, their process of differentiation forever muddled by the
+notion that "ethnic group" is just a better word for what was once called
+"race."
+   Quite apart from the question of the appearance of race as a concept in
+China is the question of the rise and fall of race as a concept in Western
+scholarship on China. An illuminating case study might be Altaicism as a
+theory and a discipline. Nineteenth century research on Altaicism was
+fundamentally inspired by the linguistic theories of eighteenth and early
+nineteenth century orientalists bent upon proving the past existence of an
+"Indo-European" (Aryan) race and its pure survival in the German peo-
+ple.10 This model of cultural development was carried over to early studies
+9 I have attempted to narrate in some detail the impact upon the Chinese-martial bannermen
+of this shift from cultural to racial criteria of identity in Crossley 1 989, the evolution of an
+ethnic from a racial consciousness among the Manchus in Crossley 1990.
+10Rejection of Egypt and the rise of comparative linguistics in the eighteenth and nineteenth
+centuries has been narrated with clarity and conviction by Bernal 1987:189-240. The general
+point that Indo-European linguistic hypotheses had arisen from a romantic search for Ger-
+manic origins (if the phrase is not oxymoronic) had previously been detailed in Schwab
+
+Thinking About Ethnicity in Early Modem China9
+
+of Turkic and Mongolian civilizations. The idea was that the languages
+categorized as "Altaic" shared enough structural traits--though possibly
+not enough lexical bits--to imply a single origin. Therefore there must
+have originally been one language, spoken in one place, by one people. As
+the people moved, they carried the language east and west, and it was
+locally differentiated in several major stages, as were the people them-
+selves. But the inability of the concept of race to withstand the scrutiny of
+modern anthropology and cultural history has discredited the assumed
+equation of one language with one people. The Altaic languages may
+indeed be "genetically" related, or they may be, as S. R. Ramsey has
+recently characterized the position, a "group of structurally related
+languages who have mutually influenced each other over a time period
+spanning millennia."11 In either case, the identification of hypothesized
+racial groups with languages is unsupportable on the basis of historical
+data. The languages of Inner and Central Asia have proven to be more
+stable than the peoples with which they may be associated in the historical
+record.
+   The usefulness of diachronic analysis has, perhaps, proven itself also in
+the study of the Manchus.12 By the late nineteenth and early twentieth
+
+1984:1-224. The development of the Altaic hypothesis not only paralleled the rise of Indo-
+Europeanism in time and method, but it must be noted that there was also a significant over-
+lap in personnel, foremost, perhaps, being Henri-Jules de (Heinrich Julius von) Klaproth and
+Abel Rémusat. Though a specialist in Chinese, Manchu and the Turkic languages of Central
+Asia, Klaproth apparently knew some Persian and Sanskrit and made himself prominent
+(Schwab calls him "the unavoidable Klaproth") for his rivalry with Jean François Champol-
+lion in early nineteenth-century orientalist circles in Paris.
+11See Ramsey 1987:179.
+12The Manchus are an interesting example of ethnic group formation (that is, rise of an eth-
+nic consciousness) in the late dynastic period for several reasons.       The least important,
+perhaps, is irony: From being a dominant minority in the occupation regime, the Manchus,
+or those who chose to retain Manchu identity, became only one of many minority nationali-
+ties in the Chinese system. More important, the case of the emergence of ethnic conscious-
+ness among the Manchus demonstrates the role that a construct of race, for a select group of
+minorities, played. Under the empire, Manchus, Mongols, Tibetans, Uighurs and the Han
+Chinese--as they were understood in the court view--were historical peoples, all part of the
+creation or sustenance of the Qing regime (Liang Qichao's later conception of "historical" and
+"ahistorical" peoples paralleled the divisions that are apparent in Qing court discourse, and he
+further evinced his dependence of Qing concepts of identity in insisting that a people must
+have a documented, unbroken history). The aboriginal peoples of China, or historical divi-
+sions within the Chinese people, were not considered in the racial cosmos of the empire; they
+were simply subsumed under the umbrella of guannei, where they had for previous centuries
+been already subjected to the process of conquest and subordination.
+   The Manchus came to the disintegration of the Qing empire with a well-documented and
+imperially-endorsed construction of racial identity, which when catalyzed by the challenges of
+rising Chinese nationalism readily found a terminology (manzu), a history, an attested
+language and a homeland, all elements that fit together to aid in the formation a Manchu
+ethnic consciousness.
+   Further, the process of Manchu ethnicity is intimately and demonstrably associated with
+the formation of Chinese nationalism. Chinese polemicists of the late nineteenth and early
+
+10PamelaKyleCrossley
+
+centuries Manchus were frequently called manzu (a nineteenth-century
+neologism)13 or qiren.           Non-Manchus were commonly convinced that
+Manchus could be distinguished from Chinese by racial physical traits, like
+flat heads,14 or a remarkably white skin.15 Manchus, on the other hand,
+were convinced that the source of their raciality lay in their bloodlines,
+their ancestral connection to the Qing founding population and through
+them to the great peoples of Northeast Asia. Both of these views were
+false, in the sense that they were unrelated to phenotypical or historical
+fact. They were, of course, true in the sense that their effect upon the
+consciousness of believers was equal to that of phenotypical or historical
+fact.
+
+twentieth centuries relied upon an interpretation of the inimical racial histories of the Man-
+chu and Chinese peoples for refinement, of both a Chinese identity and a Chinese nationalist
+cause.
+   Finally, the history of Manchu identity in the twentieth century is a case study in the am-
+biguities of sociological and anthropological discourse in the West and in China.          The
+Manchus are an unusual but not unique example of a "minority nationality" that is urban,
+sinophone, and religiously undifferentiated from the modern Chinese population. Virtually
+none of the anthropological criteria usually required by the People's Republic for recognition
+of minority status apply to other than very small and remote pockets of the Manchu popula-
+tion. Yet the option to register as Manchu (and enjoy the privileges of minority status) is
+available to and utilized by Manchu descendants. Anthropology would derecognize a majori-
+ty of this population. But sociology and cultural history would validate Manchu identity, be-
+ginning the evidential train with the fact that an individual who claims an ethnic identity has
+committed a culturally meaningful act.
+13The term manzu for people claiming Manchu identity, and as a (possibly euphemistic) al-
+ternative to qiren, appears in the writings of Jinliang around the turn of the century. Though
+there is no evidence that he was the first Manchu to use this term, his usages of it are among
+the earliest and best known, see Crossley 1990:185.        The origins of manzu (as used by
+Chinese in reference to Manchus) may ultimately be traced to documents issued by the Taip-
+ing government, in which hanzu, manzu and mengzu have been noted.
+14I have heard Chinese of the present refer to the fact that Manchus have "flat" heads (at the
+back), which I surmise was originally inspired by the fact that the Manchus shared the cus-
+tom, attested in Central Asia from the time of the Huns and in Inner Asia much earlier, of
+binding infants' heads in such as way as to deform, slightly or severely, the skull. I believe
+that the Qianlong emperor was referring to precisely this practice (but not to the physiogno-
+my of the Manchus) when he claimed that the custom proved Manchu provenance from the
+ancient Sushens in the Northeast, who apparently practiced it also. See the edict of Sep-
+tember 20, 1777, reprinted as front matter to Zhou yuanliu kao (1783), and paraphrased in
+Crossley 1987.
+15The allegation that Manchus were "white" had more than a descriptive inference, since it
+was known that some eighteenth and early nineteenth century foreigners had forwarded a
+"lost tribe" thesis of Manchu origins, and by the late nineteenth century some Chinese were
+convinced that Manchus and Westerners were scheming together to destroy China (for an ex-
+ample see Wiens 1 969: 1 9). It is possible that like many northern Chinese the Manchus may
+have appeared to some to be light, but the impression was no doubt magnified by the stark
+white make-up affected by Manchu women, who were seen in public with considerably more
+frequency than Chinese women.
+
+Thinking About Ethnicity in Early Modern China11
+
+  The untrueness of these convictions is easily discerned from a
+diachronic vantage. Manchus had first of all never been a single people,
+and even the Manchu banners--the only definitive institution for histori-
+cal identification of the Manchus--had been shaped to a certain degree by
+logistical needs, convenience, and error. Moreover, by the turn of the
+twentieth century qiren and manzu had come to be applied not only to
+Manchu bannermen but in many cases also to Mongolian and Chinese-
+martial bannermen. Finally, qiren and manzu were used to indicate
+"bannermen" in the broadest possible sense. Qiren itself, which in earlier
+times had applied to households enrolled in the banners, had been
+stretched by circumstances into a very fuzzy signifier. Soon after the con-
+quest it came to include zidi, the "sons and younger brothers" eligible to
+be enlisted but not yet enlisted; at roughly the same period it came also to
+be applied to cadets and supernumeraries. In the age after the Taiping
+War, many bannermen had been induced or coerced into resigning banner
+status, and even among those formally enlisted there were many who lived
+with no particular connection to a garrison and with no hope of a stipend.
+They, and often their descendants, were nevertheless liable to be called
+qiren, without regard to actual legal status or to the once significant dis-
+tinctions between stipended or unstipended, regular or irregular.
+   As for the Manchus themselves, their sense of a grand unified cultural
+and racial identity was an artifact of eighteenth-century court ideology.16
+The true source of Manchu unity and identity in the very late nineteenth
+century, it appears, was the internal strength of certain Manchu communi-
+ties, which demurred to disintegrate in accord with signals from the court
+after the Taiping War and particularly after the Boxer Uprising, when the
+Qing court and its supporters began to struggle against Northeastern
+separatism. From a lately-gained and rather unrefined sense of racial iden-
+tity, the Manchus fashioned an ethnic consciousness17 for themselves in
+the last decades of the Qing dynasty, and it seems to have survived, in
+further changed form, to the present day. The context of imperial decay
+and the coalescence of ethnic groupings and consciousness has cognates in
+the transformation of other traditional empires (the Ottoman and
+
+16 The particulars have been discussed in Crossley 1990:13.30.
+17 1 am fairly sure that what we mean by ethnic consciousness is what is meant in Chinese by
+minzu gongtong xinli suzhi, which is now agreed to be a component, though a very trouble-
+some one, in the constitution of some minority nationalities. (See also notes 1 3 and 29) In
+this context it is worth noting that the Manchus ("a nationality with a concrete, lengthy histo-
+ry and comparatively advanced culture") are considered the best exemplars of this element.
+See Xiong 1983.
+
+12PamelaKyleCrossley
+
+Romanov are obvious examples) into nations. As with all change over
+time, the erosion of one style of thinking or expression by another is not
+sudden or clear; there are periods in the late nineteenth and early twen-
+tieth centuries, certainly, when both fundamentally "racial" and fundamen-
+tally "ethnic" sensibilities may be discerned among the Manchus and other
+peoples. Without resurrection of an historical interest in "race" as a politi-
+cal and social ideology, its diachronic relationship to ethnic consciousness
+can hardly be expressed.
+   In contrast to the ethnology of the Soviet Union, neither English-
+language scholarship nor Chinese-language scholarship has recourse to a
+definitive vocabulary distinguishing various types of cohesive identities
+from one another.            Where English flounders attempting to distinguish
+"nation-state" from "nation," "nation" from "people,"                         "people" from
+"nationality" or "ethnic group," Russian offers the compact natsiya (where
+we might write "nation- state"), narod (where we might write "people,
+nation," "nationality"), etnos (where we might write "people," "nationality,"
+"subnationality," "ethnic group") and etnicheskaya gruppa (where we might
+write "people," "nationality," "ethnic group"), among other precisions. In
+nearly all of these instances, Chinese is obliged to make do with minzu,
+and it is not surprising that both Chinese and Western academic writing
+on ethnicity attempts to orient itself with frequent allusions to the preci-
+sions of Russian terminology. Precision can, however, be as confining as
+liberating, and this may be particularly true when the intellectual baggage
+of the terms remains uninspected or, to be painfully current, "unpacked."
+   Both English and Russian depend upon a fairly broad appreciation of
+the capacities of the word "ethnic." It is well known that ethnology and
+ethnography take their terminological and conceptual power from the root
+ethnos. "Ethnicity" and "ethnic" do not historically refer to what we now
+tend to call "ethnic groups," but are also drawn from the etymon ethnos.
+The Greek root proclaims its meaning even to the modern reader:
+"heathen," which was apparently applied to peoples living outside the
+"civilized" urban centers, on the "heaths" (i.e. Latin paganus, "pagan"). Its
+original use seems to have indicated bands, perhaps roving bands of peo-
+ple, and it could be used to mean nothing much more complex than a
+gang. But soon the word acquired overtones of kinship; in its ancient and
+early modern usages it is related to concepts of what Banton calls "race as
+descent"--the notion of identity based on ancestral affinities.18 Ethnos is
+18 Banton 1980 distinguishes four basic modes of racial conceptualization: race as physiogno-
+my, race as descent, race as "type," and race as a byproduct of Darwinian selection processes.
+Insofar as these various ideas are historically intertwined and are all based upon a concept of
+physical, moral or cultural tendencies being inexorably passed from one generation to anoth-
+er, they are all justifiably identified as "racial" concepts, although they often work in very
+different ways. See also Banton 1977 and Van den Berghe 1981:29-33.
+
+Thinking About Ethnicity in Early Modern China13
+
+self-consciously a formation from cultural centrality and eliteness, and fre-
+quently labels the marginal, the uncivilized, the unassimilated, the com-
+mon. In its origins it was not a neutral word for a "people," and it does
+not invariably function as a neutral word for a people in modern usage.
+It captured the elements of taxonomy, isolation and subordination to
+which many peoples are subjected in imperial systems, and generated a
+series of political terms that have disappeared, possibly because in modern
+retrospect they might embarrass their users. Thus the "kings" of Judea
+under the Roman empire were called by the Romans themselves (and the
+Greeks before them) "ethnarchs,"19 and William Gladstone intended to
+diminish the stature of Daniel O'Connell by calling him not a demogogue,
+but an "ethnogogue." From late to early modern times, "ethnic" was akin
+to "gentile," in the sense of neither Christian nor Jewish, and local devia-
+tions from orthodox practice were called "ethnicisms."20
+   In the history of Western thought, this local, particularist, minor, hetero-
+dox, marginal quality is the historical essence of ethnicity. The conceptu-
+ally coherent study of border and aboriginal populations, all at cultural or
+philosophical odds with the orthodox, central establishment, has been part
+of the cultural history of all empires, and many great traditions--that is,
+the cultural edifices of many great empires--have had their ethnological
+heritages. Ancient ethnology of the West has been extensively decoded, but
+that of China remains largely undisturbed by modern analysis.21 Contem-
+porary ethnography--by convention subsuming both ethnography and
+
+19That is, the Romans adopted the Greek term with respect to the Jews, who inhabited a
+Greek-speaking area. Abraham had been referred to as an ethnarch, and the term adhered to
+Judean kings under the Roman empire. See Liddell and Scott 1968:480.
+20This is one of the starting points for Royce's discussion of the career of "ethnicity as a con-
+cept and a term" (she finds it as the first of definitions offered in Webster's), but my examples
+are drawn from the Oxford English Dictionary pp. 313-314. For further elaborations see SoI-
+lors 1986. It is important to emphasize that the term ethnos, after an early period of indicat-
+ing "groups," shifted to mean those grouped by descent, and from there to those who were
+marginalized or excluded because of their descent. Thus for Homer and Herodotus an ethnos
+was a people (which comes close to its technical meaning in modern social science) or
+perhaps a tribe (to the extent that an ethnos was divided by a genos), but afterwards might
+mean any people marginalized or excluded--thus one finds it applied in Athens to the athlet-
+ic clubs of non-Athenians, see Liddell and Scott 1968:480.
+21Though work on ancient ethnology in the West is too voluminous to provide a sketch of
+here, the early modern period is somewhat less explored, and one might note Hodgen 1964
+and Boon 1982 as two unusually informative and conceptually challenging works. Islamic
+ethnology, particularly the work of Ibn Khaldun, has also been treated to a great deal of
+analysis in Western scholarship. Comparable work on the Chinese tradition has been rare.
+Pulleyblank 1983:41 1-416; Schäfer 1963 and 1967; Tao 1983; and perhaps the first chapter of
+Snow 1988 might form the basis of a reading list in English on traditional Chinese ethnology.
+
+14PamelaKyleCrossley
+
+
+ethnology in Western scholarship--remains the study of "minor" cultures
+or practices. Since in the eye of the anthropologist or cultural historian all
+discrete, coherent cultural styles are 'local,"22 ethnology has been and
+remains the legitimate rubric for the science of comparative systems of
+cultural cognition, and ethnography that of its descriptive art. The refer-
+ence is to the fundamental meanings of "ethnicity," not to "ethnic groups"
+as such, and it is this classic sense of ethnography that allows an approach
+to local, coherent cultural styles among the people whom at large we call
+"Chinese."
+  Of all the Western terms associated with ethnos, "ethnic group" (ethni-
+cheskaya gruppo) was the last to arrive. Suitably, it describes a
+phenomenon that was the last to arrive. Its contrast with ethnos is often
+implicit, but nevertheless clear. Where an ethnos was localized both geo-
+graphically and within a cultural hierarchy--Barth remarked upon its
+"archaic" qualities in this regard--an "ethnic group" is distinguished for its
+ability to survive, even thrive, in the post-ascriptive (modern) era. An "eth-
+nic group" might efficiently be defined as a collection of individuals shar-
+ing consciousness of descent from an ethnos.23 In turn, the ethnos from
+which one might claim descent was very likely defined by a taxonomizing
+imperial system that may have established either friendly or hostile terms
+of coexistence for the group and the empire. The resulting ethnic cons-
+ciousness might be described as the summary expression of the tensions
+existing between ethnies and the polities by which they are framed.24 Ele-
+ments of historical tradition, as a consequence, are to an extent fungible,
+and the historical consciousness that binds together the modern ethnic
+group may itself prove illusive if followed to its sources. This crucial role
+of historical consciousness raises many questions regarding the issue of
+ethnicity among the han, or "Han Chinese." Stevan Harrell, whose own
+use of "ethnic" is classic throughout his essay, casts doubt upon the useful-
+ness of the word "subethnic."25 It may be that in the terminology of
+
+22Hence Geertz' 'local knowledge," a play, as I read it, upon the intertwined localisms of the
+observer and the observed in the doing of cultural anthropology. See Geertz 1983.
+23This is      meant to summarize the elements of "sentiment," "identification," "self-
+identification," "awareness," and so on invariably to be found in definitions of "ethnic group,"
+and which may be represented in minzu gongtong xinli suzhi (see also notes 24 and 29). As
+will be noted in my comments on the Manchus, this is a rather figurative definition of ethnic
+group--Manchus did not descend from an ethnos, but formed a historically-derived cons-
+ciousness that strongly imitated the effects of such descent. For an incisive summary of the
+history of attempts to define and conceptualize ethnic consciousness, see Royce 1982.
+24I take this to be the import of Barth's assertion that inter-group dynamics are the defining
+mechanic in ethnic consciousness. See Barth 1969:15-19.
+25See n. 16 for a sharp deflation of the pretensions of "subethnic."
+
+Thinking About Ethnicity in Early Modern China15
+
+"subethnic" which has become conventional when describing ethnicity
+among the han we are looking at yet another legacy of sinology. That is, as
+the han have only one admissible "language"--and the languages of China
+become "dialects" in sinological idiolect--so they can only be one "people,"
+and variations among that people become not "ethnic," but "subethnic."
+Certainly the greater meaning of "ethnic" handily includes cultural varia-
+tions among people who on one level all consider themselves han yet on
+another evince recognizable ethnic consciousness. The intrusion of
+"subethnic" seems not only unwarranted but possibly misleading, for his-
+torically it is surely true that the geographical and cultural entity of China
+is a totality of convergently and divergently related localisms.
+   The linkage of the larger semantic and intellectual foundations of "eth-
+nography" (description of cultural deviations) with notions of "ethnicity"
+(i.e. localism, subalternism) is fairly obvious from the perspective of
+Western intellectual history, but seems to be ignored in the bulk of writing
+about the issue of ethnicity and ethnicisms in China. The reason for this is
+unclear, but it appears to contribute to a reluctance to construct and
+maintain fidelity with a finite, if temporary, mode of analysis. There is
+often a garbling of perspectives, sometimes produced at a rather elemen-
+tary level--as already suggested--by failure to distinguish between the
+concept of race (or ethnicity) and the purported phenomenon of race (or
+ethnicity), and at a much more subtle level by a commingling of disci-
+plinary discourses. Clifford Geertz has referred to this as the "blurring of
+genres,"26 a kind of exchanging of analogies that as a healthy development
+has introduced the habits of structuralism, deconstructionism, and sym-
+bolic anthropology to a wide variety of disciplines in the humanities and
+social sciences, but as an unhealthy development sometimes results in an
+imposition of a dissonant disciplinary voice. An analogous case occurred,
+perhaps, when Darwin's paradigm of genetic selection was analogized and
+distorted in the philosophies of "social" Darwinism, which had also their
+reflection in theories of race and ethnicity in the early twentieth centuries.
+In the wake of structuralism, certainly, transformational analogies in the
+social sciences have multiplied exponentially, and seem to bump against
+each other in many discussions of ethnicity. As an example, the fact
+might be considered that whether any scholar is inclined to recognize
+
+26 See Geertz 1983. This is not to overlook the historical identity of sociological study with
+historical study, or the natural affinities of all branches of anthropology, history and sociolo-
+gy. The concern here is with levels and characters of discourse. For a very incisive overview
+of the tensions and intentions of the work of Geertz and Sahlins, and their respective
+significance for historians, see Biersack 1989:72-96.
+
+16PamelaKyleCrossley
+
+Manchu ethnicity depends upon a resolution of the disciplinary angle of
+discourse. Did the Manchus ever constitute a race? The answer from any
+discipline, in our time, would be no. But, did the Manchus ever think they
+constituted a race? This is a question of social history, cultural history,
+and cultural and symbolic anthropology. Any one of these analyses would
+in all probability lead (by various routes) to a yes, though imposition of a
+disciplinary voice denying the raciality of the Manchus would hardly be
+consonant with the meaning of such a discussion. More pointedly, did the
+Manchus of the very late imperial period, the Republican period and the
+present day constitute a "minority nationality," an "ethnic group," or both?
+The answer must surely vary with disciplinary perspective.
+   It is unlikely that clarity in this particular regard can be achieved
+without confronting an evident tendency to conflate "minority nationali-
+ties" (shaoshu minzu) and "ethnic groups," or by implication the Chinese
+and Western approaches to cultural variance. Apart from the particulars
+of the vocabulary involved, modern Chinese, Soviet and Western concepts
+seem to share several common ancestors, among them Lewis Henry Mor-
+gan, who stimulated Friederich Engels in his theories of ethnogenesis and
+the origins of the family, and who also contributed the conceptual infras-
+tructure to Western work on Native Americans.27 Morgan's premisses on
+a progressive cultural paradigm generally and upon the importance of
+matriarchy, shamanism, clans (gens) and moieties in "primitive" societies
+particularly remained hallmarks of nineteenth-century ethnology, and its
+influence in the Imperial Academy at St. Petersburg (ancestor of Akademii
+Nauk SSSR at present Leningrad) survived the fall of the Romanov
+empire. It was in fact under the auspices of the Russian Academy of Sci-
+ences (as it was then called) that Sergei Mikhailovitch Shirokogoroff, the
+seminal ethnographer of the Tungusic peoples of Northeast Asia, pursued
+his work in the 1910's and 1920's (before emigrating permanently to
+Shanghai in 1923). It is possible that Shirokogoroff was responsible for
+introducing ethnos as a technical term (for a people, as distinct from a
+nation) to both Russian and Western ethnography.28 The criteria for
+27See Morgan 1851 and 1871; Engles 1892; and Leacock 1972. Regina E. Holloway argues
+that contemporary Soviet ethnology has also been influenced heavily by Morgan, as well as
+by the work of Robert Redfield and Fredrik Barth, see Holloway 1978. For a modernist in-
+terpretation of Morgan see Thomas R. Trautmann 1987.
+28Yu V. (Julius) Bromley, on the basis of his reading of Wilhelm Mühlmann's Rassen, Eth-
+nien, Kulturen (Berlin, 1964), concluded that Shirokogoroff was personally responsible for the
+introduction of ethnos as a technical term to Western ethnography. See Holloway and Am-
+tiunov 1978. The claim, which is very tempting for those of us in Northeastern studies to
+credit, has been vaguely corroborated by Dragadze 1980. As works relevant to China and
+directly influenced by ShirokogorofFs ethnology (and thus indirectly by Morgan) 1 would note
+Chen Wenshi ("The Creation of the Manchu Niru"); Ling Chunsheng (Songhuajiang xiayou
+di hezhe zu); and Franz Michael (The Origin of Manchu Rule in China), who considered
+
+Thinking About Ethnicity in Early Modern China1 7
+
+definition of peoples had developed little since Morgan's time. Language,
+religion, geographical distinctness and a common sense of community29
+were the guidelines for determining the integrity of peoples.30
+   Official policy toward minorities in the People's Republic was promul-
+gated in 1956, and given a public debut in August in an article penned by
+Fei Xiaotong and Lin Yuehua in the "People's Daily," in which essentially
+the same criteria, minus religion, pertained.31 Under Marxist-Leninist-
+Stalinist (these three levels of ideological elaboration being well known to
+be contradictory and irreconcilable on the questions of ethnicity and
+nationality) imbrications of these principles, contemporary Chinese ethnol-
+ogists distinguish primitive, slave, and feudal levels of development among
+the "minority nationalities" of China. To permit these peoples to progress
+at their own rate, the Chinese state has implemented a virtual (though not
+monolithic) homelands policy, mandating spatial as well as social and
+
+ShirokogorofFs views (on clans in Manchu society) to be so conventional in 1942 that he
+called them "traditional."  Most Qing specialists are familiar with ShirokogorofFs Social Or-
+ganization of the Manchus, but should also note, among translations into English, Social Or-
+ganization of the Northern Tunguz (1929) and Ethnical Unit and Milieu (1924), his treatise
+on ethnic cohesion.
+29This element was later represented in Japanese kyòydòtai, which has become contemporary
+Chinese academic gongtongti, that immaterial (but materially derived) something that pro-
+vides communities with a sense of their community-ness. On the comparison of gongtongti
+elements for minzu and for natsiya, see Zeng 1987. Gongtongti has obvious affinities with
+some aspects of Ibn Khaldûn's asabiyya, which has been much analyzed (for a recent over-
+view see Baali 1988:43-52. Ibn Khaldûn was, by the way, a strong primordialist, whose argu-
+ments anticipated those of Van den Berghe by nearly 600 years.
+30Compare to the most recent definition of ethnos offered by Bromley and Kozlov (cited by
+Dragadze 1980:162) "Ethnos... can be defined as a firm aggregate of people, historically esta-
+blished on a given territory, possessing in common relatively stable particularities of language
+and culture, also recognizing their unity and difFerence from other similar formations (self-
+awareness) and expressing this in a self-appointed name." Interestingingly, this retains the
+ethnonymic criterion, which had been emphasized from Morgan to Shirokogoroflf, but was
+degraded somewhat in later thinking. The problem of ethnonyms is very difficult for anyone
+working in early modern China, but for a discussion by a scholar with some feeling for this
+see Isaacs 1974.
+31The criteria for identifying minority nationalities was later given various academic expres-
+sions, among them a series of articles, the lead authored by Fan 1957. Fan and G. Efimov
+later collaborated with Yang Zeyi in an essay that laid out the major formula as follows:
+common language, common territory, common economic life, common "psychological ele-
+ments" (gongtong xinli suzhi--see also notes 13 and 24) as manifested in a common culture.
+See "Guanyu Han minzu xingcheng wenti de yixie yijian" :85.
+   The definitive English-language work on Chinese nationalities policy remains, of course,
+Dreyer 1976, but see also Heberer 1989, and for the history of the northern minorities indivi-
+dually an important reference source is Schwarz 1984. The period of the appearance of Fei
+and Lin's article was critical, as the Chinese Communist Party moved toward more radical
+social policies and hoped to "clarify" its position on nationalities (as well as intellectuals and
+the bourgeoisie). Clarifications did not in fact result, and the next year Fei was forced to
+make a public self-criticism and the publication of Minzu yanjiu was suspended, partly over
+the issue of the causes and substance of culture and consciousness. On ideological tensions in
+the party's position see Dreyer 1976:43-92. On the ideological question in particular, see
+Moseley 1966. On the background to Fei and Lin's 1956 essay see Moseley 1966:21-22.
+
+18PamelaKyleCrossley
+
+cultural remoteness for a finite selection of peoples. It is difficult, under
+Marxist theory, to conceive of a "socialist minority," since socialism super-
+sedes culture and achievement of socialism would presumably mean total
+integration with the greater society and extinction as an identifiable
+"minority." The theory (clearer in Marx' formulations, more murky in
+those of Lenin and Stalin) is that such peoples will indeed converge with a
+state of socialism, and not remain irremediably marginal or indelibly
+separate. Until then, ethnic sentiment (minzu ganqing) under the current
+ideology is--like nationalism--a manifestation of false consciousness, a
+remnant feudal mentality.32
+   The Marxist prescription for minority status in China is, of course,
+somewhat at odds with both the Leninist identification of some minorities
+with victims of imperialism in need of dignity, equality and autonomy,
+and with the actual history of the political relationships between the
+modern Chinese state and certain peoples.                      The Soviet Union, where
+roughly fifty percent of the population was recognized as minority
+nationalities at the time of the October Revolution, faced policy issues in
+this regard from its beginning. In China, where roughly six percent of the
+population may have been minorities at the same period (comparable to
+the present proportion), policies on minority nationalities were amplified
+in importance because of the local flavor of the CCP bases in the 1930s.
+The decades of guerilla fighting necessary to secure the People's Republic
+made the Party beholden to many of the peoples of the southwest,
+northwest, Mongolia and the Northeast, some of whom were enfranchised
+as early as the promulgation of the constitution of the first soviet republic
+in Jiangxi.33 The state still makes many efforts to demonstrate its goodwill
+32It is very important to note the subtleties and innovations that Chinese scholars have intro-
+duced into official simplicities of this question. See for instance Alatan's defense both of the
+importance of nationalities studies and of the stability of national identities in "Lun minzu
+wenti de hanyi." See Altan 1986. A sampling of the personal views of leading scholars was
+also presented in a continuing symposium series in issues 4, 5 and 6 of the 1986 volume of
+Minzu yanjiu.
+33On early CCP policy toward minorities see Dreyer 1976:63-92. The text of the 1931 resolu-
+tion on minority nationalities at Ruijin is reprinted in Moseley 1934:163-167. A historical
+perspective on this period with respect to the policy of autonomous regions is also rendered
+in Li 1983. Li Weihan, who was the head of the United Front Work Department from the
+Yan'an period until 1965 when he was dismissed on grounds of "capitulationism," returned to
+the public scene with the publication of Xizang minzu jiefang de daolu in 1981. The 1981:1
+issue of Minzu yanjiu applauded his accumulated theoretical insights into the social and
+economic advancement of minority nationalities. The period of Li's early work with the
+CCP coincided with the work of Fei Xiaotong among the Yao, and both men's early contri-
+butions are framed by the Party's dependence upon the local people of the border regions
+where the revolution was first consolidated.
+
+Thinking About Ethnicity in Early Modern China19
+
+toward "minority nationalities" and at the present time rewards those who
+successfully claim minority status with marginal benefits in family growth,
+education and some economic policies. Propagandists, educators and scho-
+lars observe the corollary policy of "nationalities unity" (minzu tuanjie),
+which mandates both a simplistically "positive" attitude in the popular
+media and a ruthlessly "negative" scholarly review of nationalities his-
+tory.34
+   Though China had its own ethnological traditions before the nineteenth
+century, the modern ethnological discourse in China is based upon
+imported vocabulary and methodology. Among the importations is the
+term minzu, whose usage has not yet been traced earlier than 1895.35 It is
+well known that minzu is the Chinese equivalent of the Japanese neolo-
+gism minzoku. The intimacy the word enjoyed with its classical Chinese
+etymons min and zu could be debated. It is worth noting, however, that
+in the classical corpus min conveys no notion other than the common
+people, or people at large, and in Qing usage--the immediate reference for
+the framing of Chinese nationalist rhetoric--the word is nearly identical
+with "civilians," or "the non-banner population," (e.g. hanmiri), all of which
+corroborates Charlotte Furth's suggestion that minzu itself was not
+intended to indicate minority peoples, but majority peoples (the "nation"
+of the nation-state, e.g. the (han) Chinese of China)--possibly with refer-
+ence to Herrenvolk.36 It is important to appreciate also that the term zu
+34On the policy implications of "nationalities unity" in China see also comments in Crossley
+1990:218. A rather vivid example of the resentments caused by the inherently negative scho-
+larly assessments to which any minority in China may be subjected is contained in the essay
+of Cheng and Pan 1986. They object particularly to the three criteria for critical assessment
+of Jungar history, to wit:   1) whether they have objectively advanced nationalities unity and
+the national integrity (of China), 2) whether they have advanced their own social (i,.e. social-
+istic) development, and 3) whether they have advanced resistance to and struggle against
+foreign aggression and influence" (see :47). Though Cheng and Pan were constrained from
+saying so, it in fact hardly needs to be said that a people who had successfully maintained an
+independent culture or even statehood for any period of time would have violated all of these
+criteria. In the case of the Jungars, their vigorous resistance of Ming domination and of Qing
+domination until 1696 clearly did not advance nationalities unity, their attempts to pursue
+their traditional steppe economic occupations thereafter did not advance themselves socialisti-
+cally, and their interest in a separatist movement under Japanese encouragement in the early
+twentieth century did not advance resistance to foreign aggression. Unable to repudiate the
+absurd pretensions to "objectivity" of this discourse (since a nationality that behaves as one
+must be judged harshly for it under this logic), Cheng and Pan argue instead for more Uberai
+interpretation of the criteria, pointing to the "contributions" of Jungars to the economic
+development of Xinjiang in the eighteenth century.
+35See Crossley 1990:185,271; Han and Li 1984; and Li 1963. A very comprehensive survey
+of the foreign referents of minzu and its changing connotations is found in Wang 1983.
+36See Fürth 1976.
+
+20PamelaKyleCrossley
+
+has evolved from a non-ascriptive, non-taxonomic word of generalized
+meaning to an ascriptive, taxonomic word of highly specialized meaning,
+in a trajectory remarkably close to that of ethnos--a reminder of the rela-
+tively late advent of heritable vertical (national, ethnic), as opposed to hor-
+izontal (class, caste) identities. In origin zu did not mean a lineage, and
+was not connected to terms like xing or shi. It indicated a small group of
+people within a locality or a larger organization, and over time acquired
+the sense of kinship.37 In the Qing era it appears that some attempt at
+greater precision in application of the word arose, and zu became the pre-
+ferred term (in place of bu, guo or dang) for established, historical peoples,
+especially of the Northeast. This sense of identity through racial (genea-
+logical) descent was important to the Qing court of the eighteenth century,
+which used a novel but wide-ranging conceptualization of lineage-based
+groups in the Northeast related by ancestral descent, and culminating in
+the rise of the Manchus.                 The result was thickly documented and
+glamorous histories of certain of the empires' peoples, which were in turn
+important in their development of ethnic identity and personal identity at
+the end of the empire.38 Contemporary Chinese ethnologists, finally, argue
+that despite the Japanese origin of the term minzu its true cognate is Rus-
+sian narod, "people," "nation," with an emphasis upon "popular" (narodni)
+and "nationality" (narodnost); this suggests again the sense of nationality,
+not ethnicity, that was carried by Japanese minzoku, which was strongly
+associated with a populist, nativist discourse in early modern Japan.39 In
+combination with shaoshu, minzu renders quite neatly as "minority
+nationality"--its meaning significantly subverted in its frequent English
+transposition as "national minorities"--and encapsulates the Marxist-
+Leninist rebuff of the ideology behind ethnicity in the West.40
+37Zu's career as a signifier not only paralleled ethnos, but also Manchu rriukun, which for the
+pre-conquest period indicated a group of people (or objects) living or moving together, and
+only at length connoted consanguinity. For further comment see Crossley 1990:34-36.
+Perhaps the best discussion in Chinese of diachronic evolutions in the significations of zu and
+minzu is Peng 1985; for origins of zu as discussed above, see :5-6.
+38For Manchus, these have been discussed in "Manzhou yuanliu kao and the Formalization
+of the Manchu Heritage." It is important to note that the structure of the Qing imperium
+does not allow Manchus or Mongols to be characterized as ethnies, since they were in fact the
+core of the imperial hierarchy. The peoples of southwest and south China, on the other
+hand, fit the classic definition of ethnies for both the Ming and the Qing periods.
+39See Harootunian 1988:405-6, 413-439.
+40This emphasizes the tension between minzu and ethnos (and by extension "ethnic group"),
+since Soviet ethnologists use ethnos as a technical term and do not equate it with the techni- ,
+cal term for "nation" (natsiya). This tension has been explored in some depth in Li 1987.
+For a summary in English of recent Soviet ethnological writing, see Holloway and Arutiunov
+1978. Chinese as yet has no technical term for ethnos, or for nation, and thus minzu plays
+many contradictory roles in academic and popular writing, a fact frequently lamented by
+spokesmen in the field--for an interesting glimpse of the difficulties presented during a for-
+mative period in Chinese terminology, see the translator's note to an essay by G. Efimov in
+
+Thinking About Ethnicity in Early Modern China21
+
+   Points of agreement and of contrast between "ethnic group" and "minor-
+ity nationality" have not been well elucidated by theorists or scholars in
+the China field. After Morgan there were some sharp divergences in the
+ethnological traditions of Marxism-Leninism and those of Western struc-
+turalists. Though sharing an intellectual ancestor in Morgan, the Nauka
+tradition, if one may call it that, in China has leaped over the insights that
+have built the modern Western approach to ethnography: Lévi-Strauss's
+and Marcel Mauss's conception of communities as defined through their
+media of exchange (symbolic and affective, as well as physical) and the
+later contributions of Clifford Geertz, Marshall Sahlins, Antonio Gramsci
+and Hayden White on social ideologies and dynamic hierarchies have been
+fundamental in shaping a contemporary discourse on kinship, community,
+nationality and ethnicity. They also establish the structural dynamics and
+historical significance of the relationship of the emergence of ethnic
+consciousness--the primary factor in the formation of "ethnic groups"--
+and modernity. Such considerations are often not integrated with discus-
+sions of topics in Chinese ethnography. The fracturing of our analysis
+through the confusion of shaoshu minzu and "ethnic groups" leaves us
+dissatisfied with our ability to be precise about China's social and cultural
+experience, and sometimes unable to link our analyses with historians
+specializing in other regions. Ethnicity as a construct has not been closely
+examined, the arbitrary fundaments of its composition have rarely been
+acknowledged as such, and the validity of its imposition upon China stu-
+dies has not been seriously questioned or seriously defended.
+   Acceptance of the putative reality of ethnic phenomena in China must
+derive at least in part from the strongly objectivist flavor of virtually all
+Chinese writing on cultural variety. The discourse of "construction" has as
+yet no correspondence in the "national minorities" policies of the People's
+Republic of China, where it is expected that qualities of minority national-
+ities can be objectively classified and the validity of minority claims medi-
+ated by experts (that is, anthropologists, who apparently see no tension
+between their roles as constructors of ethnic criteria and as discovers of
+ethnic phenomena). The ostensible criteria resemble the traditional ones
+of the Morgan-Engels tradition: language, religion, economic life, and
+consciousness.41 Yet the external criteria of these minority nationalities
+
+which an awkward explanation for the rendering of Kitaiskaya natsiya as hanzu is given
+("Lun Zhongguo minzu de xingcheng" in Han minzu xingcheng wenti taolun ji :228). For a
+thorough inquiry regarding the relationship of narodnost and natsiya to minzu, see He 1983.
+41 Compare with another contemporary Soviet definition of ethnos: "stable human communi-
+ties tied together by unity of territory and history of their formation, and by a common
+language and culture." See Holloway and Arutiunov 1978:12.
+
+22PamelaKyleCrossley
+
+are found, upon close examination, to be possibly as ambiguous, as inter-
+nally compromised as those of "race" had ever been. And while there is
+every reason to distinguish "minority nationality" and "ethnic group" as
+concepts, this should not obscure the apparent truth that many peoples in
+China may satisfy both "minority nationality" and "ethnic group" criteria.
+   Language, surely, is at once the most monumental and most superficial
+of the criteria used to distinguish either minority nationalities or ethnic
+groups.42 Its charm lies in its obviousness and its romance. It is certainly
+a legacy of "sinicization," too, since virtually the only criterion for deter-
+mining the degree of "sinicization" of alien dynasties was a rather quantita-
+tive approach to language use. Recent studies of the imperial institution
+tend to obviate this criterion, since the ritual and bureaucratic (not always
+to be adroitly distinguished) uses of Chinese would be an unavoidable
+byproduct of cooptation of the imperial institution by an "alien" force:
+The cultural nature of the imperial lineage or ruling elite, in other words,
+is not necessarily reflected in the fact that the use of Chinese by the court
+and bureaucracy may be encouraged or even forced. The perhaps greater
+issue implied by but never possible to resolve in terms of sinicization was
+authentic cultural transformation of populations--always in one direction,
+that of hanhua.         Here, again, sinicization shows its archaicism. Manchus,
+for instance, even as they became adamant about the reality and meaning
+of Manchu identity, were indifferent to court attempts to impose Manchu
+language upon them.43 But in some instances apart from the Manchus,
+the superficiality of language as a marker of identity (leaving aside the
+symbolic aspects of linguistic survival) was already recognized during the
+Qing, quite naturally by those responsible for the actual forced assimila-
+tion of border and aboriginal peoples. Chen Hongmou (1696-1771), for
+instance, in his design of cultural policies for the Miao of Guangxi and
+Yunnan, had no thought that the teaching of Chinese to these people
+would in and of itself subordinate them to Chinese norms; he made a spe-
+cial policy point of the imposition of the Chinese family structure and its
+ideology, which was a far more promising tool for cultural domination
+
+42This was in fact appreciated by Morgan, who used as his criteria for the discovery of ances-
+tral cultural relations not language, but what were in his view the more profound traits of kin-
+ship structure. Nevertheless, for national minorities (as contrasted to ethnic groups) linguistic
+distinctness continues, in theory perhaps more than practice, to be a sine qua non. See Ma
+and Dai 1983.
+43As a shaoshu minzu, however, modern Manchu descendants have again championed the
+language rejected by their ancestors, which to me demonstrates their claim to ethnic cons-
+ciousness, which is perhaps much stronger than their claim to "minority nationality" status.
+See also Crossley 1990:218-219.
+
+Thinking About Ethnicity in Early Modern China23
+
+than language alone could ever be.44 Chen pioneered a policy course later
+adhered to by the CCP--and its chief policy theorist Li Weihan--of
+thoroughgoing social and economic reconstruction of minority areas, with
+or without exclusive Chinese language instruction, to advance integration
+with the nation at large.
+  Language and religion intersect in the ascribed identity of the Hui. Their
+definitive trait is that they are both Islamic and sinophone. It is not his-
+torically the case that the Hui are uniformly of "Chinese" (han) origin, nor
+is it any longer the case that they are uniformly religious; within the last
+decade or so, genealogical criteria have been admitted into the politics of
+ascription, which as Dru Gladney has shown has affected both the status
+of several lineages in Fujian and has had an impact on total population
+figures for minority nationalities.45 Interestingly, in forsaking even shakily
+constructed cultural criteria and moving toward a genealogical policy, the
+present government is repeating much of the patterning of the identity
+policies of the Qing before it (only one of many points of affinity). As for
+those Hui insisting upon a secular identity yet stressing the definitive links
+with the past, they are following a strictly ethnic course, relying upon little
+more than their consciousness of descent from the religious, state-
+identified ethnos from whom they take their name. They thus resemble
+not only identified "ethnic groups" of the West, but also the Manchus, with
+whom they are with increasing frequency compared.
+  It should be emphasized that it is the role of historical consciousness,
+rather than history itself, that is of significance in the contemporary
+minorities policy in China, and this particular element accords with the
+understanding of "ethnic group" in the West. One speculates that if by a
+form of mass hypnosis one could convince any group of any people in
+China today that they were descendants of Lamaist followers of Dayan
+Khan, the importance of that false historical conviction (and its social
+effect) would be equal to that of a conviction based upon "fact." The
+power of historical consciousness, regardless of its objective validity, has
+already been noted in the case of the Manchus. In a very different type of
+example, early Mongols and many of their predecessors on the steppe
+defined themselves at least in part by a fervent belief that they were des-
+cended from the union of a wolf and a doe.                    It is the construction
+
+44I owe my notice of Chen in this context to ongoing work by Rowe 1989 on Chen's role in
+administration and education in the southwest. The present interpretation of Chen's policies
+should not, however, be charged against Rowe himself.
+45See Gladney 1987:499.
+
+24PamelaKyleCrossley
+
+(including mythologizing) of the past, not the past itself, that is at work in
+the formation of the modern "ethnic group," and nationalities policy in
+China has also ratified the concept. It being false that ethnicity demands
+any "objective" criteria to manifest itself as a social force, the historical
+importance of ethnicity is found primarily in its cultural, social and politi-
+cal impact.
+   The formation of the nationality called Mongols is an instructive case in
+modern reworking of traditional contours. In the late imperial period in
+China, many peoples of Inner Asia and Central Asia could claim descent
+or partial descent from the Mongols of the time of Chinggis Khan. In
+Chinggis's own time and shortly after, of course, many Turkic-speaking
+groups had been subsumed under the Mongol nationality, so that in Ming
+and Qing times the referent was Chinggis Khan and the four "lineages"
+that had emerged during the empire; "Turkic" and "Mongolian" are retros-
+pective taxons of modern scholarship. It is doubtful, moreover, that a
+monolithic Mongolian identity or consciousness of such identity for the
+Qing period can be demonstrated. The Qing histories carry a very complex
+nomenclature for various groups that modern scholars construct as
+"Mongols."46 In a corollary of the Qing policy of fragmenting Mongol
+federations and tribal (aimagh) units into progressively smaller portions,
+the names and divisions multiplied. Many of these peoples were not con-
+sidered Mongols (though most of them were speakers of Mongolian) by
+the Qing court, which reserved the term for those incorporated into the
+Eight Banners either before the conquest or during the campaigns of the
+Kangxi emperor in the late seventeenth century, and broadly divided them
+from the Khalkha, who were incorporated in 1691, and the Oirats (Jun-
+gars, Kalmyks) not completely subjugated until the middle eighteenth cen-
+tury.47 In the twentieth century, the group called "Mongols" has been
+reconstructed not along the lines of historical affiliation generally observed
+during the Qing, but along anthropologically-affirmed lines of language
+and geography. The Mongols proper embrace a much broader collection
+
+46The large divisions of the Qing period were already represented in the Ming records. Qing
+usage is summarized in Qingshi gao, where the peoples of parts of Mongolia and Xinjiang are
+not called Mongols at all (that was reserved for bannermen and the incorporated Chahar and
+Khalkha) but fanbu (dependent tribes), of which there are 38 (Qingshi gao, Peking: Renmin,
+1977 .14319-14528). One notes in contemporary historiography in China a tendency to write
+the history of Qing groups (particularly the Jungars and Turgots), rather than histories of the
+"Mongols." This may be a function of the documentation.
+47This includes the Kharchin Mongols, as well as the Chahar Mongols who had been
+affiliated with Ligdan Khan until his death in 1634 and were thereafter absorbed by the Qing
+Eight Banners. See also Bawden 1968, 1989:81-186; Bayan 1958; and Ramsey 1987:198-206.
+
+Thinking About Ethnicity in Early Modern China25
+
+of groups than would have been admitted under Qing nomenclature, gen-
+erally including all Khalkha and Oirat (and closely related dialects) speak-
+ers of Inner Mongolia, the Northeast, Xinjiang, Gansu, Qinghai, Yunnan
+and Sichuan. The Dongxiang (autonym Santa), Tu (autonym Monguor),
+and Bonan (Bao'an), all of whom seem to have been separated from the
+main branch of Mongols in the Yuan-Ming period and whose dialects
+diverge significantly from Mongolian, are classed separately; the Dagurs,
+who speak what is apparently a very archaic form of Mongolian, are also
+separate.
+   The modern reconstruction of historical identities is a reminder that
+modes of taxonomy are historically determined, in the present as much as
+in the past. One may question, at many points, why ethnicity may be
+chosen as a primary analytical concept when other taxonomies are at hand
+and may readily suggest themselves. As a cultural ideation, ethnicity may
+be easily seen as a variant of the alienizing processes most, perhaps all,
+societies have manifested, with great intensity at some periods. Ethno-
+genesis, in other words, remains completely incomprehensible within the
+terms of the present ethnic discourse of China studies, since ethnicity is
+often accorded the place of cause rather than effect. Yet placing ethnic
+conflict within the context of the great variety of inter-group dynamics
+(not all of them hostile) may be corrective. Inter-group, or "communal,"
+violence (fenlei xiedou) sometimes follows the contours of strict ethnic
+marking, but it is more comprehensive to state that ethnicization--or
+alienization--takes forms not always acknowledged by our own use of
+"ethnicity."48 Anti-Semitism in early modern Europe is, perhaps, a useful
+example, since the process of alienization of Jews was characterized by
+ascription to them of alien practices, alien beliefs, alien genealogies and
+alien "racial" characteristics.49 And it is worth noting that Jews had little
+personal choice regarding the imposition of these alienizing characteristics
+upon them. The persecution of Jews, motivated by fundamental social
+dynamics having little, sometimes nothing at all, to do with Jews them-
+selves and certainly nothing to do with the particular characteristics
+ascribed to them, was preceded by their alienization. But scholars of
+
+48For an attempt to construct a theory of ethnicization as both externally and internally ca-
+talyzed, see Sarna 1978.
+49The debate over Jewish raciality continued until a remarkably late date; Raphael Patai and
+Jennifer Patai Wing, for example, felt it necessary to attack the idea as late as 1975, resulting
+in a very trenchant discussion of racial thinking and its implications not only for anti-
+Semitism but also the historical prejudice against Africans. See Patai and Wing 1975:5-9,
+11-18.
+
+26PamelaKyleCrossley
+
+
+European history would be surprised to find us calling anti-Semitism "eth-
+nic conflict." Historians of modern China should be in an especially good
+position to understand this, since a similar alienization happened to intel-
+lectuals and certain other groups in the Cultural Revolution, when criteria
+that in any other context would appear suspiciously "ethnic"--accusations
+that "monsters" and "freaks" were descended from evil sources (and that
+the evidence of this could be detected even in their bones and ligaments),
+practiced secret communications, sometimes in secret (foreign) languages,
+dressed, worshipped, even walked and talked differently from the "people,"
+and genetically transmitted their evils to future generations--were applied
+to a group being alienized for altogether different reasons.50 Ethnicization
+(which appears to bracket both alienization and personal internalization of
+the alienizing process) is a subset of these alienizations, and shares many
+evident traits with them. Ethnic consciousness has not been made an
+object of analysis in the three essays here, but has been taken rather
+unskeptically as a tool in analysis of social conflict--to lesser degree by
+Ownby, to greater degree by Elliott, and to qualified degree by Harrell,
+who might use this piece as a prelude to his Ploughshare Village, plotting
+the thinning and eventual disappearance of ethnic violence as a "typology"
+within a single discrete area.51 This despite the presence of communal
+dynamics (not necessarily the same thing as ethnicity) as a plausible alter-
+native to ethnicity as a cause (not an effect), as suggested by both Ownby
+and Harrell. Indeed, Ownby's conclusion on "levels of violence" suggests
+that ethnic formulations were, at best, of second-order importance in the
+escalation of violence. The exact place of ethnic consciousness in the
+causal chain of disorder in Qing Taiwan (and, by implication, southeast
+China) is not resolved, and clearly is not intended to be resolved, in
+Ownby's highly textured account.52
+  In sum, the questions now plaguing historical ethnic studies of China
+seem to cluster into the following themes. As suggested above, the reality
+or significance of ethnic phenomena are not self-evident. Concepts of
+belonging and alienization change in any culture over time, and this
+applies not only to the past as an object of study but to academic
+discourse in the present. Nor is "ethnicity" as a historical problem sui
+
+50On the particular importance of labelling in the structure of social violence see most re-
+cently White III, 1989.
+51See Harrell 1982:134-149.
+52Alternatives (not only as the causes of violence but as the causes of "ethnicity") are also
+suggested by the typologies of violence discussed in the introduction to Lipman and Harrell
+1990.
+
+Thinking About Ethnicity in Early Modern China27
+
+generis; rather, it appears to be a function of hierarchical dynamics in cul-
+turally complex systems. The legitimation of the concept of ethnic iden-
+tity, its imposition upon select groups, and its internalization by individu-
+als are products of an imperial culture.53 The absolute importance of the
+imperial form for the imposition of taxonomies and refinement of identity
+criteria is central. More important, the placing of ethnicity within the
+context of imperialism (not merely imperialist incursion by Westerners,
+but the refinement of the imperial tradition within China itself) helps
+create a chronological horizon for the emergence of ethnic consciousness.
+In China, as elsewhere, ethnic consciousness--to be distinguished from
+"ethnicity" in the classic sense--was a product of imperial disintegration,
+and thus is a phenomenon of the nineteenth and twentieth centuries. It is
+a corollary of whatever we may understand as China's "modernization."
+Finally, the distinction between ethnic studies proper and inter-ethnic
+dynamics must be emphasized. The three studies in this issue are almost
+exclusively concerned with inter-ethnic conflict, and questions of ethno-
+genesis and ethnic identity as such have been left for other forums. This is
+not to say that the authors wish to contribute to the unstated but widely
+evinced assumption that ethnography within the China field is narrowly
+limited to an external perspective--conflict between ethnic groups or ten-
+sions between ethnies and nations--to the neglect of cultural texture of
+any ethnic world.
+   It might also be said that more insight may be required into the degree
+to which racial and/or ethnic sensibilities shaped quotidian life in China in
+the eighteenth, nineteenth and twentieth centuries. This is one of many
+questions raised by Mark Elliott's "Bannerman and Townsman: Ethnic
+Tension in Nineteenth-Century Jiangnan." Specifically, the rather pro-
+found problem of the chronological horizon for ethnic consciousness in
+the disintegrating Qing empire is introduced. Attached is the issue of
+whether China generally was a society riddled with ethnic or "racial" ten-
+sions before the Opium War. The threshold for the crystallization and
+articulation of ethnic hostilities in China has previously appeared to be the
+Taiping War, at least from the perspective of local tensions. Established
+
+53 This is to say that in a polity that had somehow realized pluralism without imperialism--
+absolute equality among culturally disparate groups, with no hegemonic status for a select
+group or groups--there would be no ethnies or ethnic groups, only "nationalities," which very
+clearly is the ideal embedded in Marxist-Leninist terminology (narod, minzu). The theory of
+culturally multiplex societies has been explored by Western thinkers on ethnicity, and the
+ideal of coexisting nationalities has been called "consociationalism." See particularly Lijphart
+1977.
+
+28PamelaKyleCrossley
+
+explanations for the appeal of early Taiping proselytizing have depended
+upon Hakka/Bendi rivalries in Guangxi, and the hostility of the Chinese
+elite to the Taipings has been dissected not in terms of inter-ethnic rival-
+ries but certainly within a discourse common to ethnography--the Confu-
+cian Weltanschauung of the elite opposed by the ethnicized iconoclasm of
+the Taiping leaders. Furthermore, the war is an obvious watershed because
+of the explicitness of the racial rhetoric adopted by Taiping leaders in the
+later phase of the war; terminology that would later be adopted by the
+empire's ethnic groups may first have appeared in the internal communi-
+cations of the Taipings, and the particular racial invective developed by
+Taiping propagandists against the Manchus was vivid.
+   The social effects in Jiangnan, particularly, were polarizing. The experi-
+ences of the devastation of the garrisons at Nanjing and Hangzhou seem
+to have reified, for a great many Manchus, much of the court's stately--
+but previously ineffective--rhetoric on the Manchu difference. Taiping
+slaughter of the Manchu populations was accompanied by an incendiary
+polemic of supernatural racial confrontation, and even those, like Li
+Xiucheng, claiming to have a mild disposition toward the Manchus
+insisted that the alien occupiers should return "home."54 It is possible that
+many Manchus began to take seriously the idea of themselves as a race at
+this time, but ethnic consciousness, for the Manchus, did not dawn until
+the conclusion of the war, when a bankrupt court could not fulfill the
+economic role it had once played with respect to the garrison communi-
+ties. The internal coherence that allowed the communities to attempt to
+press their interests against the inertia of the post-war bureaucracy, to par-
+tially rebuild on their own resources, and to adhere to banner identity
+when most compulsions and incentives to do so had eroded, adumbrated
+the emergence of the Manchus as an "ethnic group" at the end of the
+dynasty. The historical origins of ethnic discretion--the ability of an indi-
+vidual or community to make choices reinforcing or attenuating cultural
+differences from the nation--in China lie in the Taiping War, because of
+the profound damage it inflicted upon the instruments by which the Qing
+state had previously identified and administered the peoples under its rule.
+   Elliott's essay demands consideration of whether or not the behavior of
+the Manchu commander Hailing at Zhenjiang was controlled not merely
+by the realistic fear of opportunistic traitors among the Chinese civilian
+population, but also by a knowledge that Man/Han relations throughout
+the empire were poor and would intensify the volatility of the situation at
+
+54 See Crossley 1990:126-127, 26ln25.
+
+Thinking About Ethnicity in Early Modern China29
+
+Zhenjiang. Secondary questions concerning Hailing's own hostility toward
+Chinese civilians also arise. The theme of internal enemies is a classic one
+in Opium War studies,55 but has never been extensively and conclusively
+explored. Ultimately, the viability of Elliott's argument will reflect upon
+issues of the degree to which pre-Taiping China was a "racist" or ethnically
+troubled society and the extent to which this may have undermined the
+country's need to meet extraordinary military challenges in the middle
+nineteenth century. Certainly, since Manchu concern with the danger of
+internal traitors did not arise with the Opium War but was endemic to the
+history of Qing conquest and occupation of China, the theme presumably
+has the potential of reviving earlier theses on the influence of Man/Han
+hostilities over the political process and over society.
+   Finally, one moves from questions of identity and inter-group dynamics
+among people easily identified as not han--in the late Qing sense--to the
+still more complex issue of ethnicity among the group who are easily
+identified as han. The importance of Harrell's essay for the historian is
+striking.   If his demonstration of a decline in ethnic consciousness in
+Taiwan in the very late nineteenth century could be shown to be applica-
+ble to China generally in the same period, the implications for modern
+Chinese history would be profound. Chinese nationalist rhetoric in the
+last three decades of the Qing empire has generally been characterized as a
+rhetorical and political movement of select elites, with an occasional coin-
+cidence of interests with volatile but ideologically inert popular groups.
+Harrell's model of ethnicity declining in direct relationship to emerging
+national consciousness, if it could be widely confirmed on the basis of
+local studies, suggests another way entirely of viewing the problem. If it
+was true that a convergence of factors (including, as Harrell demonstrates
+in his case study, foreign intrusion) led to a genuine diminution of ethni-
+cism in the Chinese countryside, one would be forced to see the emer-
+gence of a national cultural consciousness not as an attribute of the iso-
+lated, educated elite but as an inexorable byproduct of widespread popular
+cultural change in China--or at least in large portions of China, possibly
+those most exposed to foreign (and by coincidence in this case moderniz-
+ing) influences. The elite, in this scenario, would be articulating a secular
+change that was in advance of them and independent of their leadership.
+A multitude of questions arises with regard to this proposition, but if noth-
+ing else it demonstrates again the intimate connections between sinology
+55 See for instance Fairbank 1987; Wakeman, Jr. 1966:49-57; and Crossley 1990:104; 255-
+256.
+
+30PamelaKyleCrossley
+
+and the conceit of a unified, literate, elite Chinese culture on the one
+hand, and popular culture, localism, and ethnicity on the other.
+  The dialogue between history and anthropology with respect to early
+modern China will, one presumes, gain both momentum and depth in the
+near future. The possibilities of historical ethnography already realized in
+many excellent studies will be explored more widely.          Whether these
+works will mutually challenge and nurture each other depends upon a
+more concerted focus on the questions of the ethnic texture of Ming and
+Qing society, some understanding of the diachronic contours of racial, eth-
+nic and nationalistic consciousnesses in China, and some fairly close
+analysis of episodes characterized as "ethnic" conflicts. The cases for ethni-
+city and ethnic consciousness in early modern China can undoubtedly be
+made, but the present emphasis upon inter-communal dynamics and
+undifferentiated diagnosis of supposedly "ethnic" encounters may circum-
+vent both scholarly exploration of the roots of ethnic consciousness and
+the explicit foundations of contemporary ethnic discourse.        Skepticism
+about the state of the field at present, however, does not entail pessimism
+of the potential of the field and those working it. One speculates that the
+boundaries of ethnicity in China will be found to be far more porous than
+has previously been suggested, but no less historically significant for that.
+The more such studies advance, it appears, the more rapid will be the
+deterioration of sinological conceits lingering in our professional language.
+Not a diminution, but a magnification, of the significance of China study
+will likely result.
