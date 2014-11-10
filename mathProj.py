@@ -5,6 +5,91 @@
 # Finds the distance between two vectors.
 # @A, @B: vectors that contain the frequency of the tracked words.
 # @return: the distance between the two vectors.
+
+import argparse
+
+def make_func_dict(func_file):
+	i = 0
+	myfuncdict = {}
+	for line in open(func_file):
+		sline = line.split()
+		print sline
+		myfuncdict[sline[0]] = i
+		i += 1
+	return myfuncdict
+
+def construct_vector(prof_file, func_dict):
+	doc_vector = [0] * (len(func_dict) + 2)
+	doc_vector[0] = "Professor"
+	doc_vector[1] = "Document_name"
+	for line in open(prof_file):
+		line_list = line.split()
+		for el in line_list:
+			try:
+				func_dict[el]
+			except KeyError:
+				continue #go to next word
+			#else get the value which is the index and increment
+			doc_vector[func_dict[el]] += 1
+	return doc_vector
+
+def makeWordDict(startIndex=2):
+	words = ["the", "be", "to", "of", "and", "a", 'in', 'that','have','I',
+	'it','for','not','on','with','he','as','you','do','at','this', 'but','his','by',
+	'from','they','we','say','her','she','or','an','will','my','one','all','would',
+	'there','their','what','so','up','out','if','about','who','get','which','go','me']
+	counter = startIndex
+	wordDict = {}
+	for word in words:
+		wordDict[word] = counter
+		counter += 1
+	return wordDict
+
+def reconstruct_vector(vector_file, word_dict):
+    #professor name(space)paper_title(space)word_index(space)freq word_index(space)freq...
+    #brookes federalism_paper 2 10 3 10 4 13 5 10 ...
+    vector_list = [] #hold the vectors
+
+    for line in open(vector_file):
+        sline = line.split()
+        new_vec = [0] * (2+ len(word_dict))
+        new_vec[0] = sline[0]
+        new_vec[1] = sline[1]
+        for i in xrange(2,len(sline),2):
+            word_index = sline[i]
+            word_freq = sline[i+1]
+            if not word_index.isalpha():
+                #start constructing the vector
+                new_vec[int(word_index)] = int(word_freq)
+        vector_list.append(new_vec)
+    return vector_list #not sure if this is how we want it. Func words don't automatically have this index, right?
+
+word_dict = makeWordDict()
+print reconstruct_vector("vectors", word_dict)
+
+
+# if __name__ == "__main__":
+#     print "whaddup"
+#     parser = argparse.ArgumentParser(description="Command line parser")
+#     parser.add_argument('-f', required="True")
+#     parser.add_argument('-o', required="True")
+#     parser.add_argument('-r', nargs="*", required="True")
+#     args = vars(parser.parse_args())
+#     prof_files = args["r"]
+#     out_file = args["o"]
+#     f = open(out_file, 'w+')
+#     func_word_file = args["f"]
+#     #how to have a list of args
+#     func_dict = make_func_dict(func_word_file)
+#     print func_dict.values()
+#     print func_dict.keys()
+#     for file in prof_files:
+#         vector = construct_vector(file, func_dict)
+#         #WRITE TO SOME FILE
+#         print "hey"
+#         for val in vector:
+#             f.write(str(val))
+
 def compareVectors(A, B):
 	if len(A) != len(B):
 		return
@@ -26,17 +111,7 @@ def writeVectorToFile(A, filename):
 	f.write("\n")
 	f.close()
 
-def makeWordDict(startIndex):
-	words = ["the", "be", "to", "of", "and", "a", 'in', 'that','have','I',
-	'it','for','not','on','with','he','as','you','do','at','this', 'but','his','by',
-	'from','they','we','say','her','she','or','an','will','my','one','all','would',
-	'there','their','what','so','up','out','if','about','who','get','which','go','me']
-	counter = startIndex
-	wordDict = {}
-	for word in words:
-		wordDict[word] = counter
-		counter += 1
-	return wordDict
+
 
 def test():
 	print "Testing compareVectors function"
@@ -48,4 +123,3 @@ def test():
 	writeVectorToFile(A, "myfile.txt")
 
 #test()
-makeWordDict()
