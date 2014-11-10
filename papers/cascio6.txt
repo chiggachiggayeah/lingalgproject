@@ -1,0 +1,1000 @@
+Elizabeth Cascio
+Economics
+Is Being in School Better?
+
+Financial support from the USDA through the RIDGE Grant Program and the Robert Wood Johnson
+Foundation's Healthy Eating Research Program (Award #57922) is gratefully acknowledged. We
+also thank Kosali Simon, Tom DeLeire and seminar participants at Indiana University for helpful comments.
+The views expressed herein are those of the authors and do not necessarily reflect the views of the
+National Bureau of Economic Research.
+
+NBER working papers are circulated for discussion and comment purposes. They have not been peer-
+reviewed or been subject to the review by the NBER Board of Directors that accompanies official
+NBER publications.
+
+
+                                              ABSTRACT
+
+In this paper, we investigate the impact of attending school on body weight and obesity. We use school
+starting age cutoff dates to compare weight outcomes for similar age children with different years
+of school exposure. As is the case with academic outcomes, school exposure is related to unobserved
+determinants of weight outcomes because some families choose to have their child start school late
+(or early). If one does not account for this endogeneity, it appears that an additional year of school
+exposure results in a greater BMI and a higher probability of being overweight or obese. When actual
+exposure is instrumented with expected exposure based on school starting dates and birthday, the significant
+positive effects disappear, and most point estimates become negative and insignificant. However,
+for children not eating the school lunch, there is a significant negative effect on the probability of being
+overweight.
+
+
+
+Patricia M. Anderson                                  Elizabeth U. Cascio
+Department of Economics                               Department of Economics
+Dartmouth College                                     Dartmouth College
+6106 Rockefeller                                      6106 Rockefeller Hall
+Hanover, NH 03755-3514                                Hanover, NH 03755
+and NBER                                              and NBER
+patricia.m.anderson@dartmouth.edu                     elizabeth.u.cascio@dartmouth.edu
+
+Kristin F. Butcher                                    Diane Whitmore Schanzenbach
+Department of Economics                               School of Education and Social Policy
+Wellesley College                                     Northwestern University
+106 Central Street                                    Annenberg Hall, Room 205
+Wellesley, MA 02481                                   2120 Campus Drive
+and NBER                                              Evanston, IL 60208
+kbutcher@wellesley.edu                                and NBER
+                                                      dws@northwestern.edu
+
+I. Introduction
+
+        In recent decades, there has been a stark increase in childhood obesity, with rates tripling
+
+from 5% in the early 1970s to 15% by the early 2000s. This increase in childhood obesity raises
+
+many concerns. For example, Type II diabetes is occurring at younger ages. In fact, we can no
+
+longer refer to juvenile diabetes and adult-onset diabetes, but instead use the terms Type I and
+
+Type II. In addition to health concerns, overweight children have been found to have lower
+
+quality-of-life scores, and there is some evidence that they may have worse academic outcomes
+
+(see Taras and Potts-Datema (2005) for a review of this literature). These concerns about
+
+childhood obesity have led to many studies, but to this point there is no "smoking gun" that
+
+clearly explains a majority of the increase. Given that children spend a large amount of time in
+
+school, many studies have focused on the school environment.
+
+        For example, Schanzenbach (2009) concludes that regularly eating school lunch (as
+
+opposed to bringing a lunch from home) increases obesity rates by about 2 percentage points.
+
+Similarly, Anderson and Butcher (2006) find that a 10 percentage point increase in the likelihood
+
+of being exposed to junk food in school results in a 1 percent increase in the average student's
+
+BMI. While these studies are consistent with school attendance being deleterious for one's
+
+health, it is important to realize that they do not necessarily imply that this is the case. Rather,
+
+they both indicate that some school environments are worse than others ­ that is, schools with
+
+higher quality lunches and less junk food would produce leaner children than those with lower
+
+quality lunches and more junk food. It may still be the case, though, that being in school is better
+
+than being out of school. Von Hippel et al. (2007) try to directly address this question, by
+
+comparing weight gain in the summer to weight gain during the school year. They conclude that
+
+
+
+
+                                                                                                 1
+
+the rate of weight gain is faster during the summer, although there are many caveats to their
+
+findings, including issues of seasonality.
+
+        A straightforward way to think about the impact of being in school versus not being in
+
+school takes advantage of school starting age cutoffs, an approach that has previously been used
+
+to estimate the effect of educational attainment on test scores (Gormley and Gayer, 2005; Cascio
+
+and Lewis, 2006), adult well-being (Dobkin and Ferreira, 2010), and birth outcomes (McCrary
+
+and Royer, forthcoming). Consider a state that requires that a child reach age 5 by September 1
+
+in order to start kindergarten that fall. A child born on August 31 will start kindergarten at the
+
+age of five years and one day and be in school for the next year, while one born on September 2
+
+will have to wait until the following year to begin kindergarten and will be aged 5 years and 364
+
+days on entry. The only difference between these similar-age children is being born one day
+
+before or after September 1. Ideally, we would want to compare these children at the end of the
+
+year where one is in school and the other is not. However, since the slightly older child will
+
+always have one additional year of school exposure for a given age, later comparisons should
+
+also be informative. Much later comparisons, however, may begin to conflate any positive effect
+
+of education on health with a pure school exposure effect. Zhang (2007) uses school starting
+                                                                    1
+
+
+
+age laws in combination with the NLSY97 to determine that teenage girls with more education
+
+are less likely to be overweight, a finding she attributes to the possibility that education promotes
+
+healthier eating habits.
+
+        In this study, we estimate the reduced-form impact of being in school on children's body
+
+weight. We start by using data from the Early Childhood Longitudinal Study ­ Kindergarten
+
+cohort of 1998 (ECLS-K) to compare the weights of children who have one versus two years of
+
+school exposure. We first show that a simple ordinary least squares (OLS) approach is
+
+1See Cutler and Lleras-Muney (2010) for a recent discussion of the education gradient in health.
+
+
+                                                                                                    2
+
+misleading. We then move to an instrumental variables approach that exploits the regression
+
+discontinuity in school exposure in birthday around school entry cutoff dates, described above.
+
+Using this approach, we find no strong evidence that an additional year of schooling has either
+
+positive or negative effects on weight outcomes, although there are some indications that school
+
+may be beneficial if one avoids eating the school lunch. We then supplement the ECLS-K
+
+results with some estimates using the National Longitudinal Survey of Youth Mother-Child
+
+matched data (NLSY79).
+
+
+
+
+II. Empirical Approach
+
+        The fact that most states set a date by which children should be five years old in order to
+
+start kindergarten implies that some six year olds will be in first grade, while others will be in
+
+kindergarten. Consider, for example, a state with a September 1 cutoff. A child born on
+
+September 2 will miss the cutoff and be six at the beginning of kindergarten the following year
+
+(an "older starter"). By comparison, a child born just a day earlier who was allowed to start
+
+kindergarten (a "younger starter") will be in first grade when she is six. Thus, we have two
+
+children with almost identical ages, one of whom (the younger starter) has been exposed to
+
+school for an additional year. If, in fact, being in school improves weight outcomes, as implied
+
+by von Hippel et al. (2007) and Zhang (2007), then the younger starters should have a healthier
+
+weight for their age than the older starters. If, instead, the younger starters have a less healthy
+
+weight for their age than the older starters, then we can conclude that not only are some school
+
+environments worse than others (as in Anderson and Butcher (2006) and Schanzenbach (2009)),
+
+but that any school can be bad for weight outcomes.
+
+
+
+
+                                                                                                 3
+
+         If everyone complied with the school starting age dates set by the states, a simple
+
+regression of weight outcomes on current grade, controlling for age, would replicate the thought
+
+experiment described above. One would indeed be comparing the six year old born September 2
+
+and now in kindergarten with the six year old born August 31 and now in first grade. However,
+
+many schools do not strictly enforce the state cutoffs, and will allow the September 2 child to go
+
+ahead and start if the family requests it. More importantly, the entry cutoffs, even if strictly
+
+enforced, are only eligibility cutoffs in many states. Thus, while a child turning age five on
+
+August 31 is eligible to start kindergarten, there may be no requirement that he start. Typically,
+
+school attendance requirements only apply to an older age (as part of truancy laws). For
+
+example, a state with a September 1 cutoff makes a child who is five on September 1 eligible for
+
+kindergarten, but the child may not be required to be in school until they are six (or even seven if
+
+the state does not require kindergarten) on September 1. As a result, actual grade is determined
+                                                                 2
+
+
+
+not just by the state legislation, but also by parents' decisions.
+
+         Over the past several decades, the trend has been to send children to kindergarten at older
+
+ages. Deming and Dynarksi (2008) show that much of this trend is explained not by the
+     3
+
+
+
+increases in legal minimum age at school entry that have been implemented in many states, but
+
+rather by parental decisions to hold back children who are eligible to start kindergarten. This
+
+practice of "red-shirting" is seen more often among groups with higher socioeconomic status,
+
+and is especially common for boys. Given that boys are typically thought to mature socially a bit
+
+later, their being more likely to be held back is probably not surprising. However, the higher
+
+red-shirting rates for more advantaged groups are perhaps more so, given that their children
+
+should be the most ready for formal schooling. Anecdotally, parents are concerned that their
+
+
+
+2See http://www.fcps.edu/start/kindergarten.htm for an example of just such a rule.
+3All of the facts in this paragraph are based on Deming and Dynarski (2008)
+
+
+                                                                                                4
+
+child not be the youngest in the cohort, believing that an older child will have a competitive
+
+edge.  4
+
+
+
+         From the perspective of our paper, it will be interesting to see if physical maturity
+
+influences the parental decision of when to start a child in school. In particular, if children with
+                                                                                   5
+
+
+
+lower body weight are considered less "ready" for kindergarten and held back, a simple ordinary
+
+least squares regression of weight on current grade, controlling for age, will make it appear that
+
+school exposure increases weight. To avoid bias from the endogenous choice of school starting
+
+age, we will implement what is essentially a regression discontinuity (RD) approach.
+
+         Consider the following model:
+
+         Yi = f(agei, Xi, school exposurei),
+
+Where Y is a measure of body weight, and X is a set of demographics, such as race, gender and
+
+parental characteristics. This simple model, when estimated via OLS (and using actual grade as
+
+the measure of school exposure) would be expected to be biased by the endogeneity of the school
+
+starting decision. This is this version of the model that we start with, in order to investigate the
+
+role of parental decision-making. We then move to an RD specification, using a dummy variable
+
+for "making the cutoff" as the measure of school exposure. Throughout, "making the cutoff"
+
+implies having a birthday that falls either on or in the six months prior to the school entry cutoff
+
+in one's state of residence. Finally, we combine the RD and straightforward regression
+
+approaches by measuring school exposure with actual grade, but using the dummy for making
+
+the cutoff as an instrument.
+
+
+
+4It is not clear from the literature that there is any lasting advantage to being relatively older, and there remains the
+possibility that by starting older, the minimum drop-out age will apply at lower grades, resulting in less total
+education received.
+5Physical and emotional maturity may be especially correlated for premature births, as the child's developmental
+age may be better measured by "age since conception" and the physical and developmental effects of prematurity
+may linger.
+
+
+                                                                                                                    5
+
+III. Data
+
+        We mainly use data from the Early Childhood Longitudinal Study ­ Kindergarten Cohort
+
+of 1998 (ECLS-K) to investigate the impact of school exposure on children's weight. If the data
+
+had been collected on, say, a single birth cohort regardless of the grade attended by the child, it
+
+would be relatively straightforward to implement our RD approach. In such a case, for example,
+
+we would be able to compare a child born on August 31, 1992 to one born on September 2, 1992.
+
+If both children complied with the September 1 school entry-age cutoff rule, and we weighed
+
+them both when they were exactly 6 years and 8 months old (approximately May 1, 1999), then
+
+the August-born child would be in first grade at the time of measurement and the September-
+
+born child would be in kindergarten. Both children have approximately the same age, but the
+
+August-born child has (essentially exogenously) one additional year of schooling. We would
+
+then attribute any difference in weight between the children to the impact of the additional year
+
+of school.
+
+        In practice, though, constructing the comparison is more complicated because the data
+
+follows only a single grade-based cohort. All of the children in the ECLS-K were in
+
+kindergarten in the fall of 1998. The key feature of the data that allows us to construct the RD is
+
+that the children are weighed and measured near the end of both kindergarten and first grade.
+
+Thus, comparing measurements from younger starters in first grade to those from older starters
+
+in kindergarten will successfully compare similar-aged children with different exposure to
+
+school. To continue the example described in the paragraph above (and assuming compliance
+
+with a September 1 age-entry cutoff), in order to be in the 1998-99 kindergarten cohort a
+
+September-born child would be born in 1992, while an August-born child would be born in
+
+1993. When the kindergartners are weighed and measured on May 1, 1999 after nearly 1 year in
+
+
+
+
+                                                                                               6
+
+school, the September-born child is approximately 6 years 8 months old, while the child born on
+
+August 31 is almost a year younger (almost 5 years 8 months old). When they are weighed in
+
+first grade at the end of their second year in school, the September- and August-born children are
+
+approximately aged 7 years 8 months, and 6 years 8 months, respectively. Therefore, in order to
+
+compare the two children at approximately the same age but (exogenously) different years of
+
+school exposure, we would compare the September-born child in measured in kindergarten with
+
+the August-born child in measured in first grade, when each is about 6 years 8 months old.
+
+        Table 1 lists the age distribution at the point in time that the students are weighed and
+
+measured in both kindergarten and first grade. The data are shaded to illustrate how we choose
+
+one measurement per child from the spring kindergarten and spring first grade waves of the
+
+ECLS-K panel to create our final cross-sectional data set. For simplicity, the table and
+
+exposition below use a September 1 cutoff date. In fact, while this is the modal cutoff, there are
+
+14 different cutoff dates employed by the states and we use the cutoff appropriate for each
+
+student's state of residence. In this example, we use the measurement taken when the student's
+                               6
+
+
+
+age is between 6 years 3 months and 7 years 2 months. Among entry-age compliers, this amounts
+
+to using the kindergarten measurement for those born September ­ February (the "older
+
+starters"), and the first grade measurement for those born March ­ August (the "younger
+
+starters"). Since we measure age relative to the cutoff in days, the September and August
+
+students will be only a few days different in age at the time of observation. More generally, we
+
+use a 12-month range of age centered on the age at the end of kindergarten of the youngest
+
+complier with a state's school entry cutoff.
+
+
+
+
+6We use the 1998 cutoff dates specified in Datar (2004). Thirty eight percent of the children live in states using a
+September 1 cutoff and 70 percent are subject to cutoffs in August, September or October.
+
+
+                                                                                                                7
+
+        There are two types of non-compliers in the ECLS-K kindergarten cohort. First are
+
+students who would have entered kindergarten in the year prior to the ECLS-K cohort, but
+
+delayed entry, so that instead of entering school when they had recently turned five years old,
+
+they delayed until they were six. These students were born between March and August of 1992,
+
+and, in the case of the September 1 cutoff illustrated in Table 1, range between ages 6 years 9
+
+months and 7 years 2 months when they are measured in kindergarten. For these students, we
+
+use the measurement taken in kindergarten. The second type of non-compliance comes from
+
+students who miss the cutoff date but nonetheless start school early before they reach age five.
+
+In the example, these students were born between September 1993 and February 1994, and when
+
+they are measured in first grade are between 6 years and 3 to 8 months old.
+
+        Table 2 illustrates how the sample is arranged to provide one observation per child that is
+
+measured when the child fits into the desired age range, and is assigned an age relative to the
+
+state cutoff for the purposes of implementing the regression discontinuity design. Note that we
+
+limit our sample to the two years of birth dates implied by Table 2. That is, all individuals are
+                                                                             7
+
+
+
+born in either the 6 months before/after the current year cutoff (the right side of the top panel/left
+
+side of the bottom panel), or the 6 months before/after the previous year cutoff (the right side of
+
+the bottom panel/left side of the top panel).
+
+        If all children complied with the state laws, we would have a sharp discontinuity, and
+
+would simply compare the left-side of the top panel of Table 2 with the right-side. In reality, the
+
+presence of non-compliers makes the discontinuity a fuzzy one. First, there are some younger
+
+starters (the left-side of the bottom panel) who miss the cutoff, but are nonetheless exposed to an
+
+extra year of school. Far more common are the "red-shirts" or older starters (the right-side of the
+
+bottom panel) who make the cutoff, but are not exposed to the extra year of school. The actual
+
+7This uses 97% of the sample, excluding mainly those who delayed starting school by over a year.
+
+
+                                                                                                   8
+
+relationship between age (relative to cutoff) and years of school exposure is shown in Figure 1.
+
+The dots on the figure are averages of the dependent variable across 7-day bins. Observations to
+
+the right of the cutoff (represented by a vertical line at x=0) are predicted to have more school
+
+exposure. While the discontinuity is clear, it is not as sharp as it would be in a world with only
+
+compliers.
+
+         The maintained assumption in an RD approach like this is that there is no other variable
+
+that changes discretely at the entry cutoff. In Figure 2, we demonstrate that there is no
+
+discontinuity in calendar age measured in days. Our sample selection method has ensured that
+
+calendar age increases smoothly with age relative to the school entry cutoff. As a result, the
+
+children on either side of the entry cutoff are just days apart in age, but have been exposed to
+
+sharply different amounts of school. Adding further credibility to our identification strategy,
+
+there are also no sharp differences at the entry age cutoff along any other background
+
+characteristic (figures available upon request).         8
+
+
+
+         We supplement the ECLS-K results using data from the National Longitudinal Survey of
+
+Youth 1979 Mother-Child matched file (NLSY79). The NLSY79 began in 1979 by surveying
+
+12,682 individuals born between 1957 and 1964. Children of the 6,283 female NLSY79
+
+respondents began to be surveyed in 1986 and have been followed up every two years since then.
+
+It is these children who form the base of our NLSY79 sample. Note, however, that the sample
+
+
+8There is one minor drawback to using the ECLS-K data: we are missing the very small group of students who
+deviate from the normal patterns. In particular, to obtain a fully representative sample of children born in August, we
+would want to observe three groups of students: those that start on time, those that start a year late (the "red-
+shirters"), and the extremely small group (1 student in the ECLS-K) that starts a year early even though that would
+make them extremely young relative to their grade cohort. In the ECLS-K data, these groups are born in August
+1993, August 1992, and August 1994, respectively. We cannot include any students born in August 1994 because
+we do not observe a weight measurement for them during the proper age range (between 6 years 3 months and 7
+years 2 months). We have the reverse problem with September-born students. While we observe those who start on
+time (born 1992) and those who start early (born 1993), we are forced to omit the 6 students who delay school entry
+an extra year even though they would have been among the oldest students in their cohort if they complied with the
+entry cutoff (born 1991). To the extent these missing cases are inherently heavier/lighter than average, a small bias
+towards OLS will result.
+
+
+                                                                                                                 9
+
+children are not representative of all children in the United States. In particular, given the
+
+maternal sample, there is an over-representation of children born to young mothers. We
+
+therefore limit our sample to children with mothers who were between the ages of 19 and 40 at
+
+the time of their birth. The NLSY79 also has some problems with data accuracy. In particular,
+
+we exclude observations with recorded BMI outside the range of measured BMI values in the
+
+National Health and Nutrition Examination Survey (NHANES) for the corresponding age
+
+group. We then use two subsamples to supplement the ECLS-K results. First, we use only
+       9
+
+
+
+children who were age 5 or 6 in the fall of the survey year, to mimic the ECLS-K cohort sample.
+
+Second, we expand the sample to all pre-adolescent children age 5 to 10.
+
+         While the NLSY79 samples do not have the drawback of being a grade-cohort sample
+
+like the ECLS-K, they have their own drawbacks. First, the ratio of individuals reported to be in
+
+a grade higher than predicted (based on their birth date and the school starting date for their
+
+state) relative to those in a grade lower than predicted is higher than one would expect given red-
+
+shirting patterns. Second, the sample is relatively small, limiting statistical power, especially in
+
+the RD approach. Thus, our main use of the NLSY79 data is to compare the point estimates to
+
+those from the ECLS-K.
+
+
+
+
+IV. Results
+
+A. Main ECLS-K Models
+
+         Table 3 presents the main results of our analysis, based on the ECLS-K sample.                  10  Recall
+
+that the basic model took the form:
+
+         Yi = f(agei, Xi, school exposurei).
+
+
+9For the mothers, this implies dropping observations outside the range of 15 to 66 and for the children, outside the
+range of 11 to 40.
+10Appendix Table 1 provides summary statistics.
+
+
+                                                                                                              10
+
+In each of the models in this table, the function of agei that we use is a cubic of age in days
+
+(relative to the starting cutoff) that is estimated separately before and after the cutoff. In all but
+
+column (1), Xi includes dummies for race, gender, mother's education and state. Only state
+
+dummies are included in column (1). The measures of school exposurei and of Yi used vary by
+
+column and panel and are indicated in the table and described in more detail below. All models
+
+use standard errors that are robust to heteroskedasticity and within-school correlation in the error
+
+terms. 11
+
+
+
+        The top panel presents the simple OLS estimate of the model using actual school
+
+exposure. Since in this sample individuals are either in kindergarten or in first grade (i.e., have 1
+
+or 2 years of school), this exposure variable is simply a dummy variable for being observed in
+
+first grade. Columns (1) and (2) estimate the relationship to ln(BMI). Controlling for additional
+
+demographics makes very little difference, and in both cases, greater school exposure is
+
+positively, and statistically significantly, correlated with body weight. The same is true in
+
+columns (3) and (4), where the probability of being obese and overweight, respectively are
+
+significantly higher with more school exposure. In column (5), the relationship with the
+
+probability of being underweight is negative, but not significant at conventional levels.
+
+        As noted above, though, to the extent that parental decisions to comply with the starting
+
+date cutoff are influenced by factors correlated with body weight, then these OLS estimates will
+
+be seriously biased. Thus, the most appropriate interpretation of this top panel is not that school
+
+exposure causes children to gain weight. Rather, it appears that the determination of school
+
+"readiness" that parents make either includes body weight explicitly, or includes things that are
+
+highly correlated with it, since the younger starters are significantly heavier than the older
+
+starters when observed at the same age.
+
+11Clustering standard errors on centered age (in days) yields similar inferences.
+
+
+                                                                                                 11
+
+        The second panel substitutes predicted school exposure for actual school exposure,
+
+meaning we use a dummy variable for being predicted to be in first grade ("making the cutoff" in
+
+the ECLS-K), given the child's birth date relative to the school entry cutoff date. Thus, this
+
+panel implements the regression discontinuity approach. The effect of removing the endogeneity
+
+of the school starting decision is clear: school exposure is now negatively related to ln(BMI), as
+
+shown in columns (1) and (2). However, the estimated effect is not statistically significant.
+
+Appendix Figure 1 illustrates this result, plotting weekly means of ln(BMI) (as in Figure 1) as
+
+well as predicted fits from the RD specification. While the impact on the probability of being
+
+overweight also becomes negative, the estimated effect on the probability of being obese remains
+
+positive, albeit smaller than in the first panel, and not statistically significant. Interestingly, the
+
+negative effect in column (4) comes closer to being significant than any of the other columns, but
+
+the p-value is still just 0.156. Appendix Figure 2 illustrates this model. Finally, as was the case
+
+with the OLS model in the top panel, there is no discernible effect of school exposure on the
+
+probability of being underweight, although in this RD model the point estimate is very close to
+
+zero and the p-value is very high.
+
+        While these RD models are a straightforward approach to using the variation in school
+
+exposure stemming from school starting dates, they can also be thought of simply as the reduced
+
+form to an instrumental variables approach, which is carried out in the bottom two panels. Using
+
+whether a child is predicted to be in first grade (based on age and school cutoff date) as an
+
+instrument for actually being in first grade results in a very strong first stage. As was clear in
+
+Figure 1, however, the presence of noncompliers means the prediction is not perfect, giving us a
+
+coefficient of 0.64 instead of the 1.0 that would be obtained with perfect compliance. The IV
+
+estimates in the bottom panel are consistent with the reduced form estimates in the second panel,
+
+
+
+
+                                                                                                  12
+
+but have essentially just been scaled up to reflect the fuzziness of the discontinuity.              12  While we
+
+are unable to reject that the estimated effects are equal to zero, in all cases except for columns (3)
+
+and (5), we can reject that the IV estimates are the same as the OLS estimates. For example, in
+
+column (2) the IV point estimate suggests that an additional year of school reduces BMI by 1.6
+
+percent, and this effect is significantly different from the OLS point estimate that suggests that an
+
+additional year of school increases BMI by 1.6 percent. Given the pattern of OLS versus IV
+
+estimates, it is clear that there is a positive bias in the OLS estimates. It does appear that parents
+
+are taking into consideration some factor(s) correlated with body weight when deciding whether
+
+to comply with school starting date cutoffs. The IV estimates suggest that increased school
+
+exposure is not likely to (on net) increase body weight. There is also not statistically strong
+
+evidence that it decreases body weight.
+
+B. Alternate ECLS-K Models and Subgroup Analyses
+
+          Table 4 repeats the same exercise as in Table 3, but with a set of alternate outcomes. The
+
+purpose here is two-fold. First, as a falsification exercise, we look at two physical outcomes that
+
+should not be affected by an additional year of school exposure. Column (1) looks at ln(height),
+
+while column (2) looks at ln(birthweight).          13  The positive and significant coefficients in these
+
+columns in the first panel are just further evidence that the OLS models are biased due to parents
+
+basing school starting decisions on unobservable characteristics of the child that are correlated
+
+with physical attributes.      14 By focusing on the school starting date cutoffs, though, the spurious
+
+significantly positive effect is removed. For height, the RD and IV point estimates are
+
+
+
+12Thus, looking at column (4), for example, -0.0441 / 0.638  -0.0692.
+13Technically, school exposure could affect height if education increases nutritional quality sufficiently, but this is
+unlikely to be the case in the United States when comparing kindergarteners to first graders.
+14Obviously, parents may actually be making decisions based on height (e.g. not wanting the child to be the smallest
+in class) or on birthweight (e.g. basing decisions for premature children based on age since conception). The key is
+that the results in this panel cannot represent causal estimates, and the same is true of Table 3.
+
+
+                                                                                                                13
+
+essentially zero, while for birth weight the positive estimate is cut almost to a third of the OLS
+
+coefficient, and is not statistically significantly different from zero.
+
+         Column (3) documents that the RD and IV approaches used here find strong impacts of
+
+school exposure on student test scores, as the literature suggests. Column (3) is the score on a
+
+math test, standardized across both grades. The expectation is that when standardizing across
+
+grades, having more school exposure is helpful, since a child with two years of school has
+
+presumably learned more than one with just a single year of school. Comparing the top panel
+
+with the bottom, we first again see the positive bias in the OLS estimates. Since parents are
+
+more likely to hold back a child that is less prepared academically, and vice versa, school
+
+exposure will appear to have a more positive impact on academic outcomes. While the IV
+
+estimates are less positive, they are very precisely estimated and significantly different from both
+
+zero and the OLS estimates.        15  Thus, we see that children are learning something in school ­ an
+
+extra year of schooling increases performance on the standardized test by just over three-quarters
+
+of a standard deviation.
+
+         At this point, it appears that there is no deleterious effect of school exposure on children's
+
+weight outcomes. If anything, the point estimates imply a small, but insignificant, reduction in
+
+BMI and the probability of being overweight. If being in school is better for weight outcomes,
+
+what are the potential mechanisms? One clear possibility is that being in school reduces
+
+opportunities for eating outside of prescribed times. As shown in Anderson, Butcher and
+
+Schanzenbach (2011), cutting the equivalent of one Oreo cookie per school day (about 300
+
+calories per week) out of a child's diet over the course of a school year can reduce BMI by over
+
+2 percent. Thus, a reduction in snacking upon going to school can reduce body weight. At the
+
+
+
+15Appendix Figure 3 graphs the results of the reduced form model from column (3), making clear how much more
+precise the estimates are for this outcome compared to the body weight results from the previous table.
+
+
+                                                                                                         14
+
+same time, much of the school day is spent sitting still and a reduction in activity can increase
+
+body weight. However, most children are not continuously active when out of school, and
+
+school does (usually) provide recess and physical education. For some children, providing such
+
+an opportunity for physical activity may actually increase their daily exercise.
+
+        Recall, however, that some studies have shown deleterious effects of certain school
+
+environments. In the case of exposure to junk food in schools, this exposure is relatively low in
+
+kindergarten and first grade, with the largest exposure coming in high school. The positive
+
+effect on obesity found in Anderson and Butcher (2006), for example, was based on a sample of
+
+adolescents. For the comparison in this paper, between being exposed to just kindergarten versus
+
+first grade, exposure to junk food in school is unlikely to play a major role. However, exposure
+
+to school lunch is likely to be more important. As shown in Schanzenbach (2009), eating the
+
+school lunch, even at young ages, results in a higher probability of overweight. With this effect
+
+in mind, we repeat the models of Table 3, estimated separately for those who report eating the
+
+school lunch and those who report not eating it. Tables 5a and 5b present these results.
+
+        The basic patterns seen in both tables are similar to those from Table 3, in that positive
+
+OLS point estimates generally reverse to negative IV point estimates. However, these point
+
+estimates are much more negative for the sample in Table 5b of those not eating school lunches.
+
+In fact, the effect on the probability of overweight is marginally significant, with a p-value of
+
+0.07. 16 It is important to remember that eating or not eating school lunch is not exogenous.
+
+Poorer children qualifying for free or reduced-price lunch are more likely to eat school lunch, for
+
+example. This likely difference in socioeconomic status may be the driving force behind the
+
+difference in the first stages across Tables 5a and 5b. While in both cases the first stage is very
+
+strong, the point estimate is much larger in Table 5a, implying that there are fewer non-compliers
+
+16The results from the reduced form model are shown in Appendix Figure 4.
+
+
+                                                                                               15
+
+in that sample. Recall the earlier discussion of red-shirting being mainly a higher socioeconomic
+
+phenomenon, which is consistent with these results.
+
+        We next investigate whether the finding that school exposure may be healthful provided
+
+one does not eat lunch is not just a reflection of differences across the socioeconomic class of
+
+school-lunch-eaters and non-school-lunch-eaters. Thus, we also split the sample by whether the
+
+child's family had ever participated in a broader set of poverty-alleviation programs. In addition
+
+to ever getting free or reduced-price lunch, we included anyone who reported being food
+
+insecure, or participating in Food Stamps, Head Start, or WIC. Appendix Tables 2a and 2b
+
+present the results of this exercise. Whereas like Tables 5a and 5b, the first stage estimate is
+
+much higher in Appendix Table 2a than 2b, the differences in results are less noticeable and are
+
+generally in line with the overall sample results in Table 3. That said, the point estimates are
+
+slightly more negative for the group of poverty program non-participants, but unlike those not
+
+eating school lunch, the results never come close to being statistically significantly different from
+
+zero.
+
+C. NLSY79 Models
+
+        Based on the estimates from the ECLS-K data using variation in school exposure due to
+
+state school starting-age cutoff dates, there is no evidence that being in school, per se, contributes
+
+to children's weight gain. If anything, it appears possible that school is helpful, with the possible
+
+exception of those eating the school lunch. To assess the robustness of these findings across a
+
+wider age range, in this section we investigate similar models estimated with the children of the
+
+
+
+
+                                                                                               16
+
+NLSY. Appendix Tables 3 and 4 present results similar to those in Table 3 for two different
+
+samples of NLSY children.         17
+
+
+
+        Appendix Table 3 limits the sample to children who were five or six in the fall of the
+
+survey year, and thus, should most closely parallel the ECLS-K sample. Unfortunately, the small
+
+samples result in estimates even less precise than those from the ECLS-K. In fact, it is not even
+
+possible to reject the null hypothesis that the OLS and IV models are the same. That said, there
+
+is no evidence from these NLSY results that our previous conclusions are seriously misguided.
+
+Even when we expand the NLSY sample to all pre-adolescent children aged five to ten, in
+
+Appendix Table 4, the imprecision remains.              18
+
+
+
+        Ultimately, what we take from these estimates is confirmation of our ECLS-K findings.
+
+The fact that we do not find deleterious effects of school exposure is reasonable evidence that
+
+those effects are unlikely to exist. At the same time, being in school may be better for children
+
+than we are able to estimate, but it seems safe to conclude that one's best bet for reaping the
+
+weight benefits from school exposure will come for those not participating in the school lunch
+
+program.
+
+
+
+
+V. Conclusions
+
+        Public health policymakers have tended to focus on schools as an important battleground
+
+in the fight against childhood obesity, feeling that the current school environment may be a
+
+contributing factor to the increase in childhood obesity (e.g. Haskins et al. 2006). While studies
+
+have found that eating school lunches and being exposed to junk food in schools may result in
+
+17In both tables, standard errors are robust to heteroskedasticity and within-family correlation in the error terms.
+School entry cutoff dates by state and year were collected by the authors from state session laws and assigned to
+individuals based on birthdate and state of residence at age five.
+18Results for alternative outcomes are available on request. Even using standardized math scores as in column (3)
+of Table 4 does not result in statistically significant results for 5-6 year-olds, although 10 percent significance is
+obtained with the expanded age group.
+
+
+                                                                                                                  17
+
+weight gain (Schanzenbach 2009, Anderson and Butcher 2006), these studies only show that
+
+some school environments are worse than others. They do not necessarily imply that the school
+
+environment in general is worse than the non-school environment. In fact, other studies indicate
+
+that summer is worse than the school year for weight gain (von Hippel et al. 2007) and that teen
+
+girls with more education are less likely to be overweight (Zhang 2007).
+
+        In this paper, we use school starting age cutoff dates to compare weight outcomes for
+
+similar age children with one versus two years of school exposure. As is the case with academic
+
+outcomes, school exposure is related to unobserved determinants of weight outcomes. If one
+
+does not account for this endogeneity, it appears that an additional year of school exposure
+
+results in a greater BMI and a higher probability of being overweight or obese. When actual
+
+exposure is instrumented with predicted school exposure in a regression discontinuity
+
+framework, the significant positive effects disappear. However, while the point estimates
+
+generally become negative and are significantly different from the OLS results, they are not
+
+statistically significantly different from zero. One exception is the effect of school exposure on
+
+the probability of being overweight for children who do not participate in the school lunch
+
+program. However, we are cautious in interpreting this result as entirely causal, since the sample
+
+is based on the endogenous decision whether to participate in the school lunch program.
+
+        The fact that the OLS and IV results are statistically significantly different is somewhat
+
+interesting in its own right. Researchers have long recognized that endogeneity of the school-
+
+starting decision biases estimates of the effect of schooling on academic outcomes, as parents
+
+will take into account a child's academic readiness (unobserved to the researcher) in making that
+
+decision. Our results make clear that either these unobserved traits are highly correlated with
+
+physical attributes like BMI and overweight, or these physical traits are directly taken into
+
+
+
+
+                                                                                              18
+
+account. Our findings lead us to conclude that school exposure, per se, seems unlikely to cause
+
+weight gain, and may even be beneficial.

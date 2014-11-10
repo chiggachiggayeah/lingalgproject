@@ -1,0 +1,472 @@
+Elizabeth Cascio
+Economics
+The Poverty Gap in School Spending
+American Economic Review: Papers & Proceedings 2013, 103(3): 423-427 
+http://dx.doi.org/10.1257/aer.103.3.423 
+
+
+
+           The Poverty Gap in School Spending Following 
+    the Introduction of Title I† 
+    
+                      By Elizabeth U. Cascio and Sarah Reber* 
+                                     
+                    
+                    
+The Elementary and Secondary Education 	know little about how the introduction of Title 
+
+Act of 1965 (ESEA) was a watershed in fed- 
+eral education policy. Its primary provision-a 
+block grant program under Title I-doubled 
+
+I affected the poverty gap in school spending. 
+Evidence on the spending impacts of Title I in its earliest years suggests a "flypaper effect"- 
+
+federal revenues for K-12 education in autho- 
+
+a spending response that exceeds what would 
+
+rizing $1 billion ($7 billion in 2009 dollars) in 
+new federal funding for supplemental academic 
+programs for "educationally deprived" children from low-income families. Title I was most recently reauthorized under the No Child Left Behind Act of 2001 and remains the cornerstone 
+
+have been expected on the basis of the income 
+elasticity of education demand-and, hence, some spending convergence across richer and poorer school districts. But these studies are lim- ited in one way or another, either exploiting only cross-sectional variation in Title I grant amounts 
+
+of federal education policy today. 	(Feldstein 1978) or focusing on only part of the 
+  There is considerable debate over whether 	country (Cascio, Gordon, and Reber forthcom- 
+additional school spending can narrow gaps 	ing). Evidence on Title I using dynamic variation 
+in achievement between poorer and richer stu- 	for the entire country (Gordon 2004) suggests 
+dents. But the first-order challenge to a compen- 	complete crowd-out within three years-and, 
+satory intergovernmental grants program like 	hence, no effect on the poverty gap in spending Title I is to ensure that it narrows gaps in school 	across school districts-but is based on a more 
+spending between higher-poverty and lower- 	recent (and more marginal) policy change than 
+poverty school districts. In a standard neoclassi- 	that stemming from program introduction. 
+cal model, school districts would be expected to 	This paper explores how the introduction of 
+
+spend on education out of block grants as they 
+
+Title I may have affected school spending gaps 
+
+would any other source of income (i.e., in accor- 
+
+across richer and poorer states using state panel 
+
+dance with the income elasticity of education 
+
+data for the entire country. Federal policy is 
+
+demand)-potentially much less than dollar- 
+for-grant-dollar. In response to a compensatory 
+federal program like Title I, the state may also devote less tax revenue to education or distribute that aid less progressively. 
+  While there have been numerous studies of the effects of Title I on student achievement,1 we 
+ 
+   * Cascio: Department of Economics, Dartmouth College, 
+
+uniquely suited to addressing regional inequali- 
+ties, and, indeed, given the uneven regional dis- tributions of poverty and school spending in the United States, promotion of regional spending convergence was a goal of this "War on Poverty" program. Our newly collected data suggest that Title I may have narrowed the gap in school spending between richer and poorer states but was far too small a program to eliminate this gap 
+
+6106 Rockefeller Center, Hanover, NH 03755 (e-mail: 
+
+entirely. 
+
+elizabeth.u.cascio@dartmouth.edu); Reber: UCLA Luskin 
+
+School of Public Affairs, Department of Public Policy, 3250 
+
+Public Policy Building, Los Angeles, CA 90095 (e-mail: 
+
+sreber@ucla.edu). † To view additional materials, and author disclosure 
+
+statement(s),visit the article page at 
+
+http://dx.doi.org/10.1257/aer.103.3.423. 
+    1 Borman and D'Agostino (1996) present a metaanalysis of studies of the test score impacts of student participation 
+
+the effects of Title I designation at the school, rather than the 
+student, level. Despite differences in empirical technique, 
+
+in nominally designated Title I programs. Van der Klaauw 
+(2008) and Matsudaira, Hosek, and Walsh (2012) estimate 
+
+
+
+423 
+
+the studies are united in suggesting little achievement impact of Title I. 
+
+
+424 	AEA PAPERS AND PROCEEDINGS 	MAY 2013 
+
+
+         I. The Title I Program 
+        
+  The ESEA was far reaching, but its most 
+significant provision by far was Title I. Title I funds were initially distributed primarily based on counts of poor children from the 1960 cen- sus, and grants per eligible child were smaller in states that spent less on average.2 Given that higher-poverty states were, on average, lower- spending, this feature of the formula reduced the program's progressivity relative to what it 
+
+
+
+800 
+
+
+600 
+
+
+400 
+
+
+200 
+
+
+ 0
+ 
+
+
+
+
+       1969-1970: 
+   Slope est. = $1,213 ($177) 
+      R2 = 0.5 
+   
+   
+   
+      1963-1964: 
+Slope est. = $45 ($112) 
+      R2 = 0.003 
+      
+would have been with a single, national grant 	0	0.1 	0.2 	0.3 	0.4 	0.5 
+
+per eligible child. Nevertheless, per-pupil Title I 
+formula amounts in the late 1960s were strongly increasing in 1960 state child poverty rates, and a linear poverty term alone can explain most of the cross-state variation in per-pupil Title I for- 
+             
+1960 child poverty rate 
+         
+ Figure 1. The Relationship between Child Poverty 
+and Per-Pupil Federal Revenue before and after the 
+             Introduction of Title I 
+             
+mula amounts. 
+  The size of the program, combined with this feature of the funding formula, made the distribution of overall federal education aid 
+
+Notes: Per-pupil federal revenue is expressed in real 2009 
+dollars and is drawn from HEW (various years). The 1960 child poverty rate is the number of Title I eligible children 
+in the state in 1965 (from US Office of Education 1965) to 
+
+compensatory. Figure 1 shows that between 
+
+the number of 5-17-year-olds in the state in 1960 (from 
+
+the 1963-1964 school year (hollow markers) 
+
+Minnesota Population Center 2011). Hollow markers rep- 
+
+and the 1969-1970 school year (solid mark- 
+
+resent 1963-1964, and solid markers represent 1969-1970. Square markers represent Southern states, and circle mark- 
+
+ers)-before and after the introduction of Title 
+I-overall per-pupil federal revenue went from 
+being uncorrelated with the 1960 child poverty rate to having a strong positive correlation with it. The increase in slope is more than would be expected on the basis of Title I, though not sig- nificantly so. 
+  While the intended use of Title I funds is for supplemental academic programs for "educa- tionally deprived" children from low-income families, Title I funds have often been used in 
+
+ers represent all other states in the continental United States. Regressions give each state equal weight. 
+
+
+
+      II. Title I and the State Poverty Gap 
+           in School Spending 
+         
+  Available data do not allow us to observe 
+school spending on poor children per se. Our goal is therefore to understand how the intro- 
+
+other ways. For example, audits from the pro- 
+
+duction of Title I might have affected the gap 
+
+gram's earliest years (Martin and McClure 
+
+in overall school spending across richer and 
+
+1969) show that some school districts used 
+Title I funds to make capital investments. Other 
+school districts substituted Title I grants for state 
+
+poorer states.3 To this end, we obtained state- 
+by-school-year-level data on current spend- ing per pupil in average daily attendance for 
+
+and local funds, either by moving state and local 
+revenues away from the poorer schools that received the Title I grants, or by lowering taxes, in which case the grants were not even spent on education. Regulations in the early 1970s sought 
+
+all states in the continental4United States from 
+1953-1954 to 2007-2008. These data show 
+that real per-pupil school spending increased by 
+
+
+    3 We use the 1960 child poverty rate implicit in the initial 
+   
+to improve targeting and to prevent crowd-out, 
+
+Title I formula, but our conclusions are substantively similar 
+
+but expropriation remains difficult to prevent. 
+
+if we use the overall poverty rate or measure poverty (child 
+
+or overall) in later years. 
+    4 Fall Statistics of Public Schools (US Department of 
+   
+  
+2 See Cascio et al. (2010) and Cascio, Gordon, and Reber 
+
+Health, Education, and Welfare (HEW), various years) provided data on a biennial basis from 1953-1954 through 
+1979-1980. Thereafter, we drew data from all available 
+
+(forthcoming) for more details on the Title I formula and implementation in the 1960s. 
+
+academic years from the Digest of Education Statistics (US 
+Department of Education, various years). 
+
+
+VOL. 103 NO. 3 	the poverty gap in school spending following the introduction of title i 	425 
+
+
+9.5 	10 	-1 
+
+                               2006-2007 (right scale): 
+                               
+ 9
+ 
+8.5 
+
+ 8
+ 
+7.5 
+
+
+
+
+
+
+1963-1964 (left scale): 
+
+Slope est. = -1.09 (0.35) 
+       R2 = 0.17 
+
+9.5 
+
+9
+
+8.5 
+
+8
+
+
+-1.5 
+
+
+ -2 
+ 
+ 
+7
+
+Slope est. = -2.28 (0.22) 
+      R2 = 0.695 
+      
+
+7.5 
+
+-2.5 
+
+0	0.1 	0.2 	0.3 	0.4 	0.5 	1950 	1960 	1970 	1980 	1990 	2000 	2010 
+              1960 child poverty rate 	School year (fall) 
+              
+Figure 2. The Relationship between Child Poverty and 	Figure 3. How the Relationship between Child 
+Per-Pupil School Spending in 1963-1964 and 2006-2007 	Poverty and Per-Pupil School Spending Changed over 
+                                                                           Time 
+                                                                           
+Notes: Per-pupil school spending is expressed in real 
+
+2009 dollars and is drawn from HEW (various years) and 
+
+Notes: The figure plots slope coefficients from year-by- 
+
+Department of Education (various years). See Figure 1 note for description of the 1960 child poverty rate. Hollow mark- 
+ers represent 1963-1964, and solid markers represent 2006- 2007. Square markers represent Southern states, and circle markers represent all other states in the continental United States. 
+
+
+
+
+over a factor of five over the period, from about 
+
+year regressions of log per-pupil school spending on the 1960 child poverty rate. Regressions give each state equal weight. The dashed vertical line is placed at 1965, the year 
+that Title I was introduced. For sources, see Figure 2 note. 
+
+
+
+  Was the poverty gap in school spending 
+diminished by the introduction of Title I, or were there other forces at work? While we can- not rule out the importance of other factors, 
+
+$2,000 per pupil in 1953-19545 to over $11,000 
+
+we provide some evidence of a contribution of 
+
+in 2007-2008 (2009 dollars). Given this, we 
+analyze per-pupil spending in percent terms, 
+using its natural log, rather than in dollar terms. 
+  Figure 2 shows the relationship between the 1960 child poverty rate and log per-pupil spend- 
+
+Title I to these changes in Figure 3, which plots 
+slope coefficients analogous to those shown in Figure 2, but on a year-by-year basis from 1953-1954 to 2007-2008. There is a clear break in trend in 1965-1966, when Title I funds were 
+
+ing right before and well after Title I was imple- 
+
+first distributed. Taking the pre-1965 trend in 
+
+mented. In 1963-1964 (hollow markers), there 
+was considerable variation in spending across 
+
+the poverty gradient as the counterfactual, one 
+would conclude that Title I reduced the poverty 
+
+states, and this variation was strongly related to 
+poverty. In 2006-2007 (solid markers), by con- 
+
+gradient in spending for a decade or so: after 
+a sharp decline in 1965-1966, the poverty gap 
+
+trast, the variation in log spending was6virtually 
+unchanged from its pre-ESEA level, but the 
+analogous regression yields a slope that is half as steep as it was in 1963-1964, with an R2 of 
+only 0.17.7 
+
+
+    5 Our analysis gives each state equal weight, though our 
+findings are similar if we weight by enrollment or school- aged population. 
+    6 In 1963-1964, the standard deviation of log per-pupil spending was 0.226; in 2006-2007, it was 0.217. 
+    7 The figure also shows that while Southern states 
+(which we define as those in the former Confederacy) were 
+
+remained roughly constant in the two decades 
+following the introduction of Title I and began to decline steadily again around 1990-1991. 
+  While Title I thus appears to have stimulated some convergence in school spending across states, it would have needed to be a much larger program to eliminate spending differences across richer and poorer states. We calculate 
+ 
+  
+significantly lower spending on average, their lower spend- ing was in line with their significantly higher poverty rates. 
+This suggests no "South effect." 
+
+
+426 	AEA PAPERS AND PROCEEDINGS 	MAY 2013 
+
+
+
+0.8 
+
+
+0.6 
+
+
+0.4 
+
+
+0.2 
+
+
+
+
+
+
+
+
+
+1960 child poverty 
+Current per capita income 
+Both 
+
+
+peaking at over 0.6 in 1988. While its predictive 
+power declined thereafter, per capita income has continued to explain more variation in spending in recent years. The predictive power of income controlling for poverty points to a potential role for income inequality in determining school spending during the period when many states 
+reformed their school finance systems.9 
+
+               III. Conclusion 
+               
+                      
+1950 	1960 	1970 	1980 	1990 	2000 	2010 
+
+                School year (fall) 
+             
+  Figure 4. Did Title I Reduce the Power of Poverty 
+   and Income in Explaining Cross-State Spending 
+                   Inequality? 
+                
+Notes: The figure plots R2 from year-by-year regressions of 
+   
+School spending has long been negatively 
+correlated with poverty at the state level, but this relationship has weakened in the 50 years since passage of the ESEA. We have presented evi- dence that the introduction of Title I contributed to this trend. Nevertheless, Title I was a small program relative to the spending differences 
+
+log per-pupil school spending on the 1960 child poverty rate 
+
+(solid circles), current per capita income (hollow circles), 
+
+associated with poverty, and substantial poverty 
+
+and both variables together (x's). Regressions give each state equal weight. The dashed vertical line is placed at 1965, the 
+year that Title I was introduced. For sources, see note for Figure 2. 
+
+
+that if there were no state or local crowd-out and 
+nothing else changed, the introduction of Title I 
+
+gaps in spending remain. This is one potential 
+reason why Title I has appeared so ineffective in closing the achievement gap. We neverthe- less view these and any other conclusions as tentative given the limitations of our data and methodology. 
+  Is Title I therefore failed policy? Not neces- sarily. The ability to withhold education funds 
+  
+would have reduced the cross-state poverty8gra- 
+dient in spending by only about 15 percent. 
+  As mentioned above, Title I's introduction also appears not to have had much of an effect on the variation in school spending across states. A considerable share of this more recent variation also appears to owe to per capita state income, not poverty. Figure 4 plots the R2 from 
+
+is a key policy lever for the federal govern- 
+ment to encourage school districts to imple- ment other reforms. At Title I's inception, for example, receipt of funds in the South was conditional on meeting desegregation targets under the 1964 Civil Rights Act. These finan- cial incentives worked, marking the beginning of the end of racially separate schools in the 
+
+year-by-year regressions of log per-pupil school 
+
+South (Cascio et al. 2010)-a process which 
+
+spending on the 1960 child poverty rate (solid 
+
+culminated in notable gains in black educational 
+
+circles), on real per capita state income (hollow 
+
+attainment (Guryan 2004; Reber 2010; Johnson 
+
+circles), and on both (the x's). Before the ESEA, 
+income was slightly more predictive of spend- 
+ing than poverty, but only marginally so. There is a clear downward shift in 1965-1966, and the 
+
+2011). More recently, under the No Child Left 
+Behind Act of 2001, receipt of Title I funds has 
+been tied to adoption of state school account- ability systems-a policy which appears to 
+
+predictive power of both poverty and income 	have reduced achievement gaps (Dee and Jacob 
+
+declined continuously through the mid-1980s. 
+The predictive power of poverty and income then diverged: the R2 for poverty continued to decline, while that for income rose sharply, 
+
+
+    8 In level terms, a 10 percentage point increase in the 
+
+2011). Whether and how federal money might 
+buy progress in the future remains to be seen. 
+
+1960 child poverty rate was associated with a reduction in 
+
+spending of $625 per pupil in 1963-1964 (based on a ver- 
+
+9 See Boustan et al. (forthcoming) and Corcoran and 
+
+sion of Figure 2 with per-pupil spending in levels), but only a $91 increase in per-pupil Title I funding in 1969. 
+
+Evans (2010) for more on the effects of income inequality on spending. 
+
+
+VOL. 103 NO. 3 	the poverty gap in school spending following the introduction of title i 	427 
+

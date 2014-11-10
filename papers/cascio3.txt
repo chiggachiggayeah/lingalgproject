@@ -1,0 +1,627 @@
+Elizabeth Cascio
+Economics
+Local Responses to Federal Grants
+     Evidence from the Introduction of Title I in the South 
+     
+  By ELIZABETH U. CASCIO, NORA GORDON, AND SARAH REBER* 
+  
+We analyze the effects of the introduction of Title I of the 1965 Elementary and Secondary Education Act, a large federal grants program designed to increase poor students' educational services and achievement. We focus on the South, the poorest region of the country. Title I increased school spending by 50 cents on the dollar in the average Southern school district and by more in districts with less ability to offset grants through local tax reductions. Title I induced increases in school budgets appear to have reduced high school dropout rates of whites, but not blacks. 
+
+
+* Cascio: Department of Economics, Dartmouth College, 6106 Rockefeller Center, Hanover, NH 03755 (email: 
+elizabeth.u.cascio@dartmouth.edu. Gordon: Georgetown Public Policy Institute, 306 Old North, Georgetown University, 
+37th and O Streets, NW, Washington, DC 20057 (email: neg24@georgetown.edu) . Reber: UCLA Luskin School of Public Affairs, Department of Public Policy, 3250 Public Policy Building, Los Angeles, CA 90095 (email: sreber@ucla.edu). This 
+research was supported by grants from the National Science Foundation (Award Number 0519126) and the Spencer 
+Foundation (Award Number 200600131). The authors also gratefully acknowledge support from the National Academy of Education/Spencer postdoctoral fellowship. We are grateful to Patricia Anderson, Sandra Black, Leah Platt Boustan, Julie 
+Cullen, Ethan Lewis, Robert Margo, Douglas Staiger, three anonymous referees, and numerous seminar participants for 
+helpful comments and to Cyrus Kosar for excellent research assistance. We thank James Alt, Douglas Miller, Jens Ludwig, 
+Douglas Almond, Hilary Hoynes, and Diane Schanzenbach for providing data. The data presented, the statements made, and the views expressed are solely the responsibility of the authors. 
+
+
+  Intergovernmental grants are widely-used tools that may preserve the efficiency 
+benefits associated with local provision of public goods while addressing equity concerns and cross-jurisdictional externalities (Musgrave, 1959; Oates, 1972, 1999). However, local control may undermine the intent of the granting government. Receiving jurisdictions may crowd out intergovernmental grants by reducing their own fiscal effort, treating the grant as they would any other source of income. And even when grants increase spending, those dollars may be allocated in unintended or ineffective ways. 
+  These issues are salient in U.S. school finance. Over the past 50 years, both the federal government and the states have dramatically changed the level and distribution of education grants across school districts in an effort to narrow gaps 
+  
+  
+  
+                                 1
+                                 
+in school spending and achievement. A large empirical literature has explored 
+how changes in state school finance regimes have affected school spending (e.g., Fisher and Papke, 2000; Hoxby, 2001). A largely separate empirical literature has examined how the dramatic increase in school spending over recent decades has affected student outcomes (see Hanushek, 1997 for a review). Far fewer studies have examined the effects of intergovernmental grants on school spending and 
+student outcomes simultaneously or using variation from their policy origins.1 
+  We do so in this paper, analyzing how Title I of the Elementary and Secondary Education Act of 1965 (ESEA) affected school spending and high school dropout rates in the years immediately following its introduction.2 Title I ESEA authorized $1 billion in new federal funding ($7 billion in 2009 dollars) in fall 1965 to support supplemental educational programs for poor children, doubling federal expenditure on elementary and secondary education. The focus of our analysis is the South, which was allocated relatively large Title I grants due to its relatively high poverty rate. The South is also of historical interest, given the vast racial inequities in school resources and educational attainment that developed in the region after Reconstruction (Margo, 1990; Card and Krueger, 1992a, 1996; Ashenfelter, Collins, and Yoon, 2006), and its low school spending and poor educational outcomes by national standards, even for whites. 
+  We begin by estimating the impact of the introduction of Title I on school spending. Existing studies of Title I (Feldstein, 1978; Gordon, 2004) are appropriate for inferring the spending impacts of marginal changes in grant amounts under an existing program, but not for determining how the typical 
+  
+  
+                                                              
+1 Card and Payne (2002) examine how changes in the progressivity of school spending induced by state school finance 
+reforms changed the distribution of SAT scores by income at the school district level. A related literature looks at effects of 
+school finance reforms on local spending and outcomes within individual states: see Clark (2003) on Kentucky, Guryan (2001) on Massachusetts, and Papke (2005, 2008) and Roy (2011) on Michigan. 
+2 Our analysis contributes to a growing literature on the effects of the introduction of other "War on Poverty" programs, 
+including Medicare (Almond, Chay, and Greenstone, 2006; Finkelstein, 2007), Head Start (Ludwig and Miller, 2007), and 
+the Food Stamp program (Hoynes and Schanzenbach, 2009; Almond, Hoynes, and Schanzenbach, 2011). 
+
+
+
+                                 2
+                                 
+district would have fared in the absence of any program at all. Our research 
+design combines the timing of the program's introduction with variation across school districts in its intensity, which was increasing in the district's 1960 child poverty rate. Simply put, we test whether the sharp increase in progressivity of federal school revenue in the mid-1960s arising from Title I was accompanied by 
+a reduction in school spending gaps between richer and poorer school districts. 
+ The main threat to identification in our empirical strategy comes from school desegregation, in two respects. First, the Civil Rights Act of 1964 (CRA) made receipt of Title I funds contingent on meeting desegregation guidelines, and in previous work, we have shown that school districts responded to this financial incentive by desegregating just enough to receive their grants in the mid-1960s (Cascio et al., 2010). If this desegregation affected spending, we would still identify a reduced-form effect of Title I on spending, but desegregation would be a causal mechanism. The desegregation requirements for CRA compliance at this time were minimal,3 however, and we think their correspondingly minimal impact on the overall racial balance of Southern schools (Cascio et al., 2010) was unlikely to have led to the increases in school spending that more intensive desegregation efforts did in the years to follow (Reber, 2011; Johnson, 2011). To mitigate concerns that these small amounts of desegregation affected spending nevertheless, we focus our main analysis on changes in school spending from 1964 to 1969. President Nixon stopped enforcing the fund-withholding provisions of the CRA when he entered office in 1969, and at the end of the 1960s, schools in poorer districts were no more racially balanced than in richer districts - a 
+finding of previous research (Cascio et al., 2008, 2010) that we reproduce below. 
+  Second, as Nixon backed off CRA enforcement, the federal courts stepped up their efforts, and districts across the South desegregated substantially between 
+                                                              
+3 In 1966, for example, the financial incentive induced districts to move 2 to 6 percent of blacks into schools with whites 
+(Cascio et al., 2010). See Cascio et al. (2008) for more on the timing of Southern desegregation. 
+
+
+
+                                 3
+                                 
+1968 and 1970 (Cascio et al., 2008). If desegregation affected demand for school 
+spending more in poorer districts, we might mistakenly attribute desegregation- related changes in spending to the introduction of Title I. Indeed, poorer districts tended to have higher black enrollment shares. Districts with higher black enrollment shares, in turn, historically had larger gaps in spending between separate black and white schools, and thereby required larger spending increases to maintain spending on whites when black and white schools combined (Reber, 2011). All of our specifications therefore control linearly for 1960 black enrollment share, and the results are unaffected when we control for black enrollment share more flexibly in a series of robustness checks. 
+  Using newly-collected data, we estimate that Title I increased school spending by 50 cents on the dollar by 1969 in the average Southern school district, more than double what would have been predicted based on existing estimates of the income elasticity of demand for school spending. Title I crowded out local revenue, not state aid. The findings are robust to the inclusion of a range of controls beyond black enrollment share. Further, changes in the relationship between child poverty and fiscal outcomes were closely timed with program implementation, and there was little change in these relationships in the years leading up to it, suggesting that we have identified the causal impact of Title I's introduction. Title I also increased school spending significantly more in districts with "low scope" to offset the grants through reductions in local taxes - where the Title I grant was large relative to what local revenue would have been had pre- program trends continued. Changes in desegregation did not vary along this 
+margin, further diminishing the concern that desegregation is driving the results. 
+  The heterogeneous spending response informs our analysis of how the additional school spending from Title I affected student outcomes, which concludes the paper. That is, we ask whether the gap in high school dropout rates between poorer and richer school districts with low scope for offsetting Title I 
+ 
+  
+  
+                                 4
+                                 
+funds closed by relatively more between 1960 and 1970 than it did elsewhere in 
+the South. For whites, each additional $100 of Title I-induced current expenditure per pupil (2009 dollars) received in 1969 (corresponding to about that much per year from 1965 to 1969) was associated with a decrease in high school dropout rates at ages 18 and 19 of about 3.5 percentage points. For blacks, by contrast, the estimates are statistically insignificant, and precise enough to rule out effects as large as those found for whites. These estimates are necessarily more speculative than those of Title I's spending impacts because the lack of high frequency data limits the specification checks at our disposal. Nevertheless, our findings are robust to additional controls and falsification exercises conducted on unaffected cohorts. 
+  The findings for educational attainment may provide indirect evidence that Title I-induced spending increases were not allocated as the federal government intended. There was little to prevent school districts from directing them to schools attended by whites, which remained largely separate in the South over the period of study, as noted earlier. All states in our sample stopped reporting district-level data on spending by race by 1965, and they never reported school- level budgetary data, so we cannot examine this hypothesis directly. However, Martin and McClure (1969) provide extensive anecdotal evidence of such reallocations of Title I funds, which are consistent with longer-standing practices in the South of diverting funds from black to white students (Margo, 1990). 
+  
+  
+       I. Title I of the Elementary and Secondary Education Act 
+         
+       
+  In a special Congressional address in January 1965, President Johnson declared 
+a "national goal of full educational opportunity," expanding the "War on Poverty," initiated one year earlier, to include education at all levels. A short three 
+
+
+
+
+
+
+5
+
+months later - following decades of unsuccessful efforts to expand the federal 
+role in education - the ESEA was signed into law.4 
+  While the ESEA had multiple provisions, Title I was by far its largest, authorizing $1 billion (1965 dollars) in new federal funding for programs for poor children and doubling the existing federal funding commitment to K-12 education. The program marked an historic shift in federal education policy, not only for its magnitude, but also for the control it exerted over schools. The Johnson administration used Title I funds as a "carrot" to encourage school districts in the South to desegregate, in enforcing the requirement of nondiscrimination in federally-funded programs under Title VI of the 1964 CRA. Cascio et al. (2010) show that the financial incentives were sufficiently powerful to prompt Southern districts to meet the quite limited definition of nondiscrimination enforced in 1965 and 1966 - the transfer of a small share of blacks to white schools. Our focus here is on how the additional income provided by the grants affected school spending and high school dropout in the region as of the late 1960s, when Title I funds were no longer being withheld on the basis of insufficient desegregation activity. 
+  The initial formula, established by the federal government at the county level for the 1965-66 school year, was linear in county "eligibles" - 5 to 17 year olds living in low-income families in the county as of the 1960 Census, plus a small number of children in higher-income families in the county that received AFDC in 1962.5 Other categories of eligibility were added over time, but a county's eligibility by the end of the 1960s remained determined mostly on the basis of the 1960 Census child poverty counts. The slope of the funding formula (the "state factor") initially reflected state efforts, with each eligible child being allocated 
+                                                              
+4 While many education historians have focused on the "three Rs" (race, religion, and 'Reds'), Kaestle (2001) also 
+attributes previous policy failures to a lack of strong Presidential leadership. 
+5 Cohen and Moffitt (2009) emphasize the role of the Title I formula itself in garnering political support by spreading 
+funds across Congressional districts rather than concentrating them more intensively in high-poverty areas. 
+
+
+
+                                 6
+                                 
+one-half of average education spending per pupil in the state two years prior (net 
+of federal transfers). In 1967, the state factor applied in states spending below the national average (including all of the states in our sample except Florida) was leveled up to the national average (U.S. Department of Health, Education, and Welfare (HEW), 1969). Child poverty was thus essentially the sole determinant of 
+Title I formula amounts for Southern counties after 1967.6 
+  Throughout the period, states determined the methodology for dividing the formula amount among districts within counties, based on available data on child poverty at the sub-county level. We use the amount each district was entitled to according to these divisions in 1965 (not the amount they actually received) to estimate the number of Title I eligible children in each district. Our key dependent variable - the child poverty rate used to determine a district's Title I entitlement - is the estimated number of district eligibles divided by district enrollment in 1960, given the importance of 1960 poverty in the formula (see Appendix A for details). 
+  The influx of federal funds to the South following passage of the ESEA was sizeable. Figure I shows trends in average per-pupil current educational expenditure and revenues by source for Southern school districts between 1961 and 1969. The underlying sample, which forms the basis of the analysis to follow, includes most school districts in the nine of the eleven states of the former Confederacy (the "South") where annual school finance data were available in print publications.7 The federal government was a negligible source of revenue in the South prior to passage of the ESEA in 1965. Table I shows that federal revenue in the average Southern district only amounted to $65 per pupil (in real 
+  
+  
+                                                              
+6 Cascio et al. (2010) exploit variation in Title I formula amounts in 1966 across states (from variation in the state factor) 
+as well as across districts (from variation in child poverty). We cannot use this approach due to the change in the formula. 
+7 These states are Alabama, Florida, Georgia, Louisiana, Mississippi, North Carolina, South Carolina, Tennessee, and 
+Virginia. The school finance data for Arkansas do not include ESEA funds in the expenditure or revenue data; Texas did 
+not publish the relevant school finance data for this period. We cannot use the Census of Governments for this analysis since it is available only every five years and, critically, includes Title I funds in state, rather than federal, revenue. See Appendix A for a description of the estimation sample. 
+
+
+
+                                 7
+                                 
+2009 dollars) - about 3.4 percent of per-pupil current expenditure - in 1964, but 
+represented 17.2 percent of per-pupil current expenditure by the end of the decade. Title I constituted only 8 percent of spending nationally at this point (Snyder and Dillow, 2011). 
+  Title I funds were intended to provide supplemental programs to "educationally deprived" poor children, with the goal of raising their achievement. However, Title I's early regulation and enforcement did not ensure that the program would translate into more school spending, let alone increased compensatory services. Regulations specified only that Title I funds should "supplement not supplant" local revenues. While HEW conducted district-level audits, it did not require districts to return funds that were misused or penalize districts for violations. The program was criticized as a fungible supplement to general revenue as opposed to a targeted and defined compensatory intervention, most influentially in a 1969 report by the NAACP Legal Defense Fund (Martin and McClure, 1969). 
+  Such criticisms sparked a series of changes to Title I in the 1969 amendments to the ESEA that are still embedded in the system today (Brown, 2011; Cohen and Moffitt, 2009). The "supplement not supplant" principle moved from regulations into the law itself, with annual reporting required beginning in July of 1971. Two new provisions aimed to prevent Title I funds from being used as substitutes for state and local funds: "comparability," which requires equitable allocation of state and local resources across schools within districts, and "maintenance of effort," which withholds Title I funds if state and local revenues per pupil fall beneath a (often 100 percent) share of previous levels. However, even today's complex regulations and serious enforcement cannot prevent districts from appropriating 
+Title I funds, either for private consumption or for other educational purposes.8 
+
+
+                                                              
+8 Gordon (2004) shows that maintenance of effort requirements did not prevent Title I from crowding out local revenue in 
+the 1990s, and van der Klaauw (2008), Roza (2010) and Heuer and Stullich (2011) show that the comparability provision 
+does not ensure that Title I funds are concentrated in the poorest of a district's schools. 
+
+
+
+                                 8
+                                 
+  We therefore consider Title I a restricted block grant to a school district, where 
+spending on public education is the "targeted good." We begin our analysis with an examination of the effects of the program's introduction on education spending at the district level. We then turn to an analysis of its impacts on student outcomes. In light of the above discussion, we consider the impacts of Title I- induced spending increases for all students, not just Title I eligible students. We present estimates separately by race. On the one hand, blacks and whites in the South largely attended separate schools through 1968 (Cascio et al., 2008), providing sufficient scope for funds to be diverted from blacks to whites as had been the practice in the South for most of the 20th century (Margo, 1990). On the other hand, spending on blacks was relatively low, so the return to additional spending might have been higher than that for whites. 
+
+
+                    II. Theoretical Background 
+                         
+                    
+  How much Title I translated into higher school spending depends on how much 
+lower levels of government - both local (school districts)9 and state - offset Title I revenue by reducing their own contributions for education. Much of the literature on intergovernmental grants finds that the additional income from grants increases spending on the targeted good more than would be implied by the income elasticity of demand. The literature follows Okun in referring to this as a "flypaper effect," since the grant disproportionately "sticks where it hits." In some cases, these effects have been demonstrated to be statistical artifacts generated by omitted variables, such as local preferences or other characteristics determining the magnitude of the grant (Knight, 2002; Gordon, 2004). In others, the effect is attributed either to bureaucratic capture yielding a disconnect between the true 
+
+                                                              
+9 While school districts in the South and elsewhere in the U.S. are often coincident with other local jurisdictions such as 
+counties or cities, they are governed by their own elected or appointed school boards. In three states in our sample (North 
+Carolina, Tennessee, and Virginia), school districts are "dependent"; city and county governments also operate schools. 
+
+
+
+                                 9
+                                 
+preferences of voters and spending chosen by governments, or to behavioral 
+tendencies that lead voters to view spending out of local taxes differently than spending out of intergovernmental grants (Hines and Thaler, 1995). 
+  In the South, there is reason to believe that the introduction of Title I would have exhibited a flypaper effect even assuming the rational choices of the median voter were not suppressed or altered by bureaucratic actions. A smaller share of total revenue was raised locally in the South than in the rest of the country. Local revenue accounted for only 27 percent of the typical Southern district's total revenue in the early 1960s; average per-pupil federal revenue in 1969 was almost as high in real terms as average per-pupil local revenue was in 1964, the year prior to the ESEA's passage (Table I). Southern school districts' ability to reduce local taxes in response to receiving Title I funds may have therefore been limited. 
+ Figure II illustrates the standard neoclassical choice problem for a Southern district before and after Title I funds were distributed.10 The innermost budget constraint (BC1) shows the pure local finance case where prices are normalized to one and the district could allocate total income I freely between educational services (E) and all other goods (C), including private consumption. BC2 accounts for state aid and the minimum local contribution (a legally mandated amount districts must raise locally) with a parallel shift of the budget constraint, and thus represents the scenario before Title I.11 A district had to spend at least as much as the state grant plus the minimum local contribution on education, so the maximum spending on C was I less the minimum local contribution; the dashed part of the budget constraint was inaccessible. The introduction of Title I caused a 
+  
+ 
+                                                              
+10 The median voter in the South would have been white and Southern school boards would have been controlled by 
+whites throughout this period in most or all of the districts in our sample (see U.S. Commission on Civil Rights, 1968). For 
+simplicity, we do not incorporate race into the model explicitly. 
+11 Upwards of 80 percent of state aid was distributed through so-called "minimum foundation programs" (MFPs). Grants 
+under state MFPs were not pure block grants in the sense that some district choices (e.g. the distribution of teacher 
+experience) could affect the amount of the grant. We abstract from these issues here, since they likely had small effects and in any case are unrelated to the Title I grant. 
+
+
+
+                                10 
+                                
+further parallel shift in the budget constraint to BC3.12 After Title I, the district 
+had to spend at least as much as previously required plus the Title I grant on education, so the dashed part of the new budget constraint was inaccessible. 
+  How much should the introduction of Title I have increased school spending? Assuming no change in state aid, school districts would have liked to increase their spending on both E and C according to the relevant income elasticities, in which case the increase in E would have been less than the size of the grant. If its optimal bundle was on the inaccessible (dashed) portion of the budget constraint, however, it would have been forced to the corner (point Z), increasing E by more. The figure illustrates an extreme case where spending increased dollar-for-dollar with Title I: the district at the corner before the implementation of Title I (point X) would have liked to move to point Y on BC3, given the income elasticity of education demand, but was restricted to choose the new corner, Z. More generally, minimum local contributions and significant state aid in the South would have increased the chances that a district was constrained and increased E 
+more than expected given the income elasticity of education demand.13 
+  In a more realistic model incorporating some probability of detection, fixed costs of changing tax rates, or some uncertainty about revenues and expenses, districts would not need to have been literally at a corner to be constrained to spend more of the grant on education than desired. While we cannot observe the constraints specific to each school district in our data, we expect that it would have been more difficult for districts to offset the grant - especially in the short 
+ 
+                                                              
+12 Because we focus our empirical analysis on district behavior in 1969, at which point the funds were no longer 
+conditional on desegregation, we abstract from the conditional nature of Title I funds. That is, we do not present 
+segregation as a good consumed by voters, as in Cascio et al. (2010). We also abstract from any possible general equilibrium effects of the program's introduction, in particular on teacher compensation. To the extent that the introduction of Title I increased teacher salaries (by increasing the demand for teachers), any increase in overall school spending at the district level would have procured a lesser increase in educational services. 
+13 Relatedly, Brooks and Phillips (2010) find that federal funds stimulate higher levels of expenditure in local jurisdictions 
+subject to tax and expenditure limits, which may constrain them to suboptimally low levels of prior spending. In a different 
+policy context, Baicker and Staiger (2005) estimate that about half of federal Medicaid Disproportionate Share Hospital funding was crowded out by state governments in states with institutional features that enabled expropriation. 
+
+
+
+                                11 
+                                
+run - when it was large relative to local revenue. Below, we therefore examine 
+heterogeneity in fiscal responsiveness to Title I depending on the magnitude of the grant relative to an estimate of counterfactual local revenue. 
+  Even if school districts were unable to offset new federal funds by lowering their own revenue, state governments might have used Title I funds to replace their own contributions for public education. The objective function of a state government is more complicated than that of a school district due to its additional policy functions beyond education, and we do not explicitly model it here. We can say, however, how a state government would have responded had it wished to replicate the pre-Title I distribution of total (state plus federal) aid across districts after Title I was implemented: it would have reduced grants on average, to account for the fact that the average district was receiving more federal aid, and 
+by relatively more for poorer districts, which received larger Title I grants.14 
+  Our empirical strategy allows for identification only of the latter type of response - whether states changed how progressively they distributed funds. More generally, our approach focuses on whether the sharp increase in the progressivity with which the federal government distributed education aid in 1965 coincided with a reduction in the school spending gap between poorer and richer districts, with corresponding changes in the poverty gaps in local and state revenue revealing the level of government responsible for any crowd out. In the next section, we estimate the fiscal impacts of the introduction of Title I using this empirical approach. 
+  
+  
+            III. Fiscal Reponses to the Introduction of Title I 
+                       
+            
+            
+                                                              
+14 The poverty rate did not directly enter the funding formula in any state under investigation; thus, it might appear 
+difficult for states to change the progressivity of funding without undertaking a major reform. However, the formulas were 
+complex, with inputs that may have been correlated with poverty rates. Reber (2011) shows that the state of Louisiana was able to redistribute state aid substantially in response to desegregation (directing additional funding to districts with higher black enrollment shares) by subtly manipulating the parameters of the existing school finance program. 
+
+
+
+                                12 
+                                
+                        A. Graphical Evidence 
+                            
+                      
+  Recall that Title I funds were initially allocated by a simple linear rule: the 
+formula assigned a constant grant amount for each Title I eligible student. Title I eligibility was determined primarily based on the number of 5 to 17 year olds with family income below $2,000 in the 1960 Census. A straightforward way to think about the school spending impacts of Title I's introduction is therefore to explore how the spending gradient in the "initial" district child poverty rate, defined using these eligibility counts, changed over the 1960s, controlling for black enrollment share to account for any contemporaneous impacts of desegregation on school spending (Reber, 2011; Johnson, 2011), as earlier described. If Title I increased school spending, spending should have become more progressive around 1965. The identifying assumption is that if the Title I program had not been introduced, there would not have been a break in the poverty gradient as of 1965. 
+  We thus begin by estimating parsimonious regressions of per-pupil spending and revenue on the child poverty rate, separately by year (t), controlling for 
+district black enrollment share and state (s) fixed effects: 
+
+(1) 
+
+
+ydst???? st????t child _ povertyd????tblackd???? dst . 
+
+Initial district child poverty (child_povertyd) is defined as the ratio of district d's 
+Title I eligibility count in 1965, constructed as described in Section I (and 
+Appendix A), to its 1960 enrollment. Table II shows the average Southern district 
+had a child poverty rate of 32 percent and a 1960 black enrollment share (blackd) 
+also of 32 percent. The state fixed effects, ?st, account for state-specific shocks. 
+The regressions give each district equal weight, so as to capture the average 
+Southern school district's fiscal response to Title I.15 
+
+
+
+
+                                                              
+15 Enrollment-weighted estimates are similar and available from the authors on request. 
+
+
+
+                                13 
+                                
+  The circles in Figure III show how estimates of??t , the child poverty gradient, 
+evolved over time for per-pupil fiscal outcomes, measured in the fall of the year 
+specified and in real 2009 dollars. Panel A shows that the estimated poverty gradient in per-pupil federal revenue was little changed in the early 1960s but increased sharply in 1965, the first year in which Title I funds were distributed.16 The estimates for per-pupil current expenditure, shown in Panel B, follow the same pattern: the progressivity of school spending trended little in the early 1960s but increased after 1964, suggesting that Title I narrowed the gap in school spending between richer and poorer districts in the South. However, Title I funds did not translate dollar-for-dollar into higher spending: the increase in the poverty gradient for per-pupil current expenditure was less than that for per-pupil federal funding. The poverty gradient in local effort became more negative after 1965, suggesting that local effort may have declined in response to Title I, but the moderate progressivity of state aid did not change (Panels C and D). 
+  The capped vertical lines around the circles in Figure III represent the 95 percent confidence intervals on the estimated difference in the poverty gradient between the year specified and 1964.17 For per-pupil federal revenue, current expenditure, and local revenue, the gradient in child poverty is statistically distinguishable from its 1964 value for each year between 1965 and 1969, but there were neither substantive nor statistically significant changes in the child 
+                                                              
+16 Though the two substantive federal grants programs prior to ESEA, Aid to Federally Impacted Areas and the National 
+Defense Education Act, did not explicitly distribute funds based on poverty, the relationship between poverty and federal 
+aid is slightly negative prior to the ESEA. For our identification strategy, the critical finding is that the trend in this relationship is flat prior to the ESEA. 
+17 To obtain these confidence intervals, we pooled the data from 1961 to 1969 and estimated the "stacked" version of 
+equation (1) (again, giving each district equal weight). Formally, we estimated: 
+
+ydst???? d???? st???
+
+????child _ poverty j
+
+
+d
+
+? Dtj??????????black j
+
+
+d
+
+? Dtj???? dst , ?
+
+j?1964 	j?1964 
+where Dtj is an indicator variable set to one if t=j, zero otherwise. ?d is a district-specific intercept, which accounts for 
+unobserved differences across districts in school finance that are fixed over time. We omit the interactions between each of 
+child_povertyd and blackd with the indicator for 1964. The coefficients of interest - the ?j's - thus measure the difference in 
+the poverty gradient of a particular fiscal outcome between 1964 and year j. The standard errors are clustered on county. 
+We cluster standard errors on county rather than district because we must use county-level information to predict district- 
+level poverty rates (see Appendix A). In Figure III, we rescale the confidence intervals on the ?j's by adding the estimate of 
+the 1964 poverty gradient from equation (1). 
+
+
+
+                                14 
+                                
+poverty gradient for state revenue in post-ESEA years. For all variables except 
+local revenue, the differences in the poverty gradients in pre-ESEA years are not just insignificant economically, but also statistically: we cannot reject the null hypothesis that the progressivity of school spending, federal revenue, or state revenue was unchanged across the early 1960s. For per-pupil local revenue, we do reject equality with the 1964 poverty gradient in 1961 and 1963 (in the latter case marginally so), but the differences in the gradients are small relative to the differences seen in the post-ESEA period. This suggests that unobserved determinants of school finance were not meaningfully correlated with child poverty - and the intensity of the Title I program - in the years leading up to Title I implementation, supporting the identification strategy. 
+  Figure III thus shows that relative to richer districts, poorer districts experienced larger increases in federal revenue and current expenditure per pupil and larger declines in local revenue per pupil over the 1960s. These changes were closely timed with the introduction of Title I in 1965. These changes were also rapid, suggesting that it took only two to three years for districts to reach a new equilibrium.18 The remainder of this section establishes the magnitude of the fiscal responses and demonstrates their robustness to additional controls. 
+  
+  
+                      B. Change Regressions 
+                            
+                      
+  Differencing (1) evaluated at any two years, we arrive at: 
+  
+(2) 
+
+
+?yds????~s????~child _ povertyd????blackd????? ds . ~
+
+
+In this differenced model, the state fixed effects,??~s , account for trends in fiscal 
+outcomes common to districts in the same state, while the coefficients on 
+child_povertyd and blackd give changes over time in the gradients of fiscal 
+outcomes in a district's 1960 child poverty rate and 1960 black enrollment share, 
+                                                              
+18 Gordon (2004) finds that it took about three years for districts to crowd out changes in Title I grants in the 1990s. 
+
+
+
+                                15 
+                                
+respectively. We estimate model (2) for two changes around the introduction of 
+Title I - one entirely in the pre-program period (1961 to 1964) and one that spans the program's introduction (1964 to 1969). Recall that by 1969, the funds were no longer conditional on desegregation activity, reducing the chances that our estimates will reflect a fiscal response to desegregation. Results are nevertheless similar using 1967 or 1968 as the end year. We do not consider any later years because the federal government began providing aid to desegregating districts in 1970 in a way that appears correlated with child poverty. Summary statistics for the dependent variables are presented in the last two columns of Table I. 
+  The first two columns of Table III present estimates of model (2) for the pre- program and pre-post changes, respectively, using the same controls included in the regressions plotted in Figure III (state indicators and 1960 black enrollment share). A comparison of these columns confirms the intuition from the figure: changes in the poverty gradients of federal revenue, current expenditure, and local revenue around passage of the ESEA were more significant - economically and statistically - than pre-program changes. Focusing on the pre-post change in column (2), the coefficient on the 1960 child poverty rate in the model for per- pupil federal funding (Panel A) - $990 (with a standard error of $63) - is, as expected, quite close to the average state factor in the Title I grant formula as of 1969 - $954, shown in Table II.19 Per-pupil current expenditure increased by $498 more between 1964 and 1969 in a district with only poor children compared to a district with no poor children (Panel B). Rescaling by the corresponding change in per-pupil federal revenue, these estimates imply that each additional dollar increase in per-pupil federal revenue generated a 50.2 cent increase in per- 
+  
+  
+  
+                                                              
+19 If all districts received their formula amounts under the Title I program (and Title I eligibility counts did not 
+dramatically change between 1965 and 1969), we would expect the change in the poverty gradient from 1964 to any year 
+from 1965 to 1969 to equal the average state factor in that year. The coefficients on child_povertyd in 1965 and 1966 are 
+less than this since some Southern districts did not receive Title I funds due to non-compliance with the CRA. 
+
+
+
+                                16 
+                                
+pupil current expenditure.20 This estimate implies that the introduction of Title I 
+can account for an increase in current expenditure of about $212 per pupil for the average district, or 23 percent of the average increase between 1964 and 1969. 
+  To formalize this rescaling of the estimates into more intuitive dollar-for-dollar terms, we estimate two-stage least squares (TSLS) regressions, using 
+child_povertyd as an instrument for the change in federal revenue.21 The results, 
+reported in column (3), imply that our estimates leave 22 cents of federal revenue 
+unaccounted for: each dollar of additional federal revenue increased current expenditure by 50 cents (Panel B), but there was only 28 cents of total crowd out - 33 cents local (Panel D) less five cents state (Panel C). This difference is statistically significant. It could represent an increase in spending on capital and debt service, which are included in total, but not current, expenditure. When we estimate the model using available data on total expenditure, the results are similar to those for current expenditure but less precise.22 Technically, this implies that districts used some of the new federal revenue to reduce existing debt, acquire less new debt, or build up reserves. This would allow districts to either lower taxes or increase spending in the future. 
+  While our estimates do not account for every cent of Title I revenue, they are estimated precisely enough to make economically meaningful conclusions about the program's fiscal impacts. We can rule out substantial reallocation of state 
+ 
+                                                              
+20 Feldstein (1978) uses cross-state variation in Title I grants across districts with the same poverty rate in 1970, and finds 
+spending increases by 70 cents per grant dollar. Gordon (2004) exploits formula-based changes in funding in the early 
+1990s and estimates essentially full local crowd out and no impact on current spending, but with large confidence intervals. 
+21 We thus assume that there would have been no trend in the poverty gradient between 1964 and 1969 in the absence of 
+the program. If we instead take the trend from 1961 to 1964 as the counterfactual, similar to the approach taken in 
+Finkelstein (2007) in a study of Medicare's introduction, our substantive conclusions that Title I increased school expenditure and reduced local revenue are unchanged. Our estimates are also robust to including pre-program (1961 to 
+1964) changes as controls. (Results available on request.) 
+22 Reporting of total expenditure is not as consistent across states as current expenditure and revenue, and because total 
+expenditure includes capital expenditure, it exhibits much more year-to-year variation. In addition, while in theory total 
+revenue should be similar to total expenditure, at least on average and over long time periods, this is not always the case in practice. Capital outlays can generate substantial departures of total expenditure from total revenue in a given year. Finally, at least some states do not count proceeds from bond issues as "revenue," while the capital improvements financed by bond issues are sometimes included in total expenditure; thus, revenue can be persistently lower than expenditure. 
+
+
+
+                                17 
+                                
+funds, and the confidence interval for the local revenue estimate suggests that the 
+average school district engaged in economically meaningful offset. The estimate for current expenditure (the targeted good) is significantly different from both one and zero, and also significantly larger than the response that existing estimates of the income elasticity of education demand would imply - 12 to 19 cents per dollar 
+in the average district, according to our back-of-the-envelope estimate.23 
+
+
+                          C. Robustness 
+                                 
+                          
+  As we have discussed, the primary threat to identification in our empirical 
+strategy comes from desegregation-related changes in school finance. Although Title I receipt and desegregation were no longer explicitly linked by the late 1960s, schools were substantially desegregated across the South in the late 1960s (Cascio et al., 2008). If desegregation changed demand for school spending differently in richer and poorer districts, those effects could be difficult to distinguish from those associated with the introduction of Title I.24 Our main control for the effects of desegregation is black enrollment share. Table III presents coefficients on black share from estimates of model (2), for comparison with the existing literature. Black enrollment share is positively related to changes in per-pupil current expenditure, state revenue, and local revenue between 1964 and 1969, consistent with the finding that demand for funding increased more in districts with higher black enrollment shares due to desegregation and with the results for Louisiana reported in Reber (2011). 
+
+
+
+                                                              
+23 See Appendix B for details on this calculation. Put differently, the income elasticity would have to be about 1.7 to 
+explain our estimates of the Title I-induced increase in education spending. Fisher and Papke (2000) cite estimates of the 
+income elasticity of demand for public education spending that range from 0.40 to 0.65. 
+24 Theoretically, desegregation could have decreased demand for school spending. For example, dissatisfaction among 
+whites, increases in private school enrollment, or falling property values may have reduced local support for schools 
+(Clotfelter, 1976; Baum-Snow and Lutz, 2011). However, the available empirical evidence suggests that desegregation increased demand for spending (Reber, 2011; Johnson, 2011). 
+
+
+
+                                18 
+                                
+  The first columns of Table IV show the stability of the coefficients of interest as 
+we include more controls that correlate with desegregation or more flexible functional forms for black enrollment share. Column (1) repeats the TSLS estimates from column (3) of Table III for the purposes of comparison. In column (2), we interact black enrollment share with the state dummies, thus allowing its effects to differ across states, and in column (3), we include indicators for deciles of black enrollment share in lieu of the linear term in column (1). Column (4) returns to the baseline linear specification and adds more district characteristics that Cascio et al. (2008) identified as predictive of the path to desegregation in the South - the share of the vote cast in the county for Strom Thurmond in the 1948 presidential election, a proxy for segregationist preferences, and (the natural log of) 1960 enrollment, a measure of district size. The TSLS coefficients are little changed. Below, we also show that child poverty does not predict the intensity of desegregation, as measured by the dissimilarity index, and that the spending response was larger but the level of desegregation no higher for districts more limited in their ability to offset Title I by reducing local revenue. 
+  These results taken together suggest that the relative increase in spending among poorer districts during this period was not due to desegregation. We next turn to other potential confounds. Increases in black political power following the Voting Rights Act of 1965 (VRA) may have resulted in larger increases in education spending for higher poverty districts. Controlling for black enrollment share should account for these impacts to a large extent,25 but as another test, we include the black voter registration rate in the early 1960s as a proxy for how suppressed the vote was before the VRA.26 The estimates are little affected 
+                                                              
+25 Cascio and Washington (2012) show that counties with higher black population shares in states with literacy tests 
+abolished by the VRA saw larger increases over the 1960s in voter turnout and state transfers (largely for education) than 
+counties with higher black population shares elsewhere in the South. The specification in column (2) of Table IV, which allows the effects of black enrollment share to differ by state, embodies this finding. 
+26 The exact year black voter registration is measured differs across states subject to data availability. Black voter 
+registration rates are on average lower in Southern states with literacy tests that were abolished by the VRA, which include 
+
+
+
+                                19 
+                                
+(column (5)). The estimates are likewise little changed in column (6), where we 
+include an indicator for whether the district was in one of the 300 poorest counties in 1960. These counties received special grant-writing assistance in the 1960s for Head Start (Ludwig and Miller, 2007), another program for poor children implemented in the mid-1960s that sometimes channeled funds through school districts. In column (7), we include Head Start spending at the county level as of 1968 along with changes in federal outlays between 1962 and 1969 for other programs at the county level - public assistance, retirement programs, and health programs. The estimates are quite similar to the baseline specification. Controlling simultaneously for all pre-existing characteristics available for the full sample (column (8)) also generates similar estimates to our baseline specification. 
+
+
+            IV. Heterogeneous Fiscal Responses to Title I 
+               
+            
+  We expect that school districts reduced local revenue less in response to Title I, 
+thereby increasing spending more, when grants were large relative to local revenue. As discussed in Section II, we expect less crowd out in districts that would have liked to consume on the restricted portion of the budget constraint. Districts with large grants relative to local revenue were also more likely to have been constrained to offset less than they would have liked, even if they did not consume literally at the corner. Given the underlying increase in funding from all sources over this period (Figure I), reducing local revenue relative to the counterfactual without actively reducing tax rates would have been relatively quick and easy for districts where the grant was small relative to local revenue: they could have simply increased local revenue somewhat less than they otherwise would have. In districts where the grant was large relative to 
+
+
+
+                                                                                                                                                                       
+all states under study except Florida and Tennessee. They were on average equalized across the two groups of states (with 
+data available) after the VRA; see Alt (1994). 
+
+
+
+                                20 
+                                
+counterfactual local revenue, on the other hand, actual reductions in local revenue, 
+or significantly more time, may have been required to offset the grant. 
+  These observations motivate our investigation of differential fiscal responses depending on the ratio of the Title I grant relative to (counterfactual) local revenue, a quantity which we term "scope for local offset."27 This analysis serves as a test of the internal validity of our research design; if our estimates are causal, the spending effects should be larger where we expect them to be in theory. But the analysis serves two important additional purposes. First, because incentives to desegregate (and as we show below, realized desegregation) did not vary with scope for local offset, the results provide an additional way to rule out desegregation as a mechanism or confounder of the results presented in the previous section. Second, the existence of differential spending responses to Title I related to scope for local offset give us an intuitively appealing way to estimate the effects of Title I-induced spending on educational outcomes. 
+  We would like to know how large the Title I grant was relative to what local revenue would have been in 1969 in the absence of the program; this would tell us by what percent the district would have had to reduce local revenue, relative to the counterfactual, to fully offset the grant. We do not observe counterfactual local revenue, so we estimate it using a district-specific linear extrapolation of the pre-program trend in local revenue from 1961 to 1964.28 The magnitude of the scope for offset ratio, much more than the rank order of districts, depends on how 
+ 
+  
+                                                              
+27 Because of the key role that race played in Southern politics and finance during this period, we also looked for 
+heterogeneous fiscal responses by black enrollment share. We did not find evidence of such heterogeneity in addition to the 
+heterogeneity by scope for offset, so we focus this analysis on scope for offset. See Cascio, Gordon, and Reber (2011) for results by black share. 
+28 In a few instances, the value of per-pupil local revenue for 1969 predicted on the basis of the pre-ESEA trend was 
+negative. In these cases, we recoded per-pupil local revenue to a small positive number to ensure that the district was coded 
+as having "low scope for local offset" in the analysis to follow. Our substantive results are unchanged if we predict per- pupil local revenue in 1969 on the basis of pre-ESEA trends in the natural log of per-pupil local revenue (or in percentage terms), to ensure that the 1969 prediction of per-pupil local revenue is always positive. Likewise, we obtain similar results when the denominator of this measure is instead a prediction of combined per-pupil local and state revenue arrived at using the same approach. 
+
+
+
+                                21 
+                                
+we estimate counterfactual local revenue.29 We therefore exploit the rank order of 
+districts by dividing the sample into quartiles according to this measure, rather than interpreting the magnitudes as described above. Although this proxy for scope for offset is noisy, it appears to carry signal throughout its distribution: the magnitudes of the TSLS estimates for changes in per-pupil local revenue and current expenditure are monotonic in the expected direction in quartiles of the proxy (see Appendix Table I). For simplicity, we split the sample at the 75th percentile and consider the top quartile to encompass "low scope for local offset" districts. Results are similar, but the differences less dramatic, if we split the sample at the median of this measure. 
+  Districts with low scope for offset were poorer, blacker, and smaller, on average, compared to the rest of the sample (Appendix Table II). This is not surprising since these districts had larger Title I grants, lower local revenue, or both. To estimate the effects of Title I on fiscal outcomes separately for these two groups of districts, we need to assume that the identification assumption described above holds in each sample; that is, absent the program, there would not have been a sharp break in the poverty gradient for the outcomes of interest around 1965. Figure IV shows trends in the poverty gradients separately for low scope for offset (solid dots) and other districts (hollow dots). The change in the poverty gradient in federal revenue was the same for both samples (Panel A), as expected based on the Title I formula, but increased federal revenue appears to have translated to higher spending at a much higher rate in low scope for offset districts (Panel B). This is because there was significantly more local offset in other districts (Panel D). Thus, while the initial level of the poverty gradient differs for the two samples, there is no apparent pre-program trend in the poverty gradient 
+  
+  
+                                                              
+29 For example, an alternative approach would be to base our counterfactual on 1964 local revenue only. The rank order 
+of districts would be the same regardless of what we assumed for the (common) growth rate of local revenue between 1964 
+and 1969, though the magnitude of scope for local offset would vary widely. 
+
+
+
+                                22 
+                                
+for any of the outcomes, consistent with the results presented in Figure III for the 
+full sample and supportive of the identification assumption. 
+  To facilitate the dollar-for-dollar interpretation, we estimate TSLS regressions separately for the two samples and present results in Table V analogous to those in Table IV. All specifications include controls for all pre-existing variables that can be measured for all districts (column (8) of Table IV). Columns (1) to (3) of Table V show the effect of the 1964 to 1969 change in per-pupil federal revenue on the 1964 to 1969 change in per-pupil spending, per-pupil state revenue, and per-pupil local revenue, respectively, separately for districts with low scope for local offset (Panel B1) and for all other districts (Panel B2). Estimates for the full sample in the same specification are repeated in Panel A for comparison. 
+  The estimates by scope for offset align with our expectations and the results shown graphically above. Current expenditure increased substantially more between 1964 and 1969 in districts with low scope for local offset - a statistically significant 88 cents for each dollar of federal revenue, compared to an insignificant 21 cents on the dollar for the remaining districts (column (1)). The difference in these estimates is a statistically significant 67 cents (Panel B3). There is no significant state revenue response for either group of districts, and no significant difference in state revenue responses across the two subsamples (column (2)). However, for the quarter of districts with low scope for offset, there was indeed no reduction in local revenue in response to Title I, while the remaining districts reduced local revenue by 56 cents on the dollar. The difference in local revenue responses across the two groups is a statistically significant 54 cents, which can account for a substantial fraction of the difference in spending 
+effects across groups.30 
+
+                                                              
+30 One might be concerned that these estimates reflect variation in the fiscal response along some other dimension 
+correlated with low scope for offset, like having a high black enrollment share or a high poverty rate. When we estimate 
+fully-interacted versions of the models estimated for Table V Panel B3 to check for heterogeneous responses by scope for local offset and black enrollment share simultaneously, the estimates for scope for offset are statistically and substantively 
+
+
+
+                                23 
+                                
+  If our estimates are confounded by desegregation, we would expect to see a 
+different relationship between the poverty rate and desegregation in the low scope for offset districts, where Title I funding increased spending more, compared to the rest of the sample. In Column (4), we show results from the same specification as in columns (1) to (3), but using as a dependent variable the realized level of desegregation as measured by the dissimilarity index in 1970.31 In fact, the 1960 poverty rate is not related to the realized level of desegregation in the full sample (Panel A) or either sub-sample (Panel B). The estimates are statistically insignificant and substantively small,32 suggesting that desegregation-related changes in demand for school spending are not biasing the estimated effects of Title I on fiscal outcomes. 
+
+
+               V. Title I and Educational Attainment 
+                   
+               
+ The results thus far suggest that Title I raised school spending in the South, and 
+considerably more so in districts where the grants were large relative to estimated counterfactual local revenue, where the ability to offset Title I funds was likely constrained. Did these increases in school spending improve student outcomes? Little data on educational outcomes at the county or district level is available for this time period, and we do not have annual measures of educational outcomes as we did for the analysis of fiscal outcomes. Despite these limitations, we think it is 
+
+                                                                                                                                                                       
+unchanged. Separately identifying differential responses by scope for offset and child poverty is more difficult. When we 
+allow higher poverty districts to have a differential response, the coefficient on the low scope for offset interaction falls, but the standard error doubles. Neither interaction is individually significant, though they are jointly significant. While it is therefore possible that Title I grants were "stickier" in low scope for offset districts because they were "stickier" in poor districts, we do not have the power to distinguish between these hypotheses. 
+31 We use data from 1970 rather than 1969 because coverage is more complete in the even years in the Office of Civil 
+Rights data (which provides enrollment by race at the school level), and the legal environment was similar in both years. 
+Results are similar for 1969. In results not reported, as an alternative way to address the concern that desegregation could be confounding the results, we added the 1970 dissimilarity index as well as an indicator for the presence of a court order in 1970 to the specifications reported in Table IV. This did not affect the coefficients of interest, but we do not report these results since both of these variables are potentially endogenous to the Title I grant. 
+32 A typical major court-ordered school desegregation plan reduced the dissimilarity index by about 0.22 (Reber, 2005). 
+The lower bound of the 95% confidence interval for the coefficient in Panel A suggests that an additional $100 Title I 
+induced change in federal revenue was associated with a reduction in the dissimilarity index of only 0.004. 
+
+
+
+                                24 
+                                
+instructive to analyze trends in educational attainment for this period to shed light 
+on the potential effects of Title I, but we consider these results to be significantly more speculative than the results presented above. 
+  Recall there was limited enforcement of even nominal targeting to "educationally deprived" students during this era, so Title I-induced increases in school expenditure could easily have benefitted other children. We therefore examine how Title I affected all students and view our analysis as being more closely related to the literature on the effects of school spending on student outcomes than on the achievement effects of Title I.33 We do, however, present separate estimates for blacks and whites to explore the possible importance of race in the within-district allocation of funds. All states discontinued publication of spending by race by the mid-1960s, so we cannot examine this directly. But up to that time, school boards did allocate state funding disproportionately to white schools (Margo, 1990; Reber, 2011), so it would not be surprising if they did the same with federal funding when the process of desegregation had begun, but blacks and whites still largely attended separate schools. 
+  
+  
+                A. Graphical and Regression Evidence 
+                    
+                
+  Our outcome of interest is the change in the high school dropout rate of 18 and 
+19 year olds over the 1960s, where the high school dropout rate is defined as the share of individuals who are neither enrolled in school nor have 12 years of completed schooling.34 High school dropout, unlike other student outcomes of interest, can be consistently observed at a local level both before and after Title I. 
+                                                              
+33 Several major studies - the Sustaining Effects Study (Carter, 1984) and the Prospects study (Puma et al., 1997) - 
+attempt to estimate the effects of participating in Title I programs on student outcomes. These studies implicitly assume 
+that participation in a Title I program reflects additional resources to the participating student (not full crowd out), and that non-participating students are unaffected (no spillovers). Identifying these effects is difficult, given the negative selection of participants by design (see Borman and D'Agostino (1996) for a review). 
+34 Technically speaking, the high school dropout rate so defined may include individuals who never even started high 
+school. It was not uncommon for students to exit the educational system before high school during this period, particularly 
+in the South (Collins and Margo, 2006). 
+
+
+
+                                25 
+                                
+It was also a relevant margin of attainment for the South at this time, as 32 
+percent of whites and 45 percent of blacks aged 18 and 19 were high school dropouts in 1960.35 We purchased special tabulations from the Census Bureau to obtain dropout rates from the 1960 and 1970 Censuses at the lowest possible level of geographic disaggregation - the county.36 Because counties vary dramatically in size, and school districts, not counties, are the relevant decision makers, we weight the analysis by county population (of 18 and 19 year olds, by race) in 1960. The estimates are substantively similar but less precise when we estimate the model without weights, suggesting that weighting primarily corrects for heteroskedasticity. On average, Southern blacks experienced a 14.1 percentage point reduction in likelihood of high school dropout at ages 18 to 19 between 1960 and 1970; for whites, this figure was 10 percentage points. 
+  We exploit the heterogeneity in the spending response shown above as a source of identification. To set ideas, the first column in Figure V shows the regression- adjusted relationship between 1960 child poverty rates and the change in per- pupil current expenditure between 1964 and 1969, separately in counties where all districts had low scope for local offset (Panel A) and in the remaining counties (Panel B); the slope estimates are presented in the first column of the same respective panels of Table VI. The regressions were estimated using county aggregates of the district-level finance data and are otherwise similar to the reduced-form specifications that underlie the district-level TSLS estimates in Table V.37 The dot sizes represent the size of the county's white 18 to 19 year old 
+                                                              
+35 Reducing high school dropout rates would be unambiguously good if graduation standards were clearly defined and 
+followed. If schools graduate more students because of pressure to do so, rather than increasing shares of students 
+achieving some set level of competency, dropout rates do not reveal underlying changes in true levels of human capital. 
+36 In our sample, we have 838 districts in 647 counties. We restrict attention to counties where districts in our estimation 
+sample represent at least 90 percent of total county enrollment in 1960. Though all discussion of impacts on high school 
+dropout refers to counties, recall that the relevant fiscal decisions are made at and aggregated from the district level. 
+37 County aggregates were generated from all district-level data weighting by 1960 district enrollment. The specification 
+also includes the 1960 race-specific high school dropout rate of 18-19 year olds to account for the possibility that the trend 
+in high school dropout depended on the starting point. We unfortunately cannot examine (or control for) trends in high school dropout by race at the county level during the 1950s. 
+
+
+
+                                26 
+                                
+population in 1960 to reflect weighting of the regression fit. Consistent with 
+findings reported in Table V, school spending became much more progressive over the second half of the 1960s in the subsample of counties where the scope for local offset by districts was low. The finding is similar in the subsample of counties with black populations and weighting by initial county black population, as shown in the first column of Figure VI and the third column of Table VI. 
+  If "money mattered," we would expect to see greater convergence in educational attainment between poorer and richer counties over the 1960s in the subsample where the scope for local offset was low, or where Title I translated into more spending at a higher rate. We explore this in the second column of each figure using the same specification as in the first column but replacing the dependent variable with the 1960 to 1970 change in high school dropout rates of 18 and 19 year olds. For whites (column (2)), the reduction in high school dropout over the 1960s was much larger in poorer counties than richer counties in the subsample with low scope for offset (Panel A), but not elsewhere (Panel B), suggesting that Title I-induced spending increases improved white educational outcomes. This was not the case for blacks, however (column (4)). 
+  We rescale the reduced-form estimates for high school dropout by the corresponding reduced-form estimates for the 1964 to 1969 change in annual per- pupil spending to make their magnitudes more interpretable. For example, the estimates in Panel A imply that each additional $100 increase in per-pupil school spending was associated with a 3.46 percentage point decrease in high school dropout for whites (=-39.98/(1,156.32/100)). We take this approach to maintain consistency with our empirical analysis thus far, but note that scaling by the cumulative increase in spending resulting from Title I may be more appropriate. The cohorts in our analysis were exposed to about five years of Title I-induced spending increases before we observe high school dropout in 1970 (the 1969-70 school year). Title I grants were slightly smaller in the early years (and some 
+ 
+  
+  
+                                27 
+                                
+districts did not receive their grants due to non-compliance with the CRA), so an 
+additional $100 in spending by fall 1969 likely corresponds to somewhat less than $500 of additional cumulative spending between 1965 and 1969. To think about the effects of an additional $100 of cumulative spending exposure, the estimates presented would therefore need to be scaled down by about a factor of five. 
+  We present TSLS estimates of the effects of changes in current expenditure on changes in high school dropout in Table VII. In Panel A, we instrument for the change in per-pupil current expenditure (in hundreds of 2009 dollars) with the 1960 child poverty rate, limiting the sample to counties with low scope for offset, where the spending response to Title I for both blacks and whites was statistically significant. This is the formalization of the example described intuitively above. The identifying assumption is that, in the absence of the Title I, there would have been no change in the poverty gradient in outcomes in these counties. In Panel B, we instrument for the change in per-pupil current expenditure with the 1960 child poverty rate interacted with an indicator for whether the county's districts had low scope for offset using the full sample. These estimates rescale the reduced-form estimate for the change in high school dropout in Panel C of Table VI by the corresponding reduced-form estimate for the change in per-pupil current expenditure. In this specification, we thus allow the 1960 child poverty rate to have an effect on high school dropout through channels other than educational expenditure. The identifying assumption here is that, in the absence of the program, changes in the poverty gradient in high school dropout would have been the same in both sets of counties. 
+  Columns (1) and (4) of Table VII present the TSLS estimates for the baseline specification for changes in white and black high school dropout rates, respectively. The estimates in Panel A, which use the first identification strategy, imply that each additional $100 increase in annual current expenditure per pupil between 1964 and 1969 was associated with a statistically significant 3.46 
+ 
+  
+  
+                                28 
+                                
+percentage point decrease in the likelihood of white high school dropout and an 
+insignificant 0.66 percentage point increase in the likelihood of black high school dropout over the 1960s. Allowing for a direct effect of 1960 poverty by using other counties as a comparison group, in Panel B, we find slightly more negative estimates - a marginally statistically significant -5.47 for whites, and an insignificant 0.17 for blacks. The first stage is unsurprisingly weaker in these models, which are more demanding of the data.38 Nevertheless, these models suggest that failure to allow for a direct effect of 1960 child poverty on high school dropout rates may bias the models in Panel A against finding an effect. Indeed, though not statistically significant, the coefficients on the 1960 child poverty rate in the second specification (not shown) are positive. 
+  The estimates are robust to several specification tests. For example, in columns (2) and (5), we include changes in transfer payments to the county over the 1960s through other federal programs, including Head Start and Medicaid, and see if anything an increase in the magnitude of the estimates for whites.39 Perhaps more compelling, we see no effect of spending on high school dropout rates of individuals whose secondary education would have been completed prior to 1965, using as a dependent variable the change between 1960 and 1970 in the percent of a county's whites and blacks aged 25 and older without a high school degree (columns (3) and (6)). Presumably, unobserved shocks to educational attainment in the county population - through migration, for example - would have affected this older age group as well. 
+ 
+                                                              
+38 Note that the first-stage coefficients reported in Table VII should be compared to the reduced-form coefficients in Table 
+V. The reduced-form F-stats on the instrument from the district-level TSLS models linking federal revenue to spending 
+(column 1 of Table V) are 16.56 (for the model in Panel B1 - low scope for offset districts) and 8.29 (for the model in Panel B3 - difference between low scope for offset districts and other districts). The first-stage F-stats from the county- level TSLS models linking spending to high school dropout reported in Table VII are slightly smaller because the process of aggregating the data to the county level reduces variation in our key explanatory variables and lowers the number of observations, reducing power. 
+39 These estimates are similarly unaffected by the inclusion of the 1970 dissimilarity index as a control. The estimates in 
+Panel B are also substantively similar but less precise when allow for heterogeneity in the direct effects of child poverty by 
+whether all districts in the county had high (top quartile) 1960 black enrollment shares. (Results are available on request.) 
+
+
+
+                                29 
+                                
+  We do not have similar county-level data for 1950, so we cannot directly 
+conduct the "placebo test" on pre-program trends. We have located county-level data for 1950 and 1960 on the school enrollment rates of 16 and 17 year-olds, however. These data cover a different age group and, more importantly, are not reported separately by race. Nevertheless, the trend in this measure should reflect general trends in educational attainment of young people during the 1950s. The coefficients of interest reported in Table VII are not affected by the inclusion of the change in this variable between 1950 and 1960. When we estimated the specifications in columns (1) and (4) with the 1950 to 1960 change in enrollment rates as the dependent variable (results not shown), the point estimate on the change in per-pupil current expenditure from 1964 to 1969 was negative in three out of four cases (suggesting increases in dropout over the 1950s) and always insignificant and small relative to the estimates for white high school dropout over the 1960s, with large standard errors. 
+ Because spending was low and high school dropout rates high during the period of study, the effects on educational attainment that we estimate may be larger than would be expected from modern-day spending increases. It is difficult to compare these estimates to those from studies that estimate the impacts of school spending for more recent cohorts, because such studies tend to measure achievement with test scores. Even comparing our findings to those for earlier cohorts is difficult: while most existing studies of earlier cohorts measure achievement with educational attainment, they also tend to measure school inputs directly (i.e., with 
+pupil-teacher ratios), instead of with spending.40 
+  We can think about the magnitudes of the estimates in several ways. First, a back-of-the-envelope cost-benefit analysis focusing solely on labor market returns 
+                                                              
+40 See, for example, Card and Krueger (1992a, 1992b, 1996) and Ashenfelter, Collins, and Yoon (2006). Such studies find 
+positive effects of measured inputs on educational attainment and wages. Reber (2010) estimates the effects of 
+desegregation-induced changes in spending on educational attainment for blacks and finds somewhat smaller effects. Existing work estimating the effects of educational spending tends to use test scores as the educational outcome of interest (Hanushek, 1997). 
+
+
+
+                                30 
+                                
+to an additional year of schooling for whites implies that the value of the social 
+benefits were larger than the spending increase (see Appendix B for details). Second, the point estimate for whites implies that Title I can explain 37 percent of the 10 percentage point decrease in their high school dropout rate over the decade. By contrast, using the 95 percent confidence interval, we estimate that Title I can account for at most 24 percent of the 14 percentage point decrease in black high 
+school dropout over the 1960s.41 
+
+
+               B. Evidence on Within-District Allocation 
+                   
+               
+ Our estimates suggest that whites benefited from Title I-induced changes in 
+educational expenditure, but blacks did not. The estimates are imprecise enough that we cannot reject moderate beneficial effects for blacks, but we reject that the effects are the same for the two groups. 
+  One possible explanation for these findings is that Title I-induced spending increases were disproportionately directed toward whites. Because race-specific spending data are not available, we cannot directly examine to what extent within- district allocations of Title I funds targeted white students. And our analysis of changes in race-specific pupil-teacher ratios by race before and after Title I for the two states where data was available was uninformative. However, our analysis of changes in overall pupil-teacher ratios between 1964 and 1969 for five states in our estimation sample implies that Title I-induced reductions in pupil-teacher ratios can account for 36 to 40 percent of the spending increase.42 Given the 
+   
+  
+                                                              
+41 These calculations scale up the coefficient on the change in per-pupil funding (or its upper bound) in the baseline 
+specification of Panel A of Table VII by the predicted change in per-pupil spending from Title I for the average child, then 
+divide by the (weighted) mean of the dependent variable. The predicted change in per-pupil spending from Title I is calculated separately by race, weighting by the 1960 race-specific population of 18 and 19 year olds and controlling for their high school dropout rate. We focus on the Panel A estimates because they are more precise. 
+42 The states with pupil-teacher ratios are Alabama, Florida, Louisiana, Tennessee, and Virginia. Using the same 
+specification as in Table III, we estimate a positive and statistically significant coefficient on child poverty for the change 
+in teacher-pupil ratios (0.00518 (0.00130)). Given average teacher salaries in these states in 1964 and 1969 ($36,423 and $43,617, respectively, in 2009 dollars) and the corresponding coefficient estimate on child poverty for the change in per- 
+
+
+
+                                31 
+                                
+strong link between pupil-teacher ratios and black educational attainment in 
+slightly earlier cohorts (e.g., Card and Krueger 1992a), we expect blacks to have benefited from these reductions in pupil-teacher ratios had they actually experienced them. 
+  Moreover, targeting of Title I-induced spending increases toward whites was plausible. Substantial desegregation occurred only after 1968,43 making it possible for districts to continue targeting resources to white schools as they had historically done (Margo, 1990). Targeting of Title I funds was also weak at the time, as discussed in Section I. Martin and McClure (1969) present many examples of districts targeting funds to schools not designated as Title I recipients.44 But such blatant misuses of funds identified as Title I are only one way in which non-Title I schools could benefit from the program. More easily and without violating any laws or regulations at the time, districts could have allocated more state and locally-generated revenue to non-Title I schools, using Title I funds "correctly" in Title I schools. Martin and McClure's documentation of such behavior lent political pressure for the increased regulation of the use of Title I funds starting with the 1969 ESEA amendments. 
+  
+  
+                         VI. Conclusion 
+                                
+                         
+ This paper examines the fiscal and educational impacts of the introduction of 
+Title I of the Elementary and Secondary Education Act in the South. Combining 
+                                                                                                                                                                       
+pupil current expenditure in this sample ($561.6), these estimates imply that reductions in pupil-teacher ratios can account for about 36 to 40 percent of the spending increase induced by Title I. 
+43 A growing literature examining the effects of policy efforts to narrow black-white school quality gaps and desegregate 
+schools consistently concludes that such programs were beneficial for black educational attainment. See, for example, 
+Reber (2010), Johnson (2011), Card and Krueger (1992a), Lutz (2011), Ashenfelter, Collins, and Yoon (2006), and Guryan (2004). Similar to Reber (2010) and consistent with the idea that desegregation-induced spending helped blacks, we find that spending and educational attainment for blacks both increased more in districts with higher black enrollment shares results not shown). 
+44 For example: "In Oxford, Mississippi, a curriculum and materials center is located at a non-Title I school, near a police 
+station, reportedly for fear of burglary. Furthermore, the Title I coordinator in Oxford is principal of a non-Title I, white 
+school" (p. 6). An HEW audit of Louisiana school districts covering Title I expenditures in the program's first year found that 23 counties "loaned" equipment costing $645,624 to schools that were ineligible to participate in Title I programs. The auditors noted that much of the "loaned" equipment was "set in concrete or fastened to the plumbing." (p. 9). 
+
+
+
+                                32 
+                                
+variation in the program's intensity across school districts with the timing of its 
+introduction in 1965, we find evidence of an important role for Title I in increasing the progressivity of funding for Southern schools during the 1960s. School districts responded to the influx of Title I funding by significantly reducing their own fiscal effort, and more so where Title I grants were small relative to what local revenue would have been had pre-ESEA trends continued. "Money mattered," but only where the introduction of Title I increased spending, and only for whites.45 Despite this, the program appears to have been cost- effective overall in the South on the basis of our estimates. 
+  Our analysis contributes to the understanding of the impact of Title I in its earliest years, but necessarily falls short of a full assessment of Title I's legacy. The introduction of the program likely also had other benefits - on other educational or social outcomes, on other cohorts, or in the increased consumption of other goods that crowd out represents - that are not easily quantified. The effects of Title I's introduction might well have been different outside of the South. These questions are important ones for future research. 
+  Our analysis also makes a more general point. In the same vein as Baicker and Staiger's (2005) analysis of Medicaid Disproportionate Share Hospital funding and van der Klaauw's (2008) school-level analysis of Title I programs in New York City, our findings emphasize the usefulness of examining the impacts of intergovernmental grants on a jurisdiction's finances alongside any evaluation of its impacts on the ultimate outcome of interest. Indeed, the introduction of Title I improved educational attainment only where it increased education spending. 
+    
+  
+  
+  
+  
+                                                              
+45 Our findings are in contrast to the existing literature on Title I, which has concluded the program is largely ineffective. 
+However, we ask a different question by estimating returns to increases in education spending induced by Title I for all 
+students in a district, rather than comparing outcomes of participants in whatever was called a Title I program at a particular point in time to those for non-participants (as in Carter, 1984; Puma et al., 1997). 

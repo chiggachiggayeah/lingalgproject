@@ -26,6 +26,18 @@ def writeVectorToFile(A, filename):
 	f.write("\n")
 	f.close()
 
+def makeWordDict(startIndex):
+	words = ["the", "be", "to", "of", "and", "a", 'in', 'that','have','I',
+	'it','for','not','on','with','he','as','you','do','at','this', 'but','his','by',
+	'from','they','we','say','her','she','or','an','will','my','one','all','would',
+	'there','their','what','so','up','out','if','about','who','get','which','go','me']
+	counter = startIndex
+	wordDict = {}
+	for word in words:
+		wordDict[word] = counter
+		counter += 1
+	return wordDict
+
 def test():
 	print "Testing compareVectors function"
 	A = [1, 2]
@@ -35,4 +47,5 @@ def test():
 
 	writeVectorToFile(A, "myfile.txt")
 
-test()
+#test()
+makeWordDict()
