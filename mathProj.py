@@ -2,10 +2,6 @@
 # Writing Comparison Project
 # Math 22, Professor Rockmore, 14F.
 
-# Finds the distance between two vectors.
-# @A, @B: vectors that contain the frequency of the tracked words.
-# @return: the distance between the two vectors.
-
 import argparse
 
 def make_func_dict(func_file):
@@ -33,6 +29,9 @@ def construct_vector(prof_file, func_dict):
 			doc_vector[func_dict[el]] += 1
 	return doc_vector
 
+# Makes the dictionary of words that we are looking for in prof papers
+# and maps the words to a corresponding index for each vector.
+# @startIndex - the index in each vector where we start keeping track of the freq of each word.
 def makeWordDict(startIndex=2):
 	words = ["the", "be", "to", "of", "and", "a", 'in', 'that','have','I',
 	'it','for','not','on','with','he','as','you','do','at','this', 'but','his','by',
@@ -45,6 +44,9 @@ def makeWordDict(startIndex=2):
 		counter += 1
 	return wordDict
 
+# Makes the vectors from a file that has all the already formed vectors in written form.
+# @vector_file: the file that has the vectors in it.
+# @word_dict: the dictionary that contains the words that we are looking for in the prof papers.
 def reconstruct_vector(vector_file, word_dict):
     #professor name(space)paper_title(space)word_index(space)freq word_index(space)freq...
     #brookes federalism_paper 2 10 3 10 4 13 5 10 ...
@@ -64,32 +66,9 @@ def reconstruct_vector(vector_file, word_dict):
         vector_list.append(new_vec)
     return vector_list #not sure if this is how we want it. Func words don't automatically have this index, right?
 
-word_dict = makeWordDict()
-print reconstruct_vector("vectors", word_dict)
-
-
-# if __name__ == "__main__":
-#     print "whaddup"
-#     parser = argparse.ArgumentParser(description="Command line parser")
-#     parser.add_argument('-f', required="True")
-#     parser.add_argument('-o', required="True")
-#     parser.add_argument('-r', nargs="*", required="True")
-#     args = vars(parser.parse_args())
-#     prof_files = args["r"]
-#     out_file = args["o"]
-#     f = open(out_file, 'w+')
-#     func_word_file = args["f"]
-#     #how to have a list of args
-#     func_dict = make_func_dict(func_word_file)
-#     print func_dict.values()
-#     print func_dict.keys()
-#     for file in prof_files:
-#         vector = construct_vector(file, func_dict)
-#         #WRITE TO SOME FILE
-#         print "hey"
-#         for val in vector:
-#             f.write(str(val))
-
+# Finds the distance between two vectors.
+# @A, @B: vectors that contain the frequency of the tracked words.
+# @return: the distance between the two vectors.
 def compareVectors(A, B):
 	if len(A) != len(B):
 		return
@@ -121,5 +100,29 @@ def test():
 	print "distance squared is " + str(compareVectors(A,B))
 
 	writeVectorToFile(A, "myfile.txt")
-
+def test2():
+	word_dict = makeWordDict()
+	print reconstruct_vector("vectors", word_dict)
+test2()
 #test()
+# if __name__ == "__main__":
+#     print "whaddup"
+#     parser = argparse.ArgumentParser(description="Command line parser")
+#     parser.add_argument('-f', required="True")
+#     parser.add_argument('-o', required="True")
+#     parser.add_argument('-r', nargs="*", required="True")
+#     args = vars(parser.parse_args())
+#     prof_files = args["r"]
+#     out_file = args["o"]
+#     f = open(out_file, 'w+')
+#     func_word_file = args["f"]
+#     #how to have a list of args
+#     func_dict = make_func_dict(func_word_file)
+#     print func_dict.values()
+#     print func_dict.keys()
+#     for file in prof_files:
+#         vector = construct_vector(file, func_dict)
+#         #WRITE TO SOME FILE
+#         print "hey"
+#         for val in vector:
+#             f.write(str(val))
