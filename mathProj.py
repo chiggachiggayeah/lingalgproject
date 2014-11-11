@@ -6,16 +6,11 @@ import argparse
 import string
 import os
 
-def make_func_dict(func_file):
-	i = 0
-	myfuncdict = {}
-	for line in open(func_file):
-		sline = line.split()
-		print sline
-		myfuncdict[sline[0]] = i
-		i += 1
-	return myfuncdict
-
+# Constructs the vector for a given paper
+# @prof_file - the full path of the file to read from.
+# @filename - just the filename, without the full path
+# @startIndex - the index where we start keeping track of words and their freqs
+# returns - the vector for that file
 def construct_vector(prof_file, filename, func_dict, startIndex = 4):
 	doc_vector = [0] * (len(func_dict) + startIndex)
 	counter = 0
@@ -78,12 +73,12 @@ def reconstruct_vector(vector_file, word_dict, startIndex=4):
 # Finds the distance between two vectors.
 # @A, @B: vectors that contain the frequency of the tracked words.
 # @return: the distance between the two vectors.
-def compareVectors(A, B):
-	if len(A) != len(B):
+def compareVectors(vect1, vect2, startIndex = 4):
+	if len(vect1) != len(vect1):
 		return
 	distance = 0
-	for i in range(4, len(A)):
-		coordDist = (A[i] - B[i])*(A[i] - B[i])
+	for i in range(startIndex, len(vect1)):
+		coordDist = (vect1[i] - vect2[i])*(vect1[i] - vect2[i])
 		distance = distance + coordDist
 
 	return distance
@@ -103,25 +98,25 @@ def writeVectorToFile(A, filename, startIndex = 4):
 
 
 
-def test():
+def test1():
 	print "Testing compareVectors function"
 	A = [1, 2]
 	B = [2, 4]
 	print "A is " + str(A), "B is " + str(B)
 	print "distance squared is " + str(compareVectors(A,B))
-
 	writeVectorToFile(A, "myfile.txt")
-def test2(filename):
+
+def reconstructVectorsTest(filename):
 	word_dict = makeWordDict()
 	vectors= reconstruct_vector(filename, word_dict)
 	print vectors[0]
 	print vectors[len(vectors) - 1]
-def test3():
+def constructVectorTest():
 	word_dict = makeWordDict()
 	vect = construct_vector("prof_file", word_dict)
 	print vect
 
-def test4(folder):
+def createVectorsforPapers(folder):
 	word_dict = makeWordDict()
 	vector_list = []
 	for filename in os.listdir(folder):
@@ -132,12 +127,24 @@ def test4(folder):
 		writeVectorToFile(vect, "prof_vectors.txt")
 
 
-#test4("papers")
-#test2("prof_vectors.txt")
+#createVectorsforPapers("papers")
+#reconstructVectorsTest("prof_vectors.txt")
 
 
-#test3()
+#constructVectorTest()
 #test()
+
+# Eric - Not sure what this does.
+def make_func_dict(func_file):
+	i = 0
+	myfuncdict = {}
+	for line in open(func_file):
+		sline = line.split()
+		print sline
+		myfuncdict[sline[0]] = i
+		i += 1
+	return myfuncdict
+
 # if __name__ == "__main__":
 #     print "whaddup"
 #     parser = argparse.ArgumentParser(description="Command line parser")
