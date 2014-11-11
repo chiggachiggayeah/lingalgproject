@@ -33,6 +33,32 @@ def construct_vector(prof_file, filename, func_dict, startIndex = 4):
 			doc_vector[func_dict[el]] += 1
 	return doc_vector
 
+# Writes the vectors to a Matlab compatible matrix.
+# @vector_list - the list of vectors representing papers.
+# @filename - the name of the file that will contain the Matlab data.
+def writeMatlabFile(vector_list, filename, startIndex=4):
+	f = open(filename,'a')
+	f.write("papers = [")
+	for vector in vector_list:
+		f.write(str(vector[startIndex]))
+		for i in range(startIndex, len(vector)):
+			f.write(" " + str(vector[i]))
+		f.write(";...\n")
+	f.write("];")
+	f.close()
+
+# Normalizes the vectors so that a word's score depends on the frequency of other words in the paper.
+# Makes it so that longer papers do not have higher frequencies for all words.
+# Edits the vector_list in place.
+def normalizeVectors(vector_list, startIndex = 4):
+	for vector in vector_list:
+		sum = 0
+		for i in range(startIndex, len(vector)):
+			sum += vector[i]
+		for i in range(startIndex, len(vector)):
+			vector[i] = float(vector[i])/sum
+	return vector_list
+
 # Makes the dictionary of words that we are looking for in prof papers
 # and maps the words to a corresponding index for each vector.
 # @startIndex - the index in each vector where we start keeping track of the freq of each word.
@@ -126,6 +152,27 @@ def createVectorsforPapers(folder):
 	for vect in vector_list:
 		writeVectorToFile(vect, "prof_vectors.txt")
 
+def createVectorsforPapers(folder):
+	word_dict = makeWordDict()
+	vector_list = []
+	for filename in os.listdir(folder):
+		full_path = folder + "/" + filename
+		vector = construct_vector(full_path, filename, word_dict)
+		vector_list.append(vector)
+	for vect in vector_list:
+		writeVectorToFile(vect, "prof_vectors.txt")
+
+def makeMatlabData(folder):
+	word_dict = makeWordDict()
+	vector_list = []
+	for filename in os.listdir(folder):
+		full_path = folder + "/" + filename
+		vector = construct_vector(full_path, filename, word_dict)
+		vector_list.append(vector)
+	normalizeVectors(vector_list)
+	writeMatlabFile(vector_list, "matlabData")
+
+makeMatlabData("papers")
 
 #createVectorsforPapers("papers")
 #reconstructVectorsTest("prof_vectors.txt")
