@@ -1,6 +1,6 @@
-Dave Kotz
-Computer Science
-An Amulet for Trustworthy Wearable mHealth
+Dave_Kotz
+CS
+An_Amulet_for_Trustworthy_Wearable_mHealth
 
   An Amulet for Trustworthy Wearable mHealth 
   

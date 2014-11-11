@@ -1,6 +1,6 @@
-Roger Sloboda
+Roger_Sloboda
 Biology
-A Protein Methylation Pathway
+A_Protein_Methylation_Pathway
 
 Intraflagellar transport (IFT) was originally discovered in the biflagellate green alga Chlamydomonas (Kozminski et al., 1993b) and is characterized by the rapid, bidirectional movement of IFT particle polypeptides (Cole et al., 1998) and their associated cargo and motor proteins along the length of eukaryotic cilia and flagella. One of the striking observations about the process is that IFT particles move from base to tip at a constant rate without pauses. At the flagellar tip, IFT particles are remodeled (Iomini et al., 2001; Pedersen et al., 2006) and then begin transport back to the cell body. Kinesin-2 (Kozminski et al., 1995) and Osm-3 (Snow et al., 2004) are the motors for anterograde (base to tip) movement, and dynein 2 is the motor for retrograde movement (Gibbons et al., 1994; Pazour et al., 1999; Porter et al., 1999; Signor et al., 1999). However, little is known about 1) how the relative activities of the IFT motors are controlled, 2) how cargo is loaded and unloaded, or 3) how assembly and disassembly of the flagellum are regulated, except that all of these activities occur within a few tenths of a micrometer of the flagellar tip, i.e., where anterograde IFT stops and retrograde IFT begins. We refer to this region of the flagellum and the proteins comprising it as the flagellar tip complex (FTC).
 

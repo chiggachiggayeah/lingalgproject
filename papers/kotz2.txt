@@ -1,5 +1,5 @@
-Dave Kotz
-Computer Science
+Dave_Kotz
+CS
 Amulet
 
 Amulet: A secure architecture for mHealth applications for 

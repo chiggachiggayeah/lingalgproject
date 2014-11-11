@@ -3,6 +3,8 @@
 # Math 22, Professor Rockmore, 14F.
 
 import argparse
+import string
+import os
 
 def make_func_dict(func_file):
 	i = 0
@@ -14,13 +16,20 @@ def make_func_dict(func_file):
 		i += 1
 	return myfuncdict
 
-def construct_vector(prof_file, func_dict):
-	doc_vector = [0] * (len(func_dict) + 2)
-	doc_vector[0] = "Professor"
-	doc_vector[1] = "Document_name"
+def construct_vector(prof_file, filename, func_dict, startIndex = 4):
+	doc_vector = [0] * (len(func_dict) + startIndex)
+	counter = 0
 	for line in open(prof_file):
+		if counter == 0:
+			doc_vector[0] = filename
+			counter = 1
+		if counter < startIndex:
+			doc_vector[counter] = line.strip()
+			counter += 1
+			continue
 		line_list = line.split()
 		for el in line_list:
+			el = el.lower().strip(string.punctuation)
 			try:
 				func_dict[el]
 			except KeyError:
@@ -32,7 +41,7 @@ def construct_vector(prof_file, func_dict):
 # Makes the dictionary of words that we are looking for in prof papers
 # and maps the words to a corresponding index for each vector.
 # @startIndex - the index in each vector where we start keeping track of the freq of each word.
-def makeWordDict(startIndex=2):
+def makeWordDict(startIndex=4):
 	words = ["the", "be", "to", "of", "and", "a", 'in', 'that','have','I',
 	'it','for','not','on','with','he','as','you','do','at','this', 'but','his','by',
 	'from','they','we','say','her','she','or','an','will','my','one','all','would',
@@ -47,17 +56,17 @@ def makeWordDict(startIndex=2):
 # Makes the vectors from a file that has all the already formed vectors in written form.
 # @vector_file: the file that has the vectors in it.
 # @word_dict: the dictionary that contains the words that we are looking for in the prof papers.
-def reconstruct_vector(vector_file, word_dict):
+def reconstruct_vector(vector_file, word_dict, startIndex=4):
     #professor name(space)paper_title(space)word_index(space)freq word_index(space)freq...
     #brookes federalism_paper 2 10 3 10 4 13 5 10 ...
     vector_list = [] #hold the vectors
 
     for line in open(vector_file):
         sline = line.split()
-        new_vec = [0] * (2+ len(word_dict))
-        new_vec[0] = sline[0]
-        new_vec[1] = sline[1]
-        for i in xrange(2,len(sline),2):
+        new_vec = [0] * (startIndex + len(word_dict))
+        for i in range(startIndex):
+        	new_vec[i] = sline[i]
+        for i in xrange(startIndex,len(sline),2):
             word_index = sline[i]
             word_freq = sline[i+1]
             if not word_index.isalpha():
@@ -73,7 +82,7 @@ def compareVectors(A, B):
 	if len(A) != len(B):
 		return
 	distance = 0
-	for i in range(len(A)):
+	for i in range(4, len(A)):
 		coordDist = (A[i] - B[i])*(A[i] - B[i])
 		distance = distance + coordDist
 
@@ -83,9 +92,11 @@ def compareVectors(A, B):
 # @A: the vector that we are writing to the file.
 # @filename: name of the file we are writing to.
 # @return: does not return anything.
-def writeVectorToFile(A, filename):
+def writeVectorToFile(A, filename, startIndex = 4):
 	f = open(filename,'a')
 	for i in range(len(A)):
+		if i >= startIndex:
+			f.write(str(i) + " ")
 		f.write(str(A[i]) + " ")
 	f.write("\n")
 	f.close()
@@ -100,10 +111,32 @@ def test():
 	print "distance squared is " + str(compareVectors(A,B))
 
 	writeVectorToFile(A, "myfile.txt")
-def test2():
+def test2(filename):
 	word_dict = makeWordDict()
-	print reconstruct_vector("vectors", word_dict)
-test2()
+	vectors= reconstruct_vector(filename, word_dict)
+	print vectors[0]
+	print vectors[len(vectors) - 1]
+def test3():
+	word_dict = makeWordDict()
+	vect = construct_vector("prof_file", word_dict)
+	print vect
+
+def test4(folder):
+	word_dict = makeWordDict()
+	vector_list = []
+	for filename in os.listdir(folder):
+		full_path = folder + "/" + filename
+		vector = construct_vector(full_path, filename, word_dict)
+		vector_list.append(vector)
+	for vect in vector_list:
+		writeVectorToFile(vect, "prof_vectors.txt")
+
+
+#test4("papers")
+#test2("prof_vectors.txt")
+
+
+#test3()
 #test()
 # if __name__ == "__main__":
 #     print "whaddup"
