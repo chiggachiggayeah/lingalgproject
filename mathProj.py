@@ -33,6 +33,15 @@ def construct_vector(prof_file, filename, func_dict, startIndex = 4):
 			doc_vector[func_dict[el]] += 1
 	return doc_vector
 
+def getLabels(vector_list, filename, index):
+	f = open(filename,'a')
+	f.write("labels = {")
+	for vector in vector_list:
+		f.write("\'" + str(vector[index]) + "\'")
+		f.write(";...\n")
+	f.write("};")
+	f.close()
+
 # Writes the vectors to a Matlab compatible matrix.
 # @vector_list - the list of vectors representing papers.
 # @filename - the name of the file that will contain the Matlab data.
@@ -135,8 +144,7 @@ def test1():
 def reconstructVectorsTest(filename):
 	word_dict = makeWordDict()
 	vectors= reconstruct_vector(filename, word_dict)
-	print vectors[0]
-	print vectors[len(vectors) - 1]
+	return vectors
 def constructVectorTest():
 	word_dict = makeWordDict()
 	vect = construct_vector("prof_file", word_dict)
@@ -172,7 +180,20 @@ def makeMatlabData(folder):
 	normalizeVectors(vector_list)
 	writeMatlabFile(vector_list, "matlabData")
 
-makeMatlabData("papers")
+#makeMatlabData("papers")
+
+def makeLabels(folder):
+	word_dict = makeWordDict()
+	vector_list = []
+	for filename in os.listdir(folder):
+		full_path = folder + "/" + filename
+		vector = construct_vector(full_path, filename, word_dict)
+		vector_list.append(vector)
+	normalizeVectors(vector_list)
+	writeMatlabFile(vector_list, "matlabData")
+	getLabels(vector_list, "matlabLabels", 2)
+
+makeLabels("papers")
 
 #createVectorsforPapers("papers")
 #reconstructVectorsTest("prof_vectors.txt")
