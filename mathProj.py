@@ -33,6 +33,11 @@ def construct_vector(prof_file, filename, func_dict, startIndex = 4):
 			doc_vector[func_dict[el]] += 1
 	return doc_vector
 
+# Writes the entry in the given index for each vector into the file.
+# This will be used to construct strings, which will be labels for the Matlab graphs.
+# The labels will be surrounded in single-quotes in the file.
+# @vector_list - the list of vectors
+# @index - the index in each vector that we are writing to the file.
 def getLabels(vector_list, filename, index):
 	f = open(filename,'a')
 	f.write("labels = {")
@@ -170,6 +175,8 @@ def createVectorsforPapers(folder):
 	for vect in vector_list:
 		writeVectorToFile(vect, "prof_vectors.txt")
 
+# Read the papers, makes the vectors, and writes the vectors to a file.
+# @folder - should be "papers", in quotes.
 def makeMatlabData(folder):
 	word_dict = makeWordDict()
 	vector_list = []
@@ -182,6 +189,8 @@ def makeMatlabData(folder):
 
 #makeMatlabData("papers")
 
+# Read the papers, makes the vectors, and writes the subject of each paper to a file.
+# @folder - should be "papers", in quotes.
 def makeLabels(folder):
 	word_dict = makeWordDict()
 	vector_list = []
