@@ -1,6 +1,8 @@
 # Jordan Hall and Eric Chen
-# Writing Comparison Project
+# Professor Paper Comparison Project
 # Math 22, Professor Rockmore, 14F.
+# Contains a number of functions to read from files, 
+# construct vectors, and convert vectors into Matlab compatible data.
 
 import argparse
 import string
