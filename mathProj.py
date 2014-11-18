@@ -187,7 +187,54 @@ def makeMatlabData(folder):
 	normalizeVectors(vector_list)
 	writeMatlabFile(vector_list, "matlabData")
 
+def makeSubjectDict():
+	subjects = ["Government and History","Government and Government","Government and Economics",
+	"Government and Anthropology","Government and Chemistry","Government and CS","Government and Math",
+	"Government and Biology","Economics and History","Economics and Anthropology","Economics and Chemistry",
+	"Economics and CS","Economics and Math","Economics and Economics", "Economics and Biology","History and Anthropology",
+	"History and Chemistry","History and CS","History and Math","History and Biology",
+	"Anthropology and Anthropology","Anthropology and Chemistry","Anthropology and CS","Anthropology and Math",
+	"Anthropology and Biology","Chemistry and Chemistry","Chemistry and CS","Chemistry and Math","Chemistry and Biology",
+	"CS and CS","CS and Math","CS and Biology","Math and Math","Math and Biology","Biology and Biology"]
+	subjectDict = {}
+	for subject in subjects:
+		subjectDict[subject] = [0,0]
+	return subjectDict
+
+def compareData(folder, startIndex=4):
+	word_dict = makeWordDict()
+	vector_list = []
+	for filename in os.listdir(folder):
+		full_path = folder + "/" + filename
+		vector = construct_vector(full_path, filename, word_dict)
+		vector_list.append(vector)
+	normalizeVectors(vector_list)
+	subjectDict = makeSubjectDict()
+	for i in range(len(vector_list)):
+		for j in range(i+1, len(vector_list)):
+			distance = compareVectors(vector_list[i], vector_list[j])
+			str1 = vector_list[i][2] + " and " + vector_list[j][2]
+			str2 = vector_list[j][2] + " and " + vector_list[i][2]
+			if str1 in subjectDict.keys():
+				subjectDict[str1][0] = subjectDict[str1][0] + distance
+				subjectDict[str1][1] = subjectDict[str1][1] + 1
+
+			elif str2 in subjectDict.keys():
+				subjectDict[str2][0] = subjectDict[str2][0] + distance
+				subjectDict[str2][1] = subjectDict[str2][1] + 1
+			else:
+				print "problem " + str1 + str2
+	for key in subjectDict.keys():
+		subjectDict[key][0] = (subjectDict[key][0])/(subjectDict[key][1])
+		print key + ": " + str(100*subjectDict[key][0])
+
+	#print vector_list[i][2] + " and " + vector_list[j][2] + ": " + str(compareVectors(vector_list[i], vector_list[j]))
+
+compareData("papers")
 #makeMatlabData("papers")
+
+
+
 
 # Read the papers, makes the vectors, and writes the subject of each paper to a file.
 # @folder - should be "papers", in quotes.
@@ -202,7 +249,7 @@ def makeLabels(folder):
 	writeMatlabFile(vector_list, "matlabData")
 	getLabels(vector_list, "matlabLabels", 2)
 
-makeLabels("papers")
+# makeLabels("papers")
 
 #createVectorsforPapers("papers")
 #reconstructVectorsTest("prof_vectors.txt")
