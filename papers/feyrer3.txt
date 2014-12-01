@@ -1,0 +1,776 @@
+James_feyrer
+Economics
+Global_Savings_and_Global_Investment
+This paper examines the effect of exogenous shocks to savings on world
+capital markets. Using the exogenous shocks to US tax policy identified by
+Romer and Romer (2009b), we trace the impact of an exogenous shock to
+savings through the income accounting identities of the US and the rest of
+the world. We find that exogenous tax increases are only partially offset by
+changes in private savings (Ricardian equivalence is not complete). We also
+find that only a small amount of the resulting change in US saving is absorbed
+by increased domestic investment (contrary to Feldstein and Horioka (1980)).
+Almost half of the fiscal shock is transmitted abroad as an increase in the
+US current account. Positive shocks to US savings generate current account
+deficits and increases in investment in other countries in the world. We cannot
+reject that the shock is uniformly transmitted across countries with different
+currency regimes and different levels of development. The results suggest
+highly integrated world capital markets with rapid adjustment. In short we
+find that the US acts like a large open economy and the world acts like a
+closed economy.
+∗We thank seminar participants at Dartmouth College for helpful suggestions. We thank Daniel
+Keum for research assistance and helpful conversations. All errors are the authors.
+†
+james.feyrer@dartmouth.edu, jay.shambaugh@dartmouth.edu, Dartmouth College, Department
+of Economics, 6106 Rockefeller, Hanover, NH 03755-3514.
+1Introduction
+Recent discussions of a global savings glut suggest that a surge in savings in one
+country can have impacts across the globe.1 We wish to examine what happens
+when a dollar of savings is added to world capital markets. If we treat the world
+as a closed economy, undergraduate macroeconomics suggests that an exogenous
+increase in savings results in an increase in investment of equal size. Is this evident
+in the data? Do all countries in the world see an increase in investment or are some
+countries cut off from shocks to world capital markets?
+In this paper we exploit a series of exogenous shocks to US fiscal policy identified
+by Romer and Romer (2009b) as a starting point to examine the impact of a shock
+to world savings. The Romer shocks are useful because they use analysis of the
+legislative record to identify tax changes that were unrelated to contemporaneous
+economic conditions. The path from a change in US tax policy to world savings
+requires examining a number of interesting questions. Do US tax changes affect
+aggregate savings in the US? Are changes in US savings exported abroad or does
+all adjustment occur domestically?
+The analysis in this paper is grounded in the national income accounting identities
+of the United States and the rest of the world. By definition,
+Y = C(Y − T) + I + G + CA (1)
+where output, Y , is assumed to be determined by the natural rate of output, consumption,
+C, is a function of disposable income, investment, I, is a function of
+the interest rate in world capital markets, G is government spending, and CA is
+the current account. Savings is what is left over after the private sector and the
+government consume.
+S = Y − C(Y − T) − G (2)
+The relationship between the current account, saving, and investment is
+CA = S − I. (3)
+1See Bernanke (2007) for a discussion of the global savings glut hypothesis. The argument
+posited that an oversupply of savings - particularly in Emerging Asia - helped generate a US
+current account Deficit as the savings had to flow somewhere, and the US was the willing recipient
+of the savings.
+2We wish to trace the impact of exogenous changes in taxes through these accounting
+identities. Equation (2) shows that a change to taxes will affect savings
+through private consumption. If agents assume that tax changes are permanent,
+standard models of consumption suggest that a tax increase will result in decreased
+consumption and increased national savings.
+Barro (1974) suggests that forward looking taxpayers take into account the government’s
+long run budget constraint and therefore do not respond to tax changes
+that are unaccompanied by changes in government spending.2 We will refer to this
+private savings response as Ricardian Equivalence for the remainder of the paper.
+If Ricardian equivalence holds perfectly, tax shocks will be perfectly absorbed by
+changes to private savings and there will be no impact on national savings. Thus,
+we need to test whether national savings in the US is affected by the tax shocks.
+Second, are shocks to US national savings transmitted across borders? Equation
+(3) shows that changes to savings must appear either as domestic investment shifts
+or changes to the current account. Feldstein and Horioka (1980) find that savings
+and investment tend to be highly correlated across countries.3
+If US savings and
+investment comove perfectly, the shock to US saving will be absorbed domestically
+and not transmitted across the border.
+These two questions combine to determine whether we observe “twin deficits.”
+Are budget deficits linked with current account deficits? If we see an impact of US
+tax shocks on the US current account, this signals that neither Ricardian equivalence
+nor Feldstein-Horioka are fully operational and there is some truth to the view of
+twin deficits.
+Once we establish that exogenous shocks to US savings are transmitted abroad
+through the US current account we can begin to take accounting identities seriously
+at the world level. Barring trade with Mars, a shock to the US current account
+must generate an equal and opposite shock to the aggregate current account of the
+rest of the world. Equation (3) tells us that these current account shocks must be
+accompanied by changes in saving or investment in the rest of the world.
+We find that exogenous tax policy changes in the US have a significant impact on
+2Also see Barro (1989). Ricardian Equivalence has generated a considerable literature since
+Barro’s initial article. See Elmendorf and Mankiw (1999) and Seater (1993) for some details of the
+debate.
+3This result has been updated countless times. See Coakley, Kulasi and Smith (1998). Obstfeld
+and Taylor (2005) note that the Feldstein and Horioka (1980) correlation has been falling since
+1970.
+3investment in other countries over the period 1973 to 2005. When the US changes
+tax policy for exogenous reasons, a substantial amount of that change in policy
+is transmitted through changes in the current account to the rest of the world.
+When the US government saves more, private citizens do save somewhat less, but
+the impact on national savings is still positive. Further, domestic investment has a
+relatively small response to an exogenous fiscal shock, so the majority of the change
+in savings turns into a change in net lending to or borrowing from the rest of the
+world.
+Fiscal shocks in the US act as shocks to world savings. The response of the
+rest of the world to these shocks appears to be well described by the simple closed
+economy relationship S=I. An exogenous shock to world savings results in higher
+investment around the globe. While there is some suggestion that the magnitude
+of the response varies across currency regimes or levels of development, we cannot
+reject that all countries have identical responses to the shocks. Interestingly, the
+magnitude of the response seems to be unrelated to standard measures of openness
+to capital flows.
+These results are consistent with a world where shocks to the world capital
+market are transmitted to all countries and all countries share a similar elasticity of
+investment with respect to the world interest rate. Every additional dollar of world
+savings appears as an investment increase in each country in the world proportional
+to their share of world GDP. This is consistent with short run equalization of capital
+returns and is similar to the long run equalization to capital returns found in Caselli
+and Feyrer (2007).
+The results suggests that world capital markets are fluid and reach into all countries
+in the world. Changes in saving in one country rapidly appear as investment
+increases in all the rest of the countries in the globe. This is important for thinking
+about the importance of East Asian savings over the last decade as well as for evaluating
+the impact of the large fiscal policy changes currently occurring in the large
+economies in the world.
+1 Previous Literature
+Much of the literature on fiscal policy transmission rightly focuses on the impact of
+such policy on the country that engages in the fiscal changes. Such work has included
+4looking at episodes of defense budget expansion (Ramey (2006), etc.) to examine the
+impact of fiscal changes on consumption and wages. This work tends to find output
+increases with a fiscal expansion, but consumption and real wages fall. Further
+evidence is drawn from short run restriction identified vector autoregressions. This
+work includes Blanchard and Perotti (2002), Perotti (2007), and Mountford and
+Uhlig (2008). In this work, output rises with a positive fiscal shock, but so do real
+wages and consumption. The recent debate on the impact of fiscal policy has often
+focused on this disagreement.
+In our work, we take the changes in tax policy identified by Romer and Romer
+(2009b) as exogenous to current economic conditions to be our fiscal shocks. Romer
+and Romer (2009b) focus on the changes over time for the economy as a whole as
+well as for investment and other outcomes following a fiscal shock. They find that
+tax increases which are purely exogenous to the economic setting are contractionary.
+They focus on the dynamic response to tax shocks and see that GDP, Consumption
+and Investment all fall in response to a tax increase, with the impact on Investment
+building over time. In further work, they examine the response of govt expenditures
+(Romer and Romer (2009a)). They find that even in the long run, government
+expenditures do not respond strongly to changes in taxes - the starve the beast
+hypothesis does not hold. This result is important in the context of our work in
+that it suggests changes in government taxes are not simply offset by changes in
+spending in which case there would have been no impact on government savings.
+A number of studies have looked at the international transmission of fiscal shocks.
+There are two main groups of this literature. First, some papers test the direct
+impact of a fiscal shock in one country on the GDP of another’s. This literature is
+testing the question of whether fiscal policy shocks can act as an “engine of growth”
+for the rest of the world, or whether the shocks are primarily limited to the local
+country (see B´enassy-Qu´er´e and Cimadomo (2006) and Arin and Koray (2005))
+A second strand of the literature is more directly related to the twin deficit
+concept. This literature also relies on accounting identities to show that changes
+in government savings should lead to changes in the current account. Work using
+calibrations tends to support this view, but recent time series econometric evidence
+has failed to find such effects. In particular, both Kim and Roubini (2008) and
+Corsetti and Muller (2008) argue they find evidence of twin divergence not twin
+deficits. That is, they find that fiscal shocks identified through short run restrictions
+5VARs (in the same manner as the bulk of the domestic literature) do not generate
+twin deficits, instead, budget deficits lead to real exchange rate depreciations and
+current account surpluses (or no impact). As Kim and Roubini (2008) note, the
+change in government savings appears to go both to changes in private savings
+and changes in investment (crowding out, consistent with Feldstein and Horioka
+(1980)). Corsetti and Muller (2008) also examine evidence across countries to see if
+the persistence of the shocks and openness of the economy affect the transmission.
+They find that yes, such factors play a role and the US has relatively small levels of
+international transmission of shocks based on its relatively closed economy.
+Related work has considered both the twin deficits and global savings glut arguments.
+Chinn and Ito (2007) and Gruber and Kamin (2007) have explored the
+broader determinants of current accounts. Both use panel analysis to determine
+the root determinants of countries’ current account to GDP ratios. Chinn and Ito
+(2007) are supportive of twin deficits, finding coefficients of between 0.2 and 0.5 on
+the budget deficit. Gruber and Kamin (2007) find a coefficient of 0.09 on the fiscal
+balance. Neither study has exogenous variation to identify the impact of a fiscal
+change, but instead rely on cross-country differences. Also, both are examining
+medium term determinants, using five year averages in the panel.
+Given that savings in one country can affect investment in another and vice
+versa, barring any exogenous variation, it is difficult for these studies to directly
+estimate a global savings glut relationship. Instead, they look to see if East Asia
+saves more than expected and the US less. Gruber and Kamin (2007) argue Asia
+does save too much currently, but that this can be explained as a reaction to the
+East Asian crisis. Chinn and Ito (2007) also argue there is too much savings in Asia
+but note this does not appear to be due to a lack of financial development. Both
+papers argue it is unclear why so much of this savings would flow to the US.
+The results which are skeptical of twin deficits contrast with a finding in Romer
+and Romer (2009b). At the end of their paper, Romer and Romer examine the
+impact of a tax change on exports and imports. They find that exports increase
+and imports decrease, which they view as consistent with a tax increase leading to
+a drop in interest rates and hence reducing capital inflows. But, they argue, the
+drop in imports may simply be more consistent with a fall in income rather than
+any open economy effects.
+We take this observation as a starting point to explore the impact of a change
+6in government savings in one country on both the current account and investment
+in other countries. Our paper is unique in bringing different evidence to bear than
+most explorations of twin deficits: exogenous fiscal shocks matching actual policy
+changes. We find that there is in fact evidence along the lines a twin deficit theory
+would predict: changes in government savings are correlated with changes in the
+current account. Thus, we can look at exogenous shocks to taxes in the United
+States as exogenous shocks to savings available to the rest of the world. The next
+section explains those shocks and how we examine the effects. We further expand
+the literature by looking not just at the current account of the country with the
+change, but also by examining where the increased savings goes around the world.
+Thus, the paper makes an important contribution to the literature studying how
+changes in savings in one country affect other countries.
+2 Methodology
+We borrow the shocks from Romer and Romer (2009b). The construction of the
+shocks is described in more detail in Romer and Romer (2008). They use legislative
+history to separate out tax changes that were made based on attempts to respond
+to current economic situations from those that are exogenous to current economic
+conditions. Such changes may be motivated by a desire to raise taxes in an effort
+to restore long run budgetary balance or to cut taxes to lower marginal rates and
+possibly spur long run economic growth. Crucially, the changes are not aimed
+at smoothing short run business cycle fluctuations. Examples include changes in
+social security tax rates aimed at long run balance, tax cuts motivated by a shift
+in governing ideology, or tax increases aimed at long run budget balance. Romer
+and Romer argue such changes are exogenous to current or anticipated economic
+situations. There is, for example, no relationship between the shocks and lagged
+GDP growth in the US (see Figure 1).
+The exogeneity is crucial to the Romer and Romer examination of the domestic
+effects of tax changes. It is also crucial to our investigation of the impact of those
+changes on US savings, investment, and the current account. Even if one worries that
+there is some component of endogeneity in these shocks, when we examine overseas
+responses, the changes are even more clearly exogenous. The shocks are in no way
+responses to changes in savings, investment, or general economic circumstances in
+7Figure 1: Romer Fiscal shocks versus lagged GDP growth
+1976
+1977
+1978
+1979
+1980 1981
+1982
+1983
+1984
+1985
+1986
+1987
+1988
+1990
+1991
+1993
+1994
+2000
+2002
+2003
+2005
+−.015 −.01 −.005 0 .005
+Fiscal Shock
+−.02 0 .02 .04 .06
+L.dlgdpconstantlcu
+other countries.
+We limit ourselves to those shocks in the post Bretton Woods era of the international
+economy. Our reason is that changes in the international financial architecture
+over time arguably make looking at the international economic transmission prior
+to that time less informative for more recent experiences. Further, we begin to lose
+data on current accounts, investment, and other necessary variables for an increasing
+number of countries as we expand back before the 1970’s. Thus our sample
+runs from 1973 to 2005. For the regression on the current account, the dataset
+is an unbalanced panel of 113 countries. The investment data is somewhat more
+limiting with only 106 countries. For the current account, Kuwait has changes that
+are greater than aggregate GDP for several years around the Gulf War. For this
+reason, we exclude Kuwait from the data set.
+We explore the impact of the Romer shocks on US variables, rest of world variables
+summed together, and in panels for individual country/year observations. We
+examine the data in terms of changes divided by GDP. That is, when we look at
+the current account, we examine the change in the current account divided by the
+previous year’s GDP. The advantage of scaling to GDP rather than simply using
+raw dollar amounts and controlling for GDP is that when we turn to the effects
+in other countries, we do not have to convert investment into a common currency.
+8Instead, we can scale by local GDP.4
+By using lagged GDP to scale the changes we are implicitly assuming that GDP
+is unchanged by the shocks. Romer and Romer (2009b) find that the impact on
+output is quite small in the first three quarters after the shock. Assuming no output
+movement is therefore a reasonable assumption during the year of the tax change
+which is our period of interest. More importantly, output effects are likely to bias
+us against finding external effects of US tax changes. If output falls with a tax
+increase, private savings should decrease such that national savings will increase by
+less than if there were no output response. The same bias will hold for the impact
+of the shocks on non US GDP, and foreign GDP is even less likely to respond to the
+shocks than domestic GDP.5
+The shocks themselves are in Billions of US dollars and are changes in tax policy.
+That is, a permanent reduction in taxes by 100 Billion dollars in 1985 would show
+up as a shock of -100 Billion in 1985 and zero thereafter. Thus, we are interested
+in the change in the current account (or investment) in a given year. Romer and
+Romer (2009b) typically use a dynamic specification examining the impact of policy
+changes over time. We lack adequate quarterly data for many countries to exploit
+their series higher frequency and use annual data, removing part of the interest in
+fluctuations over time. More importantly, our view is that of an accounting identity.
+We are curious where the changes in savings in a given year go. If the government
+saves more in a given year, where does that money go in that given year. For ease
+of comparison across countries and time, we scale the shocks as well as the changes
+in the current account and investment by GDP.
+3 Results
+3.1 Aggregate Results
+Figure 2 shows the crucial motivating fact. The bars represent the exogenous shocks
+to US fiscal policy identified by Romer and Romer (2009b). The two lines show
+4The current account data are in current dollars and the change is expressed as a percentage
+of lagged current dollar GDP. Investment data are real dollars and the change is expressed as a
+percentage of lagged real GDP. All data are from the World Bank World Development Indicators.
+5
+If GDP responds contemporaneously a US tax increase would reduce world aggregate demand
+and drive down investment in the rest of the world. This would bias against finding that US tax
+increases generate investment increases elsewhere.
+9Figure 2: Changes in the US and Rest of World Current Accounts in Response to
+US Fiscal Policy Shocks −.01 −.005 0 .005 .01
+1970 1980 1990 2000 2010
+year
+US CA ROW CA
+Shock
+changes in the US current account and changes in the summation of the current
+accounts for the rest of the world. In order to maintain consistency with the tables
+in the rest of the paper, all changes and shocks are scaled to the level of non-US
+world GDP. For the purpose of this graph, the important fact is that the relative
+magnitudes are the same for the shock and for the current account changes.
+Exogenous changes in US fiscal policy track reasonably closely with changes in
+the size of the US current account. The simple correlation between the fiscal shocks
+and changes to the US current account is 0.28. The correlation between the shocks
+and changes to the rest of the world’s current account is -0.36. Trade with Mars
+appears to play a small role and the correlation between the movements in the US
+current account and the rest of the world’s current account is -0.76.
+Table 1 illustrates the basic facts from Figure 2 more formally. We regress the
+change in the current account divided by lagged GDP on the shock measured as
+a percentage of GDP. The regressions are run with Newey-West standard errors to
+control for possible serial correlation in the time series.6 For the current account,
+6As it turns out Newey-West standard errors, heteroscedasticity robust standard errors, and
+OLS estimated standard errors are all nearly identical. There is very little autocorrelation in either
+10Table 1: The Effect of Exogenous Shocks to US Fiscal Policy on the Current Account
+and Investment in the US and the Rest of the World (ROW)
+(1) (2) (3) (4) (5)
+US CA US Inv ROW CA ROW CA ROW CA-IV
+Fiscal Shock / US GDP 0.466* 0.166
+(0.190) (0.327)
+US CA -0.764** -1.260**
+(0.132) (0.454)
+Fiscal Shock / ROW GDP -0.643**
+(0.217)
+Constant 0.006*
+(0.002)
+Observations 32 29 32 32 32
+R-squared 0.317
+** p<0.01, * p<0.05, + p<0.1
+Standard errors corrected for serial correlation.
+the expected change in any given time period is zero so a constant is omitted.
+For investment, aggregate GDP growth causes growth over time, so a constant is
+included.7 Equation (4) shows the simple estimating equation.
+yt = α + β ∗ Shockt + ǫ (4)
+What coefficients should we expect to see for the US regressions in Table 1? If
+the US were a small open economy and government spending, private savings, and
+investment within the US were completely unresponsive to exogenous fiscal shocks
+we would expect these shocks to translate one for one into changes in the US current
+account. This suggests that we should see a coefficient of one in column (1) and a
+coefficient of zero in column (2).
+However, for the response of investment we must remember that the US is not
+a small open economy. In a typical year in our sample, US GDP is roughly 25%
+of total world output. A substantial portion of the shock to US savings should
+therefore show up in US investment even if there were no strong tendency of savings
+and investment to move together (as suggested by Feldstein and Horioka (1980)).
+In fact, if capital were perfectly mobile and all countries had identical elasticities
+the shocks or the changes in the current account.
+7Results including a constant in all regressions are available on request. The difference from
+the reported results is quite small.
+11of investment to movements in the common world interest rate, we would expect
+the US investment increase to be proportional to the US share of world GDP.8
+The benchmark for the coefficient in the investment regression should therefore be
+roughly 0.25. This in turn suggests that the benchmark for the response of the
+current account in column (1) is 0.75 rather than one.
+Column (1) shows the response of the US current account to an exogenous fiscal
+shock. The coefficient of 0.466 indicates that for every dollar increase in US taxes
+collected, almost half moves to the rest of the world economy through an increase
+in the US current account. Column (2) shows the response of US investment to the
+fiscal shocks. For every 1 dollar increase in US taxes collected there is a 17 cent
+increase in investment in the US.9
+In neither case can we reject our benchmarks of 0.75 for the current account and
+0.25 for investment. The investment coefficient is not precisely estimated, so the
+confidence interval allows for some degree of saving-investment correlation along the
+lines of Feldstein and Horioka. However, the point estimates suggest no effect. The
+current account coefficient is somewhat less than 0.75 and the investment coefficient
+suggests that this is not due to correlation between savings and investment. This is
+consistent with some degree of Ricardian Equivalence. The point estimates suggest
+that for every dollar of tax increase, about one third of the tax increase is offset by
+a decrease in private savings. Of the remaining 67 cents, roughly 17 is invested in
+the US and the rest, or roughly half the shock, is transmitted abroad.10
+Columns (3) through (5) examine the response of the current account in the rest
+of the world to shocks originating in the US. The left hand side in these regression
+is the change in the sum of the value of the current accounts for all countries except
+the US expressed as a percentage of aggregate GDP summed across all countries
+except the US. In other words it is the change in the value of the non US current
+account as a percentage of non US GDP.
+In order to aid in interpreting the coefficients, the right hand side variables are
+also scaled as a proportion of non US GDP. For example, Column (3) examines the
+8This fact that savings and investment should be more highly correlated in large open economies
+has been noted in the literature going back to Feldstein and Horioka (1980). See Coakley et al.
+(1998) for a more complete discussion.
+9Romer and Romer (2009b) find that a tax increase is coincident with a drop in investment
+over time. The contemporaneous effect is close to zero. We are using data set only from 1973
+forward at the annual frequency, so the slightly different result is not surprising.
+10The 17 cents that show up as domestic investment is almost exactly 25 percent of the savings
+change, matching the US share of world income.
+12response of the rest of the world’s current account to changes in the US current
+account. The change in the US current account is measured as a percentage of
+non-US aggregate GDP. As long as the sum of the current accounts of all countries
+in the world is zero (no trade with Mars) this coefficient should be exactly negative
+one. If the US current account increases by 1 percent of non US GDP, we would
+expect the non US current account to decrease by 1 percent as a percentage of non
+US GDP. The actual estimate is -0.76. The coefficient is significantly different from
+zero at the one percent level and is not significantly different from negative 1.
+Column (4) examines the effect of the fiscal shock on the rest of the world’s
+current account. The fiscal shock is also scaled as a percentage of non US GDP. In
+this case we do not expect a coefficient of negative one since not all of the shock will
+cross the US border. As we discuss above, the largest response (in absolute value)
+that we expect to see is 0.75, and column (1) suggests that only half of the fiscal
+shock appears as an increase in world savings. Assuming that column (1) is well
+estimated and that there are no other effects of a US fiscal shock we should expect
+the coefficient in column (4) to be negative and of the same size as the coefficient in
+column (1). The estimate of -0.643 is larger in absolute value than the column (1)
+estimate and smaller than our theoretical benchmark and insignificantly different
+from neither. We can strongly reject a zero coefficient or no response.
+Finally, we can use the fiscal shock as an instrument to establish that exogenous
+changes in the US current account results in equal and opposite changes in the
+current account in the rest of the world. Column (5) regresses the non US current
+account response to a change in the US current account where the US current
+account change in instrumented with the Romer and Romer exogenous fiscal shocks.
+In this case, accounting identities would once again suggest a coefficient of negative
+one. The point estimate is larger (in absolute value) than one, but unity is well
+within the confidence interval, and once again, we can safely reject no effect.
+The results of Table 1 suggest that exogenous shocks to US fiscal policy act as a
+shock to world savings. There is a statistically significant and economically sensible
+response of the rest of the world’s current account to a US tax law change. A one
+dollar increase in US taxes results in a 47 cent shock to the US current account
+representing an exogenous shock to world savings. This increase in world savings
+shows up as a current account surplus for all other countries in the world.
+133.2 Disaggregated Results
+What impact does a increase in world savings have on a typical country? Suppose
+that our benchmark is to think of the world as comprised of countries that rely on
+a common pool of savings and respond to a common world interest rate. At the
+world level, savings must equal investment, so shocks to world savings should result
+in increased investment through lower world interest rates. As long as investment
+decisions in individual countries are determined by the world interest rate, we should
+expect to see all countries in the world respond to shocks to world savings. If we
+further assume that countries borrow from abroad at the margin and share similar
+elasticities of investment with regard to the world interest rate we should expect to
+see a proportionally similar response across all countries. Even if countries insulate
+themselves from the world interest rate to some extent via capital controls or have
+different levels of nominal interest rates due to different inflation rates and expected
+changes in exchange rates, as long as the shock to world savings and hence world
+interest rates has an impact at the margin of their capital market, we should see
+some response.
+In the tables to follow we move from aggregate results to individual country
+results. One advantage is to allow us to scale local investment by local GDP and
+not have to sum investment across countries (which involves finding plausible internationally
+comparable investment price indices). For the initial results, we include
+results where observations are weighted by country size. In these cases, the regressions
+are similar to the aggregated regressions from the previous section. This
+has the advantage of scaling the coefficients to conform to the accounting identities
+discussed earlier. A one dollar shock to the US current account should show up
+as a one dollar shock to the rest of the world’s current account. The downside to
+this approach is that the response of large countries will dominate the results. For
+the non-weighted regressions each country is taken as an individual experiment, increasing
+the power of the regressions. This will also allow us to examine sub-groups
+of countries for differential responses. Do open countries respond to a world saving
+shock differently than closed countries? Does the currency regime affect the
+response to shocks? Do shocks differ over levels of development?
+Table 2 shows the results from our country level regressions. Figures 3 and 4
+show the corresponding partial scatterplots of the residual changes in the current
+14account and investment versus the residual of the US fiscal shocks.11 The regression
+equation being estimated is similar to equation (4) with the addition of country fixed
+effects made possible by the panel structure of the data. The country level effects
+are only included in the regressions on changes to investment. Because of GDP
+growth, the change in investment as a percentage of GDP is positive on average and
+will vary by country based on the growth rate of aggregate GDP. The country effects
+control for this heterogeneity. In the case of the current account, our accounting
+identities suggest that the expected growth rate for any arbitrary observation is
+zero. In leaving out country effects and a constant we are essentially imposing
+this moment condition on the current account regressions.12 In all cases standard
+errors are clustered by year to account for the fact that the shock is identical for all
+countries in any given year.13
+yit = β ∗ Shockit + γi + ǫ (5)
+As in Table 1 we expect a coefficient of between -0.47 and -0.75 on the current
+account. If smaller countries typically respond more, the coefficient on the
+unweighted regressions will tend to be larger, with the weighted regressions more
+directly corresponding to the aggregated results.
+The unweighted regression has a clearly larger coefficient and the size implies
+that when the US increases taxes by one percent of world GDP, the typical country
+sees a current account response in excess of one percent of its GDP, though one
+percent is in the confidence interval. For the weighted regressions, the responses are
+directly between -0.47 and -0.75 and -0.47 is well within the confidence interval. For
+both the weighted and unweighted regressions, zero effect is strongly rejected.
+The expected coefficient on investment is less certain. If we believe other countries
+current accounts must respond to a change in the US current account simply
+due to an adding up constraint, the open question is whether the change in the cur-
+11The coefficients and significance levels do not change as we eliminate outliers to zoom in on a
+more visible relationship in the bottom half of the figures.
+12The results do not change substantially if we include a full set of country dummies. When
+included, the estimate for the constant are small and typically insignificant.
+13The other potential standard error complication is serial correlation. The aggregate results
+suggest that this is not a significant issue. Clustering on the country level rather than the year
+level yields much lower standard errors. Using multilevel clustering on both year and country (as
+described in Cameron, Gelbach, Miller, Hall and Drive (2006)) yields standard errors that are very
+similar to just clustering by year.
+Investment growth (demeaned)
+−.006 −.004 −.002 0 .002 .004
+Fiscal Shock
+17Table 2: The Effect of US fiscal shocks on investment and the current account
+(1) (2) (3) (4)
+CA CA weight INV INV weight
+Fiscal Shock -1.630** -0.581* 1.250* 0.930
+(0.486) (0.279) (0.594) (0.548)
+Constant 0.010** 0.199*
+(0.002) (0.084)
+Observations 3002 2994 2588 2558
+R-squared 0.003 0.001 0.129 0.058
+** p<0.01, * p<0.05, + p<0.1
+Investment regressions include a set of country dummies.
+Standard errors clustered by year.
+rent account is accomplished by a change in investment or savings abroad. Thus,
+we might expect a coefficient of roughly the same size (but opposite sign) for investment
+(since CA = S - I ) if there is no savings response but a smaller response
+if savings moves.
+Columns (3) and (4) of table 2 suggest that the current account shocks are
+absorbed through changes to investment, not savings. The investment response is
+always close to the absolute value of the current account response. A US fiscal
+shock of one percent of non-US world GDP is accompanied by roughly the same
+size increase in investment abroad. As with the current account regressions, the
+coefficient for the unweighted regression is larger than the weighted regression, but
+the gap is not substantial.
+A slightly different way to look at the same question is directly through the
+current account. Table 3 shows the result of using the exogenous fiscal shock as an
+instrument for shocks to the current account. In columns (1) and (2) the change in
+the current account as a percentage of own country GDP is regressed against the
+changes in the US current account divided by GDP in the rest of the world. The US
+current account change is instrumented with the exogenous fiscal shock. In columns
+(3) and (4) the change in investment at the country year level is regressed against
+the change in the current account at the country year level with the current account
+change instrumented using the US fiscal shock.
+Table 3 is similar to Table 2 with the coefficients rescaled to more closely match
+the accounting identities. Since the sum of the world’s current account must be zero,
+we expect the coefficient on the weighted regression in column (2) to be negative one.
+18Table 3: The Effect of Current Account Shocks - IV
+(1) (2) (3) (4)
+CA CA weight INV INV weight
+US CA Change / World GDP -3.063** -1.137**
+(1.067) (0.372)
+CA change / GDP -0.579** -1.048
+(0.202) (0.696)
+Constant 0.001 -0.039
+(0.010) (0.040)
+Observations 3002 2994 2268 2266
+R-squared 0.013
+** p<0.01, * p<0.05, + p<0.1
+Investment regressions include a set of country dummies.
+Standard errors clustered by year.
+For investment, a coefficient of negative one in the weighted regressions indicates
+that the current account shock is completely absorbed by investment with no change
+in savings.14 These are roughly the values that we observe. For the average country
+we see highly statistically significant responses in the current account when US fiscal
+shocks are used to instrument US current account movements. For the average
+country we see statistically significant responses in investment to domestic current
+account movements that are caused by US fiscal shocks.
+Exogenous fiscal shocks in the US appear to cause movements in the US current
+account which cause changes to investment in the rest of the world. In the
+next section we move to smaller samples of the data to examine whether there is
+heterogeneity in how countries are affected by the shock. In particular we will examine
+whether levels of development, currency regimes, or levels of financial openness
+affect the size of the response to US fiscal shocks.
+3.3 Does the Shock Affect Countries Symmetrically?
+Table 4 shows the results broken up by level of development where the advanced
+countries are the original OECD countries, the emerging countries are the countries
+14Note that the sign of the investment coefficients is flipped compared to the reduced form table
+(2) because the right hand side variable is now the domestic current account. In table 2 the
+coefficients are the response of investment to a world savings shock. In table 3 the coefficients
+represent the response of investment to a domestic current account shock. These will run in
+opposite directions.
+19Table 4: Responses by Level of Development
+Current Account
+All Advanced Emerging Developing
+Fiscal Shock -1.630** -0.775+ -1.471 -1.992**
+(0.486) (0.448) (0.996) (0.582)
+Observations 3002 651 600 1751
+R-squared 0.003 0.006 0.002 0.003
+Investment
+All Advanced Emerging Developing
+Fiscal Shock 1.250* 0.562 1.841* 1.329
+(0.594) (0.530) (0.688) (0.853)
+Observations 2588 634 534 1420
+R-squared 0.129 0.024 0.049 0.148
+** p<0.01, * p<0.05, + p<0.1
+Investment regressions include a set of country dummies.
+Standard errors clustered by year.
+in the EMBI index along with much of Eastern Europe, and the developing counties
+are all other countries.15 For the current account, the response to US fiscal shocks
+appear to be decreasing in levels of development, though one cannot reject that
+all three groups have identical coefficients. For investment, the emerging group
+appears to have the largest response, but again one cannot reject that all three
+groups are identical. Perhaps more interesting than the pattern of results is the fact
+that countries at all three levels of development have a significant response to the
+US shocks to world savings (significant for the Advanced and Developing samples
+for the current account and for the Emerging sample in investment) and that the
+magnitudes of these results are very similar across levels of development. Initially,
+one might think that large advanced nations have such deep capital markets that
+outside fiscal shocks would be moot, but one must consider the global savings glut
+argument that an increase in savings abroad affects a country even as large and
+financially deep as the US. In that context, it may not be surprising that US shocks
+spill across all types of nations.
+Table 5 shows the results broken down by currency regime. The currency regime
+is categorized across two dimensions. First, are countries dollar based or non-dollar
+based and second, are they pegged or are they nonpegged. We use the coding
+from Shambaugh (2004) for both measures. The base country is the country to
+15See table 7 in the appendix for a full list of countries in each category.
+20which a nation pegs or if it is not pegged in a given year, the country to which it
+pegs when it does peg. Given that nearly every country pegs at some point in the
+sample, the base country is directly revealed. In questionable cases, the history of
+the currency and behavior of nearby countries can be used as a guide. Countries are
+considered pegged if they stay within 2 percent bands against their base currency
+throughout the year or if they have a perfectly flat exchange rate except for a one
+time devaluation.16
+The results suggest that dollar based economies have a larger response to both
+the current account and investment compared to non dollar based economies. Pegs
+have a somewhat larger response than floats. Dollar based pegs have the largest
+response for both variables and it is only for the dollar based countries that we can
+reject no effect. While this variation seems reasonable, none of these differences is
+significant. It may be that dollar based and dollar pegged countries are more tied
+to the US capital market and hence feel the impact of US tax shocks more directly,
+but in general, the coefficients are within range of one another, so no definitive
+statements can be made. The only significantly different coefficient is that nondollar
+nonpegs show effectively zero response in investment, but that coefficient is
+imprecisely estimated and we cannot reject zero or one or negative one for that
+matter.
+Table 6 shows the variation in responses across financially open and closed
+economies. In this table, we use the binary measure of the IMF’s annual yearbook
+to classify countries (aggregating the disaggregated measures into a binary
+classification after 1995 for continuity). Closed economies appear to have a larger
+response in the current account but a smaller response to investment. The standard
+errors are fairly high across groups leaving the differences insignificant. The results,
+though, do not change substantially if one uses continuous measures developed by
+Edwards or Chinn and Ito (2006)17 to divide countries into groups. It seems odd
+that even countries that nominally have capital controls are affected by changes in
+US tax policy, but few countries with capital controls truly shut off access to capital
+markets. Instead, they tend to temper price signals or simply slow capital flows. In
+fact, a number of studies suggest that capital controls do not substantially alter the
+16See Klein and Shambaugh (2009) for an extensive discussion of the different ways to code a
+country’s exchange rate regime.
+17Also see Chinn and Ito (2008).
+21Table 5: Responses by Currency Regime
+(1) (2) (3)
+All Dollar non Dollar
+Based Based
+Current Account
+All
+Fiscal Shock -1.630** -1.844** -1.283*
+(0.486) (0.639) (0.622)
+Observations 3002 1851 1151
+R-squared 0.003 0.004 0.002
+Pegs
+Fiscal Shock -1.837* -2.032+ -1.614
+(0.728) (1.172) (0.968)
+Observations 1298 658 640
+R-squared 0.002 0.003 0.002
+Non Pegs
+Fiscal Shock -1.436* -1.727* -0.788
+(0.670) (0.786) (0.535)
+Observations 1701 1193 508
+R-squared 0.004 0.005 0.003
+Investment
+All
+Fiscal Shock 1.250* 1.735* 0.535
+(0.594) (0.733) (0.803)
+Observations 2588 1564 1024
+R-squared 0.129 0.051 0.199
+Pegs
+Fiscal Shock 1.419+ 1.848* 1.043
+(0.745) (0.808) (1.211)
+Observations 1046 513 533
+R-squared 0.206 0.137 0.232
+Non Pegs
+Fiscal Shock 1.066 1.587+ 0.046
+(0.630) (0.812) (0.717)
+Observations 1542 1051 491
+R-squared 0.074 0.079 0.066
+** p<0.01, * p<0.05, + p<0.1
+Investment regressions include country dummies.
+Standard errors clustered by year.
+22Table 6: Responses by Financial Openness
+Current Account
+All Open Closed
+Fiscal Shock -1.630** -0.726 -2.048**
+(0.486) (0.995) (0.568)
+Observations 3002 749 2068
+R-squared 0.003 0.001 0.005
+Investment
+All Open Closed
+Fiscal Shock 1.250* 1.564* 1.019+
+(0.594) (0.706) (0.598)
+Observations 2588 729 1859
+R-squared 0.129 0.091 0.153
+** p<0.01, * p<0.05, + p<0.1
+Investment regressions include country dummies.
+Standard errors clustered by year.
+volume of capital flows for a country (though they may alter the composition).18 In
+that context, we may not be surprised to see similar responses across different types
+of financial openness measures.
+In fact, all that is needed to have symmetric responses across different country
+types is marginal lending from world markets and similar elasticities of investment
+with regards to world interest rates across countries. This is consistent with the
+conclusion of Caselli and Feyrer (2007) which shows that financial returns to capital
+are roughly equalized across countries. If returns are equalized at the margin, this
+suggests that shocks should transmit across all countries in a similar fashion. This
+is largely what we observe.
+4 Conclusion
+This paper takes a straightforward approach to examining the transmission of fiscal
+shocks across borders using accounting identities. We view changes in tax policy as
+a change in government savings. Assuming that change in savings is not entirely
+offset by either private savings or investment, the current account should respond
+18See for example, a number of papers in the book Edwards (2007). In particular, the chapters
+by Magud and Reinhart (2007) makes the point directly, but other country studies suggest the
+same result.
+23to such a shock. If the home current account changes, the foreign must as well.
+A tax shock in one country should therefore lead to changes in either savings or
+investment (or both) in other countries.
+Using exogenous tax policy shocks in the US developed by Romer and Romer
+(2009b), we find that when US taxes increase, a substantial (roughly half) portion of
+that increase in savings is transmitted to the current account. That increase in the
+US current account is mirrored in a current account deficit abroad. There appears
+to be little change in foreign savings. Instead, investment abroad moves nearly one
+for one with the current account. Thus, fiscal contraction through tax increases may
+lead to increased investment abroad. The result is novel both in itself and due to
+the approach through which it is reached. Due to the intertwined nature of savings
+and investment around the globe, previous work studying the change in savings in
+one country has not been able to identify the impact on other countries’ investment.
+One might expect that if a large country increased taxes, that fiscal contraction
+may act as a drag on the world economy. But, if that increase in savings also
+increases investment in other countries, such an effect may be mitigated. In a
+domestic context, we tend to think one reason a tax cut does not purely crowd out
+investment is the ability to borrow from abroad. In the global context, though, the
+world economy is closed, so a change in taxes has a substantial impact on investment.
+Along the way to this important result, the paper has implications for a number
+of important theories. The fact that a tax policy change affects the US current
+account suggests that neither Ricardian equivalence nor the Feldstein Horioka result
+hold completely. Our results also suggest that the notion of twin deficits appears
+sensible despite some recent econometric evidence to the contrary. Most of all,
+though, our results suggest that savings shocks in one country affect investment
+around the globe.
+The implications for today’s world are important. According to these results,
+tax cuts in one country will lower the pool of savings available for investment around
+the globe. We caution that our identification is from tax changes that are exogenous
+with respect to current economic conditions under the assumption of output at the
+natural rate. This is clearly not the case with fiscal policy in the first half of 2009.
+It may be that the short run response to changes in fiscal policy is very different
+in periods of slack aggregate demand compared to an economy operating at the
+natural rate of output. Ultimately, however, the economy will be operating at or
+24near the natural rate and the accounting identities continue to hold.
+25Table 7: List of Countries by Level of Development
+Advanced Emerging Developing
+Australia Argentina Afghanistan Gambia, The Neth. Antilles
+Austria Brazil Algeria Ghana Nicaragua
+Belgium Chile Angola Guatemala Niger
+Canada Colombia Bahamas, The Guinea Nigeria
+Denmark Egypt Bahrain Guyana Oman
+Finland Hong Kong Bangladesh Haiti Panama
+France India Barbados Honduras Paraguay
+Germany Indonesia Benin Iran Qatar
+Greece Israel Bolivia Jamaica Romania
+Iceland Korea, Rep. Burkina Faso Jordan Rwanda
+Ireland Malaysia Burundi Kenya Senegal
+Italy Mexico Cameroon Lao PDR Sierra Leone
+Japan Pakistan Central Afr Rep. Lebanon Sri Lanka
+Luxembourg Peru Chad Lesotho Sudan
+Netherlands Philippines Congo, Dem. Rep. Liberia Swaziland
+New Zealand Saudi Arabia Costa Rica Libya Syrian Arab Rep
+Norway Singapore Cote d’Ivoire Madagascar Tanzania
+Portugal South Africa Cyprus Malawi Togo
+Spain Thailand Dominican Rep. Mali Trinidad & Tobago
+Sweden Turkey Ecuador Malta Tunisia
+Switzerland Venezuela El Salvador Mauritania Uganda
+United Kingdom Equatorial Guinea Mauritius United Arab Emir.
+Ethiopia Morocco Uruguay
+Fiji Myanmar Zambia
+Gabon Nepal

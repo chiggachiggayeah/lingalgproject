@@ -1,0 +1,682 @@
+Peter_Winkler
+Math
+new_bounds_for_edge_cover
+1 Introduction
+Overview
+The expected time for a random walk on a graph G to hit all the vertices of G has been
+extensively studied by probabilists, combinatorialists and computer scientists; applications
+include the construction of universal traversal sequences [2, 7], testing graph connectivity [2, 19],
+and protocol testing [21]. It has also been studied by physicists interested in the fractal
+structure of the uncovered set of a finite grid; see [11] for references and for an interesting
+relation between the cover time of a finite grid and Brownian motion on Riemannian manifolds.
+Here we consider the time to cover all edges of G, and moreover we take as the fundamental
+parameter the number m of edges of G, rather than the number of vertices. Indeed, if the edges
+are taken to be of various lengths, then the number of vertices is no longer of interest and the
+total edge-length (also denoted by m) becomes the natural parameter by means of which to
+bound cover time.
+Earlier Results
+Let G = hV, Ei be a connected, undirected graph (possibly with loops and multiple edges),
+where |V | = n and |E| = m. Let r ∈ V be a distinguished “root” vertex. A (simple) random
+∗Department of Mathematics, Technische Universit¨at Graz, Austria; georgakopoulos@tugraz.at. The first
+author acknowledges the kind hospitality of the Dartmouth College and the second author.
+†Department of Mathematics, Dartmouth, Hanover NH 03755-3551, USA; peter.winkler@dartmouth.edu.
+Research supported by NSF grant DMS-0901475.
+1walk on G beginning at r is a Markov chain on V , defined as follows: if the walk is currently
+at vertex x it chooses an edge incident to x uniformly at random, then follows that edge to
+determine its next state.
+The expected value of the least time such that all vertices in V have been hit by the random
+walk will be denoted by CV
+r
+(G) or simply CV
+r
+, and we call this number the (expected) vertex
+cover time of G from r. The vertex cover time CV
+(G) of G is defined to be the maximum of
+C
+V
+r
+(G) over all r ∈ V .
+Upper bounds on CV
+(G) have been widely sought by the theoretical computer science
+community, and many results obtained. The cover time of a simple graph (no loops or multiple
+edges) was shown [2] to be at most cubic in n; more recently Feige [13] refined the bound to
+4
+27n
+3 plus lower-order terms, which is realized by the same “lollipop” graph that maximizes
+expected hitting time [5]—namely, a clique on 2
+3
+n vertices attached to one end of a path on
+the remaining vertices.
+In fact [2] shows that CV
+(G) is O(mn), thus trivially O(m2
+), even if the walk is required
+to return to the root. The expected time to cover all vertices and return to the root is
+called the (vertex) cover and return time, here denoted by CRV
+r
+; it is often easier to work
+with than CV
+r
+. Among simple graphs (no loops or multiple edges) with m edges, the path
+Pm+1 on m edges—starting in the middle—provides the greatest vertex cover time, namely
+m2 +bm/2cdm/2e ∼ 5
+4m2
+[13]. The path started at one end had earlier been shown [6] to have
+the strictly greatest vertex cover and return time among all trees with m edges.
+The expected time for a random walk beginning at r to cover all the edges of G will be
+denoted by CE
+r
+(G); if the walk is required to cover all the arcs, that is, to traverse every edge of
+G in both directions, the expected time is denoted by CA
+r
+(G). If the walk must return to r, we
+use CRE
+r and CRA
+r as above. Edge-cover is for some purposes more natural than vertex-cover;
+for example, it makes more sense on a graph with loops and multiple edges, where there is
+no bound on any kind of cover based only on the number n of vertices, but there are natural,
+tight bounds (as we shall see) on CRE and CRA in terms of the number of edges.
+Bounds on expected edge-cover times were obtained by Bussian [8] and Zuckerman [28, 29].
+Bussian noted that to cover the edges of a graph G, it suffices to hit each vertex somewhat more
+often than its degree. Recently Ding, Lee and Peres [10] proved a conjecture of Winkler and
+Zuckerman [27] saying roughly that the expected time to hit every vertex often is no more than
+a constant times the vertex-cover time, which for a regular graph is bounded by 6n
+2
+[18]; it
+2follows that the edge- (or arc-) cover time for a regular graph is O(mn), although the constant
+may be awful. For general graphs, Zuckerman [29] succeeded in showing CRA(G) ≤ 22m2
+,
+using probabilistic methods.
+Our Results
+The main result of this paper is that if G is a multigraph with m edges then the expected time
+it takes for a simple random walk started at any vertex to traverse all the edges of G (and
+return to its starting point) is at most 2m2
+; in fact, we can even fix an orientation of each edge
+beforehand, and 2m2
+steps will be enough on average to traverse each edge in its pre-specified
+direction. If instead we insist that each edge be traversed both ways, then we have to wait at
+most 3m2
+steps on average.
+As an intermediate step in our proof of the above bounds we obtain a refinement of a
+well-known formula of Chandra et. al. [9] concerning the commute time of random walk.
+These results apply more generally if the edges of G are assigned positive real lengths and
+the transition probabilities of the random walk, as well as the time it takes to make a step, are
+appropriately adapted. In that case the above bounds apply when m is the sum of the lengths
+of the edges of G.
+We call a graph with edge-lengths a network, and interpret it as an electrical network by
+equating edge-length with resistance along an edge. The usual connections between random
+walk and electrical networks (as in [12, 23] or see below) apply provided that in the definition
+of random walk, the probability that an edge adjacent to the current position is traversed
+is proportional to its conductance—that is, inversely proportional to its resistance (length).
+Such random walk has the same distribution as the sequence of vertices visited by standard
+Brownian motion.
+To effect the correct scaling, and to make our results work for standard Brownian motion,
+we say that traversing an edge of length ` takes time `
+2
+. In fact the expected time for a
+standard Brownian particle to proceed from one vertex to a neighboring vertex is not generally
+the square of the length of the edge; that the “`
+2” model for discrete random walk permits
+extending our results to Brownian motion is a consequence of an averaging argument to be
+elucidated in Section 5.1.
+For example, the expected time for a random walk to proceed from one end to the other of
+a path Pm+1 of length m (that is, a path consisting of m+1 vertices and m unit-length edges)
+3is exactly m2
+; this matches the time taken by standard Brownian motion to travel from 0 to m
+on the non-negative X-axis, and the time for our generalized random walk to travel from one
+end to the other of any linear network, regardless of the number and placement of vertices on
+it. Thus it works in all senses to say that the expected edge-cover time CE
+a
+(Pm+1) of a path of
+length m from an endpoint a is m2
+.
+Our bounds have interesting implications for Brownian motion on infinite networks. Motivated
+by earlier work of the first author [15], Georgakopoulos and Kolesko [17] study Brownian
+motion on infinite networks in which the total edge length m is finite. Applied in this context,
+our results imply that Brownian motion will cover all edges in expected time at most 2m2
+,
+thus almost surely in finite time. See Section 5.2 for more details.
+2 Definitions
+2.1 Random Walk
+We will denote by N = hG, `i a network with underlying multigraph G and edge-lengths
+` : E(G) → ❘
++, also interpreted as resistances. An arc of N is an oriented edge; in our context,
+a loop comprises two arcs. A random walk on N begins at some vertex r and when at vertex
+x, traverses the arc (x, y) to y with probability
+1/`(x, y)
+P
+z∼x
+1/`(x, z)
+. (1)
+Our random walks take place in continuous time. The time it takes our random walker to
+perform a step, i.e. to move from a vertex x to one of its neighbors, depends on the lengths
+of the edges incident with x. There are various ways to define this dependence. In this paper
+we will consider two natural models for this dependence. Our main results will apply to both
+models with identical proofs, except that it takes a different argument to prove (2) below.
+The Brownian model
+Brownian motion on a line extends naturally to Brownian motion on a network (see, e.g.,
+[3, 4, 14, 24]); when at a vertex a Brownian particle moves with equal likelihood onto any
+incident edge (with the understanding that an incident loop counts for this purpose as two
+incident edges). The edges incident to a vertex constitute a “Walsh spider” (see, e.g., [26, 4])
+with equiprobable legs, and it is easily verified that in such a setting the probability of traversing
+4a particular incident edge (or oriented loop) first is proportional to the reciprocal of the length
+of that edge.
+In our model, we care only about where the particle is after an edge-traversal, and how
+long it took to get there. The latter should thus be the time taken by a Brownian particle to
+traverse a given edge incident to its starting vertex, given that it traversed that edge first; this
+time is a random variable whose distribution and expectation (the latter to be computed later)
+depend not only on the length of the specified edge, but on the lengths of the other incident
+edges as well.
+In the case of simple random walk, i.e. when all edges have length 1, the expected time for
+this random walk to take a step is 1.
+The `
+2 model
+In this model, the time it takes for the random walk to take a step is less random: traversing
+an edge of length ` always takes time `
+2
+. Thus time is governed by (1) alone. The `
+2 model and
+the Brownian model differ only in timing; probabilities of walks are identical, as in both cases
+the next edge to be traversed is chosen according to the distribution in (1) for incident edges.
+If all edges of the network are of the same length, then in expectation, timing is identical as
+well. Readers interested only in simple random walk will lose nothing by assuming throughout
+that all edges are of length 1.
+The expected time to cover all edges (respectively, arcs) of N by a random walk (in either
+model) will be denoted by CE
+r
+(N) (resp., CA
+r
+(N)); to cover all edges or arcs and return, by
+CRE
+r
+(N) or CRA
+r
+(N). Maximizing over r gives CE(N), CA(N), CRE(N), and CRA(N).
+The effective resistance Rxy between vertices x and y is defined in electrical terms as the
+reciprocal of the amount of current that flows from x to y in N when a unit voltage difference
+is applied to them, assuming that each edge offers resistance equal to its length. See [12] or
+[20] for the basic definitions concerning electrical networks. Effective resistances sum in series:
+if all paths from x to y go through z, then Rxy = Rxz + Rzy. The reciprocals of effective
+resistances, i.e., effective conductances, sum in parallel: if A and B are otherwise disjoint
+networks containing x and y, then in the union of the two networks,
+1
+Rxy
+=
+1
+R
+xy
+A
++
+1
+R
+xy
+B
+.
+53 Commute Times
+The commute time T
+x↔y
+from vertex x to y in N is the (random) time it takes for a random
+walk to travel from x to y and back to x. The expected commute time ❊T
+x↔y between two
+vertices x, y of a network has an elegant expression proved in [9], and well known for the case
+of unit edge lengths:
+❊T
+x↔y = 2mRxy
+, (2)
+where m := P
+e∈E(G)
+`(e) is the total length of the network and Rxy the effective resistance as
+defined above.
+In fact a more general identity is proved in [9] (Theorem 2.2 there): suppose each traversal of
+an arc ~e comes with a cost f(~e), where f is a possibly asymmetric cost function, and transition
+probabilities are still given by (1). Then the expected cost of an x-y commute is FRxy, where
+F is the sum of f(~e)/`(e) over all arcs ~e. Substituting `(e)
+2
+for f(~e) gives the familiar 2mRxy
+for commute time in the `
+2 model, with m now understood as the total length of the network.
+That the same formula applies to the Brownian model follows by approximating edgelengths
+with rational numbers, then subdividing so that every edge has the same length; this
+has no effect on commute time in the Brownian model but brings traversal times in line with
+the `
+2 model without changing the formula.
+In the rest of this section we refine (2) by differentiating between various commute tours
+according to their behavior with respect to subnetworks. We will need this refinement in order
+to prove our main results in the next section.
+Suppose that N is the union of two subnetworks A, B such that A∩B = {x, y} (as in Fig. 1
+below). For example, A could be an x-y edge and B could be the rest of N; this is in fact the
+case that is needed later. We define the following events for random walks on N starting at x:
+(i) An A-commute from x to y is a closed walk starting at x and containing either an
+x-y subwalk via A or a y-x subwalk via A;
+(ii) An −→A-commute from x to y is a closed walk starting at x and containing an x-y subwalk
+via A;
+(iii) An ←−A-commute from x to y is a closed walk starting at x and containing a y-x subwalk
+via A;
+6Figure 1: Networks A and B meeting only at vertices x and y.
+(iv) An ←→A -commute from x to y is a closed walk starting at x and containing both an
+x-y subwalk via A and a y-x subwalk via A.
+Define T
+xy
+A
+, T xy
+A→, T xy
+A←, T xy
+A↔ to be the time for random walk on N starting at x to perform an
+A-commute, a
+−→A-commute, a
+←−A-commute, and a ←→A -commute from x to y, respectively. Let
+❊T
+xy
+A
+, ❊T
+xy
+A→, ❊T
+xy
+A←, ❊T
+xy
+A↔ denote the corresponding expected times.
+Theorem 3.1. For every network N = (G, `) and any two subnetworks A, B having precisely
+two vertices x, y in common,
+(i) ❊T
+xy
+A = 2mRA
+RA+RB
+2RA+RB
+;
+(ii) ❊T
+xy
+A→ = 2mRA
+2RA+RB
+2RA+RB
+= 2mRA = ❊T
+xy
+A←;
+(iii) ❊T
+xy
+A↔ = 2mRA
+3RA+RB
+2RA+RB
+,
+where m := P
+e∈E(G)
+`(e) is the total edge-length, and RX is the effective resistance between x
+and y in the network X.
+Remark: Notice that the three expressions differ only in the coefficient of RA in the numerator.
+Proof. In all cases, let the particle start at x and walk on N ‘forever’, and consider the times
+when the particle completes a commute from x to y. We are interested in the expectation of
+7the time T when the first A- commute,
+−→A-commute, or
+←→A -commute is completed according
+which of the cases (i) - (iii) we are considering.
+Note that any A-commute,
+−→A-commute, or
+←→A -commute from x to y can be decomposed
+into a sequence of disjoint commutes. Thus we can define a random variable Y to be the
+number of x-y commutes until the first A-commute,
+−→A-commute, or
+←→A -commute from x to y
+is completed, according to which of the cases (i) - (iii) we are considering. Let Xi
+, i = 1, 2, . . .
+be the duration of the ith x-y commute. Then our stopping time T satisfies
+T =
+X
+1≤i≤Y
+Xi
+.
+Note that the expectation of each Xi
+is ❊T
+x↔y = 2mRxy by (2). By Wald’s identity [25]
+the expectation of T equals the expectation of Y times the expectation of Xi
+, and so we have
+❊T = 2mRxy❊Y . (3)
+Thus it only remains to determine ❊Y in each of the cases (i) - (iii).
+In order to compute ❊Y it is useful to first calculate the probability pA that the first
+visit to y of a random walk starting at x will be via A. For this it is convenient to use the
+electrical network technique. Disconnect A and B at their common vertex y to obtain a network
+consisting of A, B connected ‘in series’ at x. Denote by yA the vertex of A corresponding to
+y, and by CA = 1/RA the effective conductance between x and y in A; similarly for B. From
+[12] we have the probability that a random walk started at x hits yA before yB is CA/CB, thus
+pA =
+CA
+CA+CB
+=
+Rxy
+RA
+.
+By the same argument, a random walk from y to x will go via A with the same probability
+pA. We can now determine ❊Y in each of the three cases. For case (ii), note that a commute
+from x to y is a
+−→A-commute if the forward trip is via A, which occurs with probability pA.
+Thus we have ❊Y =: ❊Yii = 1/pA =
+RA
+Rxy , since the expected number of Bernoulli trials until
+the first success is the reciprocal of the success probability of one trial. Plugging this into
+(3) yields ❊T = ❊T
+xy
+A→ = 2mRA as claimed. By similar arguments this expression also equals
+❊T
+xy
+A←.
+For case (i), note that a commute from x to y fails to be an A-commute if and only if both
+trips fail to be via A. Since the two trips are independent, the probability that a random x-y
+commute is an A-commute is 1 − (1 − pA)
+2 = pA(2 − pA). By a similar argument as above
+we obtain ❊Y =: ❊Yi =
+1
+pA(2−pA)
+and so ❊T =: ❊T
+xy
+A = 2mRxy RA
+Rxy
+1
+2−pA
+= 2mRA
+1
+2−pA
+=
+2mRA
+1
+2−RB/(RA+RB) = 2mRA
+RA+RB
+2RA+RB
+.
+8Finally, to determine ❊Y in case (iii) we argue as follows. To begin with, we have to make
+an expected Yi tries until we go via A in at least one of the trips of some x-y commute, i.e.
+until we achieve our first A-commute. Then, unless our first A-commute was an
+←→A -commute,
+we will have to make another Yii tries in expectation to go via A in the other direction.
+By elementary calculations, an A-commute fails to be an ←→A -commute with probability q =
+2(1−pA)
+(2−pA) = 2 RA
+2RA+RB
+. Summing up, we have ❊Y =: ❊Yiii = ❊Yi + q❊Yii. Using our earlier
+calculations and (3) this yields ❊T =: ❊T
+xy
+A↔ = 2mRA
+
+RA+RB
+2RA+RB
++ 2 RA
+2RA+RB
+
+= 2mRA
+3RA+RB
+2RA+RB
+.
+4 Main Results
+For a random walk on a network N starting at a vertex x, define the random variable CRE
+x
+,
+called the edge cover-and-return time, to be the first time when each edge of N has been
+traversed and the particle is back at x. Similarly, if N is a digraph, we define CRA
+x
+, called
+the arc cover-and-return time, to be the first time when each arc of N has been traversed and
+the particle is back at x. Here, the directions of the edges do not affect the behavior of the
+random walk; the particle is allowed to traverse arcs backwards and its transition probabilities
+are always given by (1).
+If N is undirected we interpret it as a digraph by replacing each edge (loops included) by
+an arc in each direction; thus, in that case, CRA
+x
+is the first time when each edge of N has
+been traversed in both directions and the particle is back at x.
+Theorem 4.1. Let N = (G, `) be an undirected network and let m := P
+e∈E(G)
+`(e). Then
+(i) ❊CRE(N) ≤ 2m2 and
+(ii) ❊CRA(N) ≤ 3m2
+.
+Moreover, if −→N is the result of orienting the edges of N in any way, then
+(iii) ❊CRA(
+−→N ) ≤ 2m2
+.
+Proof. Our proof follows the lines of the ‘spanning tree argument’ used in [1] for the vertex
+cover time, the main difference being that we apply Lemma 3.1 instead of (2).
+Let σ be a closed walk in G starting at an arbitrary fixed root r and traversing each edge of
+G precisely once in each direction. Such a walk always exists: if G is a tree then a depth-first
+9search will do, and if not then one can consider a spanning tree T of G, construct such a walk
+on T, and then extend it to capture the chords.
+We are going to use σ in order to define epochs for the random walk in N starting at x, and
+then apply Theorem 3.1 to bound the time time spent between pairs of such epochs. These
+epochs will differ depending on which of the two cases we are considering.
+Cases (i) and (iii): We prove the stronger result that ❊CRA
+r
+(
+−→N ) ≤ 2m2
+. let ei
+, i =
+1, 2, . . . , 2|E(G)|, be the ith edge traversed by σ, with endvertices xi
+, yi appearing in σ in that
+order. For i = 1, 2, . . . , 2|E(G)| define the ith epoch τi as follows. If ei
+is directed from xi to
+yi
+, then τi
+is the first time after τi−1 when σ is at yi and has gone there from xi using the edge
+ei
+in that step, where we set τ0 = 0. If ei
+is directed the other way, then we just let τi be the
+first time after τi−1 when σ is at yi
+.
+Note that at time τ2|E(G)| our random walk is back to r and has performed an arc coverand-return
+tour. Thus ❊CRE
+r
+(
+−→N ) is at most the expectation of τ2|E(G)|
+. Now the latter can be
+bounded using Theorem 3.1 (ii) as follows. For every edge e = xy of G, there are precisely two
+time intervals bounded by the above epochs corresponding to e: If j, k are the two indices for
+which ej = ek = e, then these are the time intervals I
+1
+e
+:= [τj−1, τj ] and I
+2
+e
+:= [τk−1, τk]. Note
+that, by the definition of τi
+, the motion of the random walker in the union of these two intervals
+is in fact an −→e -commute or an ←−e -commute (as defined in Section 3) from x to y, according
+to whether e is directed from x to y or the other way round. Thus, applying Theorem 3.1 (ii)
+with A = {x, y; e} and B = G − {e} yields that the expected value Ee of |I
+1
+e
+| + |I
+2
+e
+| is 2m`(e).
+Since the time interval [0, τ2|E(G)|
+] is the union of all such pairs of intervals, one pair for each
+e ∈ E(G), we have
+❊τ2|E(G)| =
+X
+e∈E(G)
+Ee =
+X
+e∈E(G)
+2m`(e) = 2m2
+.
+This yields ❊CRA
+r
+(
+−→N ) ≤ 2m2
+, thus also ❊CRE
+r
+(N) ≤ 2m2
+, as claimed.
+Case (ii): To bound ❊CRA
+r
+(N), we follow the same arguments as before, except that we
+define the epochs slightly differently: the edges of G are not directed now, and we always
+let τi be the first time after τi−1 when our random walk is at yi and has gone there from
+xi using the edge ei
+in that step. We define the time intervals I
+1
+e and I
+2
+e as above, but this
+time we note that the motion of the random walker in the union of these two intervals is an
+←→e -commute. Applying Theorem 3.1 (iii) with A = {x, y; e} and B = G − {e}, we obtain
+Ee ≤ 2m`(e)
+3`(e)+RB
+2`(e)+RB
+. This expression attains its maximum value when RB = 0, and so we
+10obtain Ee ≤ 2m`(e)
+3`(e)
+2`(e) = 3m`(e). Adding up all Ee, e ∈ E(G) as above we conclude that
+❊CRA
+r
+(N) ≤ 3m2
+, as claimed.
+The bounds of Theorem 4.1 are tight in the following situations. For Case (i) and thus
+also (iii), we have already noted that a path of length m takes time 2m2
+to cover all edges
+and return. For Case (ii), a network consisting of a single vertex and a loop (of any length m)
+takes one step to cover that loop in one direction, then on average two more to catch the other
+direction, so for this network ❊CRA = 3m2
+.
+5 Application to Brownian Motion and Infinite Networks
+5.1 Finite networks
+We begin this section by showing directly that (expected) edge-cover-and-return time—and,
+indeed, any kind of return time—is the same in the Brownian model of random walk as it is
+in the `
+2 model as defined in Section 2. Fix a network N and suppose that vertex x of N has
+incident edges e1, . . . , ek of lengths `1, . . . , `k respectively. (As usual loops must be represented
+twice in this list, once in each direction.) The mean time taken by a walk in the `
+2 model to
+traverse one of these edges, starting from x, is easily calculated using (1):
+X
+k
+i=1
+1
+`i
+1
+Cx
+`
+2
+i =
+1
+Cx
+X
+k
+i=1
+`i
+where Cx := Pk
+j=1(1/`j ). The same is true in the Brownian model, because we may identify the
+endpoints of the edges, calling the unified vertex y, and compute the commute time between x
+and y using the formula from Section 3, which holds in both models. By symmetry, the desired
+quantity is half the commute time.
+Since the expected time taken by a cover-and-return tour in either model is the sum over
+the vertices of N of the expected time spent exiting those vertices, this quantity is the same
+for both models. Note, however, that this does not mean that the expected time taken in the
+Brownian model for a particular cover-and-return tour is the sum of the squares of the lengths
+of its edges, and indeed that is not generally the case.
+To compute the latter we need to know what the expected edge-traversal times are in the
+Brownian model. This is not needed to apply our bounds, but the computation is easy and as
+far as we know, has not appeared elsewhere. We make use of a couple of simple (and known,
+but proved here as well) facts about Brownian motion.
+11Lemma 5.1. Consider standard Brownian motion on the positive real half axis, and let tb be
+the time of the first visit to ` ∈ ❘
++, and ta the time of the last visit to 0 before tb. Then the
+expected value T` of tb − ta is `
+2/3.
+Proof. From scaling properties of Brownian motion (see, e.g., [22]) we know that T` must be
+a multiple of `
+2
+, say α`2
+. Then T`/2
+is α`2/4. Consider the first time tc that the particle
+reaches the point `
+2
+. From there, it takes expected time `
+2/4 to reach either 0 or ` for the
+first time again, reaching each of them first with equal probability 1/2. Now conditioning on
+the event that ` was reached before 0 after tc, we expect tb − ta to be T`/2 + `
+2/4, while if 0
+was reached first then the experiment is effectively restarted, and we expect tb − ta to be its
+overall expectation T`
+. Combining we get T` = 1/2(T`/2 +`
+2/4)+ 1/2T`
+. Plugging in the above
+formulas for T` and T`/2 we can now solve for α, and we get α = 1/3.
+Lemma 5.2. Suppose a Brownian particle begins at vertex x in a network N and proceeds
+until it traverses one of the incident edges e1, . . . , ek, and let T be the (random) time spent
+before the particle departs x for the last time. Then T is independent of the index of the edge
+traversed.
+Proof. Since the past is irrelevant to the particle, there is a fixed distribution σ on {1, 2, . . . , k}
+for which edge is traversed after the particle departs x for the last time (namely, the distribution
+whose probabilities are proportional to the reciprocals of the edge-lengths). Thus, the index of
+the traversed edge is independent of T , and necessarily, vice-versa.
+We are now ready to derive our formula. Lemma 5.2 implies that in particular ❊T is
+independent of which edge is traversed. Combining with Lemma 5.1, the expected time taken
+by the particle to traverse an edge from x, given that it traversed edge ei first, is ❊T + `
+2
+i
+/3.
+It follows that the expected time to traverse some edge from x is
+X
+k
+i=1
+
+❊T + `
+2
+i /3
+ 1
+`iCx
+which we know must be equal to 1
+Cx
+Pk
+i=1 `i
+. Solving gives ❊T =
+2
+3
+1
+Cx
+Pk
+i=1 `i
+, and we have
+proved:
+Theorem 5.3. Suppose a standard Brownian particle on a network N begins at vertex x with
+incident edges e1, . . . , ek of lengths `1, . . . , `k respectively. Then the expected time taken by the
+particle to traverse edges ei, given that it traversed ei first, is 1
+3
+`
+2
+i +
+2
+3
+Pk
+j=1 `j .
+12A simple example of an edge-cover-and return tour with different expected times for the
+two models takes place on the network N consisting of two vertices x and y, connected by an
+edge e of length 1 and an edge f of length 2. Then the cover tour from x consisting of e then
+f has expected time 5/3 + 8/3 = 13/3 in the Brownian model, but constant time 12 + 22 = 9
+in the `
+2 model. The expected time for an edge-cover-and-return tour on N is 7.7 in either
+model, although when conditioned on (say) having started with edge e, the results are quite
+different.
+5.2 Infinite networks of finite total length
+We conclude with some implications for Brownian motion on infinite networks.
+As an illustrative example, consider the infinite binary tree T, with edge-lengths 4−k at
+level k (the edges incident to the root counting as level 1). To this network of total length 1 it
+is natural to append a boundary ∂T: considered as a metric space, T has a metric completion
+|T| and ∂T is the set of completion points. An equivalent way to define ∂T is as the set of
+infinite paths starting at the root of T, which admits a natural bijection to the set of infinite
+binary sequences. Note that ∂T is homeomorphic to the Cantor set.
+It is possible to prove that starting at the root of T, Brownian motion or random walk in
+the `
+2 model will almost surely reach ‘infinity’, i.e. ∂T, after finite time. Georgakopoulos and
+Kolesko [17] show that it is possible to let the particle continue its random motion afterwards:
+they construct a random process on |T| whose sample paths are continuous with respect to the
+topology of |T| and behave like standard Brownian motion in the neighborhood of each vertex
+of T. This construction was motivated by the results of [15] and an attempt to extend the
+theory of [12], relating electrical networks and random processes, to the infinite case.
+Applied in this context, our results have a somewhat surprising implication: Brownian
+motion on |T| will cover all edges of T—and all of the continuum-many boundary points ∂T—
+in expected time at most 2, thus almost surely in finite time. (We proved our results here
+for finite networks only, and so they cannot be directly applied to infinite ones. However, the
+Brownian motion of [17] is constructed as a limit of the Brownian motions on an increasing
+sequence of finite subgraphs of T, and as our results apply to each member of this sequence,
+they can be extended to the limit; see [17] for details.)
+In fact, the Brownian motion of [17] is defined not only for trees, but also for arbitrary
+networks of finite total length. It was shown in [16] that every such network admits a boundary
+13as above. Moreover, this boundary, with its corresponding topology, is well known and has
+had many applications. To these results we have here added a (tight) bound on expected cover
+time, perhaps adding further impetus to the study of networks of finite total length.

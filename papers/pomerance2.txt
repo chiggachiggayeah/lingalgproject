@@ -1,0 +1,1345 @@
+Carl_pomerance
+Math
+Local_behavior_Fibonacci
+Abstract
+Let z(N) be the order of appearance of N in the Fibonacci sequence.
+This is the smallest positive integer k such that N divides
+the kth Fibonacci number. We show that each of the 6 total possible
+orderings among z(N), z(N + 1), z(N + 2) appears infinitely often.
+We also show that for each nonzero even integer c and many odd integers
+c the equation z(N) = z(N + c) has infinitely many solutions N,
+but the set of solutions has asymptotic density zero. The proofs use a
+result of Corvaja and Zannier on the height of a rational function at
+S-unit points as well as sieve methods.
+11 Introduction
+Let {Fk}k≥0 be the Fibonacci sequence given by F0 = 0, F1 = 1 and Fk+2 =
+Fk+1 + Fk for all k ≥ 0. For a positive integer n we put z(n) for the index
+of appearance of n in the Fibonacci sequence which is the minimal positive
+integer k such that n | Fk. It is known that this always exists. Furthermore,
+n | Fk if and only if z(n) | k. Here, we look at the local behavior of the
+function z(n). We do not expect the function z(n) to exhibit some prescribed
+monotonicity pattern. Rather we expect it to behave randomly on intervals of
+fixed length with an arbitrary starting point. Thus, we propose the following
+conjecture.
+Conjecture 1. For all integers k ≥ 2 and all permutations σ ∈ Sk, there
+exist infinitely many N such that
+z(N + σ(1)) < z(N + σ(2)) < · · · < z(N + σ(k)). (1)
+It is clear that the validity of Conjecture 1 for k implies the validity of it for
+smaller values of k. Our main result is the following:
+Theorem 1. Conjecture 1 holds for k = 3.
+Some partial results in the spirit of Theorem 1 appear in [6]. One may also
+ask about values of N such that z(N) = z(N + 1). Or z(N) = z(N + 2). For
+a nonzero integer c put
+Nc := {N : z(N) = z(N + c)}. (2)
+Theorem 2. For each nonzero even integer c and for each odd integer c with
+3 ∤ z(c), the set Nc is infinite.
+In particular, each one of the equalities z(N) = z(N+1) and z(N) = z(N+2)
+holds infinitely often. This answers a question from [5]. (In fact, z(N) =
+z(N + c) holds infinitely often for each positive c up to 16.)
+Even if the set Nc is infinite, one does not expect it to be too thick. We
+make this precise in the next result. For a positive real number x and a set
+A of positive integers we write A(x) = A ∩ [1, x].
+2Theorem 3. The estimate
+#Nc(x) = Oc
+
+x
+(log x)
+2
+
+(3)
+holds for all nonzero c.
+We believe that in fact #Nc(x) is of order x/(log x)
+2
+, and in the last section
+of the paper we make some comments about this. Note that Theorem 3
+implies that the sum of the reciprocals of the members of Nc is finite.
+Analogues of our theorems hold in the more general setting of binary recurrent
+sequences (un) with u0 = 0, u1 = 1 and with the roots of the associated
+characteristic polynomial being quadratic units but not roots of unity. In
+addition, Theorem 3 holds in a still more general setting, for example the
+estimation of the number of odd integers n ≤ x for which the multiplicative
+order of 2 (mod n) is equal to the multiplicative order of 2 (mod n + 2).
+2 Notations, Terminology and Some Preliminary
+Results
+We write {Lk}k≥0 for the Lucas companion of the Fibonacci sequence which
+is given by L0 = 2, L1 = 1 and Lk+2 = Lk+1 + Lk for all k ≥ 0. Writing
+(α, β) := ((1 + √
+5)/2,(1 −
+√
+5)/2) for the two roots of the characteristic
+equation x
+2 − x − 1 = 0, the Binet formulas for the Fibonacci and Lucas
+numbers are
+Fk =
+α
+k − β
+k
+α − β
+and Lk = α
+k + β
+k
+for all k ≥ 0. (4)
+Both sequences {Fk}k≥0 and {Lk}k≥0 can be extended to negative indices
+either allowing k to be negative in the Binet formula (4), or by extending the
+recurrence relation for the Fibonacci and Lucas numbers to negative indices.
+Once this is done, we have F−k = (−1)k−1Fk and L−k = (−1)kLk for all
+positive integers k. There are many formulas relating the Fibonacci and
+Lucas numbers such as F2k = FkLk which holds for all integers k and
+Fu + (−1)(u−v)/2Fv = F(u+v)/2L(u−v)/2 when u ≡ v (mod 2).
+3We will apply this last relation in the following special cases:
+Fu + εFv = F(u+εv)/2L(u−εv)/2 if u ≡ v ≡ 0 (mod 4), ε ∈ {±1}, (5)
+and
+F2u + (−1)u
+ε = Fu−εLu+ε for all u. (6)
+We shall also use classical divisibility properties of the Fibonacci and Lucas
+numbers. We summarize them in the following lemma.
+Lemma 2. Let u and v be positive integers and d := gcd(u, v). Then
+(i) gcd(Fu, Fv) = Fd;
+(ii) gcd(Lu, Lv) = Ld if both u/d and v/d are odd; else, gcd(Lu, Lv) is 2 or
+1 according to whether 3 | d or not, respectively;
+(iii) gcd(Fu, Lv) = Ld if u/d is even and v/d is odd; else, gcd(Fu, Lv) is 2
+or 1 according to whether 3 | d or not, respectively.
+We shall also use the Primitive Divisor Theorem of Carmichael [2], which
+states that if n 6∈ {1, 2, 6, 12}, then there is a prime factor p of Fn having
+z(p) = n. Finally we use the fact that for all positive integers a, b we have
+lcm[z(a), z(b)] = z(lcm[a, b]).
+Throughout the paper, we use the Landau symbols O and o as well as the
+Vinogradov symbols ≪, ≫ and ≍ with their regular meaning. The constants
+implied by them might depend on some parameters to be fixed throughout
+the proofs like a, or c, or k, etc. We use p, q and P, Q with or without
+subscripts for prime numbers.
+3 On the index of appearance of shifts of Fibonacci
+numbers
+Here, we prove the following result.
+4Proposition 3. Let a ∈ Z be such that |a| is not a Fibonacci number. Then
+limn→∞
+z(Fn + a)
+n2
+= ∞.
+Proof. Put m := z(Fn + a). Then Fn + a | Fm. Assume that n > 0 satisfies
+Fn−2 > |a|. Since |a| ≥ 4, it follows that n ≥ 7. Then
+Fn + a > Fn − Fn−2 = Fn−1, (7)
+so m > n − 1. If m = n, then estimate (7) shows that Fn + a is a divisor
+of Fn which exceeds Fn−1 = (Fn−1/Fn)Fn > Fn/2. But then we must have
+Fn + a = Fn, which is false. So, m > n.
+Assume that m ≤ Kn2
+for some fixed K. We need to show that there are
+only finitely many possibilities for n. Write
+m = qn + r, where 1 ≤ q := ⌊m/n⌋ ≤ Kn, and 0 ≤ r ≤ n − 1.
+(8)
+We fix the parity of n. That is, we assume that n ≡ c (mod 2), where
+c ∈ {0, 1}. Observe that, by formula (4),
+Fn + a =
+α
+n − β
+n
+√
+5
++ a =
+α
+−n
+√
+5
+
+α
+2n +
+√
+5aαn − (−1)c
+
+=
+α
+−n
+√
+5
+(α
+n − z1) (α
+n − z2), (9)
+where
+z1, z2 :=
+−
+√
+5a ±
+p
+5a
+2 + 4(−1)c
+2
+.
+Write 5a
+2 + 4(−1)c =: db2
+, where d is squarefree. It is clear that d > 0.
+Since all positive integer solutions (x, y) of the equation x
+2 − 5y
+2 = ±4 are
+of the form (x, y) = (Lk, Fk) for some k ≥ 1, and |a| is not a Fibonacci
+number, it follows that d > 1. It is clear that d is coprime to 5. Putting
+K := Q(
+√
+5,
+√
+d), we get that K is real and of degree 4 over Q. The field K
+is also normal and its Galois group G is Z/2Z × Z/2Z. It is also clear that
+z1 and α are multiplicatively independent. Indeed, to see this observe that
+α ∈ Q(
+√
+5) and z
+2
+1 ∈ Q(
+√
+5d). Thus, if for some integers (r, s) not both zero
+we would have α
+r = z
+2s
+1
+, then this number is in Q(
+√
+5)∩ Q(
+√
+5d) = Q. Since
+5α
+r ∈ Q implies that r = 0, and the relation α
+r = z
+2s
+1 with r = 0 implies that
+s = 0, we get that r = s = 0, which is a contradiction.
+Let Γ be the multiplicative group generated inside K by {−1, α, z1}. Since
+z1z2 = (−1)c+1, Γ contains z2. Put u1 := α
+n
+z
+−1
+1
+. Since z1 is a unit, observe
+that u1 is an algebraic integer and u1 − 1 is associated to α
+n − z1. Since
+(Fn + a)/((α
+n − z1)/
+√
+5) is an algebraic integer and
+Fn + a | Fm | F2m = β
+2m α
+4m − 1
+√
+5
+,
+we get that α
+n − z1 | α
+4m − 1, leading to u1 − 1 | α
+4m − 1. We thus get the
+two relations
+α
+n
+z
+−1
+1 ≡ 1 (mod u1 − 1), and α
+4m ≡ 1 (mod u1 − 1). (10)
+Here and in what follows, we use the standard convention that two algebraic
+integers γ and δ are congruent modulo a nonzero algebraic integer η if (γ −
+δ)/η is an algebraic integer. Using formula (8) to replace 4m by 4nq + 4r in
+the second congruence in (10), and using also the first congruence in (10) to
+replace α
+n by z1 modulo u1 − 1, we get the congruence
+α
+4r
+z
+4q
+1 ≡ 1 (mod u1 − 1). (11)
+Put v1 := α
+4r
+z
+4q
+1
+. Here is a proof that u1 and v1 are multiplicatively independent.
+Since α and z1 are multiplicatively independent, the equation
+(α
+n
+z
+−1
+1
+)
+a = (α
+4r
+z
+4q
+1
+)
+b with integers a, b forces an = 4rb and −a = 4qb, so
+either a = b = 0 or qr < 0, the second option being false. To summarize,
+u1 − 1 | v1 − 1 and u1 and v1 are multiplicatively independent elements of Γ.
+We now apply Corollary 1 in [3] to our situation. More precisely, inequality
+(1.3) in [3] says that for all δ > 0, the inequality
+X
+µ∈MK
+log−
+(max{|u1 − 1|µ, |v1 − 1|µ}) > −δ max{h(u1), h(v1)} (12)
+holds with finitely many exceptions in the pair (u1, v1). Here, log−
+(•) =
+min{0, log(•)}, MK is the set of valuations of K, for µ ∈ MK, |•|µ means
+the corresponding normalized absolute value such that the product formula
+holds, and h(•) is the Weil height (the definition of which is shown in (19)
+later in this proof). The normalized absolute values |•|µ for us are as follows:
+6(i) If µ is finite, then it corresponds to some prime ideal π in K of norm
+(number of elements of the residue field) equal to p
+f
+for some prime
+p and some f ∈ {1, 2, 4}. Then |•|µ = p
+−(f /4)ordπ(•)
+, where ordπ(•) is
+the exponent at which π appears in the prime ideal factorization of the
+fractional ideal generated by the nonzero element • inside K.
+(ii) If µ is infinite, then it corresponds to some element σ ∈ G, and then
+|•|µ = |σ(•)|
+1/4
+.
+Since for us finitely many exceptions (u1, v1) means finitely many values for
+n, we assume that n is sufficiently large such that inequality (12) holds.
+Let us see what estimate (12) means for us. Since u1 − 1 | v1 − 1 and both
+u1 − 1 and v1 − 1 are algebraic integers, it follows that
+log−
+(max{|u1 − 1|µ, |v1 − 1|µ}) = log |u1 − 1|µ for finite µ ∈ MK. (13)
+For the remaining four infinite valuations µ, let us notice that the term
+corresponding to µ in the left-hand side of (12) is 0 unless both |u1 −1|µ and
+|v1 − 1|µ are in (0, 1). In this case,
+|u1−1|µ = |σ(α)
+nσ(z1)
+−1−1|
+1/4
+and |v1−1|µ = |σ(α)
+4rσ(z1)
+4q−1|
+1/4
+,
+where σ is the element of G corresponding to µ. Using the multiplicative independence
+of α and z1 and Baker’s theory of lower bounds for nonzero linear
+forms in logarithms of algebraic numbers (see [7], for example), inequality
+(8) implies that
+log−
+(max{|u1 − 1|µ, |v1 − 1|µ}) = O(log K + log n), for infinite µ ∈ MK,
+(14)
+where the constant implied by the above O–symbol depends on a. We may
+assume that n > K (because K is fixed), and then omit the term log K in
+the right–hand side of estimates (14).
+Inserting estimates (13) and (14) into (12), we get for some fixed κ (depending
+on a),
+X
+µ∈MK
+µ finite
+log |u1 − 1|µ + κ log n > −δ max{h(u), h(v)}. (15)
+7By the product formula, the main term in the left–hand side in estimate (15)
+is
+−
+X
+µ∈MK
+µ infinite
+log |u1 − 1|µ = −
+1
+4
+log |NK/Q(u1 − 1)|,
+where NK/Q(•) is the norm map from K to Q. Hence, estimate (15) implies
+that
+1
+4
+log |NK/Q(u1 − 1)| − κ log n < δ max{h(u1), h(v1)}. (16)
+We now repeat the argument with u2 := α
+n
+z
+−1
+2 − 1, which is associated to
+α
+n − z2. Putting v2 := α
+4r
+z
+4q
+2
+, the same argument gives that inequality (16)
+holds with u1 and v1 replaced by u2 and v2, respectively. Summing them up,
+and adjusting κ if necessary, we get
+1
+4
+log
+
+NK/Q ((u1 − 1)(u2 − 1))
+
+ − κ log n
+< 2δ max{h(u1), h(v1), h(u2), h(v2)}. (17)
+By formula (9), we get easily that
+
+NK/Q ((u1 − 1)(u2 − 1))
+
+ = 25(Fn + a)
+4 > 25F
+4
+n−1 > 25α
+4n−12 > α4n−6
+,
+(18)
+where we used the fact that the inequality Fk > αk−2 holds for all k ≥
+3. Finally, recall that if η is an algebraic number of degree d of minimal
+polynomial
+F(X) := a0
+Y
+d
+j=1
+(X − η
+(j)
+)
+over Z[X], then
+h(η) := 1
+d
+
+log a0 +
+X
+d
+j=1
+log(max{1, |η
+(j)
+|})
+!
+. (19)
+Taking η := ui
+for i = 1, 2, all its conjugates are of the form σ(α)
+nσ(zi)
+−1
+for some element σ ∈ G. Thus,
+log(max{1, |η
+(j)
+|}) = O(n),
+8for all j = 1, . . . , 4, implying that h(ui) = O(n) for i = 1, 2. In the case of
+h(vi) for i = 1, 2, the number n must be replaced by q +r, which is bounded
+above by (K + 1)n ≤ 2Kn. Hence, we get
+max{h(u1), h(u2), h(v1), h(v2)} = O(Kn), (20)
+where the constant implied by the above O–symbol depends on a. Inserting
+estimates (18) and (20) into estimate (17), we get
+n log α − κ log n = O(Kδn).
+We divide the above estimate by n to get
+log α = O(Kδ),
+that is,
+log α < c1Kδ
+holds for all n sufficiently large with some positive constant c1 depending on
+a. Hence, K > c2δ
+−1
+, where c2 := c
+−1
+1
+log α. Thus, the inequality K > c2δ
+−1
+holds for all large n, and we get the desired conclusion because δ > 0 was
+arbitrary.
+When |a| is a Fibonacci number, one can show that
+lim inf
+n→∞
+z(Fn + a)
+n2
+= O(1), (21)
+so Proposition 3 can be seen as a characterization of the Fibonacci numbers.
+The proof of estimate (21) is based on the analogs of relation (5) for pairs of
+indices (u, v) which are congruent modulo 2. See the next two sections for
+some arguments in this style.
+4 The Proof of Theorem 1
+Of the six possible patterns among z(N), z(N + 1), z(N + 2), we distinguish
+slopes (the monotonic patterns), peaks (the patterns with a maximum
+in the middle), and valleys (the patterns with a minimum in the middle),
+respectively.
+94.1 Slopes
+We start with N := Fn/Fk, where k and n are positive integers such that
+12 | k | n. Put ℓ := n/k. We also assume that k | ℓ. It is clear that z(N) | n.
+By the Primitive Divisor Theorem, there exists a prime p | Fn with z(p) = n.
+Thus, p | N, therefore z(N) = n.
+Next, let ε ∈ {±1}. Then, by (5),
+N + ε =
+Fn + εFk
+Fk
+=
+F(n+εk)/2L(n−εk)/2
+Fk
+=
+
+Fk(ℓ+ε)/2
+Fk/2
+ Lk(ℓ−ε)/2
+Lk/2
+
+. (22)
+Since ℓ − ε ≥ 5 is coprime to 6 (in particular, it is odd), it follows by Lemma
+2 that both factors in the right–hand side above are integers. The first factor
+divides Fk(ℓ+ε)/2 so its index of appearance is a divisor of k(ℓ + ε)/2. By the
+Primitive Divisor Theorem once again, its index of appearance is precisely
+k(ℓ + ε)/2. The second factor divides Fk(ℓ−ε)
+, and again by the Primitive
+Divisor Theorem, its index of appearance equals k(ℓ − ε). Hence, z(N + ε)
+must be a multiple of
+lcm 
+k(ℓ + ε)
+2
+, k(ℓ − ε)
+
+= k(ℓ
+2 − 1) = n
+2 − k
+2
+k
+.
+Here we have used that k is coprime to ℓ
+2 −1. To see that z(N +ε) is exactly
+the above number, it suffices to note that the two factors in the right side of
+(22) are coprime, which follows from gcd(Fk(ℓ+ε)/2, Lk(ℓ−ε)/2) = 2 by (iii) of
+Lemma 2 and both Lk(ℓ−ε)/2 and Lk/2 are 2 (mod 4) (using Lm ≡ 2 (mod 4)
+when 6 | m). Hence, z(N + ε) = (n
+2 − k
+2
+)/k.
+Next, note that
+N + 2ε =
+Fn + 2εFk
+Fk
+.
+Let m := z(N + 2ε). We then get that
+Fn + 2εFk | FkFm | FkFkm | FkFkm,
+where for the last divisibility relation we used repeatedly the fact that if p is
+any prime and p
+j
+| Fr, then p
+jFr | Fp
+j r
+. Hence,
+kFkm ≥ z(Fn + 2εFk),
+10leading to
+z(N + 2ε) ≥
+z(Fn + 2εFk)
+kFk
+. (23)
+Since 2Fk is not a Fibonacci number for k ≥ 4 (in fact, Fk+1 < 2Fk < Fk+2
+for all k ≥ 3), it follows that for a fixed k, the right–hand side in estimate (23)
+above is larger than n
+2
+for all n sufficiently large by Proposition 3. Hence,
+for large n, our construction gives
+z(N + 2ε) > n2 >
+n
+2 − k
+2
+k
+= z(N + ε) > n = z(N),
+which completes this part of the argument.
+4.2 Peaks
+This construction is quite similar to the previous one, so we shall only sketch
+it. We again take 12 | k | ℓ and n := kℓ. Put N := 2Fn/Fk = Fn/(Fk/2).
+Again by the Primitive Divisor Theorem, z(N) = n.
+For ε ∈ {±1},
+N + ε =
+Fn + εFk/2
+Fk/2
+.
+Since k ≥ 12, Fk/2 is not a Fibonacci number, therefore Proposition 3
+implies, as in the concluding part of the argument from Section 4.1, that
+z(N + ε) > n2
+for all fixed k and large n.
+Also, by (5), we have
+N + 2ε =
+Fn + εFk
+Fk/2
+=
+F(n+εk)/2L(n−εk)/2
+Fk/2
+=
+
+Fk(ℓ+ε)/2
+Fk/2/2
+ Lk(ℓ−ε)/2
+Lk/2
+
+. (24)
+Both factors on the right hand side above are integers. By the Primitive
+Divisor Theorem, the index of appearance of the first factor is k(ℓ + ε)/2,
+and the index of appearance of the second factor is k(ℓ−ε). These two factors
+in (24) are coprime by the same argument as in Section 4.1. This fact and the
+calculation of z(N +ε) from Section 4.1 shows that z(N + 2ε) = (n
+2 −k
+2
+)/k.
+We now get easily that
+z(N + ε) > n2 >
+n
+2 − k
+2
+k
+= z(N + 2ε) > n = z(N),
+11which finishes this part of the argument.
+4.3 Valleys
+We again take 12 | k | ℓ and n := kℓ. Let ε ∈ {±1}, and put
+N :=
+Fn + 1
+Fk − ε
+=
+
+F(n−2)/2
+F(k+2ε)/2
+  L(n+2)/2
+L(k−2ε)/2
+
+, (25)
+where we used (6). Fix k and let ℓ satisfy the following congruence:
+ℓ ≡ −ε (mod k
+2
+/4 − 1). (26)
+Since k is a multiple of 4, the congruence (26) is compatible with ℓ ≡ 0
+(mod k), so there are infinitely many solutions by the Chinese Remainder
+Lemma. For such solutions ℓ and n = kℓ, we have that
+n = kℓ ≡ ∓2εℓ ≡ ±2 (mod k/2 ± ε),
+so that both (n − 2)/(k + 2ε) and (n + 2)/(k − 2ε) are odd integers. Thus,
+the two factors appearing in the right side of (25) are integers by Lemma
+2, and so N is an integer. By the Primitive Divisor Theorem, the index of
+appearance of the first factor in the right–hand side of (25) is (n − 2)/2 for
+large n, and the index of appearance of the second factor is n + 2. Since
+(n − 2)/2 and n + 2 are coprime, we get that z(N) = (n
+2 − 4)/2.
+Now by (5) and (6)
+N + ε =
+Fn + εFk
+Fk − ε
+=
+F(n+εk)/2L(n−εk)/2
+F(k+2ε)/2L(k−2ε)/2
+=
+Fk(ℓ+ε)/2Lk(ℓ−ε)/2
+Fk/2+εLk/2−ε
+. (27)
+The index of appearance of Fk(ℓ+ε)/2 is k(ℓ+ε)/2. If n is sufficiently large, then
+by the Primitive Divisor Theorem, a primitive prime factor of Fk(ℓ+ε)/2 will
+not divide Fk−2Fk+2, which is a multiple of the denominator F(k+2ε)/2L(k−2ε)/2
+appearing in the right side in (27), and so it will divide N + ε. The same is
+true about the primitive prime factors of Lk(ℓ−ε)/2. Hence, by the arguments
+from Section 4.1, z(N +ε) is a multiple of (n
+2 −k
+2
+)/k. By Lemma 2, the gcd
+of the two factors in the numerator of the right side of (27) is 2, so z(N + ε)
+is a divisor of 2(n
+2 − k
+2
+)/k.
+12Finally,
+N + 2ε =
+Fn + 2εFk − 1
+Fk − ε
+.
+Put m := z(N +2ε). Then Fn+2εFk−1 | (Fk −ε)Fm = F(k+2ε)/2L(k−2ε)/2Fm,
+so that
+Fn + 2εFk − 1 | Fk−2Fk+2Fm | Fk2−4F(k2−4)m | F(k2−4)Fk2−4m. (28)
+In the above calculation, we used the fact that
+gcd(Fk+2, Fk−2) = Fgcd(k+2,k−2) = F2 = 1.
+For large k, the number |2εFk + 1| = 2Fk ± 1 is not a Fibonacci number. In
+fact, Fk+1 < 2Fk − 1 < 2Fk + 1 < Fk+2 for all k ≥ 5. Hence, by Proposition
+3 and divisibilities (28), we get that
+m ≥
+z(Fn + 2εFk − 1)
+(k
+2 − 4)Fk
+2−4
+> n2
+for all sufficiently large n once k is fixed. Thus, we have
+z(N + 2ε) > n2 >
+n
+2 − 4
+2
+= z(N) > 2
+(n
+2 − k
+2
+)
+k
+≥ z(N + ε),
+which completes the analysis for this last case.
+This proves Theorem 1.
+5 The Proof of Theorem 2
+This is very similar to the proof of Theorem 1. We may assume that c is
+positive.
+Assume that c is even. Here, we let k be a multiple of 12 such that c/2 | Fk/2.
+For this, it is enough that 24z(c/2) | k. We let n := kℓ with a large ℓ ≡ 0
+(mod k) and put
+N :=
+Fn
+Fk/(c/2) −
+c
+2
+.
+13Then
+N =
+Fn − Fk
+Fk/(c/2) =
+
+Fk(ℓ−1)/2
+Fk/2/(c/2) Lk(ℓ+1)/2
+Lk/2
+
+, (29)
+where we used (5). By Lemma 2, both factors in the right–hand side of
+formula (29) above are integers. By the Primitive Divisor Theorem, for large
+ℓ the index of appearance of the first factor is k(ℓ − 1)/2 and the index of
+appearance of the second factor is k(ℓ + 1). Since ℓ is even, so ℓ ± 1 are odd,
+and k is a multiple of 3, it follows by Lemma 2 that the greatest common
+divisor of Fk(ℓ−1)/2 and Lk(ℓ+1)/2 is 2. Since 6 | k/2, we get that 2kLk/2
+and 2kLk(ℓ+1)/2, so, in particular, the second factor in the right–hand side of
+formula (29) is odd. Hence, these two factors are in fact coprime, showing
+that
+z(N) = lcm 
+k(ℓ − 1)
+2
+, k(ℓ + 1)
+= k(ℓ
+2 − 1) = n
+2 − k
+2
+k
+. (30)
+Similarly,
+N + c =
+Fn
+(Fk/(c/2)) +
+c
+2
+=
+Fn + Fk
+Fk/(c/2) =
+
+Fk(ℓ+1)/2
+Fk/2/(c/2) Lk(ℓ−1)/2
+Lk/2
+
+. (31)
+Proceeding as above, we get that the two numbers appearing in the right–
+hand side of (31) are integers. Also, for large ℓ, by the Primitive Divisor
+Theorem, their order of appearances are k(ℓ+1)/2 and k(ℓ−1), respectively.
+Also, the second factor in (31) is odd, so these two factors are in fact coprime
+by Lemma 2. Thus,
+z(N + c) = lcm 
+k(ℓ + 1)
+2
+, k(ℓ − 1)
+= k(ℓ
+2 − 1) = n
+2 − k
+2
+k
+= z(N), (32)
+which is what we wanted.
+To complete the proof we assume that c is odd and 3 ∤ z(c). We take k a
+multiple of 4z(c) but not of 3, we take ℓ a multiple of k with ℓ ≡ 1 (mod 3),
+and we take n = kℓ. Note that Fn is odd. We put
+N :=
+Fn
+2(Fk/c)
+−
+c
+2
+=
+Fn − Fk
+2Fk/c =
+
+Fk(ℓ−1)/2
+2Fk/2/c  Lk(ℓ+1)/2
+Lk/2
+
+, (33)
+Since ℓ ≡ 1 (mod 3) and ℓ is even, the two factors on the right side of (33)
+are integers. By the Primitive Divisor Theorem, for large ℓ the order of
+14appearance of the first factor is k(ℓ − 1)/2 and the order of appearance of
+the second factor is k(ℓ + 1). Finally, by Lemma 2 and the fact that the
+second factor in (33) is odd, we get that these two factors are coprime. The
+conclusion now is that formula (30) holds. Now clearly,
+N + c =
+Fn
+2Fk/c +
+c
+2
+=
+Fn + Fk
+2Fk/c
+=
+
+Fk(ℓ+1)/2
+Fk/2/c  Lk(ℓ−1)/2
+2Lk/2
+
+. (34)
+A similar argument shows that the two factors appearing in the right side of
+formula (34) are coprime integers and of order of appearance k(ℓ + 1)/2 and
+k(ℓ − 1), respectively. Hence, formula (32) holds, concluding the proof.
+6 The Proof of Theorem 3
+Let P(N) be the largest prime factor of N with the convention that P(1) = 1.
+For 2 ≤ y ≤ z, we put
+Ψ(x; y) := {N ≤ x : P(N) ≤ y}.
+Numbers N with P(N) ≤ y are called y–smooth numbers. One of our main
+tools is the estimate
+Ψ(t;t
+1/v) = t
+exp((1 + o(1))v log v)
+whenever t
+1/v > (log t)
+2
+(35)
+(see [1]). Here, by o(1) we mean that v tends to infinity, and also t together
+with it by the inequality in the right–hand side of (35). We only present
+the argument for c = 1, since the argument for the general case follows by
+typographic changes.
+We let x be large. We let u := u(x) be some function of x which tends to
+infinity with x to be made more precise later. We put y := x
+1/u
+.
+We let
+A1(x) := {N ≤ x : P(N) ≤ y}. (36)
+By estimate (35), we have
+#A1(x) ≤ Ψ(x; x
+1/u) = x
+exp((1 + o(1))u log u)
+as u → ∞, (37)
+15where we need to assume that
+u ≤
+log x
+2 log log x
+, (38)
+which we do.
+From now on, we assume N 6∈ A1(x). Thus, N = P a with some prime P > y.
+Let P := {p : z(p) < p1/3}. Let us find an upper bound for #P(t). Say t is
+large and let P(t) = {p1, . . . , ps}. Then
+2
+#P(t) ≤ p1 · · · ps ≤
+Y
+m<t1/3
+Fm < α
+P
+m<t1/3 m < αt
+2/3
+< 2
+t
+2/3
+.
+Here, we used the fact that Fk < αk
+for all k ≥ 1. Thus,
+#P(t) < t2/3
+. (39)
+Let
+A2(x) := {N ≤ x : N = P a, P > y but P ∈ P}. (40)
+Assume that N = P a ∈ A2(x), where P > y is in P. Fix a. Observe that
+a ≤ x/P < x/y. Then P < x/a is an element in P(x/a), a set with at most
+(x/a)
+2/3
+elements by estimate (39). Hence,
+#A2(x) ≤
+X
+a<x/y
+x
+a
+2/3
+≪ x
+2/3
+Z x/y
+1
+dt
+t
+2/3 ≪
+x
+y
+1/3
+. (41)
+From now on, we assume that N 6∈ A1(x) ∪ A2(x). Thus, whenever N = P a
+with P > y, then z(P) > P1/3 > y1/3
+.
+Put z := y
+1/(3u) = x
+1/(3u
+2
+) and let
+A3(x) := {N ≤ x : N = P a, P > y and P(z(P)) ≤ z}. (42)
+Assume that N ∈ A3(x). Write again N = P a with P > y and let d := z(P).
+Then for large x, P is also large, in particular larger than 5, and so the
+congruence P ≡ ±1 (mod d) holds. The sign is +1 or −1 according to
+whether P is congruent to ±1 (mod 5) or ±2 (mod 5), respectively. Fixing
+16P, the number a can be chosen in at most x/P ways. We now fix d and
+sum up the above bound over the primes P ≤ x which are congruent to ±1
+(mod d), obtaining a contribution of at most
+X
+P ≤x
+P ≡±1 (mod d)
+x
+P
+≪
+x log log x
+φ(d)
+≪
+x(log log x)
+2
+d
+, (43)
+where in the above estimates we used the Brun–Titchmarsch theorem concerning
+the number of primes P ≤ x in the arithmetic progressions ±1 modulo
+d, as well as the minimal order φ(d)/d ≫ 1/(log log x) of the Euler
+function φ(d) in the interval [1, x]. Now we sum up the bounds from inequality
+(43) over all the d’s observing that for our N we have d > y1/3 and
+P(d) ≤ z ≤ d
+1/u. Thus, by the Abel summation formula and inequalities
+(43), we get
+#A3(x) < x(log log x)
+2 X
+y
+1/3≤d≤x
+P(d)≤d
+1/u
+1
+d
+≪ x(log log x)
+2
+Z x
+y
+1/3
+dΨ(t, t1/u)
+t
+≪ x(log log x)
+2
+
+Ψ(x, x1/u)
+x
++
+Z x
+y
+1/3
+Ψ(t, t1/u)
+t
+2
+dt
+. (44)
+We assume that the following inequality
+y
+1/(3u) > (log y)
+2
+holds, which is equivalent to
+log x
+3u
+2
+> 2 log log x − 2 log u − log 3. (45)
+Then estimates (35) hold for t ∈ [y
+1/3
+, x], and inserting them into estimate
+(44) gives
+#A3(x) ≪
+x(log log x)
+2
+exp((1 + o(1))u log u)
+
+1 + Z x
+y
+1/3
+dt
+t
+
+≪
+x(log x)(log log x)
+2
+exp((1 + o(1))u log u)
+=
+x
+exp((1 + o(1))u log u)
+(46)
+as x → ∞, where the last estimate holds provided that
+log log x = o(u) as x → ∞, (47)
+17which we assume. From now on, we assume that N 6∈ A1(x)∪A2(x)∪A3(x).
+Suppose that N ∈ N1(x). Write N = P a where P > y and z(P) > z. There
+exists a prime number q > z such that q | z(P) | z(N) = z(N + 1). Thus,
+either q
+2
+| N + 1, or there is a prime Q | N + 1 such that q | z(Q).
+Let
+A4(x) := {N ≤ x : q
+2
+| N + 1 for some q > z}. (48)
+Fixing q, the number of N ≤ x such that q
+2
+| N + 1 is ⌊(x + 1)/q2
+⌋ ≤ 2x/q2
+.
+Summing up these bounds over all such q, we get
+#A4(x) ≤
+X
+z<q
+2x
+q
+2 ≪ x
+Z ∞
+z
+dt
+t
+2 ≪
+x
+z
+. (49)
+From now on, N ∈ N1(x)\ (A1(x) ∪ A2(x) ∪ A3(x) ∪ A4(x)). Then N = P a
+and N + 1 = Qb, where both z(P) and z(Q) are multiples of a prime q > z.
+Let
+A5(x) := {N ≤ x : N = P a, gcd(z(P), a) is divisible by a prime q > z}.
+(50)
+Fix P and q. Then the number of N ≤ x divisible by P q is ⌊x/(P q)⌋ ≤ x/P q.
+We now sum up over all primes P such that P ≡ ±1 (mod q), and then over
+all the primes q > z, obtaining that
+#A5(x) ≤
+X
+q>z
+X
+P ≤x
+P ≡±1 (mod q)
+x
+P q = x
+X
+q>z
+1
+q
+X
+P ≤x
+P ≡±1 (mod q)
+1
+P
+≪ x
+X
+q>z
+log log x
+qφ(q)
+≪ x(log log x)
+X
+q>z
+1
+q
+2 ≪ x(log log x)
+Z ∞
+z
+dt
+t
+2
+≪
+x log log x
+z
+. (51)
+In the above estimates, we used again the Brun–Titchmarsch estimate concerning
+the number of primes P ≤ x in the arithmetic progressions ±1 modulo
+d. From now on, we assume that neither N nor N + 1 belong to A5(x).
+Thus, for us, q is coprime to ab.
+We now look at various possibilities among P, Q, a and b.
+18Let
+#A6(x) := 
+N ∈ N1(x)\
+
+∪
+5
+i=1Ai(x)
+
+: P Q < xz1/2
+	
+. (52)
+Fixing P and Q, N is determined by the congruences
+N ≡ 0 (mod P) and N ≡ −1 (mod Q).
+The number of such solutions N ≤ x is at most x/P Q + 1 ≤ 2xz1/2/P Q.
+Summing this bound up over all pairs of primes (P, Q) such that P ≡ ±1
+(mod q) and Q ≡ ±1 (mod q) for some prime q > z, and then over all the
+primes q > z, we get
+#A6(x) ≤
+X
+q>z
+X
+P ≤x, Q≤x
+P ≡±1 (mod q)
+Q≡±1 (mod q)
+2xz1/2
+P Q ≪ xz1/2X
+q>z
+
+
+X
+P ≤x
+P ≡±1 (mod q)
+1
+P
+
+
+2
+≪ xz1/2X
+q>z
+(log log x)
+2
+φ(q)
+2 ≪ x(log log x)
+2
+z
+1/2X
+q>z
+1
+q
+2
+≪
+x(log log x)
+2
+z
+1/2
+. (53)
+From now on, we assume that N 6∈ ∪6
+i=1Ai(x). Thus, since N(N + 1) ≤
+x(x + 1) < 2x
+2 but P Q ≥ xz1/2
+, it follows that ab < 2x/z1/2
+. Let (u0, v0) be
+the solution (u, v) in positive integers with u minimal of the linear equation
+ua − vb = −1.
+We then have that P = u0 +bt and Q = v0 +at for some nonnegative integer
+t ≤ x/ab. Put P ≡ ε (mod q) and Q ≡ η (mod q), where ε, η ∈ {±1}.
+Reducing relation aP − bQ = −1 modulo q, we get
+εa − ηb + 1 ≡ 0 (mod q).
+The above relation is meaningful in the sense that it signals q as a divisor of
+εa − ηb + 1 only when this expression is not zero. So, let us put
+#A7(x) := {N ∈ N1(x)\
+
+∪
+6
+i=1Ai(x)
+
+: εa − ηb + 1 6= 0}. (54)
+To bound the cardinality of A7(x), let us look at the triples (a, b, q). Observe
+that since q does not divide b, we have that P = u0 + bt ≡ ε (mod q), which
+19leads to t ≡ (ε − u0)b
+−1
+(mod q). Thus, t ≤ x/(ab) is in a certain arithmetic
+progression modulo q. The number of such choices is at most 1 if qab > x,
+and at most 2x/(qab) if qab ≤ x. Well, fixing the pair (a, b), q is a prime
+factor of some nonzero expression of the form εa − ηb + 1 for ε, η ∈ {±1},
+therefore there are at most O(log x) choices for q. Since ab < 2x/z1/2
+, it
+follows that the number of pairs (a, b) is P
+m≤2x/z1/2 τ (m), where τ (•) is the
+number of divisors function. Thus, in the case qab > x, a set of possibilities
+which we denote by A7,1(x), the number of such possibilities is at most
+#A7,1(x) ≪ log x
+X
+m≤2x/z1/2
+τ (m) ≪
+x(log x)
+2
+z
+1/2
+. (55)
+In case qab ≤ x, the set of possibilities which we denote by A7,2(x), then
+for a fixed pair (a, b), the number of possibilities is ≤ 2x/(qab). Now q > z
+and there are O(log x) choices for q, so summing up over the possibilities for
+q when the pair (a, b) is fixed, we get a contribution of O(x(log x)/(zab)).
+Summing this up over all possible pairs (a, b), we get that the number of
+possibilities of this type is at most
+#A7,2(x) ≪
+x log x
+z
+X
+m≤x
+τ (m)
+m
+≪
+x(log x)
+3
+z
+. (56)
+Summing up inequalities (55) and (56), we get
+#A7(x) ≤ #A7,1(x) + #A7,2(x) ≪
+x(log x)
+3
+z
+1/2
+. (57)
+We now look at the N’s that are left. Then εa − ηb = −1, so ε = η and
+b = a + ε. Then N ≡ 0 (mod a) and N ≡ −1 (mod a + ε). The number
+of possibilities for such N ≤ x is at most x/(a(a + ε)) + 1 ≤ 2x/(a(a + ε)),
+where the last inequality follows because ab = a(a + ε) < 2x/z1/2 < x. In
+the above, and in what follows, we need to assume that a ≥ 2 when ε = −1.
+Thus, putting
+#A8(x) := {N ∈ N1(x)\
+
+∪
+7
+i=1Ai(x)
+
+: a > z1/2
+}, (58)
+we have that
+#A8(x) ≤
+X
+ε∈{1,2}
+X
+a>z1/2
+x
+a(a + ε)
+≪ x
+X
+a>z1/2
+1
+a
+2 ≪ x
+Z ∞
+z
+1/2
+dt
+t
+2 ≪
+x
+z
+1/2
+. (59)
+20Let A9(x) be the set of the remaining N. We have (u0, v0) = (ε, ε). Thus,
+we need to count the number of t ≤ x/(a(a + ε)) such that
+P = ε + (a + ε)t and Q = ε + at
+are simultaneously prime for ε ∈ {±1}. By the Brun–sieve, for fixed a, the
+number of such possibilities is at most
+≪
+X
+ε∈{±1}
+
+1
+a(a + ε)
+
+x
+(log(x/(a(a + ε))))2
+
+a(a + ε)
+φ(a(a + ε))2
+≪
+x(log log(a + 2))2
+a
+2
+(log x)
+2
+, (60)
+where in the above we used the minimal order φ(d)/d ≫ 1/ log log(d + 2) for
+all d ≥ 1 of the Euler function φ(d), as well as the fact x/(a(a + ε)) > x1/3
+,
+which follows for large x because a + 1 < 2z < x1/3
+(note that u tends to
+infinity). Summing up over all possible values of a, we get that
+#A9(x) ≪
+x
+(log x)
+2
+X
+a≥1
+(log log(a + 2))2
+a
+2 ≪
+x
+(log x)
+2
+. (61)
+To optimize our arguments, we choose u such that
+log(z
+1/2
+) = u log u.
+With this choice, we get (1/6) log x = u
+3
+log u, which we solve and get
+u = (c3 + o(1)) 
+log x
+log log x
+1/3
+, as x → ∞,
+where c3 := 2−1/3
+. With this choice, the inequalities (38), (45) and (47) are
+satisfied, and the upper bounds (37) (41), (46), (49), (51), (53), (57) and
+(59) give that
+#
+ [
+8
+i=1
+Ai(x)
+!
+≤
+x
+exp((c4 + o(1))(log x)
+1/3
+(log log x)
+2/3
+)
+as x → ∞,
+(62)
+where c4 := c3/3. Using also (61), we get that
+#N1(x) ≪
+x
+(log x)
+2
+. (63)
+217 Comments
+Regarding Theorem 3, its proof shows that we have achieved more than we
+needed. Our argument separates the members of N1 into two categories: we
+say N ∈ N1 is regular if it is of the form P a with P prime, N + 1 = Qb
+with Q prime, and a, b are consecutive integers. Otherwise we say N ∈ N1 is
+special. We showed in (62) that the number of special values of N ∈ N1(x)
+is at most
+x exp
+−(c4 + o(1))(log x)
+1/3
+(log log x)
+2/3
+
+as x → ∞,
+and in (63) we showed that the number of regular values of N ∈ N1(x) is
+O(x/(log x)
+2
+). This type of separation into two types of solutions might be
+compared with [4], where the equation φ(N) = φ(N + c) is considered.
+As in [4] we believe our estimation of O(x/(log x)
+2
+) for #N1(x) has a matching
+lower bound of the same magnitude. Here is our heuristic argument for
+this assertion. Consider the case a = 1, b = 2, so that N = P is a regular
+member of N1 and N + 1 = 2Q. Then
+P = 2Q − 1.
+Choose
+Q ≡ 1 (mod 10), Q ≡ 1 (mod 3), Q 6≡ 1 (mod 9).
+Then z(P) | P − 1, z(Q) | Q − 1. Assume that
+z(P) = P − 1
+2
+and z(Q) = Q − 1
+3
+.
+Then
+z(N) = z(P) = P − 1
+2
+,
+and
+z(N + 1) = z(2Q) = lcm[z(2), z(Q)] = lcm 
+3,
+Q − 1
+3
+
+= Q − 1 =
+P − 1
+2
+.
+Hence, if all the above conditions are fulfilled, then indeed we get a solution
+to z(N) = z(N +1). The Bateman–Horn conjectures imply that there should
+22be (c5 + o(1))x/(log x)
+2 primes Q ≤ x such that P = 2Q − 1 is also prime
+as x → ∞, where c5 is some positive constant. The Extended RiemannHypothesis
+together with the Chebotarev Density Theorem yield that there
+should be a positive proportion of primes P ≡ 1 (mod 10) such that z(P) =
+(P − 1)/2, and also a positive proportion of primes Q ≡ 1 (mod 30), but
+Q 6≡ 1 (mod 9), such that z(Q) = (Q − 1)/3. Thus, it could be the fact that
+for large x there are at least c6x/(log x)
+2 pairs of primes (P, Q) fulfilling all
+the above conditions, where c6 is some positive constant, suggesting that in
+fact #N1(x) is of order x/(log x)
+2
+. A search up to 106
+, revealed 10 primes P
+with the above properties namely
+90121, 223441, 329761, 494761, 583801, 649801, 692521, 950161,
+990841, 996601.
+If the number of solutions is of order x/(log x)
+2 we might expect about 65 new
+solutions to 107
+, and in fact we found more than this, namely 85 new solutions.
+This seems to support the heuristic that the number of such examples
+should be proportional to x/(log x)
+2 as x tends to infinity.
+Acknowledgments. We thank the referee for comments which improved
+the quality of the paper and Professor Arnold Knopfmacher for computing
+the primes p < 107 mentioned in the last section of the paper. This paper was
+written while F. L. was on sabbatical from the Mathematical Institute UNAM
+from January 1 to June 30, 2011 and supported by a PASPA fellowship from
+DGAPA. C. P. acknowledges support from NSF grant DMS-1001180.

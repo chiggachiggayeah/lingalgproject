@@ -1,0 +1,1216 @@
+Kathryn_Cottingham
+Biology
+Occurrence_and_toxicity_cyanobacterium
+Abstract To date, most research on cyanobacterial
+blooms has focused on high-nutrient, not low-nutrient
+lakes. We investigated reports of the cyanobacterium
+Gloeotrichia echinulata in lakes with low
+concentrations of nitrogen and phosphorus across the
+northeastern United States by surveying selected
+oligotrophic and mesotrophic lakes during four summers.
+G. echinulata is a large (1–3 mm diameter)
+colonial cyanobacterium that may have substantial
+effects on low-nutrient lakes used for drinking water
+and recreation because it can produce the toxin
+microcystin-LR. We found G. echinulata in the water
+column of 27 out of 37 lakes we sampled in Maine,
+New Hampshire, New York, and Vermont. G. echinulata
+densities were typically low (\5 colonies L-1
+),
+but occasionally at surface scum-producing levels (up
+to 250 colonies L-1
+). G. echinulata colonies from the
+survey lakes exhibited detectable microcystin-LR
+concentrations ranging from 58 to 7,148 ng microcystin-LR
+g-1 dry weight colonies. If G. echinulata
+densities increase to bloom levels observed in eutrophic
+systems, our data suggest that the microcystin-LR
+concentrations attributable to G. echinulata may reach
+levels known to influence aquatic organisms and pose
+human health risks.
+Keywords Bloom  Mesotrophic  Microcystin
+Oligotrophic  Phytoplankton
+Introduction
+Cyanobacterial blooms in freshwater lakes have long
+been considered problematic because of their toxins,
+foul odors, and harmful effects on aquatic food webs
+(Paerl 1988; Paerl et al. 2001). Blooms are typically
+associated with eutrophic lakes, yet phytoplankton
+records indicate that cyanobacteria can also bloom and
+form scums in oligotrophic and mesotrophic lakes
+(Downing et al. 2001; Padisa´k et al. 2003; Lepisto
+et al. 2005; Galvao et al. 2008; Ernst et al. 2009; Vareli
+Handling Editor: Bas W. Ibelings.
+C. C. Carey (&)  R. Q. Thomas
+Department of Ecology and Evolutionary Biology,
+Cornell University, Ithaca, NY 14853, USA
+e-mail: ccc99@cornell.edu
+H. A. Ewing
+Program in Environmental Studies, Bates College,
+Lewiston, ME 04240, USA
+K. L. Cottingham
+Department of Biological Sciences, Dartmouth College,
+Hanover, NH 03755, USA
+K. C. Weathers
+Cary Institute of Ecosystem Studies, Millbrook,
+NY 12545, USA
+J. F. Haney
+Center for Freshwater Biology, Department of Biological
+Sciences, University of New Hampshire, Durham,
+NH 03824, USA
+123
+Aquat Ecol
+DOI 10.1007/s10452-012-9409-9
+systems have not engendered much discussion among
+limnologists (e.g., there is no text on the topic in
+Wetzel 2001 or Kalff 2002), despite the fact that
+cyanobacterial blooms in a water column characterized
+by low nutrients are puzzling.
+In the past three decades, scientists have observed an
+increase in cyanobacterial blooms in eutrophic (Hallegraeff
+1993; Van Dolah 2000; Anderson et al. 2002;
+Paerl and Huisman 2008, 2009) as well as oligotrophic
+and mesotrophic systems (Boyer 2008; Ernst et al. 2009;
+Winter et al. 2011), highlighting the importance of
+understanding bloom dynamics, especially in lakes used
+for drinking water, irrigation, and recreation. Although
+many of the recent blooms in the oligotrophic and
+mesotrophic lakes are attributed to increasing nutrient
+concentrations (e.g., Winter et al. 2011), their water
+column nutrient concentrations still meet the established
+criteria for oligotrophic (mean summer epilimnion
+total phosphorus (TP) concentration\10 lg L-1
+)
+or mesotrophic (10 lg L-1 B TP B 30 lg L-1
+) systems
+(Nu¨rnberg 1996). Understanding the effects of
+cyanobacterial blooms in these systems is important for
+understanding changes in lake ecosystem functioning,
+as well as determining whether there are potential
+consequences to human health.
+Gloeotrichia echinulata (J.E. Smith) P. Richter
+1894, a nitrogen-fixing cyanobacterium that forms
+large (1–3 mm diameter) filamentous colonies, may
+be increasing in low-nutrient systems in the northeastern
+United States and Canada (Carey et al. 2008,
+2009; Winter et al. 2011). Monitoring data from
+watershed and state organizations indicate that
+G. echinulata was not common in the past few
+decades in lakes in the northeastern United States
+(AWI; LSPA; ME-DEP; NH-DES-VLAP; VT-DECVLMP).
+However, the number of reports of G. echinulata
+blooms is increasing (ME-IWQAR 2006, 2008, 2010;
+NH-DES-VLAP). Because phytoplankton monitoring
+in the northeastern United States is limited both
+spatially and temporally, the distribution of lakes in
+which G. echinulata is present and its abundance in the
+water column are unknown.
+G. echinulata has been well studied in high-nutrient
+systems (e.g., Barbiero 1993; Jacobsen 1994; Karlsson-Elfgren
+et al. 2003), but until recently, much less
+was known about G. echinulata dynamics in lownutrient
+systems. The cause of its increase in northeastern
+US nutrient-poor lakes is uncertain. However,
+higher temperatures (Karlsson-Elfgren et al. 2004) or
+increasing phosphorus (P) concentrations in the lake
+sediment, perhaps linked to watershed development
+(Carey et al. 2009), may be implicated. Regardless of
+the cause, many of the systems that are now experiencing
+increased G. echinulata densities have not
+exhibited high levels of cyanobacteria in the recent
+past, raising the question of what consequences
+G. echinulata might have for water quality.
+G. echinulata has several physiological attributes
+that may cause it to have significant effects on
+ecosystem functioning in low-nutrient lakes. First,
+G. echinulata has a meroplanktonic life history in
+which akinetes (dormant cells) are formed that overwinter
+on the lake sediment (Roelofs and Oglesby
+1970; Karlsson 2003). In response to increased light
+and temperatures, the akinetes germinate and grow on
+the lake sediment, take up luxury concentrations of P
+from pore water, and then recruit into the water
+column via gas vesicles, translocating stored P with
+them (Carr and Whitton 1982; Istva´novics et al. 1993;
+Pettersson et al. 1993; Tymowski and Duthie 2000). In
+eutrophic Lake Erken, Sweden, and Green Lake,
+Washington, United States, G. echinulata recruitment
+from the sediments can contribute up to two-thirds of
+the total summer internal P load (Barbiero and Welch
+1992; Istva´novics et al. 1993). Second, G. echinulata
+is able to fix atmospheric nitrogen (N; Stewart et al.
+1967; Roelofs and Oglesby 1970; Carr and Whitton
+1982). Some of G. echinulata’s fixed N and stored P
+may become available to other phytoplankton in the
+water column (Pitois et al. 1997; No˜ges et al. 2004;
+Fey et al. 2010). Third, G. echinulata produces a low
+concentration of microcystin-LR (MC-LR; Carey
+et al. 2007), which can have adverse effects on
+phytoplankton (e.g., Christoffersen 1996; Kearns and
+Hunter 2001), macrophytes (Pflugmacher 2002; Romanowska-Duda
+and Tarczynska 2002), zooplankton
+(Fulton and Paerl 1987; DeMott et al. 1991; Rohrlack
+et al. 2001; Rohrlack et al. 2005), and fish (Malbrouck
+and Kestemont 2006; El Ghazali et al. 2010), as well as
+humans, livestock, and pets (Miura et al. 1991;
+Jochimsen et al. 1998; Wiegand and Pflugmacher
+2005; Herna´ndez et al. 2009). G. echinulata is also
+known to cause skin irritation for swimmers (Backer
+2002; Serediak and Huynh 2011). Because the
+concentration of MC-LR in G. echinulata has only
+been reported from one lake (Carey et al. 2007), and
+even low concentrations of microcystins can exert
+Aquat Ecol
+123substantial negative effects on food webs (reviewed
+by Babica et al. 2006), it is important to determine
+G. echinulata’s toxin production in other systems.
+To examine the distribution, abundance, and
+MC-LR concentrations of G. echinulata in the northeastern
+United States, we conducted a survey of
+G. echinulata in low-nutrient lakes in summer 2006
+and continued sampling some of those lakes and others
+in 2008, 2009, and 2010. We measured G. echinulata
+MC-LR concentrations from a subset of these lakes in
+2008.
+Methods
+In summer 2006, we conducted an initial survey of 14
+lakes in Maine and New Hampshire. We targeted lownutrient
+lakes that had incidental reports of increased
+cyanobacteria (LSPA; ME-DEP; NH-DES-VLAP) as
+well as nearby lakes that were logistically feasible to
+sample. In summer 2008, we resampled many of the
+lakes in the 2006 survey and expanded our survey to
+additional lakes in Maine, New Hampshire, New
+York, and Vermont. We continued sampling a subset
+of the 2006 and 2008 lakes in 2009 and 2010. In total,
+we sampled 37 lakes across 4 years for a combined
+193 observations from June to September (Table 1),
+the summer period in which G. echinulata has been
+observed in the water column in other lakes (Barbiero
+1993; Karlsson-Elfgren et al. 2003).
+At each lake, we sampled the littoral zone at its
+state-designated boat launch and noted lake conditions
+(e.g., if a scum was a present). We sampled
+G. echinulata surface density by collecting plankton
+from the top 1 m of the water column with an 80-lm
+plankton net and always used the same site for repeat
+samplings to compare G. echinulata densities over
+time. When the water level was low, the resulting
+vertical plankton tow was \1 m, but given the
+distributed pattern of colonies in the water column at
+nearly all observations (i.e., absence of a scum), we
+have no evidence that these lower volume collections
+were biased with respect to measures of colonies L-1
+.
+We also collected water samples in 250-mL acidwashed
+polyethylene bottles from 0.5 m depth
+for total N (TN) and TP analysis in 2006 and 2008.
+G. echinulata samples were immediately preserved
+with Lugol’s solution, and nutrient samples were
+frozen until they were processed in the laboratory. We
+analyzed TN samples with spectrophotometric methods
+after a basic persulfate digestion (Crumpton et al.
+1992), and TP samples were analyzed colorimetrically
+according to Van Veldhoven and Mannaerts (1987)
+with an acidic persulfate digestion. Method detection
+limits were 74 lg L-1 for TN and 7.8 lg L-1 for TP.
+We counted G. echinulata colonies with dissecting
+microscopes to determine G. echinulata densities
+(colonies L-1
+). Following the procedures of previous
+studies (e.g., Barbiero 1993; Istva´novics et al. 1993;
+Pettersson et al. 1993; Forsell and Pettersson 1995;
+Tymowski and Duthie 2000; Hyenstrand et al. 2001;
+Karlsson-Elfgren et al. 2003; Eiler et al. 2006), we
+enumerated colonies instead of filaments because
+colonies were the ‘‘natural unit’’ of G. echinulata
+biomass that we observed in the net samples (following
+Cottingham et al. 1998). We evaluated a colony as
+a central core with a mucilaginous sheath surrounded
+by vegetative cells (Karlsson 2003).
+To determine whether there was a time of the
+summer consistently associated with high G. echinulata
+density across sites, we analyzed differences in
+G. echinulata density among months and 10-day
+periods with one-way Welch ANOVA (which
+accounted for unequal variance) in JMP (v. 8.0). We
+chose 10 days as an appropriate interval because
+G. echinulata akinetes typically take \12 days for
+germination and recruitment (Karlsson 2003). We
+repeated the analysis for all ten possible 10-day groupings
+of sampling days throughout the summer (i.e., the
+first 10-day period of the first grouping was June 1–10,
+the first 10-day period of the second grouping was June
+2–11, etc.) to ensure that our groupings did not bias our
+analysis. Significance (a) was initially set at p B 0.05,
+and a sequential Bonferroni procedure was performed to
+adjust a for multiple comparisons (Hochberg 1988).
+In August 2008, we collected G. echinulata colonies
+to determine their MC-LR concentration from the
+18 sample lakes that exhibited sufficient colony
+biovolume for analysis. From each lake, we used a
+dissecting microscope to isolate two samples of 100
+colonies each, thoroughly rinsed the colonies ten times
+with reverse osmosis water, and estimated the mean
+colony biovolume from radius measurements of 25
+different colonies. We froze these samples and
+transported them to the Center for Freshwater Biology
+Analytical Laboratory at the University of New
+Hampshire for analysis by enzyme-linked immunosorbent
+assay (ELISA). Suspensions of G. echinulata
+Aquat Ecol
+123Table 1 Summary geographical information and water quality parameters for each of our study lakes in the northeastern United States, grouped by whether or not G. echinulata
+colonies were observed in the lake on sampling visits
+Lake Latitude Longitude US State Total nitrogen
+(lg L-1)
+Total phosphorus
+(lg L-1)
+Chlorophyll
+a (lg L-1)
+pH Number of
+G. echinulata
+samples
+Number
+of sample
+years
+Ref.
+Lakes that exhibited G. echinulata on sampling visits
+Androscoggin N 44210 W 7040 Maine 260 (1) 16 ± 13 (51) 4.7 ± 1.3 (3) 7.1 ± 0.2 (2) 11 4 a,b
+Auburn N 4490 W 70130 Maine 7 ± 1 (5) 3.2 ± 0.8 (5) 7.3 (1) 20 3 b
+ChamplainSt.
+Albans Bay N 44480 W 73100 Vermont, New York 390 ± 83 (64) 28 ± 9 (70) 9.3 ± 7.1 (75) 8.4 ± 0.4 (58) 2 1 c
+Colby N 44210 W 7490 New York 245 (1) 14 ± 4 (20) 4.5 ± 2.8 (20) 7.4 ± 0.3 (20) 2 1 a,d
+Crescent N 43570 W 70280 Maine 125 (1) 11 ± 4 (3) 3.2 (1) 7.3 (1) 5 2 a,b
+Echo N 44270 W 7010 Maine 200 (1) 5 ± 2 (3) 2.5 ± 0.1 (2)* 7.3 (1) 6 1 a,b
+Fairlee N 43530 W 72140 Vermont 160 (1) 17 ± 5 (46) 4.9 ± 2.8 (92) 2 1 a,e
+Flower N 44190 W 7480 New York 405 (1) 19 ± 3 (5) 6.0 ± 1.3 (5) 6.6 ± 0.1 (5) 2 1 a,d
+Great N 44310 W 69520 Maine 320 (1) 12 ± 5 (7) 5.6 ± 1.4 (3) 7.1 (1) 8 4 a,b
+Little Ossipee N 43360 W 70430 Maine 160 (1) 6 ± 3 (12) 2.8 (1) 6.9 (1) 4 2 a,b
+Long Lake N 43580 W 70360 Maine 155 (1) 7 ± 2 (101) 2.9 ± 0.7 (71) 6.8 ± 0.1 (59) 9 3 a,b
+Long Pond N 44310 W 69550 Maine 180 (1) 9 ± 3 (21) 4.6 ± 1.5 (7) 7.1 ± 0.1 (5) 8 4 a,b
+Lower Saranac N 44190 W 74100 New York 170 (1) 16 ± 3 (3) 4.9 ± 1.1 (13) 6.9 ± 0.3 (13) 2 1 a,d
+Messalonskee N 44290 W 69470 Maine 185 ± 28 (2) 13 ± 8 (22) 4.7 ± 0.6 (4) 7.2 ± 0.1 (3) 11 4 a,b
+Middle Range N 4420 W 70220 Maine 145 (1) 8 ± 2 (8) 3.9 ± 1.2 (6) 7.0 ± 0.3 (5) 11 3 a,b
+Panther N 43540 W 70280 Maine 140 (1) 5 ± 4 (2)* 2.5 ± 0.1 (2)* 7.2 (1) 4 2 a,b
+Parker N 44310 W 7010 Maine 155 (1) 8 ± 3 (6) 3.0 ± 0.8 (4)* 7.2 (1) 3 1 a,b
+Pleasant N 4400 W 70310 Maine 6 ± 3 (6) 3.7 ± 0.1 (2) 7.0 ± 0.1 (2) 9 4 b
+Sabattus N 4470 W 7060 Maine 50 ± 15 (18) 27.5 ± 21.5 (16) 7.2 ± 0.3 (10) 2 1 b
+Sebago N 43540 W 70280 Maine 165 (1) 4 ± 1 (2) 1.6 ± 0 (2)* 7.1 ± 0 (2) 8 4 a,b
+Square N 43340 W 70520 Maine 8 ± 3 (4) 2.0 (1) 7.2 (1) 2 1 b
+Sunapee N 43250 W 7220 New Hampshire 170 ± 41 (427) 6 ± 1 (15) 2.0 ± 0.5 (15) 6.6 ± 0 (3) 30 4 a,f,g
+Thomas N 43550 W 70300 Maine 165 (1) 15 ± 8 (4)* 2.5 ± 0.3 (2)* 7.4 ± 0 (2)* 5 2 a,b
+Thompson N 4410 W 70280 Maine 145 (1) 5 ± 2 (16) 3.7 ± 5.2 (16) 6.8 ± 0.2 (11) 11 4 a,b
+Togus N 44190 W 69390 Maine 16 ± 14 (5) 15.8 ± 17.3 (2) 7.3 (1)* 2 1 b
+Upper Saranac N 44140 W 74190 New York 170 (1) 14 ± 5 (34) 4.6 ± 2.2 (34) 7.3 ± 0.5 (33) 2 1 a,h
+Winnipesaukee N 43280 W 71140 New Hampshire 250 (1) 5 ± 0 (9) 1.4 (1) 7.1 (1) 2 1 a,i
+Aquat Ecol
+123
+Lake Latitude Longitude US State Total nitrogen
+(lg L-1)
+Total phosphorus
+(lg L-1)
+Chlorophyll
+a (lg L-1)
+pH Number of
+G. echinulata
+samples
+Number
+of sample
+years
+Ref.
+Lakes that did not exhibit G. echinulata on sampling visits
+Brettuns N 44230 W 70150 Maine 9 ± 5 (5)* 3.9 ± 2.5 (2)* 7.2 ± 0 (2) 1 1 b
+Chapel N 4480 W 73450 New York 230 (1) 7 ± 3 (8)* 2.3 ± 1.2 (8)* 6.7 ± 0.5 (8)* 1 1 a,d
+East N 44360 W 69460 Maine 16 ± 5 (98) 9.7 ± 12.9 (83) 7.1 ± 0 (2)* 1 1 b
+Goose N 43430 W 7260 New Hampshire 7 (1) 13 (1) 5.1 (1) 1 1 i
+Mascoma N 43380 W 7290 New Hampshire 10 ± 4 (3) 3.9 ± 0.5 (3) 7.0 ± 0.3 (3) 1 1 i
+Placid N 44180 W 73590 New York 230 (1) 6 ± 1 (2) 1 1 a,j
+Pleasant N 43250 W 71570 New Hampshire 5 ± 1 (14) 4.1 ± 2.6 (14) 6.4 ± 0.4 (10) 1 1 i
+Salmon N 44310 W 69480 Maine 21 ± 31 (49) 6.6 ± 1.0 (4) 7.7 ± 0.3 (3) 1 1 b
+Squam N 43440 W 71350 New Hampshire 5 ± 3 (6) 2.9 ± 1.6 (6) 6.7 ± 0.3 (6) 1 1 i
+Upper Cascade N 44130 W 73530 New York 240 (1) 8 ± 7 (2) 7.3 (1) 1 1 a,j,k
+Mean summer total nitrogen, total phosphorus, and chlorophyll a concentrations and pH values for 2006–2010 (our study period) are listed with one standard deviation, with the
+number of samples in parentheses. Asterisks (*) denote means that include 2000–2010 data, crosses () denote means that include 1988–2010 data
+a Total nitrogen (TN): our measurements
+b Chlorophyll a, total phosphorus (TP), and pH: KB
+c Chlorophyll a, TN, TP, and pH: VT-DEC-LC
+d Chlorophyll a, TP, and pH: AWI
+e Chlorophyll a and TP: VT-DEC-VLMP
+f Chlorophyll a and TP: NH-DES-VLAP
+g pH: NH-DES-LWQR
+h Chlorophyll a, TP, and pH: USLA
+i Chlorophyll a, TP, and pH: NH-DES-LWQR
+j TP: our measurements
+k Chlorophyll a and pH: ALSC
+Aquat Ecol
+123
+by sonification to disrupt the cells and release microcystins.
+Immediately before analysis, the samples
+were passed through a 13-mm, 0.2-lm Whatman
+PTFE syringe filter to remove particulates (Sasner
+et al. 2001).
+ELISA analyses were performed using instructions
+for Microcystin 96-Well-Plate Kits (EnviroLogix,
+Portland, ME), with a method detection limit of
+2.5 pg MC-LR mL-1
+. We calculated the mean
+MC-LR concentration attributable to G. echinulata
+(i.e., the MC-LR concentration within colonies, which
+may be potentially released to the water column) in
+each survey lake using the equation:
+lg MC  LR
+L
+  ¼ ng MC  LR
+g
+   g
+mL
+ 
+
+mL
+colony    colony
+L
+
+
+0:001 lg
+1 ng   ð1Þ
+where lg MC-LR L-1 refers to the mean water
+column MC-LR concentration attributable to G. echinulata,
+ng MC-LR g-1 is the mean colonial MC-LR
+concentration determined by ELISA, g mL-1 is the
+specific gravity of an individual G. echinulata colony
+(assumed to be 1 g mL-1
+; Reynolds 2006), mL colony-1
+is the mean colony biovolume determined by 25
+radius measurements, and colony L-1 is the mean
+water column G. echinulata density in each lake. We
+repeated the calculations for the minimum and maximum
+MC-LR concentration attributable to G. echinulata
+using the minimum and maximum values of
+MC-LR g-1 colonies, colony biovolume, and water
+column G. echinulata density for each lake.
+Results
+We observed G. echinulata in low-nutrient lakes
+throughout the northeastern United States during
+multiple years (Figs. 1, 2, 3). In 2006, all 13 of the
+Maine lakes we sampled (Androscoggin, Crescent,
+Great, Little Ossipee, Long Pond, Messalonskee,
+Panther, Pleasant, Sebago, Square, Thomas, Thompson,
+and Togus; Table 1) and the single New Hampshire
+lake (Sunapee) exhibited low, but nonzero,
+G. echinulata water column densities (ranging from
+0.004 to 11 colonies L-1
+).
+In 2008, we sampled all of the lakes surveyed in
+2006 (except for Togus) and found that the lakes again
+all exhibited nonzero G. echinulata concentrations. In
+addition, we observed nonzero, and some quite high
+(up to 51 colonies L-1 in Auburn), densities in five
+additional Maine lakes (Auburn, Echo, Long Lake,
+Middle Range, and Parker), one additional New
+Hampshire lake (Winnipesaukee), four additional
+New York lakes (Colby, Flower, Lower Saranac, and
+Upper Saranac), and two additional Vermont lakes
+(Champlain and Fairlee). In 2008, we also visited ten
+more lakes—three in Maine (Brettuns, East, and
+Salmon), four in New Hampshire (Goose, Mascoma,
+Pleasant, and Squam), and three in New York (Chapel,
+Upper Cascade, and Placid)—but did not observe any
+visible G. echinulata in their water columns. Those
+lakes were only visited once and were not visited again
+in future years.
+In 2009 and 2010, we resampled a subset of the
+lakes that exhibited G. echinulata when surveyed in
+2006 and 2008, as well as Sabattus Pond (Maine).
+G. echinulata was present in the water column on at
+least one sampling date during both 2009 and 2010 for
+all of the lakes visited and densities ranged from 0.007
+colonies L-1 (Androscoggin) to 250 colonies L-1
+(Long Pond), which exhibited a surface scum.
+Overall, G. echinulata was present in the water
+column in 174 out of 183 samples from the 27 lakes that
+exhibited G. echinulata on at least one sampling date.
+During the four years of surveys, we observed a mean
+nonzero density of 2.8 ± 19 G. echinulata colonies
+L-1 (±1 S.D.) and a median density of 0.21 colonies
+L-1
+. For all lakes combined, we did not observe a
+significant difference in G. echinulata density among
+years (Welch one-way ANOVA, F3,179 = 0.54, p =
+0.66) or months (Welch one-way ANOVA, F2,180 =
+2.11, p = 0.13). However, when we partitioned the
+summer sampling months into 10-day periods, we
+found that samples at the end of August consistently
+exhibited higher G. echinulata densities than any other
+period during the summer, regardless of how the
+10-day groupings were chosen (seven out of ten 10-day
+groupings exhibited significant differences: Welch
+one-way ANOVA, F7,175[3.68, Bonferroni-corrected
+p\0.01; for the three nonsignificant groupings:
+F7,175 B 2.58, p C 0.05).
+Aquat Ecol
+123
+detectable, MC-LR concentrations in every lake where
+G. echinulata was in sufficient density to collect a
+sample for MC-LR analysis (Fig. 4). G. echinulata
+MC-LR concentrations varied considerably among
+lakes, ranging from a low in Great Pond of 58.5 ±
+4.2 ng MC-LR g-1 d.w. (±1 S.D.) to 7,148.1 ±
+1,521.5 ng MC-LR g-1 d.w. in Panther Pond (Table 2).
+When the ranges of G. echinulata water column
+densities and biovolumes we measured for each lake
+were taken into account, the estimated mean concentration
+of MC-LR in the water column attributable to
+G. echinulata colonies was between four and seven
+orders of magnitude below the 1 lg MC-LR L-1
+World Health Organization (WHO) drinking water
+guideline (WHO 1998; Table 2). The maximum
+MC-LR concentrations for each lake, as determined
+by the upper bound of the observed MC-LR concentration,
+G. echinulata colonial biovolume, and water
+column G. echinulata density, were at least three
+orders of magnitude below the WHO guideline.
+Discussion
+G. echinulata in northeastern US lakes
+Our survey data indicate that G. echinulata may be
+widespread in lakes throughout the northeastern
+United States, corresponding to reports from state
+officials and watershed groups (LSPA; ME-DEP; NHDES-VLAP).
+Strikingly, all but one (Sabattus) of the
+Fig. 1 Map of the 37 lakes in the northeastern United States
+sampled during surveys in 2006–2010, with the mean
+G. echinulata density from all observations for each lake
+color-coded by density range. The observed densities were
+divided into quartiles with white representing no observed G.
+echinulata colonies and black representing the highest observed
+mean densities. Lake descriptions with water quality parameters
+are given in Table 1
+Aquat Ecol
+12327 lakes in which we found G. echinulata would be
+characterized as low-nutrient systems (Nu¨rnberg 1996):
+14 were oligotrophic (TP\10 lg L-1
+) and 12 were
+mesotrophic (TP B 30 lg L-1
+). Most research on
+cyanobacteria, including the majority of the published
+studies on G. echinulata (e.g., Barbiero 1993; Jacobsen
+1994; Karlsson-Elfgren et al. 2003), is from highnutrient
+systems, though there is evidence from
+Fig. 2 Individual
+observations of
+G. echinulata water column
+density (colonies L-1
+) for
+each lake (filled circles) and
+median densities for each
+lake (open triangles) during
+our surveys in 2006–2010.
+Note that the y-axis is a
+logarithmic scale
+Fig. 3 Individual observations of G. echinulata density (colonies L-1
+), shown by year for all eight lakes sampled in every year of the
+study. Note that the y-axis is a logarithmic scale
+Aquat Ecol
+123paleoecological work that G. echinulata may be a
+common species early in the eutrophication process
+(Bunting et al. 2007). While a randomized sampling of
+lakes is needed to determine the relative abundance of
+G. echinulata at the landscape scale, our data suggest
+that G. echinulata may be more common in lownutrient
+systems in the northeastern United States than
+previously thought.
+Twenty-seven of the 37 lakes we sampled had
+G. echinulata colonies in their water column. Given
+the limited data provided by our ‘‘snapshot’’ sampling,
+we are unable to determine why G. echinulata was
+present in some lakes but not others. The 10 lakes we
+visited that did not have detectable G. echinulata were
+not significantly different from the lakes in which
+G. echinulata occurred in water column nutrient
+concentrations, chlorophyll a, and pH (Welch t test,
+all t B 1.80, p C 0.09; see Table 1). In addition,
+no patterns were observed with G. echinulata and
+no-G. echinulata lakes using a principal components
+analysis of the data in Table 1. It is possible that
+G. echinulata may be dispersal-limited, as has been
+observed for other large colonial cyanobacteria (Reynolds
+2006). Alternatively, G. echinulata may have
+been present in the 10 lakes in which we did not find
+colonies, but in densities too low to detect with our
+procedures or because we were unable to observe them
+in the part of the lake or the particular day that we
+sampled. For example, we found no G. echinulata in
+the water column in Androscoggin, Pleasant, Sebago,
+Sunapee, and Thompson on at least one sampling visit,
+even though these lakes had detectable G. echinulata
+densities on other dates.
+We found substantial within- and among-lake
+variation in G. echinulata densities (Fig. 2). This
+heterogeneity may exist because both recruitment
+from the sediments and currents that drive redistribution
+in the water column are spatially and temporally
+variable. G. echinulata surface populations are heavily
+subsidized (up to 50 %) by recruitment from the
+sediments, which has been shown to be extremely
+variable both temporally (over a summer) and spatially
+(at different sites) within the same lake (Barbiero
+and Welch 1992; Barbiero 1993; Forsell and Pettersson
+1995; Karlsson-Elfgren et al. 2005; Carey et al.
+2008). The combination of factors that drive recruitment
+is still unknown, but a number of factors may be
+important, including sediment P (Carey et al. 2008,
+2009), nitrate (Chang 1979), light (Roelofs and
+Oglesby 1970; Barbiero 1993; Forsell and Pettersson
+1995; Karlsson-Elfgren et al. 2004), temperature
+(Barbiero 1993; Forsell and Pettersson 1995; Karlsson-Elfgren
+et al. 2004), dissolved oxygen (Barbiero
+1993), sediment bioturbation (Pierson et al. 1992;
+Karlsson-Elfgren et al. 2004), and depth (KarlssonElfgren
+et al. 2004). Each of these factors may vary
+Fig. 4 The microcystin-LR
+(MC-LR) concentrations
+(ng MC-LR g-1 dry weight
+colonies) from survey lakes
+(n = 2 measurements per
+lake) sampled in August
+2008. The lakes are listed in
+order of increasing mean
+MC-LR concentrations.
+Note the break between
+3,000 and 6,000 ng MCLR
+g-1 dry weight
+Aquat Ecol
+123considerably among lakes during the summer. Hence,
+it is not surprising that G. echinulata surface concentrations
+in neighboring lakes are so variable.
+In spite of this variability, however, G. echinulata
+densities across all lakes were significantly higher in
+late August than any other time of year, which may be
+coincident with a regional cue, such as changes in
+light or temperature. This finding is in contrast to
+G. echinulata dynamics in eutrophic systems in
+Estonia, Sweden, and Washington (United States),
+where peak G. echinulata densities are observed
+earlier in the summer (e.g., Barbiero 1993; KarlssonElfgren
+et al. 2003, 2005; No˜ges et al. 2004).
+Although the variability we observed in G. echinulata
+densities may have been amplified by sampling
+only the littoral zone in one part of each lake,
+G. echinulata densities within many of the lakes
+showed less variation year to year within the same lake
+than among lakes (Fig. 3). For example, lakes that
+typically exhibited water column G. echinulata densities
+[1 colony L-1 consistently exhibited higher
+than median G. echinulata densities in other years
+(e.g., Long Pond, Sunapee; Fig. 3), despite being
+sampled at different times. This may be due to a
+substantially larger akinete pool in those lakes’
+sediments (Pettersson et al. 1993; Forsell 1998); a
+shallow lake bathymetry (Karlsson-Elfgren et al.
+2003; Karlsson-Elfgren et al. 2004); an organic, nonrocky
+lake sediment substrate (Carey et al. 2008); or
+other persistent environmental conditions that may
+promote higher recruitment rates. Similarly, lakes
+with low G. echinulata water column densities (e.g.,
+Messalonskee, Pleasant, Thompson) consistently
+exhibited lower densities (Fig. 3).
+Table 2 The mean G. echinulata colony biovolumes (mm3
+;
+n = 25 for each lake), microcystin-LR (ng MC-LR g-1 dry
+weight; n = 2 for each lake) concentrations in G. echinulata
+colonies, and the estimated mean MC-LR concentration
+attributable to G. echinulata in the water column (lg MC-LR
+L-1
+; n = 2 for each lake), calculated with the mean, minimum,
+and maximum G. echinulata MC-LR concentrations, colony
+biovolumes, and G. echinulata water column densities (see
+‘‘Methods’’)
+Lake Mean G. echinulata colony
+biovolume (mm3
+), with the
+range of observed biovolumes
+in parentheses
+G. echinulata MC-LR
+concentration
+(ng MC-LR g-1 d.w.)
+Mean lake MC-LR
+concentration attributable
+to G. echinulata
+(lg MCLR
+L-1
+)
+Range of lake MC-LR
+concentrations
+attributable to
+G. echinulata
+(lg MC-LR L-1
+)
+Minimum Maximum
+Champlain* 0.047 (0.011–0.15) 944.0 6.7 9 10-5 1.4 9 10-5 2.5 9 10-4
+Colby* 0.038 (0.011–0.18) 74.3 2.3 9 10-6 4.7 9 10-7 1.5 9 10-5
+Crescent 0.082 (0.022–0.20) 1111.5 3.9 9 10-5 1.9 9 10-6 4.3 9 10-4
+Echo 0.075 (0.0059–0.41) 62.1 1.4 9 10-6 1.5 9 10-8 2.9 9 10-5
+Fairlee* 0.011 (0.0032–0.028) 723.5 6.4 9 10-6 1.1 9 10-6 2.6 9 10-5
+Great 0.038 (0.0084–0.14) 58.5 1.4 9 10-5 6.6 9 10-9 1.2 9 10-4
+Little Ossipee 0.026 (0.0039–0.13) 279.6 1.1 9 10-6 1.9 9 10-9 2.3 9 10-5
+Long Lake 0.045 (0.0099–0.18) 1554.6 6.2 9 10-5 2.3 9 10-7 2.4 9 10-3
+Long Pond 0.032 (0.0059–0.085) 61.3 6.8 9 10-5 3.1 9 10-8 1.5 9 10-3
+Lower Saranac 0.042 (0.0039–0.18) 84.3 2.3 9 10-6 9.1 9 10-8 1.7 9 10-5
+Middle Range 0.021 (0.0084–0.052) 75.9 1.3 9 10-6 5.5 9 10-9 2.3 9 10-5
+Panther 0.030 (0.0084–0.21) 7148.1 1.5 9 10-4 1.3 9 10-5 2.7 9 10-3
+Parker* 0.039 (0.0059–0.15) 78.3 2.5 9 10-6 1.7 9 10-7 2.0 9 10-5
+Sebago* 0.035 (0.015–0.16) 726.0 3.8 9 10-6 5.5 9 10-8 7.3 9 10-5
+Sunapee* 0.34 (0.16–0.76) 73.2 4.1 9 10-5 7.2 9 10-8 9.7 9 10-4
+Thomas 0.045 (0.0071–0.092) 80.3 7.4 9 10-7 2.6 9 10-8 3.0 9 10-6
+Upper Saranac* 0.060 (0.011–0.33) 138.8 9.6 9 10-6 1.2 9 10-6 7.4 9 10-5
+Winnipesaukee* 0.029 (0.0048–0.11) 797.6 2.3 9 10-5 8.8 9 10-7 2.0 9 10-4
+For reference, the World Health Organization guideline for drinking water is 1 lg MC-LR L-1 (WHO 1998). Asterisks (*) denote
+lakes that are drinking water sources
+Aquat Ecol
+123G. echinulata’s microcystin-LR concentrations
+and possible toxic effects
+All of the G. echinulata samples tested exhibited
+detectable concentrations of MC-LR. We observed a
+large range of colonial MC-LR concentrations among
+lakes (Fig. 4), which may be because our data only
+represented samples collected on 1 day, rather than an
+integrated sample of colonies collected throughout a
+summer. However, the mean MC-LR concentration
+for Lake Sunapee samples collected in August 2008
+(73.2 ± 11.8 lg MC-LR g-1 dry weight colonies,
+±1 S.D.) was similar to the mean concentration in
+August–September 2005 (97.07 ± 7.78 lg MC-LR
+g-1 dry weight colonies; Carey et al. 2007). MC-LR
+production in other cyanobacteria can vary depending
+on light (Utkilen and Gjolme 1992; Wiedner et al.
+2003; Tonk et al. 2005), temperature (van der
+Westhuizen and Eloff 1985), nutrients (Kotak et al.
+2000; Lee et al. 2000; Downing et al. 2005), pH (Eloff
+and van der Westhuizen 1981), and other environmental
+conditions, causing large variation in MC-LR
+concentrations spatially and temporally within the
+same system (e.g., Makarewicz et al. 2009). These
+factors may be important drivers of among-lake
+variation in MC-LR, although we did not observe
+any correlations between nutrients (TN and TP) and
+MC-LR concentrations in our survey lakes (untransformed,
+log–log, and Spearman’s rank correlations:
+r B 0.17, p C 0.48).
+Our calculations of the MC-LR concentration in
+lake water attributable to G. echinulata, which take
+into account the range of measured colonial MC-LR
+concentrations, G. echinulata biovolumes, and G.
+echinulata surface densities, indicate that G. echinulata’s
+MC-LR concentrations are at least two orders of
+magnitude below levels that affect food webs. However,
+an increase in G. echinulata densities to the
+maximum level observed in this study (250 colonies
+L-1
+) could result in MC-LR concentrations that
+are associated with ecological effects if those toxins
+are released in the water column. For example,
+exposure to low levels of MC-LR (0.1–0.5 lg MCLR
+L-1
+) over short time periods (24 h) has inhibited
+growth and photosynthesis for macroalgal, emergent
+macrophyte, and submerged macrophyte species
+(Pflugmacher 2002). Similarly, Pietsch et al. (2001)
+found that photosynthesis by the green alga Scenedesmus
+armatus was inhibited after exposure to
+0.25 lg MC-LR L-1 for 1 h. Since blooms of
+G. echinulata can last for[2 weeks (Karlsson-Elfgren
+et al. 2003), it is possible that macrophytes and algae
+in northeastern lakes could be exposed to MC-LR for
+longer periods if the MC-LR is released from
+G. echinulata colonies to the water column.
+Low concentrations of MC-LR may also affect
+higher trophic levels. While there are few studies
+examining the effect of low MC-LR levels on food
+webs as a whole, Kotak et al. (1996) surveyed
+phytoplankton, macroinvertebrates, zooplankton, and
+fish for 3 years in four Canadian lakes where maximum
+water column MC-LR concentrations during the
+sample period were B0.34 lg L-1 and mean concentrations
+were less than half that (*0.12 lg L-1
+). They
+found that all food web levels except for fish exhibited
+detectable concentrations of MC-LR accumulated in
+biomass, and that low MC-LR concentrations may be
+linked to shifts in zooplankton community structure
+(Kotak et al. 1996). We hypothesize that if G. echinulata
+density were to increase and their MC-LR was
+released to the water column, it could reach levels that
+affect plankton in northeastern US lakes.
+While the MC-LR concentrations in northeastern
+lakes attributable to G. echinulata could approach
+levels that affect food webs, current G. echinulata
+densities are low enough that it is unlikely that there is
+a toxicity concern for drinking water quality. However,
+if G. echinulata densities in the northeastern
+United States increased while the MC-LR concentrations
+per colony stayed constant, MC-LR attributable
+to G. echinulata could become more of a public health
+concern. For example, if densities increased to the
+bloom levels observed in Lake Erken, Sweden (5,000
+colonies L-1
+; Eiler et al. 2006), three lakes (Crescent,
+Panther, and Long Lake) would exhibit MC-LR
+concentrations exceeding the World Health Organization
+drinking water guideline of 1 lg L-1
+, and
+8 lakes would exhibit MC-LR concentrations between
+0.1 and 1.0 lg L-1 (Champlain, Echo, Fairlee, Little
+Ossipee, Sebago, Sunapee, Upper Saranac, and Winnipesaukee).
+If G. echinulata densities in Panther Pond
+increased to the maximum density we observed in
+Long Pond (250 colonies L-1
+), Panther MC-LR
+concentrations could be as high as 0.4 lg L-1
+. It is
+important to note that these estimates are based on
+littoral G. echinulata densities and may not represent
+pelagic MC-LR concentrations attributable to G. echinulata
+because wind and currents can accumulate
+Aquat Ecol
+123colonies in downwind coves, as has been found for
+other cyanobacteria (Wynne et al. 2011).
+Even at current G. echinulata surface densities,
+MC-LR concentrations attributable to G. echinulata
+should be monitored. There have been reports of
+swimmers developing rashes after exposure to low
+levels of G. echinulata (Backer 2002; Serediak and
+Huynh 2011), suggesting that G. echinulata may be a
+recreational nuisance even at low densities. All of
+our survey lakes are used for swimming or other
+recreation and nine of the 27 lakes in which we
+observed G. echinulata are public or commercial
+drinking water sources (FTP 2008; JBS 2008; LCA;
+LCBP; ME-DWP; NH-DWSPP; USLA). Given that
+the long-term effects of chronic exposure to low-level
+microcystins are unknown (WHO 1998), we recommend
+monitoring MC-LR concentrations in any lake
+that exhibits visible surface densities of G. echinulata.
+Conclusions
+Phytoplankton records from monitoring organizations
+indicate that G. echinulata has not been common
+during the past decade or longer in lakes in the
+northeastern United States (AWI; AWSD; LSPA; MEDEP;
+NH-DES-VLAP; VT-DEC-VLMP), but may
+now be increasing (ME-IWQAR 2006, 2008, 2010;
+NH-DES-VLAP). For example, in-depth phytoplankton
+monitoring in five of our Maine lakes (Androscoggin,
+Great, Long Pond, Messalonskee, and Sebago)
+during 1971–1973 did not find G. echinulata (Davis
+et al. 1978). G. echinulata’s large colonies (up to
+3 mm in diameter) are easy to see, so we expect that
+limnological monitoring would have detected the
+species if it had been present in the water column.
+The survey data indicate that some of our survey lakes
+may be exhibiting increasing G. echinulata densities
+(Fig. 3), and more temporally extensive monitoring at
+several sites in a lake would allow us to determine
+whether those are real trends.
+Our data provide strong evidence that cyanobacteria
+can reach nuisance concentrations (e.g., up to 250
+colonies L-1
+) in low-nutrient lakes, systems in which
+cyanobacterial blooms are not traditionally studied.
+Cyanobacterial toxicity is primarily assessed in eutrophic
+lakes (Chorus and Bartram 1999); however,
+G. echinulata’s abundance in low-nutrient systems
+indicates the need for monitoring MC-LR concentrations
+in oligotrophic and mesotrophic lakes. We found that G.
+echinulata persists in the same lakes from year to year,
+even when lakes are sampled in different months
+(Fig. 3). This finding suggests that once G. echinulata
+is established in a low-nutrient lake, it may become a
+consistent part of the phytoplankton assemblage. As
+such, the cyanobacterium’s MC-LR production may
+allow it to exert substantial effects on food webs and
+ecosystem functioning if G. echinulata densities increase
+in low-nutrient northeastern US lakes.
+Acknowledgments This work was supported by a National
+Science Foundation (NSF) Graduate Research Fellowship to
+C.C.C., NSF Doctoral Dissertation Improvement Grant DEB-
+1010862 to C.C.C. and Nelson G. Hairston, Jr.; NSF DEB-
+0749022 to K.L.C., K.C.W., and H.A.E.; NSF EF-0842267 to
+K.L.C.; NSF EF-0842112 to H.A.E.; NSF EF-0842125 to
+K.C.W.; and grants to C.C.C. from the Cornell Biogeochemistry
+and Biocomplexity Program, Andrew W. Mellon Foundation,
+Kieckhefer Adirondack Fellowship Program, Cornell Sigma Xi
+Chapter, Sigma Xi Grants-In-Aid of Research, and NSF
+Biogeochemistry and Biocomplexity IGERT. Additional
+support for sampling and analyses in Maine came from Bates
+College and the Bates College Imaging and Computing Center,
+which was supported by the Howard Hughes Medical Institute
+and NIH Grant Number P20 RR-016463 from the INBRE
+Program of the National Center for Research Resources. The
+contents of this paper are solely the responsibility of the authors
+and do not necessarily represent the official views of NIH. We
+thank G. and J. Montgomery, M. and T. Eliassen, R. Wood, and
+the Lake Sunapee Protective Association for logistical help and
+access to field sites. N. Ruppertsberger, S. Davis, A. HagenDillon,
+A. Fiorillo, and L. Griesinger provided invaluable field
+and laboratory assistance. The N.G. Hairston, Jr. and A.S.
+Flecker laboratory groups provided constructive comments on
+this manuscript, and A. Lindsey prepared the GIS map.
+References
+ALSC, Adirondack Lake Survey Corporation. Ray Brook, New
+York. http://www.adirondacklakessurvey.org/Accessed 18
+Aug 2011
+Anderson DM, Glibert PM, Burkholder J (2002) Harmful algal
+blooms and eutrophication: nutrient sources, composition,
+and consequences. Estuar Coast 25:704–726
+AWI, Adirondack Watershed Institute, Adirondack Lake
+Assessment Program. Saranac Lake, New York. http://www.
+protectadks.org/programs/lakeassessment-alap/. Accessed
+18 Aug 2011
+AWSD, Auburn Water and Sewerage Districts. Auburn, Maine.
+http://www.awsd.org/waterindex.html
+Babica P, Blaha L, Marsalek B (2006) Exploring the natural role
+of microcystins- a review of effects on photoautotrophic
+organisms. J Phycol 42:9–20
+Backer L (2002) Cyanobacterial harmful algal blooms
+(CyanoHABs): developing a public health response. Lake
+Reserv Manage 18:20–31
+Aquat Ecol
+123Barbiero RP (1993) A contribution to the life-history of the
+planktonic cyanophyte, Gloeotrichia echinulata. Arch
+Hydrobiol 127:87–100
+Barbiero RP, Welch EB (1992) Contribution of benthic bluegreen
+algal recruitment to lake populations and phosphorus
+translocation. Freshw Biol 27:249–260
+Boyer GL (2008) Cyanobacterial toxins in New York and the
+lower Great Lakes ecosystems. In: Hudnell HK (ed)
+Cyanobacterial harmful algal blooms: state of the science
+and research needs. Springer, New York, pp 153–165
+Bunting L, Leavitt PR, Gibson CE, McGee EJ, Hall VA (2007)
+Degradation of water quality in Lough Neagh, Northern
+Ireland, by diffuse nitrogen flux from a phosphorus-rich
+catchment. Limnol Oceanogr 52:354–369
+Carey CC, Haney JF, Cottingham KL (2007) First report of
+microcystin-LR in the cyanobacterium Gloeotrichia echinulata.
+Env Toxicol 22:337–339
+Carey CC, Weathers KC, Cottingham KL (2008) Gloeotrichia
+echinulata blooms in an oligotrophic lake: helpful insights
+from eutrophic lakes. J Plank Res 30:893–904
+Carey CC, Weathers KC, Cottingham KL (2009) Increases in
+phosphorus at the sediment-water interface may accelerate
+the initiation of cyanobacterial blooms in an oligotrophic
+lake. Verh Int Verein Limnol 30:1185–1188
+Carr NG, Whitton BA (eds) (1982) The biology of cyanobacteria.
+Botanical monographs, vol 19. University of California
+Press, Los Angeles
+Chang TP (1979) Growth and acetylene reduction by Gloeotrichia
+echinulata (Smith) Richter in axenic culture. Brit
+Phycol J 14:207–210
+Chorus I, Bartram J (1999) Toxic cyanobacteria in water: a
+guide to their public health consequences, monitoring, and
+management. E & FN Spon, London
+Christoffersen K (1996) Ecological implications of cyanobacterial
+toxins in aquatic ecosystems. Phycologia 35:42–50
+Cottingham KL, Carpenter SR, St Amand AL (1998) Responses
+of epilimnetic phytoplankton to experimental nutrient
+enrichment in three small seepage lakes. J Plank Res
+20:1889–1914
+Crumpton WG, Isenhart TM, Mitchell PD (1992) Nitrate and
+organic N analyses with second-derivative spectroscopy.
+Limnol Oceanogr 37:907–913
+Davis RB, Bailey JH, Scott M, Hunt G, Norton SA (1978)
+Descriptive and comparative studies of Maine Lakes.
+Agriculture Experiment Station Technical Bulletin, vol 88.
+Life Sciences and Agriculture Experiment Station, University
+of Maine, Orono
+DeMott WR, Zhang Q-X, Carmichael WW (1991) Effects of
+toxic cyanobacteria and purified toxins on the survival and
+feeding of a copepod and three species of Daphnia. Limnol
+Oceanogr 36:1346–1357
+Downing JA, Watson SB, McCauley E (2001) Predicting cyanobacteria
+dominance in lakes. Can J Fish Aquat Sci
+58:1905–1908
+Downing TG, Sember CS, Gehringer MM, Leukes W (2005)
+Medium N:P ratios and specific growth rate comodulate microcystin
+and protein content in Microcystis aeruginosa PCC7806
+and M. aeruginosa UV027. Microb Ecol 49:468–473
+Eiler A, Olsson JA, Bertilsson S (2006) Diurnal variations in
+the auto- and heterotrophic activity of cyanobacterial
+phycospheres (Gloeotrichia echinulata) and the identity of
+attached bacteria. Freshw Biol 51:298–311
+El Ghazali I, Saqrane S, Carvalho AP, Ouahid Y, Del Campo FF,
+Vasconcelos V, Oudra B (2010) Effects of the microcystin
+profile of a cyanobacterial bloom on growth and toxin
+accumulation in common carp Cyprinus carpio larvae.
+J Fish Biol 76:1415–1430
+Eloff JN, van der Westhuizen AJ (1981) Toxicological studies
+on Microcystis. In: Carmichael WW (ed) The water environment—algal
+toxins and health. Plenum Press, New
+York, pp 343–364
+Ernst B, Hoeger SJ, O’Brien E, Dietrich DR (2009) Abundance
+and toxicity of Planktothrix rubescens in the pre-alpine
+Lake Ammersee, Germany. Harmful Algae 8:329–342
+Fey SB, Mayer ZA, Davis SC, Cottingham KL (2010) Zooplankton
+grazing of Gloeotrichia echinulata and associated
+life history consequences. J Plank Res 32:1337–1347
+Forsell L (1998) Migration from the littoral zone as an inoculum
+for phytoplankton. Arch Hydrobiol Spec Iss Adv Limnol
+51:21–27
+Forsell L, Pettersson K (1995) On the seasonal migration of the
+cyanobacterium Gloeotrichia echinulata in Lake Erken,
+Sweden, and its influence on the pelagic population. Mar
+Freshw Res 46:287–293
+FTP (2008) Fairlee Town Plan, Fairlee Planning Commission.
+Fairlee, Vermont, www.fairleevt.org/PDF/up/fairtwnpln12
+0908.pdf. Accessed 19 Aug 2011
+Fulton RS, Paerl HW (1987) Toxic and inhibitory effects of the
+blue-green alga Microcystis aeruginosa on herbivorous
+zooplankton. J Plank Res 9:837–855
+Galvao HM, Reis MP, Valerio E, Domingues RB, Costa C,
+Lourenco D, Condinho S, Miguel R, Barbosa A, Gago C,
+Faria N, Paulino S, Pereira P (2008) Cyanobacterial
+blooms in natural waters in southern Portugal: a water
+management perspective. Aquat Microb Ecol 53:129–140
+Hallegraeff GM (1993) A review of harmful algal blooms and
+their apparent global increase. Phycologia 32:79–99
+Herna´ndez JM, Lo´pez-Rodas V, Costas E (2009) Microcystins
+from tap water could be a risk factor for liver and colorectal
+cancer: a risk intensified by global change. Med Hypotheses
+72:539–540
+Hochberg Y (1988) A sharper Bonferroni procedure for multiple
+test of significance. Biometrika 75:800–802
+Hyenstrand P, Rydin E, Gunnerhed M, Linder J, Blomqvist P
+(2001) Response of the cyanobacterium Gloeotrichia
+echinulata to iron and boron additions—an experiment
+from Lake Erken. Freshw Biol 46:735–741
+Istva´novics V, Pettersson K, Rodrigo MA, Pierson D, Padisak J,
+Colom W (1993) Gloeotrichia echinulata, a colonial cyanobacterium
+with a unique phosphorus uptake and life
+strategy. J Plank Res 15:531–552
+Jacobsen BA (1994) Bloom formation of Gloeotrichia echinulata
+and Aphanizomenon flos-aquae in a shallow, eutrophic,
+Danish lake. Hydrobiologia 289:193–197
+JBS (2008) Jay Board of Selectmen, Jay Selectmen Minutes, 22
+December 2008. Jay, Maine. http://jay-maine.org/selectminutes08.html.
+Accessed 19 Aug 2011
+Jochimsen E, Carmichael W, An J, Cardo D, Cookson S,
+Holmes C, Antunes M, de Melo D, Lyra T, Barreto V,
+Azevedo S, Jarvis W (1998) Liver failure and death after
+Aquat Ecol
+123exposure to microcystins at a hemodialysis center in Brazil.
+N Engl J Med 338:873–878
+Kalff J (2002) Limnology. Prentice Hall, Upper Saddle River
+Karlsson I (2003) Benthic growth of Gloeotrichia echinulata
+cyanobacteria. Hydrobiologia 506:189–193
+Karlsson-Elfgren I, Rydin E, Hyenstrand P, Pettersson K (2003)
+Recruitment and pelagic growth of Gloeotrichia echinulata
+(Cyanophyceae) in Lake Erken. J Phycol 39:1050–1056
+Karlsson-Elfgren I, Rengefors K, Gustafsson S (2004) Factors
+regulating recruitment from the sediment to the water
+column in the bloom-forming cyanobacterium Gloeotrichia
+echinulata. Freshw Biol 49:265–273
+Karlsson-Elfgren I, Hyenstrand P, Rydin E (2005) Pelagic
+growth and colony division of Gloeotrichia echinulata in
+Lake Erken. J Plank Res 27:145–151
+KB, KnowledgeBase database. Senator George J. Mitchell
+Center for Environmental and Watershed Research, University
+of Maine, Orono, Maine. http://www.gulfofmaine.
+org/kb. Accessed 18 Aug 2011
+Kearns KD, Hunter ME (2001) Toxin-producing Anabaena flos
+aquae induces settling of Chlamydomonas reinhardtii, a
+competing motile algae. Microb Ecol 2:291–297
+Kotak BG, Zurawell RW, Prepas EE, Holmes CFB (1996)
+Microcystin-LR concentration in aquatic food web compartments
+from lakes of varying trophic status. Can J Fish
+Aquat Sci 53:1974–1985
+Kotak BG, Lam AKY, Prepas EE, Hrudey SE (2000) Role of
+chemical and physical variables in regulating microcystinLR
+concentration in phytoplankton of eutrophic lakes. Can
+J Fish Aquat Sci 57:1584–1593
+LCA, Lake Colby Association. Harrietstown, New York.
+www.lakecolby.org. Accessed 19 Aug 2011
+LCBP, Lake Champlain Basin Program. Grande Isle, Vermont.
+www.lcbp.org/drinkwater.htm. Accessed 19 Aug 2011
+Lee SJ, Jang MH, Kim HS, Yoon BD, Oh HM (2000) Variation
+of microcystin content of Microcystis aeruginosa relative
+to medium N:P ratio and growth stage. J Appl Microbiol
+89:323–329
+Lepisto L, Rapala J, Lyra C, Berg KA, Erkomaa K, Issakainen J
+(2005) Occurrence and toxicity of cyanobacterial blooms
+dominated by Anabaena lemmermannii P. Richter and
+Aphanizomenon spp. in boreal lakes in 2003. Arch Hydrobiol
+Supp 159:315–328
+LSPA, Lake Sunapee Protective Association. Sunapee, New
+Hampshire. www.lakesunapee.org
+Makarewicz JC, Boyer GL, Lewis TW, Guenther W, Atkinson J,
+Arnold M (2009) Spatial and temporal distribution of the
+cyanotoxin microcystin-LR in the Lake Ontario ecosystem:
+coastal embayments, rivers, nearshore and offshore,
+and upland lakes. J Great Lakes Res 35:83–89
+Malbrouck C, Kestemont P (2006) Effects of microcystins on
+fish. Env Toxicol Chem 25:72–86
+ME-DEP, Maine Department of Environmental Protection,
+Lake Assessment Program. Augusta, Maine. http://www.
+maine.gov/dep/water/lakes/index.html
+ME-DWP, Maine Drinking Water Program, Maine Department
+of Health and Human Services, Division of Environmental
+Health. Augusta, Maine. www.maine.gov/dhhs/eng/water/
+sources.htm. Accessed 19 Aug 2011
+ME-IWQAR (2006) Maine Integrated Water Quality Monitoring
+and Assessment Report. Maine Department of
+Environmental Protection. Augusta, Maine. http://www.
+maine.gov/dep/water/monitoring/305b/2006/2006_Final_
+305b_Report.pdf
+ME-IWQAR (2008) Maine Integrated Water Quality Monitoring
+and Assessment Report. Maine Department of Environmental
+Protection. Augusta, Maine. http://www.maine.
+gov/dep/water/monitoring/305b/2008/report.pdf
+ME-IWQAR (2010) Maine Integrated Water Quality Monitoring
+and Assessment Report. Maine Department of Environmental
+Protection. Augusta, Maine. http://www.maine.
+gov/dep/water/monitoring/305b/2010/report.pdf
+Miura GA, Robinson NA, Lawrence WB, Pace JG (1991)
+Hepatotoxicity of microcystin-LR in fed and fasted rats.
+Toxicon 29:337–346
+NH-DES-LWQR (2009) New Hampshire Department of Environmental
+Services, Lake Water Quality Reports. Concord,
+New Hampshire. http://des.nh.gov/organization/divisions/
+water/wmb/lakes/trophic_summary.htm. Accessed 18 Aug
+2011
+NH-DES-VLAP, New Hampshire Department of Environmental
+Services, Volunteer Lake Assessment Program. Concord,
+New Hampshire. http://des.nh.gov/organization/divi
+sions/water/wmb/vlap/index.htm
+NH-DWSPP, New Hampshire Drinking Water Source Protection
+Program, New Hampshire Department of Environmental
+Services. Concord, New Hampshire. http://des.nh.
+gov/organization/divisions/water/dwgb/dwspp/reports/
+part1. Accessed 18 Aug 2011
+No˜ges T, Tonno I, Laugaste R, Loigu E, Skakalski B (2004) The
+impact of changes in nutrient loading on cyanobacterial
+dominance in Lake Peipsi (Estonia/Russia). Arch Hydrobiol
+160:261–279
+Nu¨rnberg GK (1996) Trophic state of clear and colored, softand
+hardwater lakes with special consideration of nutrients,
+anoxia, phytoplankton and fish. Lake Reserv Manage
+12:432–447
+Padisa´k J, Scheffler W, Kasprzak P, Koschel R, Krienitz L
+(2003) Interannual variability in the phytoplankton composition
+of Lake Stechlin (1994–2000). Adv Limnol
+58:101–133
+Paerl HW (1988) Nuisance phytoplankton blooms in coastal,
+estuarine, and inland waters. Limnol Oceanogr 33:823–847
+Paerl HW, Huisman J (2008) Blooms like it hot. Science
+320(5872):57–58
+Paerl HW, Huisman J (2009) Climate change: a catalyst for
+global expansion of harmful cyanobacterial blooms. Env
+Microbiol Rep 1:27–37
+Paerl HW, Fulton RS, Moisander PH, Dyble J (2001) Harmful
+freshwater algal blooms, with an emphasis on cyanobacteria.
+Sci World 1:76–113
+Pettersson K, Herlitz E, Istva´novics V (1993) The role of Gloeotrichia
+echinulata in the transfer of phosphorus from sediments
+to water in Lake Erken. Hydrobiologia 253:123–129
+Pflugmacher S (2002) Possible allelopathic effects of cyanotoxins,
+with reference to microcystin-LR, in aquatic ecosystems.
+Env Toxicol 17:407–413
+Pierson DC, Pettersson K, Istva´novics V (1992) Temporal
+changes in biomass specific photosynthesis during the
+summer: regulation by environmental factors and the
+importance of phytoplankton succession. Hydrobiologia
+243:119–135
+Aquat Ecol
+123Pietsch C, Wiegand C, Ame´ MV, Nicklisch A, Wunderlin D,
+Pflugmacher S (2001) The effects of a cyanobacterial crude
+extract on different aquatic organisms: evidence for
+cyanobacterial toxin modulating factors. Environ Toxicol
+16:535–542
+Pitois SG, Jackson MH, Wood BJB (1997) Summer bloom of
+Gloeotrichia echinulata and Aphanizomenon flos-aquae
+and phosphorus levels in Antermony Loch, central Scotland.
+Int J Environ Health Res 7:131–140
+Reynolds CS (2006) Ecology of phytoplankton. Cambridge
+University Press, New York
+Roelofs TD, Oglesby RT (1970) Ecological observations on
+planktonic cyanophyte Gleotrichia echinulata. Limnol
+Oceanogr 15:224–229
+Rohrlack T, Dittman E, Borner T, Christoffersen K (2001)
+Effects of cell-bound microcystins on survival and feeding
+of Daphnia spp. Appl Environ Microbiol 67:3523–3529
+Rohrlack T, Christoffersen K, Dittman E, Nogueira I, Vasconcelos
+V, Borner T (2005) Ingestion of microcystins by
+Daphnia: intestinal uptake and toxic effects. Limnol Oceanogr
+50:440–448
+Romanowska-Duda Z, Tarczynska M (2002) Influence of
+microcystin-LR and hepatotoxic cyanobacterial extract on
+the water plant Spirodela oligorrhiza. Env Toxicol 17:
+434–440
+Sasner JJ, Haney JF, Ikawa M, Schloss JA (2001) Early signs
+and determinants of biotoxins (microcystins) in lakes.
+University of New Hampshire, Center for Freshwater
+Biology, Durham
+Serediak N, Huynh M-L (2011) Algae identification Lab Guide.
+Agriculture and Agri-Food Canada, Agri-Environment
+Services. Ottawa
+Stewart WD, Fitzgerald GP, Burris RH (1967) In situ studies on
+N2 fixation using the acetylene reduction technique. Proc
+Natl Acad Sci 58:2071–2078
+Tonk L, Visser PM, Christiansen G, Dittmann E, Snelder E,
+Wiedner C, Mur LR, Huisman J (2005) The microcystin
+composition of the cyanobacterium Planktothrix agardhii
+changes toward a more toxic variant with increasing light
+intensity. Appl Environ Microbiol 71:5177–5181
+Tymowski RG, Duthie HC (2000) Life strategy and phosphorus
+relations of the cyanobacterium Gloeotrichia echinulata in
+an oligotrophic Precambrian Shield lake. Arch Hydrobiol
+148:321–332
+USLA (2010) Upper Saranac Lake Association. Citizens
+Statewide Lake Assessment Report. https://secure.uppersara
+nac.com/_uploads/File/2010USL_CSLAPS.pdf. Accessed
+18 Aug 2011
+Utkilen H, Gjolme N (1992) Toxin production by Microcystis
+aeruginosa as a function of light in continuous cultures and
+its ecological significance. Appl Environ Microbiol 58(4):
+1321–1325
+van der Westhuizen AJ, Eloff JN (1985) Effect of temperature
+and light on the toxicity and growth of the blue-green alga
+Microcystis aeruginosa (UV-006). Planta 163:55–59
+Van Dolah FM (2000) Marine algal toxins: origins, health
+effects, and their increased occurrence. Environ Health
+Perspect 108:133–141
+Van Veldhoven PP, Mannaerts GP (1987) Inorganic and organic
+phosphate measurements in the nanomolar range. Anal
+Biochem 161:45–48
+Vareli K, Briasoulis E, Pilidis G, Sainis I (2009) Molecular
+confirmation of Planktothrix rubescens as the cause of
+intense, microcystin-synthesizing cyanobacterial bloom in
+Lake Ziros, Greece. Harmful Algae 8:447–453
+VT-DEC-LC, Vermont Department of Environmental Conservation,
+Lake Champlain Long-term Water Quality and
+Biological Monitoring Project. Waterbury, Vermont.
+http://www.vtwaterquality.org/lakes/htm/lp_longterm.htm.
+Accessed 18 Aug 2011
+VT-DEC-VLMP, Vermont Department of Environmental
+Conservation, Vermont Lay Monitoring Program, Waterbury,
+Vermont. http://www.vtwaterquality.org/lakes/htm/
+lp_volunteer.htm. Accessed 18 Aug 2011
+Wetzel RG (2001) Limnology: lake and river ecosystems, 3rd
+edn. Academic Press, New York
+WHO (1998) World Health Organization Guidelines for
+Drinking Water Quality, Addendum to vol 2, 2nd edn.
+Health Criteria and Other Supporting Information. World
+Health Organization, Geneva
+Wiedner C, Visser PM, Fastner J, Metcalf JS, Codd GA, Mur LR
+(2003) Effects of light on the microcystin content of Microcystis
+strain PCC 7806. Appl Environ Microbiol 69:
+1475–1481
+Wiegand C, Pflugmacher S (2005) Ecotoxicological effects of
+selected cyanobacterial secondary metabolites a short
+review. Toxicol Appl Pharmacol 203:201–218
+Winter JG, DeSellas AM, Fletcher R, Heintsch L, Morley A,
+Nakamoto L, Utsumi K (2011) Algal blooms in Ontario,
+Canada: increases in reports since 1994. Lake Reserv
+Manage 27:107–114
+Wynne TT, Stumpf RP, Tomlinson MC, Schwab DJ, Watabayashi
+GY, Christensen JD (2011) Estimating cyanobacterial
+bloom transport by coupling remotely sensed imagery and a
+hydrodynamic model. Ecol App 21:2709–2721
+Aquat Ecol
+123

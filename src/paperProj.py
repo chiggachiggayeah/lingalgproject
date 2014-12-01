@@ -232,7 +232,7 @@ def compareData(folder, startIndex=4):
 
 	#print vector_list[i][2] + " and " + vector_list[j][2] + ": " + str(compareVectors(vector_list[i], vector_list[j]))
 
-compareData("papers")
+#compareData("papers")
 #makeMatlabData("papers")
 
 
@@ -251,7 +251,7 @@ def makeLabels(folder):
 	writeMatlabFile(vector_list, "matlabData")
 	getLabels(vector_list, "matlabLabels", 2)
 
-# makeLabels("papers")
+makeLabels("../papers")
 
 #createVectorsforPapers("papers")
 #reconstructVectorsTest("prof_vectors.txt")

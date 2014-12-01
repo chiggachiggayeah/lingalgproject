@@ -1,0 +1,721 @@
+Michael_ragusa
+Chemistry
+The_beginning_of_the_end
+1 Laboratory of Molecular Biology, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health,
+Bethesda, MD 20892, USA 2 Department of Molecular and Cell Biology, California Institute for Quantitative Biosciences, University of California, Berkeley,
+CA 94720, USA
+Autophagy is a conserved mechanism thatis essential for
+cell survival in starvation. Moreover, autophagy maintains
+cellular health by clearing unneeded or harmful
+materials from cells. Autophagy proceeds by the engulfment
+of bulk cytosol and organelles by a cup-shaped
+double-membrane sheet known as the phagophore.
+The phagophore closes on itself to form the autophagosome,
+which delivers its contents to the vacuole or
+lysosome for degradation. A multiprotein complex comprising
+the protein kinase autophagy-related protein 1
+(Atg1) together with Atg13, Atg17, Atg29, and Atg31
+(ULK1, ATG13, FIP200, and ATG101 in humans) has a
+pivotal role in the earliest steps of this process. This
+review summarizes recent structural and ultrastructural
+analysis ofthe earliest step inautophagosomebiogenesis
+anddiscusses a model in which the Atg1 complex clusters
+high-curvature vesicles containing the integral membrane
+protein Atg9, thereby initiating the phagophore.
+Autophagy and Atg proteins
+Macroautophagy (hereafter autophagy) is a cellular selfdegradative
+process in which cytosolic material is transported
+to the vacuole or lysosome for degradation. Autophagy
+evolved in unicellular organisms as a survival
+mechanism to provide free amino acids and other metabolic
+precursors during starvation [1]. Starvation is thus a potent
+inducer of autophagy. However, even under normal cellular
+conditions autophagy is important for the clearance of damaged
+organelles and other toxic cytosolic materials. Autophagy
+is the major mechanism by which entire organelles are
+degraded. Thus, it is essential for cellular homeostasis in
+eukaryotes. Functional autophagy is linked to lifespan
+in many organisms and its dysfunction to numerous
+degenerative diseases in humans, including cancer, neurodegeneration,
+and susceptibility to infections [2].
+During autophagy, bulk cytosol, organelles, and inclusions
+are engulfed by a double-membrane vesicle termed
+the autophagosome. Autophagosomes in yeast can range in
+size from 300 to 900 nm (Figure 1A). Once mature, the
+outer autophagosomal membrane fuses with the vacuolar
+or lysosomal membrane. The entire contents of the autophagosome,
+including the inner membrane, are then degraded
+by lysosomal hydrolases. The resulting free amino
+acids and other metabolic precursors are then recycled
+back to the cytoplasm. Biogenesis of the autophagosome
+occurs de novo in the sense that autophagosomes are not
+formed by budding off another autophagosome [3,4]. This
+raises questions regarding the origin of the autophagosomal
+membrane, its mechanism of initiation, and the determinants
+of its size and shape.
+Autophagy can be both a selective and a nonselective
+process. During nonselective autophagy, cytosolic components
+are engulfed by the autophagosome in an untargeted
+manner. Some of the autophagy machinery, however, is
+dedicated to the consumption of particular organelles,
+including mitochondria, lipid droplets, and peroxisomes,
+and this process is referred to as selective autophagy. In
+selective autophagy, the cargo being engulfed appears
+capable of templating the size of the autophagosome.
+For example, in yeast, a constitutive selective autophagy
+pathway for cytosol-to-vacuole transport (Cvt) carries the
+protease Ape1 to its vacuolar site of action (Figure 1B). In
+nonselective autophagy, the double membrane gains its
+Review
+Glossary
+Phagophore assembly site (PAS): identified in yeast as a punctate structure to
+which most of the Atg proteins colocalize as they start to form the phagophore;
+also known as the preautophagosomal structure.
+Soluble N-ethylmaleimide-sensitive factor (NSF) attachment protein receptor
+(SNARE): the SNAREs comprise a large family of proteins whose main role is to
+mediate vesicle fusion. R-SNARES contain a conserved arginine in the center
+of the SNARE motif. Q-SNARES contain a conserved glutamine in the center of
+the SNARE motif. Q-SNAREs are further classified as Qa, Qb, or Qc dependent
+on their position in the four-helix bundle.
+Transport protein particle (TRAPP) complex: first identified as a tethering
+factor involved in ER to Golgi transport. In yeast, three TRAPP complexes have
+been identified. TRAPIII functions in the autophagy pathway.
+0962-8924/$ – see front matter
+ 2013 Elsevier Ltd. All rights reserved. http://dx.doi.org/10.1016/j.tcb.2013.07.008
+Corresponding author: Hurley, J.H. (jimhurley@berkeley.edu).
+Keywords: SNAREs; Atg1; Atg9; Atg13; autophagy; ULK1; membrane bending;
+vesicle tethering.
+Trends in Cell Biology, January 2014, Vol. 24, No. 1 73
+The autophagosomal membrane is initiated by the
+fusion of small vesicles to form a sheet (Figure 1A). The
+membrane sheet continues to elongate to become a cupshaped
+structure called the phagophore (also known as the
+isolation membrane). Ultimately, the phagophore folds
+back on itself and the neck of the cup is sealed to form
+the closed autophagosome.
+Most of what is known about autophagosome biogenesis
+comes from genetic studies in the budding yeast
+Saccharomyces cerevisiae [5]. There are now 36 ATG
+genes that have been discovered through S. cerevisiae
+genetics. Most of these were subsequently found to be
+conserved and to have parallel functions in multicellular
+eukaryotes. It is therefore thought that most of the core
+mechanisms of autophagy are conserved from yeast
+to humans. The Atg proteins belong to six functional
+groups (Table 1). Among the Atg proteins, we are here
+primarily concerned with the Atg1 complex (ULK1 and
+ULK2 in humans) and the integral membrane protein
+Atg9, which are involved in the very earliest stages of
+autophagy. Recently, it has become clear that the Atg1
+complex and Atg9 act in concert with various generalpurpose
+membrane-trafficking proteins including soluble
+N-ethylmaleimide-sensitive factor (NSF) attachment protein
+receptor (SNARE) proteins (see Glossary), secretory
+proteins, Rabs and Rab guanine nucleotide exchange
+factors (GEFs), and tethering factors. Many of these
+proteins are better known for their roles in endocytoplasmic
+reticulum (ER)-to-Golgi trafficking and exocytosis
+and lessons from these fields have helped to provide
+insights into the roles of these components in autophagy.
+This review focuses on recent progress in our understanding
+of the initial stages of autophagosome formation,
+whereby an initial membrane source is provided, tethered,
+and fused to form a double-membrane sheet. We focus
+primarily on bulk nonselective autophagy in yeast, but
+highlight recent progress in the mammalian autophagy
+field. This review also emphasizes how Atg9 and the
+Atg1 kinase complex work together with other membrane-trafficking
+proteins to initiate formation of the
+autophagosome.
+Autophagosome formation begins at the phagophore
+assembly site (PAS)
+In yeast, autophagy is initiated at a single diffractionlimited
+punctum as defined by light microscopy, referred
+to as the PAS (also known as the preautophagosomal
+structure) [6] (Figure 2A). The PAS is located near the
+vacuole and is the site of recruitment for all of the protein
+and membrane components required for autophagosome
+biogenesis. Yeast cells normally contain a single PAS,
+regardless of whether the cells are exposed to nutrientrich
+or -limiting conditions. Under nutrient-rich conditions
+in yeast, the PAS serves as the point of initiation
+for Cvt vesicle biogenesis. Under starved conditions,
+nonselective autophagosome biogenesis in yeast commences
+at the PAS. Mammalian cells do not have a
+Cvt pathway and so lack a constitutive PAS. Autophagy
+in mammalian cells is analogous to that described in
+yeast in that both commence at a unique locus. Mammalian
+autophagy has been proposed on the basis of the
+most recent findings to commence either at the ER–
+mitochondrial junction [7] or the ER–Golgi intermediate
+compartment (ERGIC) [8].
+The genetic hierarchy of Atg protein recruitment at the
+PAS in response to the upregulation of nonselective autophagy
+has been delineated [9] (Figure 2B). Three members
+of the Atg1 complex – Atg17, Atg29, and Atg31 – are
+the most upstream components of nonselective autophagy
+and are constitutively recruited to the PAS under both
+nutrient-rich and -limiting conditions [9,10]. Withoutthese
+Atg9 vesicles Atg9 vesicles
+(A) (B)
+Protein
+150 nm
+600 nm
+Autophagosome
+Vacuole
+Vacuole
+Phagophore
+PAS
+PAS
+Phagophore
+Phagophore
+20 nm
+Aggregates
+Ribosome
+Peroxisome
+Mitochondria
+TRENDS in Cell Biology
+Figure 1. Autophagy and the cytosol-to-vacuole transport (Cvt) pathway in yeast.
+(A) Starvation-induced bulk autophagy. Autophagosome biogenesis begins with a
+pool containing an estimated three autophagy-related protein 9 (Atg9)-positive
+vesicles, which may be as small as 20 nm in diameter. These vesicles fuse into a
+double-membrane sheet that becomes the phagophore. The phagophore grows by
+addition of membrane and adopts the shape of a cup. The cup engulfs
+mitochondria, peroxisomes, ribosomes, inclusions, and bulk cytosol. The
+opening of the phagocytic cup eventually fuses and the structure is now the
+autophagosome, which in yeast is 300–900 nm in diameter. The autophagosome
+then fuses with the vacuole (lysosome in mammalian cells) such that the inner
+membrane and all of the contents are hydrolyzed. (B) The Cvt pathway, a
+constitutive transport process in yeast with analogies to mammalian selective
+autophagy. The Cvt pathway begins with the fusion of Atg9 vesicles, as in (A). The
+main difference in this pathway is that the size and shape of the phagocytic cup are
+dictated by the size and shape of the substrate being engulfed, which is usually a
+single entity. Here, a particle of the vacuolar peptidase precursor prApe1 is shown.
+Review Trends in Cell Biology January 2014, Vol. 24, No. 1
+74three proteins and their selective autophagy counterpart
+Atg11, additional Atg proteins will not localize to the PAS.
+In mammalian cells, FIP200 is thought to be the functional
+counterpart of Atg11 and Atg17.
+The human orthologs of Atg1 are ULK1–4, of which
+ULK1 is the most well known. Only ULK1 and ULK2 have
+demonstrated roles in mammalian autophagy [11,12].
+ULK1 assembles into a complex with ATG13, FIP200,
+and ATG101 [13–17]. The C-terminal domain of ULK1 is
+capable of targeting membranes in cells [18] and, as described
+below, is now referred to as the early autophagy
+targeting/tethering (EAT) domain. ATG13 is regulated by
+mammalian target of rapamycin (mTOR). ULK1 and
+ATG13 association appears to be constitutive. The phosphorylation
+status of ATG13 is most likely involved in
+regulating the conformation and activity of ULK1 within
+the context of the assembled complex [15]. Human FIP200
+is a large predicted helical protein that is generally considered
+to be the functional counterpart of yeast Atg11 and
+Atg17, although it lacks statistically significant sequence
+homology to these proteins. There are no known human
+orthologs of Atg29 and Atg31 nor a yeast ortholog of
+ATG101. Overall, the similarities between the ULK1
+and Atg1 complexes outnumber the differences and they
+are close enough thatthe core mechanisms described below
+seem likely to be conserved.
+Initiation of phagophore formation
+Biogenesis and transport of autophagic precursor
+vesicles
+The sequential recruitment of autophagy factors and
+membranes results in the production of an elongated
+double-membrane sheet. The sheet curves into a cupshaped
+structure termed the phagophore. The formation
+of the phagophore is essential for autophagosome biogenesis
+and serves as the precursor to autophagosome formation.
+The initial membrane source required for phagophore
+formation in yeast is provided by 20–30-nm vesicles containing
+the integral membrane protein Atg9 [19]. Atg9
+contains six transmembrane helices that place both the
+N and the C terminus in the cytosol. Before autophagy
+induction, Atg9 is found in a clustered cytosolic reservoir of
+20–30-nm vesicles (Figure 3A) [19]. The purpose of this
+reservoir appears to be to maintain a supply of Atg9
+vesicles in a state that is inactive, but ready for rapid
+delivery to the PAS in the event of their need.
+Atg9 vesicles are generated in yeast through Golgirelated
+secretory and endosomal pathways [19–21]. In
+human cells in nutrient-rich media, ATG9 exists within
+the trans-Golgi network (TGN), recycling endosomes, early
+endosomes, and late endosomes [22,23]. Further details
+of Atg9 sorting have primarily been elucidated in yeast.
+Yeast Atg23 and Atg27, a peripheral and a type I integral
+membrane protein, respectively, are essential for the traf-
+ficking of Atg9 vesicles from the Golgi to their reservoir
+[24–26] (Figure 3B). These Atg9-containing vesicles do not
+contain typical ER, TGN, or endosomal markers [19],
+suggesting that Atg9 vesicles are produced from the
+TGN in a manner dependent on Atg23 and Atg27 but
+divergent from the main secretory and endosomal pathways
+exiting the TGN.
+Once formed, the transport of Atg9-containing vesicles
+away from the Golgi in yeast requires the post-Golgi
+secretory proteins Sec2 and Sec4 [27]. Sec4 is a Rab
+Table 1. The six functional groups of Atg proteins.
+Complex Yeast Human Complex role
+Atg1/ULK1 complex Atg1 ULK1/2 Atg1, which is a Ser/Thr kinase, forms an autophagy-specific complex with Atg13,
+Atg17, Atg31, and Atg29. Atg17, Atg31, and Atg29 form a stable 2:2:2 complex
+regardless of cellular nutrient status and serve as a scaffold that is important for
+protein localization to the PAS.
+Atg13 ATG13
+Atg17 FIP200
+Atg29
+Atg31
+ATG101
+Class III PI 3-kinase
+complex
+Vps34 VPS34 The class III PI 3-kinase complex is responsible for the production of PI
+3-phosphate (PI3P) at the PAS. Atg14 specifically targets the complex to the PAS.
+Vps15 VPS15
+Vps30/Atg6 Beclin 1
+Atg14 ATG14L/BARKOR
+Atg2–Atg18 complex Atg2 ATG2 Atg18 is a PI3P sensor that forms a complex with Atg2 and Atg9.
+Atg18 WIPI1–4
+Atg12 conjugation Atg12 ATG12 Atg7 (E1-like enzyme) and Atg10 (E2-like enzyme) conjugate Atg12 to Atg5. Atg16
+is a homodimer that forms a complex with Atg5 and Atg12 and is important for
+Atg8–phosphatidylethanolamine (PE) conjugation.
+Atg7 ATG7
+Atg10 ATG10
+Atg5 ATG5
+Atg16 ATG16L1/2
+Atg8 conjugation Atg8 LC3A/B/C
+GABARAP
+GABARAPL1/2/3
+Atg4 is a hydrolase that activates Atg8/LC3. Atg8 is conjugated to PE through
+Atg7 (E1-like enzyme), the Atg12–Atg5–Atg16 complex, and Atg3 (E2-like
+enzyme).
+Atg4 ATG4A-D
+Atg7 ATG7
+Atg3 ATG3
+Atg9 associated Atg9 ATG9 Integral membrane protein involved in autophagy. Atg23 is a peripheral
+membrane protein required for Atg9 trafficking from the Golgi. Atg27 is a type I
+integral membrane protein required for Atg9 trafficking from the Golgi.
+Atg23
+Atg27
+Review Trends in Cell Biology January 2014, Vol. 24, No. 1
+75GTPase known for its role in exocytic vesicle delivery to the
+plasma membrane, whereas Sec2 is a GEF for Sec4 [28].
+Sec4 binds directly to the octameric exocyst complex, which
+targets secretory vesicles to the plasma membrane for
+exocytosis. Sec2, Sec4, and the exocyst complex have all
+been implicated in autophagy and their role in autophagy,
+driving the transport of Atg9 vesicles, may be analogous to
+their role in exocytosis [29].
+Vesicle clustering at the PAS
+Atg9 recruitment is one of the earliest events at the PAS,
+occurring immediately downstream of Atg17. At the PAS,
+Atg9 resides in a cluster of approximately 20–30-nm vesicles
+and tubes [19]. Each vesicle is estimated to contain
+approximately 27 copies of Atg9 [21]. Yeast cells typically
+contain one to three separate Atg9 pools and, on autophagy
+induction, a single pool of Atg9 vesicles is translocated to
+the PAS [19]. In wild type cells, the vesicles at the PAS
+under starvation conditions are hard to differentiate by
+electron microscopy (EM) from the Atg9 reservoir described
+above. However, in atg1D and atg13D cells, visually
+striking clusters of unfused Atg9 vesicles are formed
+surrounding the Cvt cargo, prApe1 particles (Figure 3C)
+[19]. These observations suggest that the phagophore
+emerges by the coalescence of small Atg9-containing vesicles
+and that clustering and fusion occur as separate steps.
+It has been estimated that three Atg9 vesicles are required
+to assemble at the PAS and fuse to initiate one autophagosome
+[21]. Recent work has identified that the most upstream
+autophagy regulatory complex, the Atg1 complex,
+is capable of tethering 20–30-nm vesicles in vitro [30],
+suggesting that it is the most likely candidate for an
+Atg9 vesicle-tethering factor.
+Regulation of vesicle clustering and Atg1 complex
+assembly
+ATG1 was the first ATG gene to be discovered. It is an
+amusing coincidence that the multiprotein complex-containing
+Atg1 is also the first to arrive at the PAS. Atg1 comprises
+an N-terminal Ser/Thr kinase domain connected by a flexible
+linker to a C-terminal EAT domain [18,30]. The Atg1 kinase
+complex is inactivated under normal cellular conditions
+through phosphorylation of both Atg1 and Atg13 by Tor
+[31,32] and protein kinase A (PKA) [33]. On starvation,
+Atg13 becomes dephosphorylated and binds directly to the
+EAT domain of Atg1 and to Atg17. It thus acts as a bridge
+between Atg1 and Atg17, triggering the assembly of the
+subunits into a dimer of pentamers. Atg17 is in a constitutive
+complex with the small proteins Atg29 and Atg31. The
+Atg17–Atg31–Atg29 complex forms an extended double
+crescent-shaped dimer and dimerization of the complex
+through the C-terminal a-helix of Atg17 is essential for
+autophagy activity in yeast [30]. The full Atg1 complex thus
+exists as a dimer of Atg1–Atg13–Atg17–Atg31–Atg29 pentamers
+[30]. Mutation ofthe eightidentified Atg13 phosphorylation
+sites to Ala induces Atg1 complex formation in the
+absence of autophagy induction [34]. Moreover, a trimmed
+Atg1 complex pentamer can be reconstituted from dephosphorylated
+subunits expressed in Escherichia coli [30]. Recently,
+a constitutive interaction between Atg1 and Atg13
+was observed [35], suggesting that the Atg1 complex is
+regulated primarily at the level of its activity rather than
+its assembly. Although it is no longer clear whether the
+binding of yeast Atg1 and Atg13 to one another is phosphoregulated,
+available evidence suggests that the Atg13–Atg17
+interaction and thus the subsequent localization of Atg1
+and Atg13 to the PAS is dependent on nutrient status.
+Structural model for vesicle clustering
+The protein kinase activity of Atg1 seems to be dispensable
+for the earliest autophagic events [36]. Instead, the Atg1
+complex in early autophagy may act as a scaffold to organize
+the 20–30-nm Atg9 vesicles in a manner allowing
+them to fuse into a membrane sheet. This model stems
+from the following observations: first, Atg17 interacts directly
+with Atg9, an interaction required for Atg9 localization
+to the PAS [37]; second, the crystal structure of Atg17–
+Atg31–Atg29 revealed an S-shaped scaffold in which the
+(A) (B)
+PAS
+V
+PI(3)P sensor
+Atg1 complex
+PI 3-kinase
+6-pass integral
+membrane protein
+Ubiquin-like proteins
+and their conjugaon
+system
+8 Phosphadylethanolamine
+2 18 5 12 16
+1 6 14
+13 9
+17 29 31
+TRENDS in Cell Biology
+Figure 2. The preautophagosomal structure. (A) Fluorescence micrograph of the phagophore assembly site (PAS). (B) Schematic of the genetic hierarchy of autophagyrelated
+protein (Atg) recruitment to the PAS.
+Review Trends in Cell Biology January 2014, Vol. 24, No. 1
+76
+size of the Atg9 vesicles (Figure 4A); third, the EAT domain
+of Atg1 binds selectively to highly curved 20–30-nm vesicles
+in vitro and is capable of tethering these vesicles to
+each other; and fourth, the Atg17–Atg31–Atg29 subcomplex
+regulates the activity of the EAT domain, an indication
+of the interplay between the membrane-binding and
+membrane protein-binding elements in the complex. These
+data suggest that vesicles are tethered via the dimer
+interfaces of Atg1 and Atg17 and their binding to lipids
+and to Atg9, respectively (Figure 4B–D). The juxtaposition
+of the vesicles in this geometry places them about 20 A˚
+apart. This does not bring them close enough to fuse on
+their own, but could presumably position them such that
+bridging SNARE complexes described below could finish
+the job (Figure 4E).
+The model outlined above provides an appealing structural
+framework for Atg1 complex function early in autophagy,
+yet also raises questions. The putative curved
+vesicle-binding face of Atg17–Atg31–Atg29 is blocked in
+the crystal structure, begging the question of whether and
+how the concave face of Atg17 is liberated. Atg9 is an
+attractive candidate, because this would confer a high level
+of specificity for the nucleation of Atg9-positive vesicles
+over all others in the cell. In the absence of biochemical
+confirmation, an alternative model for Atg17-mediated
+tethering could be that the concave face is fortuitous
+and not involved in contacting Atg9 vesicles. Atg9 vesicles
+accumulate at the PAS in the absence of Atg1, indicating
+that Atg1-mediated tethering is not required for the initial
+clustering. It seems mostlikely thattethering occurs in two
+stages. First, Atg17 (and Atg29 and Atg31) loosely cluster
+Atg9 vesicles, localizing them to the PAS. On recruitment
+of Atg1 to the complex, the intervesicle distances might be
+further shortened, priming them for SNARE-mediated
+fusion. Clearly, many important details of these events
+remain to be elucidated.
+A second tethering complex, the transport protein particle
+(TRAPP)III complex, has also been linked to the role of
+Atg9 vesicles in autophagosome biogenesis. The three
+known forms of the TRAPP complexes are multisubunit
+GEFs for the Rab protein Ypt1. TRAPPI and II are involved
+in ER and Golgi trafficking through vesicle tethering
+[38,39], whereas TRAPPIII functions in autophagy
+[40–44]. The TRAPPIII complex contains the subunits
+Trs20, Trs23, Trs31, Bet5, and Bet3, which are common
+to all of the complexes, and the unique autophagy-specific
+subunit Trs85. Trs85 interacts directly with Atg9 and
+thereby activates Ypt1 on Atg9 vesicles. The TRAPPIII
+complex and Ypt1 are targeted to Atg9 vesicles before
+arriving at the PAS [45]. Once at the PAS, Ypt1-GTP
+has a role in targeting Atg1 by directly binding to its kinase
+catalytic domain [46]. Atg1 thus appears to be a coincidence
+detector whose targeting requires both dephosphorylated
+Atg13 and GTP-bound Ypt1. Classical tethering
+complexes like TRAPPIII operate over longer length scales
+[38,47] than the short-range vesicle dimerization promoted
+by the Atg1 complex. It would be an elegant solution if
+MVB
+(A) (C)
+(B)
+N
+atg13Δ
+Atg9-GFP15 Atg9-GFP15
+M
+M
+PAS
+TRAPPIII
+Ypt1
+Atg9 Atg23 Atg27
+Atg9 reservoir
+Exocyst Sec2
+Sec4 Ykt6
+TGN
+Sso1/2
+Sec9
+V
+TRENDS in Cell Biology
+Figure 3. Biogenesis and coalescence of autophagy-related protein 9 (Atg9) vesicles. (A) Electron micrograph of Atg9 reservoir (arrow). Reproduced, with permission, from
+[19]. (B) Schematic of the trafficking of Atg9 vesicles from the trans-Golgi network (TGN) to the Atg9 reservoir and onward to the PAS. Atg9 emerges from the TGN in
+tandem with Atg23 and Atg27, a peripheral and a single-crossing integral membrane protein, respectively. Atg9 vesicles emerging from the TGN are sorted to a cytosolic
+reservoir near the mitochondrion in a process depending on the Rab/Rab guanine nucleotide exchange factor (GEF) pair Sec2 and Sec4, the soluble N-ethylmaleimidesensitive
+factor (NSF) attachment protein receptors (SNAREs) Ykt6, Sso1/2, and Sec9, and the exocyst complex. Once at the reservoir, the Atg9 vesicles acquire another Rab
+protein, Ypt1, and its multimeric GEF, the transport protein particle (TRAPP)III complex. (C) Coalescence of Atg9 vesicles is highlighted most dramatically adjoining a
+preApe1 particle in atg13D cells. Reproduced, with permission, from [19]. Abbreviations: V, vacuole; M, mitochondrion; MVB, multivesicular body. Scale bars, 200 nm.
+Review Trends in Cell Biology January 2014, Vol. 24, No. 1
+77TRAPPIII, Atg17, and Atg1 tether vesicles in successively
+closer physical proximity at successive steps in the pathway.
+The activation of a Rab protein by the upstream
+tethering complex TRAPPIII such that a second complex,
+Atg1, is recruited is also reminiscent of classical tethering
+pathways [38,47].
+Fusion of vesicles
+The early phase of autophagosome initiation culminates
+with fusion of the precursor vesicles to form the phagophore.
+These fusion events are most likely mediated by
+SNARE proteins [48–50]. SNAREs are a large family of
+proteins that mediate the fusion of vesicles with one another
+or with target membranes. When complementary
+SNAREs on two membranes zipper into a four-helix bundle,
+this drives the membranes into such close proximity
+that fusion ensues [51]. SNARES are classified as QSNARES
+and R-SNARES, based on the presence of a
+conserved glutamate (Q) or arginine (R) residue in the
+SNARE motif. Functional bundles comprise three QSNARES
+– Qa, Qb, and Qc – and one R-SNARE. The
+SNAREs involved in early autophagy include members
+of all ofthe appropriate classes and thus in principle should
+be sufficient to drive fusion.
+The Q-SNARES Sso1/2, Sec9, and Tlg2 have a major
+role in very early stages of autophagy initiation [50]
+(Figure 3B). The absence of Sso1/2 prevents formation of
+the tubulovesicular Atg9 clusters discussed above. Under
+these conditions, Atg9 is dispersed in the cytosol in small
+vesicles. Because loss of these SNAREs leads to a block in
+Atg9 transport to the PAS, it has not been directly demonstrated
+that they are involved in Atg9 vesicle fusion at the
+PAS. Clearer evidence for a SNARE function in vesicular
+precursor fusion into the phagophore is seen in human
+cells. In HeLa cells, the importance of SNAREs in the
+fusion of small vesicles required for autophagosome biogenesis
+has been demonstrated, because accumulation of
+small Atg16L-positive vesicles was observed when
+VAMP7, syntaxin-7, syntaxin-8, and VT1B were depleted
+[48]. It is appealing that this collection of SNAREs also
+includes one member of each of the essential bundle components
+Qa, Qb, Qc, and R. The Atg16L1 vesicles studied in
+HeLa cells are similar in size and might correspond to the
+yeast Atg9 vesicles, although this remains to be seen [49].
+Additionally, this might suggest a role for a secondary
+population of small vesicles in addition to Atg9 vesicles
+for autophagosome biogenesis. This seems likely, because
+studies in yeast have suggested that Atg9 provides only a
+small portion of the total membrane required for autophagosome
+biogenesis. Nevertheless, the presence of Atg16-
+positive vesicles suggests that mammalian phagophores
+originate from the fusion of a pool of small cytosolic vesicles,
+as in yeast, and that SNAREs are required for this
+fusion event.
+Fusion of Atg9 vesicles into the yeast phagophore
+has already begun at an early stage in the recruitment
+of Atg proteins to the PAS. This is demonstrated by the
+formation of tubules in the absence of Atg14, as visualized
+by EM [19]. Atg14 is the autophagy-specific subunit
+of phosphatidylinositol (PI) 3-kinase, which is recruited
+by the N-terminal HORMA domain of Atg13 [52]. By
+contrast, when SNARE-mediated fusion is blocked in
+human cells, the recruitment cascade can proceed at least
+to the stage of Atg16 [48]. Thus, there does not appear to
+be an Atg recruitment checkpoint for membrane fusion. In
+other words, when fusion is frustrated, the later Atg
+proteins still seem to be recruited to the PAS, albeit
+nonproductively.
+(A) (B) (C)
+(D) (E)
+Atg29-
+Atg31
+Atg17
+Atg1
+Vesicles get closer to each other SNAREs
+Atg9
+Atg9
+Vesicle
+Vesicle
+Atg29
+Atg29
+Atg31
+Atg17
+Atg31
+Atg17
+TRENDS in Cell Biology
+Figure 4. The autophagy-related protein 1 (Atg1) complex and a model for vesicle tethering. (A) Crystal structure of the autoinhibited Atg17–Atg31–Atg29 complex [30].
+(B–E) A hypothesis for the tethering and fusion of Atg9 vesicles by the Atg1 complex and soluble N-ethylmaleimide-sensitive factor (NSF) attachment protein receptors
+(SNAREs). For clarity, Atg13 is not depicted in the cartoon (B). In uninduced conditions, the Atg17–Atg31–Atg29 subcomplex resides at the phagophore assembly site (PAS)
+but does not scaffold because the Atg29–Atg31 module sterically blocks the concave surface of Atg17. (C) Following autophagy induction, Atg9 vesicles migrate to the PAS,
+where the binding of Atg9 to Atg17 competitively displaces Atg29–Atg31. Alternatively, some other activation signal might disinhibit Atg17, leading to the subsequent
+binding of Atg9 vesicles to the double crescent. In this state, Atg9 vesicles are scaffolded in proximity to one another, but are not tethered tightly enough for membrane
+fusion. (D) Atg13 is recruited to the PAS following its dephosphorylation, with the recruitment of Atg1 occurring simultaneously or subsequently. The early autophagy
+targeting/tethering (EAT) domain of Atg1 tightly tethers the two vesicles in conjunction with their preexisting scaffolding by Atg17. In the final step in this speculative
+model, (E), SNAREs form appropriate pairings across the gap between the two vesicles and drive their homotypic fusion.
+Review Trends in Cell Biology January 2014, Vol. 24, No. 1
+78From initiation to extension
+Once the early fusion events are over, most of the early
+PAS proteins remain as a punctate complex [53]. Atg17
+and the PI 3-kinase complex are among the factors that
+remain at the PAS during the growth of the phagophore
+(Figure 5). The major protein marker for the phagophore
+and the most downstream Atg protein to arrive is Atg8,
+which is covalently conjugated to the lipid phosphatidylethanolamine
+(PE) in a ubiquitin cascade-like reaction.
+Atg1 binds to Atg8 via a conserved motif, which was found
+to be important for the stable recruitment of Atg1 to the
+phagophore although it is not important for recruitment to
+the PAS [35,54,55]. This observation was initially surprising
+in that Atg1 arrives early to the PAS whereas Atg8
+arrives much later. As the phagophore grows, however, a
+portion of the Atg1 pool departs from Atg17 and the
+PAS, following Atg8 over the phagophore [53] (Figure 5).
+At this later stage of Atg1 function, its kinase activity is
+required [56].
+Concluding remarks
+The past three years of progress in understanding the
+structure and function of the yeast PAS have opened what
+is probably the clearest window available on the earliest
+events of autophagosome biogenesis. Having made the
+jump from black box to working model, many new questions
+have come into focus, while some older questions
+have acquired new urgency.
+Atg9, with its central role in initiation and its six
+transmembrane-spanning regions, is at the heart of many
+of these questions. Beyond acting as a marker for the select
+pool of vesicles that initiates the phagophore, why is Atg9
+so important? What is the reason for an apparently unique
+and dedicated pathway for the production of Atg9 vesicles
+from the Golgi apparatus? After initiation, Atg9 leaves the
+PAS, binds to the Atg2–Atg18 complex, and is recycled out
+of the phagophore. Why is it so important to clear Atg9 out
+of the phagophore? What components of the generic endosomal
+recycling machinery participate in Atg9 recycling?
+Given that Atg17 is still resident at the PAS at this stage,
+what dissociates Atg9 from Atg17? Could Atg9 function as
+a marker for immature phagophores?
+The sequence of Atg protein recruitment to the PAS is
+now well defined, but the temporal coordination between
+the Atg and key non-Atg proteins is far less clear. It will be
+particularly critical to define when SNAREs, TRAPPIII,
+and Ypt1 appear at the PAS relative to the Atg proteins.
+The SNAREs required at the earliest point in yeast autophagy
+seem to be required for Atg9 vesicle transport before
+arrival at the PAS. Although it seems natural to expect
+that the same SNAREs would drive Atg9 vesicle fusion at
+the PAS, this remains to be demonstrated.
+Atg17 has been crystallized in what appears to be an
+inactive conformation. If this concept is correct, it begs the
+question of what activates Atg17. Atg9 itself could be the
+activator, but roles for Rab proteins, perhaps Ypt1, protein
+phosphorylation, or other factors seem possible. Atg17 is
+predicted, but not demonstrated, to tether vesicles on the
+basis of its structure, whereas the Atg1–EAT domain has
+been shown biochemically to tether vesicles. It will be
+important to understand the structure of the EAT domain
+dimer and its complex with Atg13 and Atg17 to explain
+fully how vesicle tethering is coordinated. Ultimately, in
+vitro reconstitution of the early Atg9 vesicle fusion events
+by the Atg1 complex and the relevant SNAREs would
+provide the strongest test of current models.
+(A) (B)
+(C)
+(D)
+(E)
+(F)
+PI3k 2
+2
+2
+18
+18
+18
+18
+2
+PI3k
+PI3k
+Atg8
+Atg1
+Atg1
+Atg9
+Atg17
+Bulk
+TRENDS in Cell Biology
+Figure 5. From initiation to extension. A speculative model for the possible
+continuing roles of the initiation machinery during phagophore extension. (A) A
+recap of the initial tethering events depicted in Figure 4B–D. (B) Following
+autophagy-related protein 9 (Atg9) vesicle fusion, the phagophore begins as a
+small membrane sheet, visualized in 2D projection as a tube. (C) Atg9 vesicles are
+estimated to provide less than 1% of the ultimate membrane content of the
+autophagosome. The source and physical state of the bulk of the membrane
+remains a controversial topic. It is noteworthy that the Atg1 early autophagy
+targeting/tethering (EAT) domain has no apparent specificity for different lipid
+compositions, sensing only high curvature. Moreover, membrane-inserting
+curvature sensors can bind well to loosely packed neutral lipid mixtures such as
+those of the endoplasmic reticulum (ER) [57], which is widely considered the major
+source of lipid supply in autophagosome biogenesis. (D) The Atg1 complex, via
+Atg13, recruits the phosphatidylinositol (PI) 3-kinase complex, although not
+necessarily through a direct interaction [52]. After Atg8 conjugation begins,
+some of the Atg1 subunit appears to dissociate from the phagophore assembly site
+(PAS) [53] and localize to the phagophore surface via its Atg8 family interacting
+motif (AIM) [35,54,55]. (E) PI 3-phosphate (PI3P) generated by the PI 3-kinase
+complex diffuses over the phagophore surface and, together with Atg9, recruits
+the Atg2–Atg18 complex. The Atg2–Atg18 complex, together with Atg1, somehow
+mediates recycling of Atg9. (F) On autophagosome closure, the high-curvature rim
+of the phagophore disappears, removing the binding sites for curvature-sensing
+proteins such as Atg17. The dissociation of these proteins might be sensed by a
+checkpoint for autophagosome maturation, signaling readiness for fusion with the
+vacuole.
+Review Trends in Cell Biology January 2014, Vol. 24, No. 1
+79Most early PAS components seem to remain in place
+throughout phagophore extension. This raises the question
+of how generic Atg-negative vesicles are directed to fuse
+with the growing phagophore. Based on the number and
+size of the Atg9 vesicles involved in initiation, we estimate
+that more than 99% of the lipid in the phagophore derives
+from sources other than the initiating pool of Atg9 vesicles.
+It would seem natural that some of the same machinery
+involved in the initial fusion events would also be involved
+in bulk membrane delivery, but this concept will need to be
+tested.
+There is strong evidence for some parallels between
+autophagy initiation in mammals and yeast, suggesting
+that many of the concepts outlined here will also be relevant
+in mammalian cells. The EAT domain is conserved in
+ULK1 and ULK2, which also act very early in autophagy.
+The EAT domain of ULK1 can target membranes autonomously
+[18]. SNAREs have a similar although not demonstrably
+identical role in early steps in mammalian and
+yeast autophagy. Mammalian FIP200 is a large predicted
+helical protein that forms a complex with ULK1, acts
+early in autophagy, and is predicted to be the functional
+analog of Atg17. However, clear orthology between the
+two remains to be demonstrated, because the structure
+of FIP200 is unknown. Given the structural and conceptual
+framework for the early steps of autophagy, it will be
+fascinating to see how the picture is fleshed out in yeast
+and in mammals in coming years.
+Acknowledgments
+Research in the Hurley laboratory was supported by the Intramural
+Program of the NIH, NIDDK (J.H.H.), a Damon Runyon Cancer Research
+Fellowship (R.E.S.), and Ruth Kirschtein NRSA fellowship GM099319
+(M.J.R.).

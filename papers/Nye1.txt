@@ -1,0 +1,841 @@
+Joseph_Nye
+Government
+US-Japan_alliance
+For 50 years, the Center for Strategic and International Studies (CSIS) has developed practical
+solutions to the world’s greatest challenges. As we celebrate this milestone, CSIS scholars continue
+to provide strategic insights and bipartisan policy solutions to help decisionmakers chart a course
+toward a better world.
+CSIS is a bipartisan, nonprofit organization headquartered in Washington, D.C. The Center’s
+220 full-time staff and large network of affiliated scholars conduct research and analysis and develop
+policy initiatives that look into the future and anticipate change.
+Since 1962, CSIS has been dedicated to finding ways to sustain American prominence and
+prosperity as a force for good in the world. After 50 years, CSIS has become one of the world’s preeminent
+international policy institutions focused on defense and security; regional stability; and
+transnational challenges ranging from energy and climate to global development and economic
+integration.
+Former U.S. senator Sam Nunn has chaired the CSIS Board of Trustees since 1999. John J.
+Hamre became the Center’s president and chief executive officer in 2000. CSIS was founded by
+David M. Abshire and Admiral Arleigh Burke.
+CSIS does not take specific policy positions; accordingly, all views expressed herein should be
+understood to be solely those of the author(s).
+Cover photo: Flags of the United States and Japan during the ceremony at the 50th Anniversary of
+the U.S.-Japan Security Treaty, U.S. Navy photo by Lt. Cmdr. Denver Applehans, http://www.flickr.
+com/photos/ctf76/4289022909/.
+© 2012 by the Center for Strategic and International Studies. All rights reserved.
+ISBN 978-0-89206-748-0
+Center for Strategic and International Studies
+1800 K Street, NW, Washington, DC 20006
+Tel: (202) 887-0200
+Fax: (202) 775-3199
+Web: www.csis.org | iii
+Study Group Participants iv
+Study Group Signatures v
+Introduction 1
+Energy Security 2
+Economics and Trade 6
+Relations with Neighbors 7
+Toward a New Security Strategy 11
+Conclusion 15
+Recommendations 16
+About the Authors 19
+contentsiv |
+The following individuals participated in the study group process through which the report was
+produced. Dr. Nye and Mr. Armitage are grateful for the arduous efforts and support from the
+study group participants.
+study group participants
+David Asher
+Nonresident Senior Fellow, Center for a New
+American Security
+Kara L. Bue
+Partner, Armitage International
+Victor Cha
+Senior Adviser and Korea Chair, CSIS, and Professor
+of Government and Director of Asian Studies,
+Georgetown University
+Michael Green
+Senior Adviser and Japan Chair, CSIS, and Associate
+Professor, Georgetown University
+Robert McNally
+President and Founder, The Rapidan Group
+Isabella Mroczkowski (Rapporteur)
+Research Assistant, Project 2049 Institute
+Kevin G. Nealer
+Principal and Partner, Scowcroft Group
+Torkel Patterson
+President, U.S.-Japan MAGLEV, LLC
+Robin Sak Sakoda
+Partner, Armitage International
+Randall Schriver
+Partner, Armitage International, and President and
+CEO, Project 2049 Institute | v
+study group participant
+signatures | 1
+Introduction
+This report on the U.S.-Japan alliance comes at a time of drift in the relationship. As leaders in
+both the United States and Japan face a myriad of other challenges, the health and welfare of one
+of the world’s most important alliances is endangered. Although the arduous efforts of Assistant
+Secretary of State Kurt Campbell and his colleagues in both governments have largely kept the
+alliance stable, today’s challenges and opportunities in the region and beyond demand more.
+Together, we face the re-rise of China and its attendant uncertainties, North Korea with its nuclear
+capabilities and hostile intentions, and the promise of Asia’s dynamism. Elsewhere, there are the
+many challenges of a globalized world and an increasingly complex security environment. A
+stronger and more equal alliance is required to adequately address these and other great issues of
+the day.
+For such an alliance to exist, the United States and Japan will need to come to it from the perspective,
+and as the embodiment, of tier-one nations. In our view, tier-one nations have significant
+economic weight, capable military forces, global vision, and demonstrated leadership on international
+concerns. Although there are areas in which the United States can better support the alliance,
+we have no doubt of the United States’ continuing tier-one status. For Japan, however, there
+is a decision to be made. Does Japan desire to continue to be a tier-one nation, or is she content to
+drift into tier-two status? If tier-two status is good enough for the Japanese people and their government,
+this report will not be of interest. Our assessment of, and recommendations for, the alliance
+depend on Japan being a full partner on the world stage where she has much to contribute.
+In posing this question, we are cognizant of the problems confounding Japan’s influence and
+role in the world today. Japan has a dramatically aging population and declining birth rate. Her
+debt-to-GDP ratio is over 200 percent. The Japanese people have been served by six different
+prime ministers in six years. And, there is a growing sense of pessimism and inward focus among
+many young Japanese. But, Japan is not destined to see her importance wane. Japan is fully capable
+of remaining a tier-one nation. It is only a question of her disposition.
+As many challenges as Japan faces, there exist many underappreciated and underutilized
+dimensions of Japan’s national power and influence. Japan is the world’s third-largest economy,
+with a consumer sector twice the size of China’s. Japan continues to have tremendous economic
+potential that could be unleashed by reform and competition. More openness to free trade and immigration
+and greater participation by women in the workforce would add significantly to Japan’s
+gross domestic product (GDP) growth. Japan’s soft power is also considerable. She rates among the
+top three countries in international respect and first in the world in terms of “national brand.”
+the u.s.-japan alliance
+anchoring stability in asia2 | the u.s.-japan alliance
+Japan’s Self-Defense Forces (JSDF)—now the most trusted institution in Japan—are poised to play
+a larger role in enhancing Japanese security and reputation if anachronistic constraints can be
+eased.
+Japan is not an insignificant country positioned in a quiet part of the world. The United States
+and others rely on Japan as the maritime lynchpin to a stable, strategic equilibrium in the AsiaPacific
+region; the second-largest contributor to the United Nations (UN), International Monetary
+Fund (IMF), and other leading multinational institutions; and the host of U.S. forces that keep
+sea-lanes open for the world’s most dynamic hemisphere.
+The United States needs a strong Japan no less than Japan needs a strong United States. And,
+it is from this perspective that we address the alliance and its stewardship. For Japan to remain
+standing shoulder-to-shoulder with the United States, she will need to move forward with us.
+Japan has been a leader in Asia in the past and can continue to be in the future.
+The following report presents a consensus view of the members of a bipartisan study group on
+the U.S.-Japan alliance. The report specifically addresses energy, economics and global trade, relations
+with neighbors, and security-related issues. Within these areas, the study group offers policy recommendations
+for Japan and the United States, which span near- and long-term time frames. These
+recommendations are intended to bolster the alliance as a force for peace, stability, and prosperity in
+the Asia-Pacific region and beyond.
+Energy Security
+Nuclear Energy
+The tragedies of March 11, 2011, are fresh in our minds, and we extend our deepest condolences
+to all victims and those afflicted by the earthquake, tsunami, and subsequent nuclear meltdown.
+Understandably, the Fukushima nuclear disaster dealt a major setback to nuclear power. The
+setback reverberated not only throughout Japan, but also around the world. While some countries
+like Great Britain and China are cautiously resuming nuclear expansion plans, others, like Germany,
+have decided to phase out nuclear power entirely.
+Japan is conducting thorough examinations of its nuclear reactors and reforming its nuclear
+safety regulations. Despite strong public opposition to nuclear power, Prime Minister Yoshihiko
+Noda’s government has begun a partial restart of two nuclear reactors. Further restarts depend on
+safety checks and local approval. The cautious resumption of nuclear generation under such conditions
+is the right and responsible step in our view.
+Japan has made tremendous progress in boosting energy efficiency and is a world leader in energy
+research and development. While the people of Japan have demonstrated remarkable national
+unity in reducing energy consumption and setting the world’s highest standards for energy efficiency,
+a lack of nuclear energy in the near term will have serious repercussions for Japan. Without
+a restart of nuclear power plants, Japan will not be able to make meaningful progress toward her
+goal of cutting carbon dioxide (CO2
+) emissions by 25 percent by 2020. Nuclear power is and will
+remain the only substantial source of emissions-free, base load electricity generation. Environment
+Ministry data reportedly shows that without a nuclear restart, Japan’s emissions can fall at most by richard l. armitage and joseph s. nye | 3
+11 percent by 2020; but with a restart, emissions reductions could approach 20 percent.1
+ A permanent
+shutdown would boost Japan’s consumption of imported oil, natural gas, and coal. Moreover,
+postponing a decision on national energy policy has the potential to drive vital, energy-dependent
+industries out of Japan and may threaten national productivity.
+A permanent shutdown will also stymie responsible international nuclear development, as
+developing countries will continue to build nuclear reactors. China, which suspended reactor approvals
+for over a year following Fukushima (but did not suspend progress on ongoing projects),
+is restarting domestic construction of new projects and could eventually emerge as a significant
+international vendor. As China plans to join Russia, South Korea, and France in the major leagues
+of global development in civilian nuclear power, Japan cannot afford to fall behind if the world is
+to benefit from efficient, reliable, and safe reactors and nuclear services.
+For its part, the United States needs to remove uncertainty surrounding disposal of spent nuclear
+waste and implement clear permitting processes. While we are fully cognizant of the need to
+learn from Fukushima and implement corrective safeguards, nuclear power still holds tremendous
+potential in the areas of energy security, economic growth, and environmental benefits. Japan and
+the United States have common political and commercial interests in promoting safe and reliable
+civilian nuclear power domestically and internationally. Tokyo and Washington must revitalize
+their alliance in this area, taking on board lessons from Fukushima, and resume a leadership role
+in promoting safe reactor designs and sound regulatory practices globally. The 3-11 tragedy should
+not become the basis for a greater economic and environmental decline. Safe, clean, responsibly
+developed and utilized nuclear power constitutes an essential element in Japan’s comprehensive
+security. In this regard, U.S.-Japan cooperation on nuclear research and development is essential.
+Natural Gas
+Recent positive developments in natural gas could rekindle bilateral energy trade in ways few
+thought possible just a few years ago. The discoveries of large new shale gas reserves in the lower
+48 states have made the United States the world’s fastest growing natural gas producer. The International
+Energy Agency (IEA) noted that the planned expansion of the Panama Canal in 2014
+would enable 80 percent of the world’s liquefied natural gas (LNG) fleet to use the canal, dramatically
+lowering shipping costs and making LNG exports from the U.S. Gulf Coast dramatically
+more competitive in Asia.2
+The shale gas revolution in the continental United States and the abundant gas reserves in
+Alaska present Japan and the United States with a complementary opportunity: the United States
+should begin to export LNG from the lower 48 states by 2015, and Japan continues to be the
+world’s largest LNG importer. Since 1969, Japan has imported relatively small amounts of LNG
+from Alaska, and interest is picking up in expanding that trade link, given Japan’s need to increase
+and diversify its sources of LNG imports, especially in light of 3-11.
+1. Rick Wallace, “Japan Carbon Hopes Resting on Nuclear,” The Australian (Sidney), May 25, 2012,
+http://www.theaustralian.com.au/news/health-science/japan-carbon-hopes-resting-on-nuclear/story
+-e6frg8y6-1226366138315.
+2. International Energy Agency (IEA), Medium-Term Oil and Gas Markets 2010 (Paris: International
+Energy Agency, 2010), p. 264, http://www.iea.org/papers/2011/mtogm2010.pdf.4 | the u.s.-japan alliance
+However, companies in the United States seeking to export LNG to a country that does not
+have a free trade agreement (FTA) with the United States, and more specifically a gas national
+treatment clause in its FTA, must first get approval from the U.S. Department of Energy (DOE)
+Office of Fossil Energy. Sixteen FTA countries, receive DOE export approval (although other regulatory
+and permitting requirements apply), but most of these are not major LNG importers.
+For non-FTA countries like Japan, the permit is granted unless DOE concludes it would not be
+in the “public interest” of the United States. The Kenai LNG terminal routinely received DOE permits
+to export from Alaska to Japan. But as the potential for LNG exports from the lower 48 states
+emerges, DOE’s permitting process is coming under political scrutiny. In addition to the Sabine
+Pass LNG project, which already received a DOE non-FTA permit, there are eight other permits
+for LNG projects in the lower 48 waiting for DOE approval.
+Activists oppose LNG exports on environmental or economic grounds. There are concerns
+that exports will raise domestic U.S. natural gas prices and weaken the competitiveness of domestic
+industries that rely heavily on natural gas. A recent policy brief by the Brookings Institution
+refuted this claim and concluded that the likely volume of future exports will be relatively small
+compared to total U.S. natural gas supply, and the domestic price impacts would be minimal and
+not undermine wider use of gas for domestic, industrial, and residential uses.3
+ Limiting LNG exports
+needlessly deters investment in U.S. shale gas and LNG export projects.
+The United States should not resort to resource nationalism and should not inhibit privatesector
+plans to export LNG. U.S. policymakers should facilitate environmentally responsible
+exploitation of these new resources while remaining open to exports. Moreover, in a time of crisis
+for Japan, the United States should guarantee no interruption in LNG supply (barring a domestic
+national emergency that the president would declare) going to Japan under previously negotiated
+commercial contracts and at prevailing commercial rates, ensuring a constant and stable supply.
+As part of the security relationship, the United States and Japan should be natural resource allies as
+well as military allies. This area of cooperation remains insufficiently developed.
+Further, the United States should amend current legislation inhibiting LNG exports to Japan.
+Ideally, Congress would remove the FTA requirement for an automatic permit, creating a rebuttable
+presumption that LNG exports to any country with which we enjoy peaceful relations are in
+the national interest. Alternatively, Congress should deem Japan to be an FTA country for purposes
+of LNG exports, putting Japan on an equal footing with other potential customers. At the very
+least, the White House should fully support and prioritize export projects associated with Japan as
+it considers permits under current law.
+With proper policy support, natural gas can revitalize bilateral trade and also increase Japan’s
+foreign direct investment (FDI) in the United States. While the gas supply in North America is significant,
+there are concerns that the United States lacks adequate terminal, port, and associated onshore
+transportation systems needed to handle potential tanker traffic.4
+ Without large infrastructure
+investments, U.S. gas production cannot grow. This is yet another valid reason for amending
+the law to grant Japan equal footing with other FTA customers for U.S. natural gas.
+3. Charles Ebinger, Kevin Massy, and Govinda Avasarala, Liquid Markets: Assessing the Case for U.S. Exports
+of Liquefied Natural Gas (Washington, DC: Brookings Institution, May 2012), http://www.brookings.
+edu/~/media/research/files/reports/2012/5/02%20lng%20exports%20ebinger/0502_lng_exports_ebinger.
+4. AFP, “U.S. Not Ready for Larger Panama Canal: Experts,” Taipei Times, May 16, 2011, http://www.
+taipeitimes.com/News/world/archives/2011/05/16/2003503394.richard l. armitage and joseph s. nye | 5
+Methane Hydrates: A Potentially Transformational Opportunity
+Deserving Enhanced Energy Cooperation
+Another promising but more uncertain and longer-term area of bilateral cooperation is methane
+hydrates. Methane hydrates are natural gas crystals trapped in deeply buried ice formations. If
+significant economic and technological hurdles can be overcome, methane hydrate reserves would
+dwarf those of current conventional and unconventional gas.
+Methane hydrate deposits off south-central Japan are estimated at 10 years’ worth of domestic
+consumption of natural gas, and globally the resource has been estimated to be as high as 700,000
+trillion cubic feet,5
+ well over 100 times the current proven reserves of natural gas. Methane hydrates
+are distributed widely onshore and offshore, especially in polar regions and outer continental
+shelves.6
+ Even if, as experts expect, only a small portion of methane hydrates could be developed,
+they would likely still greatly exceed estimates of current natural gas reserves.
+Japan and the United States cooperate closely in research and development of potential largescale
+methane hydrate production. In May, a U.S.-Japan field trial on Alaska’s north slope successfully
+extracted methane hydrates by pumping in and sequestering CO2
+, demonstrating both
+energy supply and environmental benefits. In light of the transformational potential of eventual
+large-scale methane hydrate production, we recommend that the United States and Japan accelerate
+progress on researching and developing cost-effective and environmentally responsible production
+of methane hydrates. Moreover, the United States and Japan should commit to research
+and development of alternative energy technologies.
+Securing the Global Oil and Gas Commons
+For the foreseeable future, the world economy will run primarily on fossil fuels, and oil will retain
+a near monopoly in transportation. Japan, currently the world’s third-largest oil importer, and the
+United States increasingly share a core strategic interest in ensuring that shifts in global oil trade
+do not destabilize global geopolitics and threaten access to, and shipment from, energy suppliers
+in the Middle East. While rising oil production in Canada, the United States, and Brazil may make
+the Americas less dependent on imports from other regions, the next major shift in the global oil
+market is likely to be a massive surge in flows of oil and gas from Middle East producers to increasingly
+wealthy Asian consumers (though rising Middle East energy consumption will compete
+for export barrels). Current forecasts for future oil supply and demand suggest that the Persian
+Gulf will play an even more important role in supplying the world’s oil in the next 40 years than it
+did in the last. The Persian Gulf is also a crucial supplier of LNG—Qatar’s Ras Laffan liquefaction
+plant supplies one-third of traded LNG.
+Increased global dependence on Persian Gulf energy supplies and higher flows of energy from
+the Persian Gulf to Asia will increase the importance of protecting the global commons. Japanese
+naval vessels began antipiracy missions off of Somalia in 2009, and despite higher oil demand
+requirements for power generation after 3-11, Japan reduced her imports of oil from Iran by one-
+5. Charles Batchelor, “Fire Ice: Gas Source is Little Understood,” Financial Times, June 1, 2012, http://
+www.ft.com/intl/cms/s/0/506686c4-a4d0-11e1-9a94-00144feabdc0.html#axzz1y968sb2w.
+6. National Energy Technology Laboratory (NETL), Energy Resource Potential of Methane Hydrate
+(Washington, DC: U.S. Department of Energy, February 2011), http://www.netl.doe.gov/technologies/oilgas/publications/Hydrates/2011Reports/MH_Primer2011.pdf.6
+| the u.s.-japan alliance
+third over the first five months of 2012, in compliance with U.S. sanctions. Going forward, Tokyo’s
+increased participation in multinational efforts to combat piracy, protect Persian Gulf shipping,
+confront threats to regional peace, such as those currently posed by Iran’s nuclear program, and
+secure sea-lanes will be needed and welcome.
+Economics and Trade
+In November 2011, Prime Minister Noda announced Japan’s engagement in pre-consultations for
+entering the Trans-Pacific Partnership (TPP). Once fully realized, TPP will account for 40 percent
+of world trade and include at least 11 nations across the Atlantic and the Pacific. Moreover, unlike
+other regional FTAs, TPP stands out as a comprehensive, high-level, and legally binding free trade
+agreement. Since the announcement last year, Japan has been slow to make progress on entering
+TPP. The breadth of issues and the number of actors involved in negotiations require more time
+and attention to detail; however, it is in Japan’s economic security interests to cease delaying entry
+into negotiations. Furthermore, it is incongruous that Japan does not have an FTA with its most
+important ally, and we strongly encourage Japan to enter negotiations. For its part, the United States
+should shed more light and transparency on the negotiation process and on draft agreements.
+Energizing and Securing the U.S.-Japan Economic Relationship
+In addition to TPP deliberations, we propose a bold, innovative multilateral free trade agreement.
+Japan has an FTA with Mexico and is exploring an FTA with Canada—two of the United States’
+most important trading partners and participants in the world’s largest FTA, the North American
+Free Trade Agreement (NAFTA). A Comprehensive Economic, Energy, and Security Agreement
+(CEESA) joining the United States, Japan, Canada, and Mexico would substantially broaden and
+deepen the U.S.-Japan economic, security, and strategic energy relationship. Japan has critical
+energy security needs and is long on capital to invest. Japan needs to boost financial returns on
+foreign investment outside to compensate for its internal economic and demographic challenges.
+In turn, the United States—and North America, writ large—is awash with natural gas development
+opportunities but short on capital for infrastructure investment.
+CEESA has three core elements:
+1. Japan negotiates FTAs with Canada and the United States—alongside its existing FTA with
+Mexico—toward creating a partnership with NAFTA. As a signatory to an FTA with each
+NAFTA member, Japan would be allowed unfettered access to North American energy and
+would be well-positioned to take advantage of North American infrastructure and strategic
+energy investment opportunities.
+2. The United States pledges to safeguard the flow of LNG and other forms of “strategic energy”
+for export to Japan as part of the U.S.-Japan security alliance.
+3. Japan pledges to invest $100 billion to $200 billion in North America to boost development of
+energy options, including natural gas, oil, coal, wind, solar, and nuclear over the next decade.
+We believe CEESA would be consistent with evolution in current trade policy, not a departure
+from it. Japan already has an FTA with Mexico and has announced its intention to negotiate an
+FTA with Canada. The next step is to work toward negotiations with the United States—Japan’s richard l. armitage and joseph s. nye | 7
+most important ally and largest trade and investment partner. An FTA with Canada, Mexico, and
+the United States would do more to safeguard Japan’s economic, energy, and financial security
+than any other means we can think of. Not only would the three FTAs safeguard Japan’s energy
+supply, they would also grant Japan free trade access to American, Canadian, and Mexican agricultural
+products—ensuring a stable food supply. Japan’s farmer population is rapidly declining,
+the nation’s population is aging, and the average farmer age has risen above 66. With this outlook,
+Japan cannot afford to postpone adjustments to its agricultural trade policy. The remaining
+agricultural barriers that stand in the way of an FTA are easily surmountable if all parties think in
+terms of genuine economic and food security, rather than defensive trade strategies that are unsustainable.
+If the Republic of Korea (ROK) can successfully negotiate an FTA with the United States,
+Japan can too.
+By signing onto CEESA, Japan would become fundamentally integrated in the fastest growing
+part of the advanced industrialized world, support the bridge-building between advanced and
+emerging economies embodied by TPP, and spur global economic growth by creating the world’s
+largest free trade zone.
+Relations with Neighbors
+Robust U.S.-Japan-ROK Relations
+Absolutely critical to the alliance and the region’s stability and prosperity are strong U.S.-JapanROK
+relations. The three democratic allies in Asia share common values and strategic interests.
+Building on this foundation, Washington, Tokyo, and Seoul should pool their diplomatic capital to
+jointly deter North Korean pursuit of nuclear weapons and help shape a regional environment best
+suited to respond to China’s re-rise.
+An area where all three nations have deep interests in defining the future rules of the international
+system is nuclear energy. As China rises among the ranks of nuclear powers, it will become
+crucial for allies like Japan and ROK—both important actors in the global market—to ensure
+proper safeguards, nonproliferation practices, and high standards of transparency in the production
+of nuclear energy. With the United States’ footprint in the nuclear energy sector receding
+due to policy uncertainty, unfavorable economics (mainly due to low natural gas prices), and the
+absence of a renewed 123 agreement with ROK, it is especially timely for Tokyo and Seoul to assume
+a greater role in defining the standards for global nuclear energy generation. Japan’s recommitment
+to safe nuclear energy and ROK’s commitment to the highest standards of transparency
+and nonproliferation as a global nuclear energy supplier will be critical to ensuring the future of
+this regime.
+Another area for trilateral cooperation is overseas development assistance (ODA). The United
+States currently has strategic development assistance agreements with Japan and ROK. All three
+countries view development from similar conceptual perspectives, and each is a major global provider
+of assistance. ROK is the first net recipient of donor assistance in the world to become a net
+provider. Its largest recipients today are Afghanistan and Vietnam—countries that are strategically
+important for both the United States and Japan. ROK now has a 4,000-strong version of its own
+Peace Corps with young men and women engaged in development and good governance projects
+around the world. The three allies would benefit from pooling their visions and funds into a collaborative
+arrangement as they promote strategic development around the world.8 | the u.s.-japan alliance
+In addition to common values and common economic interests, the United States, Japan, and
+ROK share common security concerns. The core areas of convergence posit the three democracies
+as natural allies. Short-term differences, however, stifle progress on much-needed trilateral collaboration
+to deter North Korean pursuit of nuclear weapons and promote a regional environment
+best suited to handle China’s re-rise.
+It is not the place of the U.S. government to render judgment on sensitive historical issues;
+however, the United States must exert full diplomatic efforts to diffuse tensions and refocus the
+attention of its allies on core national security interests and the future. For the alliance to realize its
+full potential, it is essential for Japan to confront the historical issues that continue to complicate
+relations with ROK. While we understand the complex emotional and domestic-political dynamics
+of such issues, political acts like the recent ROK Supreme Court decision allowing individual
+reparation cases to be heard, or efforts by the government of Japan to lobby local U.S. officials not
+to erect comfort women monuments, only inflame sentiments and distract South Korean and
+Japanese leaders and their respective publics from the broader strategic priorities they share and
+must act upon.
+Seoul and Tokyo should reexamine their bilateral ties through a realpolitik lens. Historical
+animosity is not strategically threatening to either country. The two democracies will not go to war
+over these issues, given the economic, political, and security equities both have in the relationship.
+However North Korean belligerence and increasing Chinese military strength, capability, and assertiveness
+pose genuine strategic challenges to both countries. Since 2010, North Korea’s nuclear
+and missile threats have been augmented by provocative conventional military acts such as the
+sinking of the South Korean naval vessel Cheonan and the artillery shelling of Yeonpyeong Island.
+Kim Jong-un’s most recent long-range missiles tests and power struggles with the military further
+deprive Northeast Asia of peace. The allies should resist the temptation to resurrect deep historical
+differences and to utilize nationalist sentiments for domestic political purposes. The three allies
+should expand informal track 2 efforts to address historical issues. Several such forums exist at
+present, but the participants should actively work on consensus documents regarding common
+norms, principles, and interactions on historical issues and take those ideas to their respective
+governments.
+The June 2012 U.S.-Japan-ROK participation in trilateral naval drills represents a step in the
+right direction in putting aside divisive historical issues to face larger present-day threats. Additionally,
+quick movement to conclude pending defense pacts such as the General Security of Military
+Information Agreement (GSOMIA), which would allow Tokyo and Seoul to systematically
+share intelligence information on North Korea, and the Acquisition and Cross-Servicing Agreement
+(ACSA), which promotes sharing of military supplies, are the sorts of practical and workinglevel
+military arrangements beneficial to the security interests of the three allies.
+Re-Rise of China
+China’s meteoric rise in economic heft, military muscle, and political clout over the past three
+decades has not only dramatically revamped the world’s most populous nation, it has also decisively
+shaped East Asia’s post–Cold War geopolitical landscape. Far from being a constraint on
+China’s re-rise, the strong U.S.-Japan alliance has contributed to it by helping to provide a stable,
+predictable, and secure environment within which China has flourished. The alliance has a stake
+in China’s success. However, the lack of transparency and ambiguity as to how China intends to richard l. armitage and joseph s. nye | 9
+use its newfound power—to reinforce existing international norms, to revise them according to
+Beijing’s national interests, or both—is an area of growing concern.
+One area of particular unease is China’s possibly expanding core interests. In addition to the
+official three—Xinjiang, Tibet, and Taiwan—there has been reference to the South China Sea
+and the Senkaku Islands as emerging interests. While the latter are unofficial and undeclared, the
+People’s Liberation Army (PLA) Navy’s increased presence in the South China Sea and East China
+Sea leads us to deduce otherwise. The shared theme of sovereignty further raises questions about
+Beijing’s intentions in the Senkakus and the South China Sea. One thing is certain—China’s ambiguity
+of core interest claims further reduces its diplomatic credibility in the region.
+The alliance’s strategy toward China has been a blend of engagement and hedging, befitting
+the uncertainties about how China might choose to use its rapidly growing comprehensive national
+power. But most aspects of the allied hedge against China’s growing military power and political
+assertiveness—the gradual expansion in the geographic scope of alliance activities, joint work on
+missile defense technologies, heightened attention to interoperability and to missions related to
+sustaining sea lines of communication, efforts to strengthen regional institutions such as the Association
+of Southeast Asian Nations (ASEAN), renewed focus on freedom of navigation, and the
+launch in December 2011 of a new trilateral U.S.-Japan-India strategic dialogue—have been based
+on the assumption that China will continue along a path of high economic growth, making possible
+comparable increases in defense spending and capabilities.
+That assumption is no longer assured. As China moves into its fourth decade since the launch
+of “reform and opening up” by Deng Xiao-ping in 1979, there are many indications that growth
+is slowing. Questions exist about the ability of China to move from an export-led to internalconsumption-driven
+economy. In the years ahead, China’s leaders will have to tackle at least six
+demons: energy constraints, calamitous environmental degradation, daunting demographic realities,
+widening income inequality among people and provinces, restive ethnic minorities in Xinjiang
+and Tibet, and endemic official corruption. Economic success adds to this list the uncertainty
+of coping with the “middle income trap,” whereby a growing middle income cohort puts exceptional
+pressure on the Chinese political structure to meet rising expectations. Any one of these
+challenges could derail China’s economic growth path and threaten social stability. The Chinese
+Communist Party (CCP) is aware of these daunting challenges, which is one reason its leaders
+boosted spending on internal security to more than $120 billion for 2012, roughly comparable to
+the defense budget. The PLA remains focused on developing the wherewithal to deal with external
+threats, including deterring Taiwan from moves toward de jure independence. But, the CCP is
+equally concerned about internal threats.
+A China that stumbles badly could present the alliance with challenges that are not necessarily
+smaller—just different. We all have much to gain from a peaceful and prosperous China.
+Alternatively, Chinese leaders confronting severe internal fissures could take refuge in nationalism,
+perhaps exploiting an external threat, real or imagined, to re-forge unity. To sustain order, the
+leadership could turn to ever more draconian measures, exacerbating existing human rights violations,
+alienating some foreign partners, and undermining the political consensus that has driven
+Western engagement with China since the Nixon opening 40 years ago.
+Alternatively, a future president of China might embrace a new round of political reforms, as
+called for by Premier Wen Jia-bao, with different consequences for China’s domestic politics and
+external posture. Only one thing is certain: the alliance must develop capabilities and policies 10 | the u.s.-japan alliance
+adaptable to China’s changing trajectory and a broad range of possible futures. High economic
+growth and static political authority are not the future China’s new leaders are expecting, and we
+should be informed by their judgment.
+Human Rights and the U.S.-Japan Alliance: Developing
+an Action Agenda
+The April 30, 2012, Joint Statement on the future of the U.S.-Japan alliance includes explicit references
+to the common values that cement the relationship: “Japan and the United States share a
+commitment to democracy, the rule of law, open societies, human rights, human security, and
+free and open markets; these values guide us in our joint efforts to address the global challenges
+of our time.” The Joint Statement later pledges to operationalize these common values: “We pledge
+to work together to promote the rule of law, protect human rights, and enhance coordination on
+peacekeeping, post-conflict stabilization, development assistance, organized crime and narcotics
+trafficking, and infectious diseases.”
+Developing a more concrete action agenda on human rights is an admirable goal, and there
+are plenty of targets of opportunity. Advancing democratic reforms in Burma (Myanmar) should
+be a high priority. The United States and Japan should take advantage of the economic leverage
+provided by private-sector investment, foreign assistance, and loans from international financial
+institutions to advance good governance, rule of law, and adherence to international norms of
+human rights. By setting the highest standards for corporate social responsibility and by ensuring
+that all of Burma’s stakeholders—including ethnic minorities and political opposition parties—are
+consulted and engaged in Burma’s economic future, Washington and Tokyo can bolster
+those in Burma who are working to transform the nation from a brutal military dictatorship into
+a truly representative democracy. Similar concerted efforts, if guided by a genuine commitment
+to advancing international humanitarian law and protecting civil society, could pay dividends in
+Cambodia and Vietnam, two nations with poor human rights records where the United States has
+recently stepped up security cooperation, and where Japan has significant economic and political
+stakes.
+Closer to Japan, North Korea presents a conundrum. Pyongyang’s human rights abuses are
+well documented and egregious, and both the United States and Japan have spoken out about
+them. But, the United States has traditionally viewed human rights concerns in North Korea as a
+distraction from the “main event” of denuclearization, and Japan has largely focused on the fate of
+Japanese citizens abducted by North Korea years ago. We reaffirm our support for Japan’s efforts
+to receive a full accounting of all abductees, and we recommend that Japan and the United States
+cooperate closely on this issue within the context of a broader strategy for effective engagement on
+human rights and other issues with North Korea.
+The solution for the alliance, along with ROK, may lie in expanding the scope of concern,
+addressing the whole range of humanitarian issues on the Korean peninsula: not only abductions,
+gulags, and severe restrictions on political and religious freedom, but also food security, disaster
+relief, public health, education, and cultural exchange. With the Six-Party Talks on the denuclearization
+of the peninsula effectively suspended, a humanitarian-focused agenda, closely coordinated
+with Seoul and other concerned partners, could offer the allies an opportunity to reshape the
+strategic environment within which Pyongyang’s new leadership will chart North Korea’s future.richard l. armitage and joseph s. nye | 11
+Toward a New Security Strategy
+Regional Security Engagement
+In addition to engagement on functional issues such as nuclear energy, ODA, and human rights,
+Tokyo would be well-served to continue its engagement with regional forums, namely ASEAN, the
+ASEAN Regional Forum (ARF), the Asia-Pacific Economic Cooperation (APEC), as well as with
+democratic partners in the region, especially India, Australia, the Philippines, and Taiwan. Japan
+has enhanced the basis for ties with regional partners beyond common values and toward common
+interests and goals. Japan should continue collaboration with regional partners to promote a
+peaceful and lawful maritime environment, to ensure unhindered sea-based trade, and to promote
+overall economic and security well-being.
+The security environment has changed significantly, but so have components of our respective
+strategies. When a Roles, Missions, and Capabilities (RMC) review was last completed, Japan’s
+defense strategy extended primarily north and south. The 1980s review expanded the geographic
+scope and raised alliance capabilities in East Asia, and the 1990s review clarified functions for
+Japan’s opening areas of defense cooperation. Today, areas of interest extend further south and a
+great deal west—as far as the Middle East. We should sufficiently redefine our strategies and coordinate
+our ways and means of execution. A new review should include a broader geographic scope
+as well as an all-inclusive combination of our military, political, and economic national powers.
+Defense Strategy: Toward Allied Interoperability
+Japan can more fully exercise defense and military diplomacy through capacity building and bilateral
+and multilateral measures. A new roles and missions review should expand the scope of Japan’s
+responsibilities to include the defense of Japan and defense with the United States in regional
+contingencies. The most immediate challenge is in Japan’s own neighborhood. China’s assertive
+claims to most of the East China Sea and virtually all of the South China Sea and the dramatic
+increase in the operational tempo of the PLA and other maritime services, including repeated
+circumnavigation of Japan, reveal Beijing’s intention to assert greater strategic influence throughout
+the “First Island Chain” (Japan-Taiwan-Philippines) or what Beijing considers the “Near Sea.”
+In response to these kinds of anti-access/area denial (A2AD) challenges, the United States has
+begun work on new operational concepts such as Air Sea Battle and the Joint Operational Access
+Concept (JOAC). Japan has begun work on parallel concepts such as “dynamic defense.” While the
+U.S. Navy and the Japan Maritime Self-Defense Forces (JMSDF) have historically led in bilateral
+interoperability, the new environment requires significantly greater jointness and interoperability
+across services in both countries and bilaterally between the United States and Japan. This challenge
+should be at the core of the bilateral RMC dialogue and must be fully integrated and driven
+forward by senior leadership in the U.S. Departments of Defense and State together with the
+Japanese Ministries of Defense (MOD) and Foreign Affairs (MOFA). In a time of budgetary constraints,
+RMC cannot be addressed piecemeal or by lower-level officials.
+Two additional areas for potential increased alliance defense cooperation are in minesweeping
+in the Persian Gulf and joint surveillance of the South China Sea. The Persian Gulf is a vital global
+trade and energy transit hub. At the first rhetorical sign or indication of Iran’s intention to close
+the Strait of Hormuz, Japan should unilaterally send minesweepers to the region to counter this 12 | the u.s.-japan alliance
+internationally illegal move. Peace and stability in the South China Sea are yet another vital allied
+interest with especially profound salience for Japan. With 88 percent of Japan’s supplies, including
+vital energy resources, transiting through the South China Sea, it is in Japan’s interest to increase
+surveillance in collaboration with the United States to ensure stability and continued freedom of
+navigation.
+The distinction between the “Defense of Japan” and regional security is thin. A sealed-off Strait
+of Hormuz or a military contingency in the South China Sea will have severe implications for the
+security and stability of Japan. The once-touted sword and shield analogy oversimplifies current
+security dynamics and glosses over the fact that Japan requires offensive responsibilities to provide
+for the defense of the nation. Both allies require more robust, shared, and interoperable Intelligence,
+Surveillance, and Reconnaissance (ISR) capabilities and operations that extend well beyond
+Japanese territory. For their part, U.S. Forces in Japan (USFJ) should have specific roles assigned
+in the defense of Japan. With the goal of operational competency and eventual USFJ-JSDF joint
+task force capability in mind, the United States should allocate greater responsibility and sense of
+mission to the USFJ.
+Amidst looming budget cuts and fiscal austerity in both Washington and Tokyo, smarter use of
+resources is essential to maintain capabilities. A primary manifestation of smarter resource implementation
+is interoperability. Interoperability is not a code word for buying U.S. equipment. At its
+core, it is the fundamental ability to work together. The U.S. Navy and JMSDF have demonstrated
+this ability for decades. The U.S. Air Force and Japan Air Self-Defense Force (JASDF) are making
+progress; but U.S. Army/Marine Corps cooperation with the Japan Ground Self-Defense Force
+(JGSDF) has been limited due to a contrast in focus. The United States has concentrated its efforts
+on fighting ground wars in the Middle East, while Japan has conducted peacekeeping and disaster
+relief operations.
+One way to enhance interoperability is to improve the quality of bilateral defense exercises.
+The U.S. Air Force and Navy air force in conjunction with the JSDF should conduct training annually
+at rotating civilian airports. New training areas could simulate a broader scope of potential
+contingencies, give both forces more exposure, and provide a sense of burden sharing to the
+people of Okinawa. Second, JSDF and U.S. forces should test the lessons learned from Operation
+Tomodachi to improve joint capacities in responding to crises. Third, the JGSDF, while maintaining
+noteworthy peacekeeping operations (PKO) and disaster relief operations, should consider
+enhancing amphibious capabilities. Redirecting the JGSDF force posture from land based to an
+agile and deployable force will better prepare the allies for future structuring of forces. Fourth,
+the United States and Japan should make full use of new training ranges in Guam and the Commonwealth
+of the Northern Mariana Islands (CNMI), as well as the new shared facility in Darwin,
+Australia. Joint maritime expeditionary capabilities are a core focus for Japan, Korea, Australia,
+Canada, and New Zealand. Training with U.S. forces, particularly the Marines, would enhance
+broader interoperability. Lastly, Tokyo should enhance the legal abilities of the MOD to protect
+bilateral and national security secrets and confidential information. The current legal regime does
+not support the same U.S. standards in confidentiality. The combination of policy and rigorous
+defense training will accelerate Japan’s nascent Special Operations Forces (SOF) capabilities and
+improve interoperability.richard l. armitage and joseph s. nye | 13
+Technology Cooperation and Joint Research and Development
+The second aspect of interoperability is hardware. Given both the United States’ and Japan’s economic
+realities and the improbability of growing defense budgets, there is a need for closer defense
+industry collaboration. Japan’s revision of the “Three Principles on Arms Exports” has increased
+the policy window on arms exports and technology cooperation. While joint collaboration will reduce
+costs to both governments and strengthen industry-wide relationships (akin to the decadesold
+partnerships between European and American defense companies), the alliance has yet to
+determine how to move forward in this area.
+The United States should take advantage of the policy change and encourage the Japanese defense
+industry to export technology. The time is past when Americans should be concerned about
+Japanese defense exports posing a threat to U.S. security or our industrial base. On a micro-level,
+the United States should import (and Japan should freely export) electronic, nanotech, composite,
+and other high-value components. Allied trade in this sector would give U.S. defense companies
+access to sophisticated secondary or prime source technology that Japan already exclusively
+manufactures, or manufactures under license. Importing from Japan also has the potential to drive
+down costs and improve quality of U.S. and Japanese defense products.
+On a macro-level, the easing of restrictions facilitates opportunities for joint development of
+sophisticated future weaponry and other security systems. Missile defense has been an excellent
+model in this regard. This program demonstrates that the alliance can co-develop, co-produce, and
+co-employ exceedingly complex defense systems with cooperation, rather than competition, at
+its core. A near-term allied armament program should consider specific projects of mutual interest
+and operational requirements. However, the alliance should also identify long-term operational
+requirements for joint development. Areas for possible arms cooperation could be the next
+generation fighters, warships, radars, strategic lift, communications, and overall ISR capabilities.
+Additionally, the United States should encourage arms exports and technology cooperation between
+Tokyo and other allies. For example, Australia is in discussions with Japan about technology
+cooperation on diesel submarines and potentially the joint strike fighter. The United States should
+encourage such dialogue and build on this momentum.
+The United States and Japan are the two largest and most capable research and development
+entities on the globe. As allies we should meld these capabilities and achieve efficiencies in a sector
+with rapidly increasing costs and complexity. An alliance framework for arms cooperation will
+require better organization. In the past, cooperation has been relegated to the Sciences and Technology
+Forum (S&TF), a body that operates separately from the policy-centered Security Consultative
+Committee. Greater integration of these two bodies will achieve alliance efficiencies and
+effectiveness in armament. Fundamental to this effort will be reform of the United States’ Foreign
+Military Sales (FMS) process, which no longer reflects present-day budget, military, and technology
+realities.
+Cyber Security
+Cyber security is an emerging strategic area that requires greater clarification of the United States’
+and Japan’s roles and standards. All defense operations, cooperation, and joint engagement are
+acutely contingent upon the credibility and capability of information assurance measures. In 14 | the u.s.-japan alliance
+recent years increases in the cases of cyber attacks and cyber hacking, especially on government
+agencies and defense industry corporations, have threatened the security of sensitive data and
+renewed the risk of confidential information falling into the hands of terrorists and insurgents.
+Without common safeguards and standards in information assurance, U.S.-Japan communication
+channels are increasingly vulnerable to outside infiltration. While the United States manages
+a cyber command alongside the National Security Agency (NSA), Japan lacks an equivalent. To
+alleviate this disparity, the United States and Japan should establish a Joint Cyber Security Center
+for research and implementation of common information assurance standards. Such an initiative
+would bolster Japan’s vulnerable cyber security infrastructure and would be in line with supporting
+Japan’s national defense. Without cyber engagement and consultations, greater allied engagement
+on security issues will face constraints.
+Extended Deterrence
+Another key area in allied defense that is in need of a confidence boost is extended deterrence.
+Japan is torn between its desire to see a nonnuclear world and its concern that if the United States
+decreases its nuclear forces to parity with China, the credibility of U.S. extended deterrence will
+be weakened and Japan will suffer the consequences. It is a mistake to believe that extended
+deterrence depends on parity in numbers of nuclear weapons or the location of nuclear weapons
+in Japanese territorial waters. Extended deterrence depends on a combination of capability and
+credibility. During the Cold War, the United States was able to defend Berlin because our promise
+to do so was made credible by the high stakes, the NATO alliance, and the presence of U.S. troops
+that made decoupling of a Soviet attack from U.S. casualties impossible. The United States and
+Japan should reinvigorate the current extended deterrence dialogue to foster mutual confidence
+in U.S. extended deterrence strategies and capabilities. The best guarantee of U.S. extended deterrence
+over Japan remains the presence of U.S. troops, which are bolstered by Japan’s generous host
+nation support.
+Futenma
+The presence of U.S. troops in Japan has been far from an area of allied unity. The alliance has
+spent far too much high-level attention over the past decade on the details of the disposition of
+U.S. forces on Okinawa. The result is that a third-order issue, the Marine Corps Air Station at
+Futenma, has absorbed time and political capital that would have been better invested in planning
+for an optimal structuring of forces for the coming decades. Whatever the legacy problems arising
+from past dispositions, we are likely to find them more easily soluble if we focus more firmly on
+the future.
+Prohibition of Collective Self-Defense
+The triple crises of 3-11 and Operation TOMODACHI raised an interesting irony for deployment
+of U.S. and Japanese forces. Since 3-11 was not a matter of defending against an external threat, the
+JSDF and U.S. forces acted without heeding the prohibitions of collective self-defense. U.S. warships
+moved JGSDF troops in Hokkaido to northeast Japan in response to the crises. Both nations’
+forces acted to make operational the key airfield in Sendai from which military and civilian organizations
+conducted disaster response and relief. These efforts created the conditions for recovery richard l. armitage and joseph s. nye | 15
+in Northeast Asia. In addition to the lax interpretation of Article IX during Operation Tomodachi,
+Japan and the United States, in cooperation with several other nations, are fighting piracy in the
+Gulf of Aden. Japan has reinterpreted legal issues to enable participation in vital antipiracy missions
+in the Indian Ocean. The irony, however, is that under the most severe conditions requiring
+the protection of Japan’s interests, our forces are legally prevented from collectively defending
+Japan.
+A change in Japan’s prohibition of collective self-defense would address that irony in full. A
+shift in policy should not seek a unified command, a more militarily aggressive Japan, or a change
+in Japan’s Peace Constitution. Prohibition of collective self-defense is an impediment to the alliance.7
+ 3-11 demonstrated how our two forces can maximize our capabilities when necessary. It
+would be a responsible authorization to allow our forces to respond in full cooperation throughout
+the security spectrum of peacetime, tension, crisis, and war.
+Peacekeeping Operations
+2012 marks the 20th anniversary of Japan’s participation in UN peacekeeping operations. In South
+Sudan, JSDF are building basic infrastructure to assist the young government in extending state
+authority. In Djibouti, JSDF are stationed on antipiracy missions patrolling the Gulf of Aden. In
+Haiti, JSDF participate in ongoing post-disaster reconstruction and containing the spread of infectious
+diseases. The roles and responsibilities of PKO are arduous and most often complemented
+with a harsh environment and living conditions. Through Japan’s participation in PKO, JSDF have
+expanded their international engagement and preparation for operations in counterterrorism, nuclear
+nonproliferation, humanitarian assistance, and disaster relief. To enable fuller participation,
+we recommend that Japan extend the legal latitude given to her international peacekeeping forces
+to protect civilians, as well as to protect other international peacekeepers, with force, if necessary.
+PKO remains a tangible and laudable international contribution. Perceptions of JSDF are changing,
+and they are viewed as one of the most viable instruments of Japan’s foreign policy.
+Conclusion
+Current discourse on Japan is plagued with diction on “crises,” “challenges,” and “indecision.”
+While these words may suggest a nation in decline, we do not believe that is a foregone conclusion.
+It is our view that Japan is at a critical juncture. Japan has the power to decide between
+complacency and leadership at a time of strategic importance. With the dynamic changes taking
+place throughout the Asia-Pacific region, Japan will likely never have the same opportunity to help
+guide the fate of the region. In choosing leadership, Japan can secure her status as a tier-one nation
+and her necessary role as an equal partner in the alliance.
+In this period of drift, Operation Tomodachi bought the U.S.-Japan alliance some time. It gave
+the alliance the meaning and value it urgently needed following the idiosyncratic political discord
+of the last three years. But, that will not be sufficient to carry the alliance through the challenges
+it faces. The rapidly evolving strategic landscape and tremendous budgetary challenges require
+smarter and more adaptive engagement on the part of the United States and Japan. The recom-
+7. The Yanai Committee report of 2006 notes that the prime minister could by fiat put aside the Article
+IX prohibition, as in antipiracy efforts in Djibouti.16 | the u.s.-japan alliance
+mendations contained in this report are an attempt to highlight areas in which the United States
+and Japan can move forward in that regard. Equally important will be follow-through on the part
+of both nations. So, as a final recommendation, we urge both the United States and Japan to evidence
+their commitment to the U.S.-Japan alliance by appointing a policy director dedicated solely
+to the betterment of it. The alliance is deserving and in need of this attention.
+Recommendations
+Recommendations for Japan
+■ Cautious resumption of nuclear power generation is the right and responsible step for Japan.
+Restarting nuclear reactors is the only way to meet Tokyo’s ambitious carbon dioxide emissions
+cuts of 25 percent by 2020. A restart is also sensible to help ensure that high energy costs
+coupled with a high-valued yen do not drive vital energy-dependent industries out of Japan.
+Taking on board lessons from Fukushima, Tokyo should resume a leadership role in promoting
+safe reactor designs and sound regulatory practices.
+■ Tokyo should continue active engagement in multinational efforts to combat piracy, protect
+Persian Gulf shipping, secure sea-lanes, and confront threats to regional peace, such as those
+posed by Iran’s nuclear program.
+■ In addition to entering TPP negotiations, Japan should examine more ambitious and comprehensive
+negotiations, such as the proposal for a CEESA, described in this report.
+■ For the alliance to realize its full potential, Japan should confront the historical issues that
+continue to complicate relations with ROK. Tokyo should examine bilateral ties in a long-term
+strategic outlook and avoid issuing gratuitous political statements. To enhance trilateral defense
+cooperation, Tokyo and Seoul should work to conclude the pending GSOMIA and ACSA defense
+pacts and continue trilateral military engagements.
+■ Tokyo should continue engagement in regional forums and with democratic partners, particularly
+India, Australia, the Philippines, and Taiwan.
+■ In a new roles and missions review, Japan should expand the scope of her responsibilities to include
+the defense of Japan and defense with the United States in regional contingencies. The allies
+require more robust, shared, and interoperable ISR capabilities and operations that extend
+well beyond Japanese territory. It would be a responsible authorization on the part of Japan to
+allow U.S. forces and JSDF to respond in full cooperation throughout the security spectrum of
+peacetime, tension, crisis, and war.
+■ At the first rhetorical sign or indication of Iran’s intention to close the Strait of Hormuz, Japan
+should unilaterally send minesweepers to the region. Japan should also increase surveillance of
+the South China Sea in collaboration with the United States to ensure freedom of navigation.
+■ Tokyo should enhance the legal abilities of the MOD to protect bilateral and national security
+secrets and confidential information.
+■ To enable fuller participation in PKO, Japan should extend the latitude of peacekeepers to include
+protecting civilians and other international peacekeepers, with force, if necessary.richard l. armitage and joseph s. nye | 17
+Recommendations for the U.S.-Japan Alliance
+■ Taking on board lessons from Fukushima, Tokyo and Washington should revitalize nuclear
+energy research and development cooperation and promote safe nuclear reactor designs and
+sound regulatory practices globally.
+■ As part of the security relationship, the United States and Japan should be natural resource allies.
+Japan and the United States should enhance cooperation in the research and development
+of methane hydrates and commit to development on alternative energy technologies.
+■ Washington, Tokyo, and Seoul should expand track 2 dialogue on historical issues, seek consensus
+on how to approach these sensitive matters, and take suggestions and recommendations
+derived from dialogue to political and government leaders for action. This effort should seek
+agreement on “best practice” norms and principles about interaction on these difficult issues.
+■ The alliance must develop capabilities and policies to respond to China’s re-rise. The alliance
+has much to gain from a peaceful and prosperous China, but continued high economic growth
+and political stability are not assured. Allied policies and capabilities should be adaptable to
+China’s possibly expanding core interests, changing trajectory, and a broad range of possible
+futures.
+■ Developing a concrete action agenda on human rights is an admirable goal, especially in
+Burma (Myanmar), Cambodia, and Vietnam, where allied commitments can advance international
+humanitarian law and civil society. With regard to North Korea, the alliance with ROK
+should address the whole range of humanitarian issues, including food security, disaster relief,
+and public health, in addition to denuclearization and abductees.
+■ The United States and Japan should align concepts such as Air Sea Battle and Dynamic Defense
+through the Roles, Missions, and Capabilities dialogue, which has received insufficient seniorlevel
+attention to date. A new roles and missions review should include a broader geographic
+scope as well as an all-inclusive combination of allied military, political, and economic national
+powers.
+■ U.S. Army/Marine Corps cooperation with JGSDF should make progress toward interoperability
+and move toward an amphibious, agile, and deployable force posture.
+■ The United States and Japan should improve the quality of their bilateral defense exercises by
+utilizing rotating civilian airports, testing lessons learned from Operation Tomodachi, and enhancing
+amphibious capabilities. The United States and Japan should make full use of training
+opportunities in Guam, CNMI, and Australia, both bilaterally and with other partners.
+■ The United States and Japan should increase opportunities for joint development of future
+weaponry. A near-term armament program should consider specific projects of mutual interest
+and operational requirements. The alliance should also identify long-term operational requirements
+for joint development.
+■ The United States and Japan should reinvigorate the extended deterrence dialogue (perhaps
+in conjunction with ROK) to ensure equal confidence in the credibility and capability of U.S.
+extended deterrence over its key allies.
+■ The United States and Japan should establish a Joint Cyber Security Center for research and
+implementation of common information assurance standards.18 | the u.s.-japan alliance
+Recommendations for the United States
+■ The United States should not resort to resource nationalism nor inhibit private-sector plans to
+export LNG. At a time of crisis, the United States should provide its ally with a constant and
+stable flow of LNG. Congress should amend the law to remove the FTA requirement for an
+automatic energy permit, putting Japan on an equal footing with other potential natural gas
+customers.
+■ With its leadership role in TPP negotiations, the United States should shed more light on the
+negotiation process and drafting of agreements. Japan’s participation in TPP should be viewed
+as a strategic objective of the United States.
+■ The United States should not render judgment on the sensitive historical issues between Japan
+and ROK. The United States should, however, exert full diplomatic efforts to diffuse tensions
+and refocus attention to the two nations’ core national security interests.
+■ USFJ should have specific responsibilities assigned for the defense of Japan. The United States
+needs to allocate greater responsibility and sense of mission to USFJ.
+■ The United States should take advantage of the relaxation of the “Three Principles on Arms
+Exports” and encourage the Japanese defense industry to export technology not only to the
+United States, but to other allies such as Australia. The United States must review its own archaic
+and obstructive FMS process.
+■ The United States should better integrate and invigorate the Sciences and Technology Forum
+with the policy-centered Security Consultative Committee structure to further promote joint
+research and development and technology cooperation and should work to improve and
+streamline the defense sales bureaucracy to ensure timely and strategically consistent decisions.
+■ The United States should select a presidential appointee and charge that individual with
+responsibilities for the enhancement of the U.S.-Japan alliance. Japan may want to consider a
+similar designation. | 19
+Richard L. Armitage is president of Armitage International and a trustee of CSIS. From 2001 to
+2005, he served as U.S. deputy secretary of state. In the course of his career, he has been engaged
+in a range of worldwide business and public policy endeavors, as well as frequent public speaking
+and writing. From 1992 to 1993, Mr. Armitage (with the personal rank of ambassador) directed
+U.S. assistance to the newly independent states of the former Soviet Union. From 1989 to 1992,
+he filled key diplomatic positions as presidential special negotiator for the Philippines Military
+Bases Agreement and special mediator for water in the Middle East. President George H.W. Bush
+sent him as a special emissary to Jordan’s King Hussein during the 1991 Gulf War. In the Pentagon
+from 1983 to 1989, he served as assistant secretary of defense for international security affairs. Mr.
+Armitage graduated in 1967 from the U.S. Naval Academy, where he was commissioned an ensign
+in the U.S. Navy. He served on a destroyer stationed on the Vietnam gun line and subsequently
+completed three combat tours in Vietnam. He has received numerous U.S. military decorations, as
+well as decorations from the governments of Thailand, the Republic of Korea, Bahrain, and Pakistan.
+In 2010, Mr. Armitage was appointed an honorary companion of the Order of Australia, and
+in 2005, he became a Knight Commander of the Order of St. Michael and St. George. Mr. Armitage
+currently serves on the boards of ConocoPhillips, ManTech International Corporation, and
+Transcu Group Ltd. He is also a member of the American Academy of Diplomacy. He was most
+recently awarded the Department of State Distinguished Service Award and has received the Department
+of Defense Medal for Distinguished Public Service four times, the Secretary of Defense
+Medal for Outstanding Public Service, the Chairman of the Joint Chiefs Award for Outstanding
+Public Service, the Presidential Citizens Medal, and the Department of State Distinguished Honor
+Award.
+Joseph S. Nye is dean emeritus of the Kennedy School of Government at Harvard University and
+a trustee of CSIS. He joined the Harvard faculty in 1964 and has served as director of the Center
+for International Affairs, Dillon Professor of International Affairs, and associate dean of arts and
+sciences. From 1977 to 1979, Dr. Nye served as deputy to the U.S. under secretary of state for
+security assistance, science, and technology and chaired the National Security Council Group on
+Nonproliferation of Nuclear Weapons. In 1993 and 1994, he was chairman of the National Intelligence
+Council, which coordinates intelligence estimates for the president. In 1994 and 1995, he
+served as assistant secretary of defense for international security affairs. In all three agencies, he
+received distinguished service awards. Dr. Nye is a fellow of the American Academy of Arts and
+Sciences and the American Academy of Diplomacy and a member of the Executive Committee of
+the Trilateral Commission. Dr. Nye has also served as a director of the Aspen Strategy Group, as
+a director of the Institute for East-West Security Studies, as a director of the International Institute
+for Strategic Studies, as U.S. representative on the UN Advisory Committee on Disarmament
+Affairs, and as a member of the Advisory Committee of the Institute of International Economics.
+about the authors20 | the u.s.-japan alliance
+He received his bachelor’s degree summa cum laude from Princeton University in 1958. He did
+postgraduate work at Oxford University on a Rhodes scholarship and earned a Ph.D. in political
+science from Harvard University. Dr. Nye has also taught for brief periods in Geneva, Ottawa,
+and London and has lived for extended periods in Europe, East Africa, and Central America. He
+is the author of numerous books, including The Future of Power (PublicAffairs, 2011), The Powers
+to Lead (Oxford University Press, 2008), and Soft Power: The Means to Success in World Politics

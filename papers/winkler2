@@ -1,0 +1,790 @@
+Peter_winkler
+Math
+Building_graphs_for_colored_trees
+The notion of a neighborhood will be used throughout this paper in two different ways.
+Formally, the neighborhood of radius ρ of a vertex v in graph G is the subgraph given by
+the set of all vertices reachable from v in G by a path of length ≤ ρ and the corresponding
+edges from G. We say that v is the center of this neighborhood. In this paper we will
+often refer to neighborhoods of radius ρ without referring to a graph G. In this case, we
+are referring to a different notion of a neighborhood as a finite graph with a distinguished
+vertex called the center such that every vertex in the graph is of distance ≤ ρ from the
+center. This abuse of notation derives from our goal of trying to construct graphs such
+that every vertex in the graph has its neighborhood in a given set. We will sometimes
+refer to the ρ-neighborhood set of a graph G by which we mean the set of all isomorphism
+∗Research supported in part by NSF Grant DMS-0600876
+the electronic journal of combinatorics 16 (2009), #R00 1classes of ρ-neighborhoods of the graph G. We will denote the isomorphism class of a
+ρ-neighborhood of a vertex v by Nρ(v).
+Given a set S of neighborhoods of radius ρ, we want to determine whether there is a
+colored graph such that every vertex in the graph is the center of one of the neighborhoods
+in S. We define the following:
+1. The set S is sufficient if there is a colored connected graph G such that every
+ρ-neighborhood in G belongs to S. In this case, the graph G is said to satisfy S.
+2. The set S is consistent if for every ρ-neighborhood N ∈ S, there is a colored
+connected graph G which uses only neighborhoods from S and which exhibits the
+ρ-neighborhood N.
+3. The set S is realizable if there is a colored connected graph G such that every ρ-
+neighborhood in G belongs to S and every neighborhood from S appears in G. The
+graph G is said to realize S.
+We would like to know the complexity of determining whether a given set S of ρ-
+neighborhoods with vertices colored by c colors is sufficient, consistent, or realizable via a
+connected graph. Notice that if we allowed the graphs to be disconnected, then realizability
+and consistency would be the same concept. Also, a set S is sufficient (respectively,
+consistent) via a connected graph if and only if it is also sufficient (respectively, consistent)
+via a disconnected graph. Thus, we will only be concerned with building connected
+graphs.
+The following results were motivated by the problem of determining expressibility in
+monadic second-order logic, in which all elements of a structure are “colored.” [4] In order
+to prove that a property is expressible in monadic second-order logic, one must construct
+a partial isomorphism between two colored structures, one which models the property
+and one which does not. Thus, the problem of preserving local properties of the structure
+becomes quite important. For more on this, see [1], [3] or [7]. The neighborhoods in this
+article are the local properties being preserved and the larger graph we build from them
+is a model of the desired theory.
+We begin by noting that
+Realizability → Consistency → Sufficiency,
+where each arrow represents implication and none of the arrows are reversible. Most of
+this result is straightforward and thus will be left to the reader, however we will include
+the proof of the proposition that consistency does not imply realizability.
+1.1 Proposition. There is a set S of ρ-neighborhoods of degree d such that S is consistent
+but not realizable.
+Proof. Let every neighborhood in S be cycle-free with degree d = 2 and radius ρ = 1.
+Denote each neighborhood by a pair hx; Xi where x is the color of the root and X
+is the multiset of the colors of the leaves. Note that the order of the leaves does not
+the electronic journal of combinatorics 16 (2009), #R00 2matter; only the multiplicity of the colors is important. The set of colors we use is
+{1, 2, 3, 4, 5, 6, 2
+0
+, 3
+0
+, 4
+0}.
+We claim that the set
+S = {h1; 2, 2
+0
+i,h2; 1, 3i,h3; 2, 4i,h4; 3, 2i,h2; 4, 3i,
+h2
+0
+; 1, 3
+0
+i,h3
+0
+; 20
+, 4
+0
+i,h4
+0
+; 30
+, 2
+0
+i,h2
+0
+; 40
+, 3
+0
+i,
+h2; 1, 5i,h5; 2, 6i,h6; 5, 2i,h2; 6, 5i},
+is a consistent but not realizable set.
+It is not difficult to check that S is consistent. This is left to the reader.
+We will show that S is not realizable. Without adding extra structure, we can add an
+orientation to the edges of each of the neighborhoods as follows: 1 → 2, 1 → 2
+0
+, 2 → 3,
+2
+0 → 3
+0
+, 3 → 4, 30 → 4
+0
+, 4 → 2, 40 → 2
+0
+, 2 → 5, 5 → 6, and 6 → 2. This gives h1; 2, 2
+0
+i
+an out-degree of 2 and all other neighborhoods, an out-degree of 1 and an in-degree of 1.
+Thus, any graph exhibiting all the neighborhoods of S will have as its root h1; 2, 2
+0
+i, and
+then have directed paths always leading away from the root.
+It is clear that we need h1; 2, 2
+0
+i to appear twice in a graph if both the neighborhoods
+h2; 1, 3i and h2; 1, 5i are to appear. Unfortunately, this is impossible since two instances
+of h1; 2, 2
+0
+i in a connected graph would create a directed path which leads toward one of
+the copies of h1; 2, 2
+0
+i (which, by our construction, cannot happen). It follows that S is
+not realizable.
+This proof illustrates a set of rotator neighborhoods in which the colors dictate that
+every path in a graph built from S is ultimately periodic. Such neighborhoods will be
+important in later proofs.
+In general, we can not determine recursively whether an arbitrary set of neighborhoods
+with colored vertices can be realized by a connected graph. This is proven as a special case
+of [2]. In attempt to improve the computational complexity of this problem, we will look
+at a more restricted class of neighborhoods; specifically, neighborhoods with no cycles.
+A (ρ, d, C)–tree neighborhood is a rooted complete tree of height ρ where every
+vertex which is not a leaf has fixed degree d. The vertices of each of our (ρ, d, C)–tree
+neighborhoods will be colored by a set of C colors. When ρ, d and C are understood, we
+will simply refer to these as tree neighborhoods. Every neighborhood in the rest of this
+paper will be a tree neighborhood unless otherwise indicated.
+In this paper we are interested in evaluating the computational complexity of the
+consistency, sufficiency and realizability of sets of (ρ, d, C)–tree neighborhoods. In section
+2 we will look at the complexity of determining the existence of an infinite tree realizing
+a set of tree neighborhoods. In section 3 we will look at the complexity of determining
+the existence of finite graphs realizing a set of neighborhoods.
+the electronic journal of combinatorics 16 (2009), #R00 32 Realizability via Infinite Trees
+In this section we will explore the computational complexity of determining the existence
+of an infinite tree realized by a set S of tree neighborhoods. In the case that the degree
+of the tree neighborhoods is 2, the problem can be shown to be in P. We omit this proof
+but include the proofs that for neighborhoods of degree 3 and higher the problem is
+NP-complete as these proofs are more illustrative.
+Let S be a set of tree neighborhoods (with distinguished center) of radius ρ and fixed
+degree d ≥ 3. Enumerate the neighborhoods in S and, for each neighborhood, the edges
+incident to the center vertex.
+The de Bruijn graph B corresponding to the set S has vertex set {Ni
+: N ∈ S, i ∈
+{1, 2, . . . , d}}. There is a solid black edge between vertices Ni and Mj
+if and only if
+the center vertex of N is the color of the jth edge extending the center vertex of M
+(according to the enumeration of the edges), the center vertex of M is the color of the
+ith edge extending the center vertex of N, and the (ρ−1)-neighborhood of the center
+vertex of N (respectively M) is completely contained in M (respectively N). There is a
+dashed edge in B between vertices Ni and Nj
+for every neighborhood N in S and every
+i, j ∈ {1, 2, . . . , d}.
+For example, consider the set of 1-neighborhoods
+S = {hr; s, s, ti,hs;t, t, ri,ht; r, r, si} where the edges are enumerated according to the
+order they appear in the neighborhood notation. The de Bruijn graph corresponding to
+S is given in Figure 1.
+Figure 1: de Bruijn graph on S
+Notice that the de Bruijn graph corresponding to S is constructible in polynomial
+time with respect to n (the number of neighborhoods in S) and c (the number of colors).
+A walk in the de Bruijn graph is a path that follows certain rules:
+the electronic journal of combinatorics 16 (2009), #R00 4• In the initial step, starting at some vertex Ni
+, one may travel along any solid edge
+to any vertex in B.
+• For each subsequent step, one alternates traveling along dashed edges and solid
+edges.
+The length of the walk is measured by the number of solid edges traveled. A walk in
+B corresponds to a path through a tree visiting only neighborhoods from S.
+We will be interested in finding the minimal distance (i.e. shortest path) between any
+pair of neighborhoods in S. The de Bruijn graph will help us find this bound.
+Suppose there is a path from the vertex corresponding to the ith edge of neighborhood
+N to any of the vertices corresponding to neighborhood M. We claim that if any
+neighborhood appears more than twice along this path, then the path may be shortened.
+The only time we would need a neighborhood to appear twice along this path is if the
+vertex we arrive on is also the vertex we wish to leave from. In this case, we leave the
+neighborhood along a different edge and then return to the vertex corresponding to the
+desired edge. Thus, if there are n neighborhoods in S, we may need to visit every neighborhood
+except M twice. Therefore, there is a path from Ni to M in B of length no more
+than 2n − 1. Notice that this works for any radius ρ. We now show that if there is an
+infinite tree realizing S, then there is a finite tree whose interior vertices realize S.
+2.1 Proposition. If the set S (containing n neighborhoods) is realizable by an infinite
+tree, then there is a finite tree of radius n(2n − 1 + ρ) in which every vertex of degree d
+has its neighborhood in S and every neighborhood in S appears as the neighborhood of at
+least one of the vertices of degree d.
+Proof. Suppose there is an infinite tree realizing S. Mark one copy of each neighborhood
+from S in the tree. One at a time, connect the center vertex of each marked neighborhood
+to the previous marked neighborhood via a path through the tree. Prune the rest of the
+tree to yield a finite, connected tree. The resulting tree might have a diameter greater
+than 2n−1+ρ. Since each path through the tree represents a walk in the de Bruijn graph,
+we can use the argument above to shorten the paths between two marked neighborhoods.
+Assume π is a path of length greater than 2n−1+ρ connecting two marked neighborhoods
+such that the only marked neighborhoods in π are the endpoints. We use the argument
+above to shorten this path to a new path of length less than or equal to 2n − 1 + ρ. If
+we do this for each path with no intermediate marked neighborhoods then the diameter
+of the resulting graph will be less than or equal to n(2n − 1 + ρ).
+Determining the existence of an infinite tree realizing S is in NP since the set S is
+realizable if and only if there is a finite tree which exhibits every neighborhood from S
+and S is consistent. We showed in Lemma 2.1 that if there is an infinite tree realizing
+S, then there is a finite tree realizing S. The consistency of S guarantees that we may
+extend each of the branches indefinitely to an infinite tree realizing S. It is easily seen
+that the consistency of S is decidable in polynomial time and that a nondeterministic
+polynomial time machine can guess a finite tree from the list of all possible finite trees of
+the electronic journal of combinatorics 16 (2009), #R00 5radius n(2n − 1 + ρ) and accept if and only if the interior vertices give a realization of S.
+Thus, realizing S by an infinite tree is in NP.
+We will use these results to show that the problem of deciding whether S is realizable
+by an infinite tree is NP-complete. Our proof is by a reduction from a variant of 3-SAT.
+The standard version of 3-SAT allows clauses in which the same literal appears more than
+once. We call such clauses repetitive. For example, 3-SAT allows the repetitive clause
+(x ∨ x ∨ y). For our reduction we would like to ensure that none of our clauses are
+repetitive. Thus, we would allow such clauses as (x ∨ x ∨ y) but not the repetitive clause
+above in which literal x appears twice. It is not difficult to find a reduction of this type
+of 3-SAT, called STRICT 3-SAT, to the classical 3-SAT.
+2.2 Theorem. Let S be a set of tree neighborhoods of radius 1 and degree 3. The problem
+of determining the existence of an infinite tree realizing S is NP-complete.
+Proof. We showed that this problem is in NP. Now we perform a reduction from STRICT
+3-SAT to our realizability problem. Consider an instance of STRICT 3-SAT given by
+Φ = {c1, c2, . . . cm} where each ci
+is a disjunction of three literals over a set of n variables,
+V , such that none of the clauses in Φ are repetitive. Φ is satisfied if and only if there is
+a truth valuation which satisfies at least one literal in each clause ci
+.
+We want a polynomial time algorithm to construct a set S of colored neighborhoods
+(d = 3, ρ = 1) such that Φ is satisfied if and only if S is realizable.
+Choose k ≥ 0 such that the number of variables n in V is 3 · 2
+k
+(if necessary, add
+“dummy variables” which are not used in any of the clauses in Φ to force n = 3 · 2
+k
+).
+We begin our construction of S with a collection of neighborhoods called the core
+neighborhoods that must appear exactly once in any tree realizing S. These are h0; 1, 1, 1i
+and, h1; 0, 2, 2i,h2; 1, 3, 3i, . . . ,hk + 1; k, k + 2, k + 2i, where each number 0, 1, 2, . . . , k + 2
+represents a distinct color.
+We surround the core with variable neighborhoods which consist of
+hk + 2; k + 1, x0, x0i, and hk + 2; k + 1, x0, ri
+for each variable x ∈ V , where x0 is a color corresponding to the variable x and r is a
+new color which will be explained later in the construction.
+Next, we include a collection of neighborhoods called the literal neighborhoods.
+If the literal x (respectively x) does not appear in clause c1, we include
+hx0; k + 2, x1, ri, resp. hx0; k + 2, x1, ri
+where x1 and x1 are new colors. Otherwise, we include new colors g1 and h1 and the
+neighborhoods
+hx0; k + 2, x1, g1i,hg1; x1, h1, ri,
+respectively
+hx0; k + 2, x1, g1i,hg1; x1, h1, ri.
+the electronic journal of combinatorics 16 (2009), #R00 6For each subsequent clause ci
+in Φ (2 ≤ i ≤ m), if the literal x does not appear in ci
+,
+we include the neighborhood
+hxi
+, xi−1, xi+1, ri.
+Otherwise, we introduce new colors gi and hi and the neighborhoods
+hxi
+, xi−1, xi+1, gii, and hgi
+; xi
+, hi
+, ri.
+Similarly for the literal x.
+Finally, we include a final layer of literal neighborhoods
+hxm+1, xm, r, ri, and hxm+1, xm, r, ri.
+(Note that the literals xm+1 and xm+1 do not correspond to any clauses in Φ.)
+Then come the satisfaction neighborhoods. We add four more colors a1, a2, a3 and a4
+and for all 1 ≤ i ≤ m, include the following neighborhoods:
+hhi
+; gi
+, a1, ri,hhi
+; gi
+, a2, ri,hhi
+, gi
+, a3, ri,hhi
+; gi
+, a3, ri,
+and
+ha1; hi
+, r, ri,ha2; hi
+, r, ri,ha3; hi
+, r, ri,ha4; hi
+, r, ri.
+Many of the neighborhoods above contain a vertex colored by r. For every neighborhood
+containing such a vertex we include the set of rotator neighborhoods
+hr; ∗, s, si,hs; r, t, ti,ht; s, r, ri,hr;t, s, si,
+where ∗ is the color of the center vertex of a neighborhood containing a vertex colored by
+r.
+This completes our construction of S. We now show that Φ is satisfiable if and only
+if S is realizable.
+Suppose Φ is satisfiable. Then there is a truth assignment t which satisfies Φ. We use
+this truth assignment to construct the realization of S in levels.
+Begin with the neighborhood h0; 1, 1, 1i and extend in the canonical way out to the
+k + 2nd level using the core neighborhoods. Then extend each branch using the variable
+neighborhoods so that every variable appears on the next level exactly 3 times. Since we
+chose k such that V = 3 · 2
+k
+, this is always possible.
+We use the truth valuation t to extend to the next level. For each literal, we extend
+using two copies of the neighborhood which corresponds to the truth value given by t and
+only one copy of the other neighborhood. For example, if t(x) = False then we include
+two copies of the literal neighborhood hx0; k + 2, x1, ri and exactly one copy of the literal
+neighborhood hx0; k + 2, x1, ri. We extend the branches containing xi
+for i = 1, . . . , m+1.
+By construction, if the literal corresponding to the xi appears in clause ci
+, we will be
+forced to branch off by gi and then hi
+.
+At this stage in the construction of the tree, there are two branches for every literal,
+given by the truth valuation which satisfies Φ. Since each clause is satisfied by the truth
+the electronic journal of combinatorics 16 (2009), #R00 7valuation, there is at least one literal in each clause satisfied by it. Thus, there are between
+4 and 6 branches in the tree extending to gi and then hi
+for each 1 ≤ i ≤ m. So since Φ
+was satisfiable, we should have at least 4 neighborhoods of the form hhi
+; gi
+, r, ∗i for each
+1 ≤ i ≤ m. To ensure finite realizability, we are forced to use each of the satisfaction
+neighborhoods hhi
+; gi
+, aj
+, ri in the tree. We then complete the infinite tree by extending
+all the branches by rotator neighborhoods indefinitely.Thus we have shown that if Φ is
+satisfiable, the set S is realizable.
+Now, we assume that S is realizable and show that Φ is satisfiable. We first make
+some comments on what a realization of S must look like.
+Without adding any extra structure, we may add an orientation to the edges of the
+neighborhoods of S as follows:
+h0; 1, 1, 1i has out-degree 3 and all other neighborhoods of S have in-degree 1 along
+the first arm and out-degree 2 along the other two arms. Thus any graph built from
+neighborhoods of S can only have paths leading away from h0; 1, 1, 1i. This gives us that
+h0; 1, 1, 1i can only appear once in any realization of S since otherwise the path connecting
+the two copies of h0; 1, 1, 1i must lead toward one of them which cannot happen.
+Assume G is a realization of S. We know G must have exactly one copy of h0; 1, 1, 1i.
+There is only one way to extend each of the branches to complete the first k + 2 levels of
+the tree.
+Thus G must have the “canonical core” as illustrated in Figure 2.
+Figure 2: The “canonical core” where the dashed lines denote the possibility of several
+more levels or possibly none before reaching the k + 2nd level.
+the electronic journal of combinatorics 16 (2009), #R00 8At the k + 3rd level there will be exactly enough free arms to exhibit both of the
+following neighborhoods from S for each literal x:
+hk + 2; k + 1, x0, x0i, and hk + 2; k + 1, x0, ri.
+Since the color k + 2 may only appear in one level of the tree, G must realize each of
+these neighborhoods exactly once on this level.
+Thus we have three free arms extending x0 for each literal x.
+There are only two neighborhoods in S which can extend x0 :
+hx0; k + 2, x1, ri and hx0; k + 2, x1, ri.
+The color x0 may only appear in one level so the colors x1 and x1 may only appear in
+the k + 4th level. Thus for each variable x, one of these neighborhoods must appear once
+and the other must appear twice in order to realize S.
+From here we canonically extend xi to xi+1 and xi to xi+1 until i = m. If the literal
+corresponding to the branch appears in clause ci
+, we must extend the free arm by gi and
+otherwise we must always extend the free arm by r. The color gi must always be extended
+by hgi
+; xi
+, hi
+, ri.
+At this stage in the graph, all of the neighborhoods hhi
+; gi
+, r, ∗i can be extended by
+any of the aj
+for 1 ≤ j ≤ 4. However, in order for S to be realized, G must have at least 4
+copies of hhi
+; gi
+, r, ∗i for every 1 ≤ i ≤ m. Each clause ci has exactly 3 literals and so there
+is one branch connecting to gi and hi
+for every literal appearing in ci which is not satisfied
+by the interpreted truth valuation on the k + 4th level, and two branches connecting to gi
+and hi
+for every literal appearing in ci which is satisfied by the interpreted truth valuation
+on the k + 4th level. So, if the truth valuation satisfies at least one literal in clause ci
+,
+we will have at least 4 of the branches connecting to gi and hi with which to extend to
+each of the 4 colors aj
+. If our truth valuation satisfies none of the literals in some clause
+ci
+, then the branches containing gi and hi will appear at most 3 times and we will not be
+able to realize one of the neighborhoods of the form hgi
+; hi
+, aj
+, ri. Note that we are also
+using the fact here that no literal appears with the same parity more than once in each
+clause since such a repetitive clause would only give us 3 or fewer such opportunities to
+extend to aj
+.
+Thus, we see that if G is an infinite tree realizing S then the truth valuation given by
+level k + 4 as described earlier must be one which satisfies Φ.
+Therefore, we have that Φ is satisfied if and only if S is realized thus completing our
+reduction.
+It is not difficult to extend this result for tree neighborhoods with larger radius, higher
+degree, or mixed degree.
+3 Realizability via Finite Graphs
+In this section, we examine the computational complexity of determining the existence
+of graphs (as opposed to trees without cycles) which witness the realization, consistency,
+the electronic journal of combinatorics 16 (2009), #R00 9or sufficiency of a set of tree neighborhoods. We showed in the previous section that the
+problem of determining the existence of an infinite tree from a set of tree neighborhoods
+of degree ≥ 3 is NP-complete. Every finite graph has, corresponding to it, an infinite tree
+formed by the infinite paths through the finite graph starting at a fixed root. Furthermore,
+unlike trees, the neighborhoods in graphs have higher dependencies on one another. Thus,
+we might expect the complexity of realizing a set of tree neighborhoods by a finite graph
+to be at least as “hard” as the problem of realizing a set of tree neighborhoods by an
+infinite tree. Surprisingly, we show in this chapter that this problem can be determined
+in polynomial time!
+It is important to note that in order to preserve the “tree-like” qualities of our neighborhoods,
+we must put certain restrictions on the size of the cycles in the graph. If every
+ρ-neighborhood of a graph G belongs to S, then G may not have any cycles of length less
+than 2ρ+2.
+Let S be a set of tree neighborhoods of degree d and radius 1 with vertices colored by a
+set C of colors. We begin with determining the computational complexity of determining
+the satisfaction of S via a finite graph and then prove results about the complexity of
+consistency and realization as corollaries.
+3.1 Theorem. The satisfaction of S by a connected finite graph is decidable in polynomial
+time with respect to n (the number of neighborhoods in S) and the number of colors from
+our set.
+One of the difficulties in satisfying a set of neighborhoods by a finite graph is finding
+the exact number of copies of each neighborhood from S needed in order to “glue up”
+every edge while still guaranteeing that the neighborhood set of the graph is contained
+in S. We will construct a matrix A corresponding to S such that any nonnegative (nontrivial)
+integer solution to AX = 0 tells us how many copies of each neighborhood is
+needed to build a finite graph satisfying S. If no such nonnegative integer solution X
+exists, we conclude that S cannot be satisfied by a finite graph.
+We begin by enumerating the colors and ordering them according to the enumeration.
+A twig t in a neighborhood N is an ordered triple (N, c, c0
+) where c is the color of the
+center vertex of N and c
+0
+is the color of a leaf in N.
+The matrix A is constructed as follows: The rows will correspond to unordered pairs
+of colors from our set. The columns will correspond to neighborhoods in S. For c ≤ c
+0
+according to our ordering of the colors, the a{c,c0},N entry of the matrix will be given by:
+a{c,c0},N =
+X
+twigs (N,c,c0)
+1 −
+X
+twigs (N,c0
+,c)
+1.
+Notice that if c = c
+0
+then a{c,c0},N = 0. Thus, we may eliminate the rows in A
+corresponding to pairs of identical colors. We will show that such symmetric twigs will
+never prevent us from building a finite graph realizing S if such a graph exists.
+We want to find a nonnegative non-trivial integer solution X to the equation AX = 0.
+Since AX = 0 is a system of homogeneous linear equations, we will either have only the
+the electronic journal of combinatorics 16 (2009), #R00 10trivial solution or infinitely many solutions. Thus, when referring to a particular solution,
+we will always specify the vector X unless it is obvious from the context. Note that any
+nonnegative non-trivial integer valued vector X prescribes a multiset of neighborhoods
+from S. Let SX be the multi-set of the neighborhoods in this collection, TX be the multiset
+of all twigs (both symmetric and non-symmetric) in SX, and let NX be the multi-set
+of the non-symmetric twigs in TX.
+We define the relation M on a set of twigs such that (N, c, c0
+)M(N0
+, d, d0
+) if and only
+if the colors c = d
+0 and c
+0 = d. In other words, M decides whether two neighborhoods
+may “glue up” along an edge with endpoint colors given by the twigs. Notice that M is
+a symmetric relation.
+Let X be a non-trivial vector with only nonnegative integer entries. Then we may
+construct the graph MX as follows: Let the set of vertices be V (MX) = {t ∈ NX} and
+the set of edges be E(MX) = {(t, t0
+) : tM t0}.
+Notice that MX is restricted to the non-symmetric twigs only and depends on which
+vector X we choose.
+Recall that a perfect matching in a graph G is a set of edges from G such that every
+vertex of G is incident to exactly one edge. There has been much work done on the study
+of matchings. A result of particular interest to us is:
+3.2 Theorem (Hall [5]). Given a bipartite graph G = (V1, V2, E), with the sets V1 and
+V2 of the same cardinality, there is a perfect matching in G if and only if for every subset
+U ⊆ V1, the size of U is less than or equal to the size of the set of all vertices adjacent to
+at least one element of U.
+We will use Hall’s Theorem to prove the existence of a perfect matching in MX if and
+only if AX = 0. Then we will use the perfect matching in MX to construct a finite graph
+which will allow us to determine the satisfaction of S.
+3.3 Lemma. Let S be a set of n tree neighborhoods. Let X be a non-trivial 1 × n
+vector with nonnegative integer entries. There is a perfect matching in MX if and only
+if AX = 0.
+Proof. Fix an arbitrary non-trivial 1×n vector X with nonnegative integer-valued entries.
+We begin by showing that if AX = 0, then MX is a bipartite graph. For colors c < c0
+according to the enumeration on C, let V1 be the set of all non-symmetric twigs of the
+form (Ni
+, c, c0
+) and let V2 be the set of all non-symmetric twigs of the form (Nj
+, c0
+, c).
+the electronic journal of combinatorics 16 (2009), #R00 11By the way that we set up the matrix A, the entry corresponding to [AX]{c,c0} is
+=
+X
+N∈S
+xN a{c,c0},N
+=
+X
+N∈S
+XxN
+1
+a{c,c0},N
+=
+X
+t∈NX
+a{c,c0},N
+=
+X
+t∈NX
+(
+X
+t=(N,c,c0)
+1 −
+X
+t=(N,c,c0)
+1).
+So [AX]{c,c0} = 0 if and only if the number of twigs of the form (Ni
+, c, c0
+) in NX, is equal
+to the number of twigs of the form (Nj
+, c0
+, c) in NX for c 6= c
+0
+. Thus, AX = 0 if and only
+if V1 and V2 have the same cardinality. If (Ni
+, c, c0
+) ∈ V1, then for all twigs t such that
+(Ni
+, c, c0
+)M t, t must have the form (Nj
+, c0
+, c) and thus, it must be a member of V2. This
+implies that no edge has both its endpoints in the same set. Thus, MX is bipartite.
+Since AX = 0 implies that the number of twigs of the form (Ni
+, c, c0
+) in NX is equal
+to the number of twigs (Nj
+, c0
+, c) in NX for each pair of distinct colors c, c0
+, we know that
+every vertex has degree at least the number of times its twig appears in NX. By Hall’s
+Theorem, we know that there is a perfect matching in (V1, V2, E(MX)) if and only if for
+every subset U ⊆ V1, the number of vertices in U is less than or equal to the number of
+vertices adjacent to a vertex from U. Since every vertex in V1 is adjacent to at least as
+many vertices as its multiplicity in NX, we know that for any subset U, every vertex in
+U must be adjacent to at least as many vertices as its twig type appears in U. Therefore,
+Hall’s condition is satisfied. Thus, if AX = 0, then MX has a perfect matching.
+For the other direction, we see that if MX has a perfect matching, then for every twig
+(Ni
+, c, c0
+) in NX, there is a twig (Nj
+, c0
+, c) in NX. We showed that this is the case if and
+only if there is a vector X with nonnegative integer values such that AX = 0.
+Next we will show that there is a perfect matching for MX if and only if there is a
+finite graph satisfying S. We begin with some preliminary lemmas.
+Given any finite graph G, we may construct a finite graph G0
+such that
+• G0 has no cycles of length less than or equal to 2ρ+1,
+• there is a vertex v adjacent to vertices colored by x1, . . . , xd in G if and only if there
+is a vertex colored by v and adjacent to vertices colored by x1, . . . , xd in G0
+, and
+• G0
+is connected if and only if G is.
+We construct G0 as follows. Let m be the number of cycles of length less than or equal
+to 2ρ+1 in G. Choose p to be the least prime number greater than m.
+Enumerate the vertices of G. This gives an orientation to the edges of G; u → v if u < v
+in the enumeration. For each directed edge, we assign a shift value; σ : E(G) → Z/p such
+the electronic journal of combinatorics 16 (2009), #R00 12that for all cycles of length ≤ 2ρ+1, given by e1, . . . , ek, we have Σk
+i=1σ(ei) 6= 0(mod p).
+The following lemma shows that such a function σ exists.
+3.4 Lemma. There is a function σ; E(G) → Z/p such that for all cycles of length k ≤
+2ρ+1, given by e1, . . . , ek, it is the case that Σ
+k
+i=1σ(ei) 6= 0(mod p).
+Proof. We construct the map σ one element of the domain at a time. With each assignment,
+we ensure that every cycle of length ≤ 2ρ+1 containing that edge does not sum to
+0(mod p). Suppose there is an edge e such that there is no way to assign a value σ(e)
+without a cycle of length ≤ 2ρ+1 containing the edge e adding to 0(mod p). This means
+that there are cycles of length ≤ 2ρ+1 containing e which add up to 0, 1, 2, . . . , and p−1
+(mod p) before we add in the value for σ(e). We chose p such that there are fewer than
+p cycles of length ≤ 2ρ+1. This gives us a contradiction. Thus, there is always a way
+to assign a shift value σ to each edge in G such that every cycle of length ≤ 2ρ+1 in G,
+given by e1, . . . , ek, has the property that Σk
+i=1σ(ei) 6= 0(mod p).
+Let the vertices of G0 be the collection of all pairs (v, `) where v is a vertex from G
+and ` ∈ {0, 1, 2, . . . , p−1}. There will be an edge in G0
+from (u, `) to (v, ` + σ(mod p))
+if (u, v) is an edge in G, u < v according to the enumeration on the vertices of G,
+` ∈ {0, 1, 2, . . . , p−1}, and the shift assigned to the edge (u, v) in G is σ. In other words,
+G0 has p copies of the vertex set of G and edges G0 are given by the shift function σ.
+It is easy to check that G0 has no cycles of length ≤ 2ρ+1. Furthermore, the graph G0
+was constructed so that the adjacencies from G are preserved.
+Now we show that G0
+is connected.
+3.5 Lemma. If the graph G is connected and has at least one cycle of length ≤ 2ρ − 1,
+then the graph G0
+is connected.
+Proof. Since the sum of the values of the edges in any cycle of length ≤ 2ρ−1 must add to
+some nonzero number λ modulo p, a copy of the small cycle in G0 will end λ many levels
+from where it began. Since p is a prime number, it has no proper divisors so the lifting of
+the small cycle will pass through every level set. Thus, assume that G is connected and
+has a small cycle. Choose arbitrary vertices (u, k) and (v, `) in G0
+. We will show that
+there is a path in G0
+from (u, k) to (v, `).
+When we project these vertices onto G, there is a path connecting u to v since G is
+connected. This path is possibly trivial. Let the sum of the shifts of this path be λ(mod p).
+This means that if we can find a path from (u, k) to (u, `−λ), then by following the lifting
+of the path in G, there is a path from (u, ` − λ) to (v, `).
+Now, assuming that k 6= ` − λ, we must find a path from (u, k) to (u, ` − λ) in G0
+.
+Let w be a vertex in the small cycle in G. Since G is connected, there is a path from u
+to w in G. Let the sum of the shifts of this path be κ(mod p). This means that there is
+a path from (u, k) to (w, k + κ) in G0
+. Since (w, k + κ) is in the lifting of the small cycle,
+we know that there is a path from (w, k + κ) to (w, ` − λ − κ) in G0
+. Thus, the path in
+G0
+from (u, k) to (w, k + κ) to (w, ` − λ − κ) to (u, ` − λ) to (v, `) is the desired path in
+G0
+. Therefore, G0
+is connected.
+the electronic journal of combinatorics 16 (2009), #R00 13Notice that this proof required that G had at least one cycle of length ≤ 2ρ − 1 in
+order to guarantee that G0
+is connected. This does not cause any problems since if G does
+not have a cycle of length ≤ 2ρ − 1 then we have no need to construct the graph G0
+.
+We define the type of a symmetric twig to be the color of its endpoints.
+Note that if there is a solution to AX = 0 then there is a solution in which each type
+of symmetric twig appears an even number of times in TX. If X has the property that TX
+does not have an even number of each type of symmetric twig, then we consider the vector
+2X. If AX = 0, then A(2X) = 0 and clearly, every type of symmetric twig appears an
+even number of times in T2X. Since we showed in Lemma 3.3 that there is a nonnegative
+integer solution to AX = 0 if and only if there is a perfect matching in MX (which only
+relies on the non-symmetric twigs), we know that there is a perfect matching in MX if
+and only if there is a perfect matching in M2X.
+3.6 Theorem. For any non-trivial 1 × n vector X with all nonnegative integer values,
+there is a perfect matching in MX if and only if there is a finite graph which satisfies S.
+Proof. As in the discussion above, we know that if there is a non-trivial vector with
+nonnegative integer entries such that there is a perfect matching in the graph of the
+non-symmetric twigs, then there is a vector X such that every type of symmetric twig
+appears an even number of times in TX and there is a perfect matching in MX. Thus, we
+may assume that X is a vector with these properties. Since TX has an even number of
+each type of symmetric twig, we may match each symmetric twig with exactly one other
+symmetric twig of its type.
+We construct the finite graph G as follows. Begin by enumerating the neighborhoods
+in SX. The vertices of G will be the set of all vi such that v is the color of the center
+vertex of the ith neighborhood in the enumeration of SX. There is an edge from ui to vj
+if one of the two cases hold:
+• The twig (Ni
+, u, v) is adjacent to the twig (Nj
+, v, u) in the perfect matching on MX,
+or
+• The twigs (Ni
+, u, v) and (Nj
+, v, u) are symmetric twigs of the same type which we
+paired together.
+The graph G is finite since the number of vertices in G is the same as the sum of the
+entries in X.
+Suppose that there is a vertex in G colored by v and adjacent to vertices colored by
+x1, . . . , xd. Then v must be the center vertex of some neighborhood in SX (and thus, from
+S).
+Thus we have the existence of a finite graph G0 which satisfies S. Note that G and
+therefore G0 may or may not be connected but that connectedness is irrelevant for satisfaction.
+Now suppose that there is a graph G which satisfies S. Let SX be the multi-set of
+neighborhoods in G and let X prescribe the number of each type of neighborhood in
+G. Enumerate the vertices of G. If ui
+is adjacent to vj
+in G, then we must have that
+(Ni
+, u, v)M(Nj
+, v, u). Thus, G prescribes a perfect matching on MX.
+the electronic journal of combinatorics 16 (2009), #R00 14Thus, we have shown:
+3.7 Theorem. If X is a nontrivial vector with nonnegative integer values such that the
+set TX has an even number of each type of symmetric twigs, the following are equivalent:
+1. X satisfies AX = 0,
+2. There is a perfect matching on the set TX,
+3. There is a finite connected graph whose neighborhood set is contained in S.
+So there is a finite graph satisfying S if and only if there is a non-trivial, nonnegative
+integer solution X to the equation AX = 0. An algorithm known as the Ellipsoid Method
+can be used to solve linear programming problems in polynomial time [6]. The solution
+set to a linear programming problem can be restricted to nonnegative integer solutions.
+Thus, the Ellipsoid Method allows us to check in polynomial time for the existence of a
+non-trivial, nonnegative integer valued vector satisfying AX = 0.
+Thus, we have shown that the sufficiency of S can be determined in polynomial time.
+Now we will look at the complexities of the same problem for realizability and consistency.
+We have shown that there is a polynomial time algorithm for determining the suffi-
+ciency of S by a finite graph. The proof showed that S is sufficient if and only if there
+is a nonnegative (non-trivial) vector X such that AX = 0. The vector X prescribes the
+number of each type of neighborhood required to guarantee a perfect matching of all the
+twigs in TX. Thus, if we require that X has all positive integer entries, then there would
+be a perfect matching in which every neighborhood was represented at least once. The
+linear programming techniques used to determine the existence of such a vector X still
+run in polynomial time even if we require X to have only positive integer entries. We will
+use this idea to prove that realizability and consistency can be determined in polynomial
+time.
+3.8 Theorem. The consistency of S by a finite graph can be determined in polynomial
+time with respect to n (the number of neighborhoods in S) and the number of colors in C.
+Proof. We construct the matrix A just as before so that the a{c,c0},N entry will be given
+by:
+a{c,c0},N =
+X
+twigs (N,c,c0)
+1 −
+X
+twigs (N,c0
+,c)
+1.
+Theorem 3.6 showed that there is a nontrivial nonnegative valued vector X satisfying
+AX = 0 if and only if there is a finite (possibly not connected) graph G witnessing
+every neighborhood prescribed by SX. We require X to have only positive integer entries.
+In this case, G must witness every neighborhood from S at least once. Thus, for any
+neighborhood N in S, the connected component containing N is a finite connected graph
+witnessing N and only exhibiting neighborhoods from S. Conversely, if G is a graph
+which witnesses the neighborhood N and exhibits only neighborhoods from S, then there
+is a non-trivial nonnegative integer valued vector X satisfying AX = 0. If we sum
+the electronic journal of combinatorics 16 (2009), #R00 15the vectors corresponding to every neighborhood N in S, the resulting vector Y must
+satisfy AY = 0 and must have all positive integer entries. Thus, there is a vector X with
+positive integer entries satisfying AX = 0 if and only if S is consistent. As before, we may
+determine, in polynomial time, the existence of such a vector X using linear programming
+techniques.
+The algorithm for determining the realizability of S will work in much the same way.
+Unfortunately, there is one problem with realizability: we require that the witnessing
+graph be connected (unlike sufficiency and consistency where we are only interested in
+realizing a connected component of the graph). The finite graph constructed from the
+perfect matching may or may not yield a connected graph. We can however, determine in
+polynomial time whether there is a connected graph. We will show this by determining
+in, polynomial time, the existence of a partial matching on MX and we will show that
+this partial matching can always be extended to a perfect matching on MX.
+3.9 Lemma. Let X be a vector with positive integer entries. Every partial matching in
+MX can be extended to a perfect matching in MX if X satisfies AX = 0.
+Proof. Suppose (V1, V2, E) is the bipartite graph description of MX from the proof of
+Lemma 3.3. Let W1 ⊂ V1 and W2 ⊂ V2 be subsets of vertices from MX such that there
+is a perfect matching on (W1, W2, E); in other words, let (W1, W2, E0
+) describe a partial
+matching on MX. We will show that we may extend this partial matching to a perfect
+matching on MX by creating a perfect matching on (V1 − W1, V2 − W2, E).
+Let U be a subset of V1 − W1. Hall’s condition requires that the size of the set of
+vertices adjacent to any vertex in U is greater than or equal to the size of U. Notice that
+since there is a perfect matching on (W1, W2, E0
+), we have that the size of W1 is equal
+to the size of W2. Thus, the number of vertices in V1 − W1 is the same as the number
+of vertices in V2 − W2. Furthermore, if there are m vertices in V1 − W1 corresponding
+to twigs with endpoint colors c, c0
+, then there are m vertices in V2 − W2 corresponding
+to twigs with endpoints c
+0
+, c. Thus, by Hall’s Theorem, there is a perfect matching on
+(V1−W1, V2−W2, E). Thus, we have extended the partial matching to a perfect matching
+on MX.
+3.10 Theorem. The realization of S by a finite connected graph is decidable in polynomial
+time with respect to n (the number of neighborhoods in S) and the number of colors in C.
+Proof. As before, we construct the matrix A corresponding to S. Theorem 3.8 showed
+that there is a finite (possibly non-connected) graph G such that the set of neighborhoods
+in G is exactly S if and only if there is a vector X with positive integer valued entries
+satisfying AX = 0. Furthermore, we know that determining the existence of such a vector
+X can be done in polynomial time.
+We showed in section 2 that the de Bruijn graph B can be constructed in polynomial
+time with respect to n and the size of C. We can thus check in polynomial time whether
+the de Bruijn graph is connected. If the de Bruijn graph is not connected then there can
+be no connected graph realizing S since every path in B corresponds to a path in a graph
+the electronic journal of combinatorics 16 (2009), #R00 16and vice versa. Thus, we assume that B is connected. Since it is connected we can find a
+spanning tree in B. Let the multi-set SY be the collection of all neighborhoods prescribed
+by this spanning tree. From SY we can build a connected piece of a finite graph which
+realizes S. Suppose that X is a positive integer valued vector satisfying AX = 0. Let Z
+be a nonnegative valued vector such that Y + Z is equal to some scalar multiple of X,
+say mX. We may assume that TY +Z has an even number of each type of symmetric twig
+since we may choose Z however we wish. Thus we have that A(Y + Z) = 0, and that
+there is a perfect matching on MY +Z as well as on all the symmetric twigs.
+Let the spanning tree of B prescribe the partial matching on MY +Z; thus it gives a
+perfect matching on MY . We showed in Lemma 3.9 that this partial matching may be
+extended to a perfect matching on MY +Z. We then use this perfect matching to build
+a finite graph whose set of neighborhoods is exactly S. This graph still may not be connected
+but we know that there is at least one component (the component containing every
+neighborhood from Y ) which realizes S. Thus, we may eliminate all other components
+and we have a connected graph G which realizes S. Let W be the vector describing the
+multi-set of neighborhoods in the finite connected graph G. Note that G prescribes a
+perfect matching on MW . Thus, by Lemma 3.3 we have that W satisfies AW = 0. The
+vector W must have positive integer entries since every neighborhood appears at least
+once in the graph constructed from W.
+Thus we have shown that the de Bruijn graph corresponding to S is connected and
+there is a positive integer valued vector W such that AW = 0 if and only if there is a
+finite connected graph G which realizes S. The connectedness of the de Bruijn graph and
+the existence of a vector W can be verified in polynomial time. Thus, we have that the
+realizability of S can be verified in polynomial time.
+4 Conclusion
+Given a set S of arbitrary neighborhoods (not necessarily tree neighborhoods), the problem
+of determining whether or not there is a graph realizing S is recursively undecidable.
+We showed that by restricting the set S to tree neighborhoods, we can improve the computational
+bounds. Furthermore, if we require the graph to be an infinite tree then the
+problem of determining the realizability of S via such a graph is NP-complete. If however
+we wish to determine the realizability of S via a finite graph, the problem is in P.
+In the first author’s exploration of the recursively undecidable general case, all the
+neighborhoods had many cycles and were quite dense. We continue to explore how the
+condition of allowing cycles in our neighborhoods affects the computational complexity of
+realizing or satisfying a set of neighborhoods. Some progress has been made in this realm
+but there is still more to be done.

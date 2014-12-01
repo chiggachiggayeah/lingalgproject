@@ -1,0 +1,1545 @@
+Peter_winkler
+Math
+Maximum_Overhang
+(extended abstract)∗
+Mike Paterson † Yuval Peres ‡ Mikkel Thorup § Peter Winkler ¶ Uri Zwick k
+Abstract
+How far can a stack of n identical blocks be made to hang
+over the edge of a table? The question dates back to at
+least the middle of the 19th century and the answer to
+it was widely believed to be of order log n. However,
+at SODA’06, Paterson and Zwick constructed n-block
+stacks with overhangs of order n
+1/3
+. Here we complete the
+solution to the overhang problem, and answer Paterson
+and Zwick’s primary open question, by showing that order
+n
+1/3
+is best possible. At the heart of the argument is a
+lemma (possibly of independent interest) showing that
+order d
+3 non-adaptive coinflips are needed to propel a
+discrete random walk on the number line to distance d.
+We note that our result is not a mainstream algorithmic
+result, yet it is about the solution to a discrete optimization
+problem. Moreover, it illustrates how methods
+founded in theoretical computer science can be applied
+to a problem that has puzzled some mathematicians and
+physicists for more than 150 years.
+1 Introduction
+The problem of stacking n blocks on a table so as to
+achieve maximum overhang has a long history. It appears
+in physics and engineering textbooks from as early as the
+mid 19th century (see, e.g., [P1850], [W1855], [M1907]).
+The problem was apparently first brought to the attention
+of the mathematical community in 1923 when J.G. Coffin
+posed it in the “Problems and Solutions” section of the
+American Mathematical Monthly [C1923]; no solution
+was presented there.
+The problem recurred from time to time over subsequent
+years, e.g., [S1953, S1954, S1955, J1955, GS1958, E1959,
+G1964, G1971, A1979, D1981, GKP1988, H2005], achiev-
+∗A full version of this paper is available as [PPTWZ2007].
+†DIMAP and Department of Computer Science, University of
+Warwick, Coventry CV4 7AL, UK. E-mail: msp@dcs.warwick.ac.uk
+‡Department of Statistics, University of California, Berkeley,
+California 94710, USA. E-mail: peres@stat.berkeley.edu
+§AT&T Labs - Research, 180 Park Avenue, Florham Park, NJ
+07932, USA. E-mail: mthorup@research.att.com
+¶Department of Mathematics, Dartmouth College, Hanover, NH
+03755-3551, USA. E-mail: peter.winkler@dartmouth.edu
+kSchool of Computer Science, Tel Aviv University, Tel Aviv
+69978, Israel. E-mail: zwick@cs.tau.ac.il
+Figure 1: Optimal stacks with 3 and 4 blocks, compared
+to the corresponding harmonic stacks. The 4-block
+solution is from [A1979]. Like the harmonic stacks it can
+be made stable by minute displacements.
+ing much added notoriety from its appearance in 1964
+in Martin Gardner’s “Mathematical Games” column of
+Scientific American [G1964, G1971].
+Most of the references mentioned above describe the nowclassical
+harmonic stacks in which n unit-length blocks
+are placed one on top of the other, with the i
+th block from
+the top extending by 1
+2i
+beyond the block below it. The
+overhang achieved by such stacks is 1
+2Hn =
+1
+2
+Pn
+i=1
+1
+i ∼
+1
+2
+ln n. The cases n = 3 and n = 4 are illustrated at the
+top of Figure 1 above, and the cases n = 20 and n = 30
+are shown in the background of Figure 2.
+blocks = 20
+overhang = 2.32014
+blocks = 30
+overhang = 2.70909
+Figure 2: Optimal stacks with 20 and 30 blocks
+from [PZ2006] with corresponding harmonic stacks in the
+background.Verifying that harmonic stacks are balanced and can be
+made stable (see definitions in the next section) by minute
+displacement is an easy exercise. (This is in fact the
+form in which the problem appears in [P1850], [W1855],
+[M1907].) Harmonic stacks show that arbitrarily large
+overhangs can be achieved if sufficiently many blocks
+are available. They have been used by countless teachers
+as an introduction to recurrence relations, the harmonic
+series and simple optimization problems (see, e.g.,
+[GKP1988]).
+1.1 How far can you go? Many readers of the above
+mentioned references were led to believe that 1
+2Hn (∼
+1
+2
+ln n), the overhang achieved by harmonic stacks, is the
+maximum overhang that can be achieved using n blocks.
+This is indeed the case under the restriction, explicit
+or implicit in some of these references, that the blocks
+should be stacked in a one-on-one fashion, with each
+block resting on at most one other block. It has been
+known for some time, however, that larger overhangs
+may be obtained if the one-on-one restriction is lifted.
+Three blocks, for example, can easily be used to obtain
+an overhang of 1. Ainley [A1979] found that four blocks
+can be used to obtained an overhang of about 1.16789, as
+shown at the bottom right of Figure 1, and this is more
+than 10% larger than the overhang of the corresponding
+harmonic stack.
+Now what happens when n grows large? Can general
+stacks, not subject to the one-on-one restriction, improve
+upon the overhang achieved by the harmonic stacks by
+more than a constant factor, or is overhang of order
+log n the best that can be achieved? In a recent cover
+article in the American Journal of Physics, Hall [H2005]
+observes that the addition of counterbalancing blocks
+to one-on-one stacks can double (asymptotically) the
+overhang obtainable by harmonic stacks. However, he
+then incorrectly concludes that no further improvement is
+possible, thus perpetuating the order log n “mythology”.
+Recently, however, Paterson and Zwick [PZ2006] discovered
+that the modest improvements gained for small values
+of n by using layers with multiple blocks mushroom
+into an exponential improvement for large values of n,
+yielding overhang of order n
+1/3
+instead of just log n.
+The principal construction from [PZ2006] has a parabolic
+shape as illustrated in Figure 3. It is a stack of “slabs”
+where each slab is one wider and two higher than the
+previous slab, and gives an overhang of (3n/16)1/3 '
+0.57n
+1/3
+. With the removal of one block and a small
+adjustment in the top row, the stack can be made stable,
+yet achieve an overhang of Ω(n
+1/3
+).
+1.2 Can we go further? But is n
+1/3
+the right answer,
+or is it just the start of another mythology? In their
+deservedly popular book Mad About Physics [JP2001],
+Jargodzki and Potter rashly claim that inverted triangles
+Figure 3: The Ω(n
+1/3
+) overhang from [PZ2006] with
+n = 111.
+(such as the one shown at top left in Figure 4) are
+balanced. If so, they would achieve overhangs of order
+n
+1/2
+. It turns out, however, that already the 3-row
+inverted triangle is unbalanced, and collapses as shown on
+the right of Figure 4, as do all larger inverted triangles.
+Figure 4: A 3-row inverted triangle is unbalanced, and so
+is a 5-diamond.
+The collapse of the 3-row triangle begins with the lifting
+of the middle block in the top row. It is tempting to try
+to avoid this failure by using a diamond shape instead
+as illustrated in Figure 4. Diamonds were considered
+by Drummond [D1981], and like the inverted triangle,
+they would achieve an overhang of order n
+1/2
+though
+with a smaller leading constant. The stability analysis
+of diamonds is slightly more complicated than that of
+inverted triangles, but it can be shown that d-diamonds,
+i.e., diamonds that have d blocks in their largest row,
+are stable if and only if d < 5. In Figure 4 we see a
+demonstration with d = 5.
+It is not hard to show that particular constructions like
+larger inverted triangles or diamonds are unstable. This
+concrete instability of inverted triangles and diamonds
+was already noted in [PZ2006]. However, this does not
+rule out the possibility of a smarter balanced way of
+stacking n blocks so as to achieve an overhang of order
+n
+1/2
+, and that would be much better than the overhang
+of order n
+1/3 achieved by Paterson and Zwick [PZ2006].
+Paterson and Zwick did consider this general question,
+but they proved only that no larger overhang than order
+n
+1/2
+is possible. Thus their work shows that the order of
+the maximum overhang with n blocks lies between n
+1/3
+and n
+1/2
+.1.3 Our result. We show here that an overhang of
+order n
+1/3 as obtained by [PZ2006] is, in fact, best
+possible. More specifically, we show that any n-block
+stack with an overhang of at least 6n
+1/3
+is unbalanced,
+and must hence collapse. So the maximum overhang with
+n blocks is of order n
+1/3
+.
+1.4 Contents. The rest of this extended abstract is
+organized as follows. In the next section we present a
+precise mathematical definition of the overhang problem,
+explaining in particular when a stack of blocks is said to
+be balanced (and when it is said to be stable). In Section 3
+we introduce a class of abstract mass movement problems
+and explain the connection between these problems and
+the overhang problem. In Section 4 we obtain bounds
+for mass movement problems that imply the order n
+1/3
+upper bound on overhang. We end in Section 5 with some
+concluding remarks and open problems.
+2 The Model
+We briefly state the mathematical definition of the overhang
+problem. For more details, see [PZ2006]. As in previous
+papers, e.g., [H2005], the overhang problem is taken
+here to be a two-dimensional problem: each block is represented
+by a frictionless rectangle whose long sides are
+parallel to the table. Our upper bounds apply, however,
+in more general settings, as will be discussed in Section 5.
+2.1 Stacks. Stacks are composed of blocks that are assumed
+to be identical, homogeneous, frictionless rectangles
+of unit length, unit weight and height h. Our results
+here are clearly independent of h, and our figures use
+any convenient height. Previous authors have thought of
+blocks as cubes, books, coins, playing cards, etc.
+A stack {B1, . . . , Bn} of n blocks resting on a flat table is
+specified by giving the coordinates (xi
+, yi) of the lower left
+corner of each block Bi
+. We assume that the upper right
+corner of the table is at (0, 0) and that the table extends
+arbitrarily far to the left. Thus block Bi
+is identified with
+the box [xi
+, xi + 1] × [yi
+, yi + h] (its length aligned with
+the x-axis), and the table, which we conveniently denote
+by B0, with the region (−∞, 0] × (−∞, 0]. Two blocks
+are allowed to touch each other, but their interiors must
+be disjoint.
+We say that block Bi rests on block Bj , denoted “Bi/Bj”,
+if and only if Bi ∩ Bj 6= ∅ and yi = yj + h. If
+Bi ∩ B0 6= ∅, then Bi/B0, i.e., block Bi rests on the
+table. If Bi/Bj , we let Iij = Bi ∩ Bj = [aij , bij ] × {yi} be
+their contact interval. If j ≥ 1, then aij = max{xi
+, xj}
+and bij = min{xi+1, xj +1}. If j = 0 then ai0 = xi and
+bi0 = min{xi+1, 0}.
+The overhang of a stack is defined to be maxn
+i=1(xi+1).
+Figure 5: Balancing collections of forces within a stack.
+2.2 Forces, equilibrium and balance. Let
+{B1, . . . , Bn} be a stack composed of n blocks. If Bi rests
+on Bj , then Bj may apply an upward force of fij ≥ 0
+on Bi
+, in which case Bi will reciprocate by applying a
+downward force of the same magnitude on Bj . Since the
+blocks and table are frictionless, all the forces acting on
+them are vertical. The force fij may be assumed to be
+applied at a single point (xij , yij ) in the contact interval
+Iij . A downward gravitational force of unit magnitude is
+applied on Bi at its center of gravity (xi +
+1
+2
+, yi +
+h
+2
+).
+Definition 1. (Equilibrium) Let B be a homogeneous
+block of unit length and unit weight, and
+let a be the x-coordinate of its left edge. Let
+(x1, f1),(x2, f2), . . . ,(xk, fk) be the positions and the
+magnitudes of the upward forces applied to B along its bottom
+edge, and let (x
+0
+1
+, f0
+1
+),(x
+0
+2
+, f0
+2
+), . . . ,(x
+0
+k0 , f0
+k0 ) be the positions
+and magnitudes of the upward forces applied by B,
+along its top edge, on other blocks of the stack. Then, B is
+said to be in equilibrium under these collections of forces
+if and only if
+X
+k
+i=1
+fi = 1 +
+k
+X0
+i=1
+f
+0
+i
+,
+X
+k
+i=1
+xifi = (a +
+1
+2
+) +
+k
+X0
+i=1
+x
+0
+i
+f
+0
+i
+.
+The first equation says that the net force applied to B is
+zero while the second says that the net moment is zero.
+Definition 2. (Balance) A stack {B1, . . . , Bn} is said
+to be balanced if there exists a collection of forces acting
+between the blocks along their contact intervals, such that
+under this collection of forces, and the gravitational forces
+acting on them, all blocks are in equilibrium.
+The stacks presented in Figures 1 are balanced. They
+are, however, precariously balanced, with some minute
+displacement of their blocks leading to imbalance and
+collapse. A stack can be said to be stable if all stacks
+obtained by sufficiently small displacements of its blocks
+are balanced. We do not make this definition formal as it
+is not used in the rest of the paper, though we refer to it
+in some informal discussions.A schematic description of a stable stack and a collection
+of balancing forces acting between its blocks is given in
+Figure 5. Only upward forces are shown in the figure but
+corresponding downward forces are, of course, present.
+(We note in passing that balancing forces, when they
+exist, are in general not uniquely determined. This
+phenomenon is referred to as static indeterminacy.)
+We usually adopt the convention that the blocks of a
+balanced stack are numbered consecutively from bottom
+to top and from left to right. Block B1 is then the leftmost
+block in the lowest level while Bn is the rightmost block
+at the top level. For every 0 ≤ i ≤ n, we let Fi be a
+collection of upward balancing forces applied by blocks
+in {B0, B1, . . . , Bi} on blocks in {Bi+1, . . . , Bn}. (See
+Figure 5.) We refer to Fi as the collection of forces that
+cross the i-th slice of the stack.
+Let us examine the relationship between two consecutive
+collections Fi and Fi+1. The only forces present in Fi
+but not in Fi+1 are upward forces applied to Bi
+, while
+the only forces present in Fi+1 but not in Fi are upward
+forces applied by Bi to blocks resting upon it. If
+we let (x1, f1),(x2, f2), . . . ,(xk, fk) be the positions and
+the magnitudes of the upward forces applied to Bi
+,
+and (x
+0
+1
+, f0
+1
+),(x
+0
+2
+, f0
+2
+), . . . ,(x
+0
+k0 , f0
+k0 ) be the positions and
+magnitudes of the upward forces applied by Bi
+, and if we
+let a be the x-coordinate of the left edge of Bi
+, we get
+by Definitions 1 and 2, that Pk
+i=1 fi = 1 + Pk
+0
+i=1 f
+0
+i
+and
+Pk
+i=1 xifi = (a+
+1
+2
+)+Pk
+0
+i=1 x
+0
+i
+f
+0
+i
+. Block Bi thus rearranges
+the forces in the interval [a, a+ 1] in a way that preserves
+the total magnitude of the forces and their total moment,
+when its own weight is taken into account. Note that all
+forces of F0 act in non-positive positions, and that if Bk
+is the most overhanging block in a stack and the overhang
+achieved by it is d, then the total magnitude of the forces
+in Fk−1 that act at or beyond position d−1 should be at
+least 1. These simple observations play a central role in
+the rest of the paper.
+2.3 The overhang problem. The natural formulation
+of the overhang problem is now:
+What is the maximum overhang achieved by a
+balanced or stable n-block stack?
+The main result of this paper is:
+Theorem 2.1. The overhang achieved by a balanced nblock
+stack is at most 6n
+1/3
+.
+Our upper bound clearly applies also to the more demanding
+case of stable stacks, so, in combination with the
+above mentioned Ω(n
+1/3
+) construction from [PZ2006], we
+conclude:
+Corollary 2.1. The maximum overhang achievable by
+a balanced or stable n-block stack is Θ(n
+1/3
+).
+3 Mass movement problems
+Our upper bound on the maximum achievable overhang
+is obtained by considering mass movement problems that
+are an abstraction of the way in which balancing forces
+“flow” though a stack of blocks. (See the discussion at
+the end of Section 2.2.)
+In a mass movement problem we are required to transform
+an initial mass distribution into a mass distribution that
+satisfies certain conditions. The key condition is that
+a specified amount of mass be moved to or beyond a
+certain position. We can transform one mass distribution
+into another by performing local moves that redistribute
+mass within a given interval in a way that preserves the
+total mass and the center of mass. Our goal is then to
+show that many moves are required to accomplish the
+task. As can be seen, masses here correspond to forces,
+mass distributions correspond to collections of forces, and
+moves mimic the effects of blocks.
+The mass movement problems considered are formally
+defined in Sections 3.1 and 3.2. The correspondence
+between the mass movement problems considered and
+the overhang problem is established in Section 3.3. The
+bounds on mass movement problems that imply Theorem
+2.1 are then proved in Section 4.
+3.1 Distributions.
+Definition 3. (Distributions, signed distributions)
+A discrete mass distribution is a set µ = {(x1, m1),
+(x2, m2), . . . ,(xk, mk)}, where k > 0, x1, x2, . . . , xk
+are real numbers, and m1, . . . , mk > 0. A signed
+distribution µ is defined the same way, but without the
+requirement that m1, m2, . . . , mk > 0.
+If µ = {(x1, m1),(x2, m2), . . . ,(xk, mk)} is a (signed)
+distribution, then for any set A ⊆ R, we define
+µ(A) = X
+xi∈A
+mi
+.
+For brevity, we use µ(a) as a shorthand for µ({a}) and
+µ{x > a} as a shorthand for µ({x | x > a}). (Note
+that x here is a formal variable that does not represent
+a specific real number.) We similarly use µ{x ≥ a},
+µ{x < a}, µ{a < x < b}, µ{|x| ≥ a}, etc., with the
+expected meanings.
+We say that a (signed) distribution is on the interval [a, b]
+if µ(x) = 0 for every x 6∈ [a, b].
+For every A ⊆ R, we let µA be the restriction of µ to A:
+µA = {(xi
+, mi) | xi ∈ A} .
+If µ1 and µ2 are two signed distributions, we let µ1 + µ2
+and µ1 − µ2 be the signed distributions for which
+(µ1 + µ2)(x) = µ1(x) + µ2(x), for every x ∈ R ,
+(µ1 − µ2)(x) = µ1(x) − µ2(x), for every x ∈ R .Definition 4. (Moments) Let µ = {(x1, m1),(x2, m2),
+. . . ,(xk, mk)} be a signed distribution and let j ≥ 0 be an
+integer. The j-th moment of µ is defined to be:
+Mj [µ] = X
+k
+i=1
+mix
+j
+i
+.
+Note that M0[µ] is the total mass of µ, M1[µ] is the
+torque of µ, with respect to the origin, and M2[µ] is the
+moment of inertia of µ, again with respect to the origin.
+If M0[µ] 6= 0, we denote M1[µ]/M0[µ], the center of mass
+of µ, by C[µ].
+Less standard, but crucial for our analysis, is the following
+definition.
+Definition 5. (Spread) The spread of a distribution
+µ = {(x1, m1),(x2, m2), . . . ,(xk, mk)} is defined as follows:
+S[µ] = X
+i<j
+|xi − xj | mi mj .
+If M0[µ] = 1, then µ defines a discrete random variable X
+for which Pr[X = x] = µ(x), for every x ∈ R. The
+spread S[µ] is then half the average distance between
+two independent drawings from µ. We also then have
+M1[µ] = E[X] and M2[µ] = E[X2
+]. If M1[µ] = E[X] = 0,
+then M2[µ] = E[X2
+] = Var[X]. It is also worthwhile
+noting that if µ1 and µ2 are two distributions then, for
+any k ≥ 0, Mk[µ1 + µ2] = Mk[µ1] + Mk[µ2], i.e., Mk is a
+linear operator.
+An inequality that proves very useful in the sequel is the
+following:
+Lemma 3.1. For any discrete distribution µ we have
+S[µ]
+2 ≤
+1
+3M2[µ]M0[µ]
+3
+.
+The lemma is essentially the case n = 2 of a more general
+result proved by Plackett [P1947]. For details, the reader
+is referred to the full version of this extended abstract
+[PPTWZ2007].
+3.2 Mass redistribution moves.
+Definition 6. (Moves) A move v = ([a, b], δ) consists
+of an interval [a, b] and a signed distribution δ on [a, b]
+with M0[δ] = M1[δ] = 0. A move v can be applied to
+a distribution µ if the signed distribution µ
+0 = µ + δ is
+a distribution, in which case we denote the result µ
+0 of
+this application by vµ. We refer to a+b
+2
+as the center of
+the move. Unless otherwise stated, the moves we consider
+operate on intervals of length 1, i.e., b − a = 1.
+Note that if v is a move and µ
+0 = vµ, then M0[µ
+0
+] =
+M0[µ], M1[µ
+0
+] = M1[µ] and consequently C[µ
+0
+] = C[µ].
+A sequence V = hv1, v2, . . . , v`i of moves and an initial
+distribution µ0 naturally define a sequence of distributions
+µ0, µ1, . . . , µ`, where µi = viµi−1 for 1 ≤ i ≤ `. (It
+is assumed here that vi can indeed be applied to µi−1.)
+We let V µ0 = µ`.
+Moves and sequences of moves simulate the behavior
+of weightless blocks and stacks. However, the blocks
+that we are interested in have unit weight. Instead of
+explicitly taking into account the weight of the blocks, as
+we briefly do in Section 3.3, it turns out that it is enough
+for our purposes to impose a natural restriction on the
+move sequences considered. We start with the following
+definition:
+Definition 7. (µmax) If µ0, µ1, . . . , µ` is a sequence of
+distributions, and a ∈ R, we define
+µmax{x > a} = max
+0≤i≤`
+µi{x > a} .
+Expressions such as µmax{x ≥ a}, µmax{x < a} and
+µmax{x ≤ a} are defined similarly.
+Definition 8. (Weight-constrained sequences)
+A sequence V = hv1, v2, . . . , v`i of moves that generates
+a sequence µ0, µ1, . . . , µ` of distributions is said to be
+weight-constrained, with respect to µ0 if, for every a ∈ R,
+the number of moves in V centered in (a,∞) is at most
+µmax{x > a}.
+The two main technical results of this paper are the
+following theorems.
+Theorem 3.1. If a distribution ν is obtained from a
+distribution µ with µ{x ≤ 0} ≤ n and µ{x > 0} = 0,
+where n ≥ 1, by a weight-constrained move sequence, then
+ν{x ≥ 6n
+1/3 − 1} = 0.
+For general move sequences we have the following almost
+tight result, which might be of some independent interest.
+In particular, it shows that the weight constraint only has
+a logarithmic effect on the maximal overhang.
+Theorem 3.2. If a distribution ν is obtained from a
+distribution µ with µ{x ≤ 0} ≤ n and µ{x > 0} = 0,
+where n ≥ 1, by a move sequence of length at most n,
+then ν{x ≥ 2n
+1/3
+log2 n} < 1.
+We show next that Theorem 3.1 does indeed imply
+Theorem 2.1, the main result of this extended abstract.
+3.3 From overhang to mass movement. The
+moves of Definition 6 capture the essential effect that a
+block can have on the collections of forces within a stack.
+They fail to take into account, however, the fact that
+the weight of a block is “used up” by the move and isthen lost. To faithfully simulate the effect of unit weight
+blocks we introduce the slightly modified definition of
+lossy moves:
+Definition 9. (Lossy moves) If v = ([a, b], δ) is a
+move, then the lossy move v
+↓ associated with it is v
+↓ =
+([a, b], δ↓
+), where δ
+↓ = δ − {(
+a+b
+2
+, 1)}. A lossy move v
+↓
+can be applied to a distribution µ if µ
+0 = µ + δ
+↓
+is a
+distribution, in which case we denote the result µ
+0 of this
+application by v
+↓µ.
+Note that if v
+↓ = ([a, b], δ↓
+) is a lossy move and µ
+0 = v
+↓µ,
+then M0[µ
+0
+] = M0[µ] − 1 and M1[µ
+0
+] = M1[µ] −
+a+b
+2
+.
+Hence, lossy moves do not preserve total mass or center
+of mass.
+If V = hv1, v2, . . . , v`i is a sequence of moves, we let V
+↓ =
+hv
+↓
+1
+, v
+↓
+2
+, . . . , v
+↓
+`
+i be the corresponding sequence of lossy
+moves. If µ0 is an initial distribution, we can naturally
+define the sequence of distributions µ0, µ1, . . . , µ`, where
+µi = v
+↓
+i µi−1 for 1 ≤ i ≤ `, obtained by applying V
+↓
+to µ0.
+A collection of forces Fi may also be viewed as mass distribution.
+The following lemma is now a simple formulation
+of the definitions and the discussion of Section 2.2:
+Lemma 3.2. Let {B1, B2, . . . , Bn} be a balanced stack.
+Let Fi be a collection of balancing forces acting between
+{B0, . . . , Bi} and {Bi+1, . . . , Bn}, for 0 ≤ i ≤ n. Let xi
+be the x-coordinate of the left edge of Bi. Then, Fi+1
+can be obtained from Fi by a lossy move in the interval
+[xi
+, xi+1].
+As an immediate corollary, we get:
+Lemma 3.3. If there is a stack composed of n blocks of
+length 1 and weight 1 that achieves an overhang of d,
+then there is sequence of at most n−1 lossy moves that
+transforms a distribution µ with M0[µ] = µ{x ≤ 0} = n
+and µ{x > 0} = 0 into a distribution µ
+0 with µ
+0{x ≥
+d−1} ≥ 1.
+Proof. Let {B1, B2, . . . , Bn} be a balanced stack and
+let Bk be a block in it that achieves an overhang of d.
+As before, we let Fi be a collection of balancing forces
+acting between {B0, . . . , Bi} and {Bi+1, . . . , Bn}. We let
+µ = F0 and µ
+0 = Fk−1. It follows from Lemma 3.2 that
+µ
+0 may be obtained from µ by a sequence of k−1 lossy
+moves. As all the forces in µ = F0 are forces applied by
+the table B0, and as the table supports the weight of the n
+blocks of the stack, we have M0[µ0] = µ0{x ≤ 0} = n and
+µ{x > 0} = 0. As the forces in µ
+0 = Fk−1 must at least
+support the weight of Bk, we have µ
+0{d−1 ≤ x ≤ d} ≥ 1.
+The next simple lemma shows that sequences of lossy
+moves can be easily converted into weight-constrained
+sequences of moves and distributions that “dominate” the
+original sequence.
+Lemma 3.4. If µ0, µ1, . . . , µ` is a sequence of distributions
+obtained by a sequence of lossy moves, then there
+exists a sequence of distributions µ
+0
+0
+, µ0
+1
+, . . . , µ0
+`
+obtained
+by a weight-constrained sequence of moves such that
+µ
+0
+0 = µ0, and µ
+0
+i
+(x) ≥ µi(x), for every 1 ≤ i ≤ ` and
+x ∈ R.
+Proof. The sequence µ
+0
+0
+, µ0
+1
+, . . . , µ0
+`
+is obtained by performing
+exactly the same moves used to obtain the sequence
+µ0, µ1, . . . , µ`, treating them now as moves rather
+than lossy moves. More formally, if µi = v
+↓
+i µi−1, we let
+µ
+0
+i = viµ
+0
+i−1
+. If vi = ([a −
+1
+2
+, a +
+1
+2
+], δ), then µ
+0
+i now
+has an extra mass of size 1 at a. This mass is frozen,
+and will not be touched by subsequent moves. Hence,
+if k moves have their center beyond position a, then
+µ
+0
+max{x > a} ≥ µ
+0
+`
+{x > a} ≥ k, as required by the definition
+of weight-constrained sequences.
+It is now easy to see that Theorem 3.1 together with
+Lemmas 3.2 and 3.3 imply Theorem 2.1.
+4 Bounds on mass movement problems
+This section is devoted to the proofs of Theorems 3.1
+and 3.2. As mentioned, Theorem 3.1 implies Theorem 2.1,
+which states that an n-block stack can have an overhang
+of at most 6n
+1/3
+.
+We begin by considering an important class of moves:
+Definition 10. (Extreme moves) An extreme move
+v¯ is defined solely as an interval [a, b]. An extreme
+move v¯ can be applied to any distribution µ resulting
+in the distribution µ
+0 = ¯vµ such that µ
+0{a<x<b} = 0,
+µ
+0
+(x) = µ(x) for every x 6∈ [a, b], M0[µ] = M0[µ
+0
+] and
+M1[µ] = M1[µ
+0
+]. In other words, an extreme move moves
+all the mass in the interval [a, b] into the endpoints of this
+interval while maintaining the center of mass. If v is a
+move on an interval [a, b], we let v¯ denote the extreme
+move on [a, b]. If V is a sequence of moves, we let V¯
+denote the corresponding sequence of extreme moves.
+Closely related to Lemma 3.1 is the following lemma :
+Lemma 4.1. If µ1 is obtained from µ0 by an extreme
+move (in an interval of length 1) then
+S[µ1] − S[µ0] ≥ 3(M2[µ1] − M2[µ0])2
+.
+The proof of Lemma 4.1 is based on the Cauchy-Schwartz
+inequality, and is deferred to the full version of this paper
+[PPTWZ2007]. Another important lemma whose proof
+is also deferred is that if we make all moves extreme, the
+second moment increases:
+Lemma 4.2. If V is a sequence of moves that can be
+applied to µ, then M2[V µ] ≤ M2[V µ¯ ].4.1 Spread vs. second moment. We now obtain our
+first bound for mass movement problems. The bound
+relies heavily on Lemma 3.1 that relates the spread
+and second moment of a distribution, on Lemma 4.1
+that relates differences in spread to differences in second
+moments, and finally, on Lemma 4.2 that states that
+converting moves to extreme moves can only increase the
+second moment.
+Lemma 4.3. Any sequence of moves that transforms the
+distribution µ = {(0, 1)} into a distribution ν with ν{|x| ≥
+d} ≥ p, where d > 0 and 0 < p < 1, must contain at least
+(3p)
+3/2d
+3 moves.
+Proof. Let µ0, µ1, . . . , µ` be the sequence of distributions
+obtained by applying a sequence V of ` moves to µ0 =
+{(0, 1)}, and suppose that µ`{|x| ≥ d} ≥ p. By the
+definition of the second moment we have M2[µ`] ≥ pd2
+.
+Let ¯µ0, µ¯1, . . . , µ¯` be the sequence of distributions obtained
+by applying the sequence V¯ of the extreme moves
+corresponding to the moves of V on ¯µ0 = µ0 = {(0, 1)}.
+By Lemma 4.2, we get that
+M2[¯µ`] ≥ M2[µ`] ≥ p d2
+.
+By Lemma 3.1 we have
+M2[¯µ`]
+2
+S[¯µ`]
+=
+
+M2[¯µ`]M0[¯µ`]
+3
+S[¯µ`]
+2
+1/2
+M2[¯µ`]
+3/2
+≥
+√
+3 M2[¯µ`]
+3/2 ≥
+√
+3p
+3/2
+d
+3
+.
+Let hi = M2[¯µi
+]−M2[¯µi−1], for 1 ≤ i ≤ `. As M2[¯µ0] = 0,
+we clearly have
+M2[¯µ`] = X
+`
+i=1
+hi
+.
+By Lemma 4.1, we get that
+S[¯µ`] ≥ 3
+X
+`
+i=1
+h
+2
+i
+.
+Using the Cauchy-Schwartz inequality to justify the second
+inequality below, we get:
+S[¯µ`] ≥ 3
+X
+`
+i=1
+h
+2
+i ≥ 3
+(
+P`
+i=1 hi)
+2
+`
+= 3
+M2[¯µ`]
+2
+`
+.
+Thus, as claimed,
+` ≥ 3
+M2[¯µ`]
+2
+S[¯µ`]
+≥ (3p)
+3/2
+d
+3
+.
+4.2 Mirroring. The main result of this section is:
+Theorem 4.1. Let µ0, µ1, . . . , µ` be a sequence of distributions
+obtained by applying a sequence of moves to
+an initial distribution µ0 with µ0{x > r} = 0. If
+µmax{x > r} ≤ m and µmax{x ≥ r + d} ≥ pm, where
+d > 1 and 0 < p < 1, then the sequence of moves must
+contain at least √
+3p
+3/2
+(d −
+1
+2
+)
+3 moves whose centers are
+in (r +
+1
+2
+,∞).
+The theorem follows immediately from the following
+lemma by shifting coordinates and renormalizing masses.
+Lemma 4.4. Let µ0, µ1, . . . , µ` be a sequence of distributions
+obtained by applying a sequence of moves to
+an initial distribution µ0 with µ0{x > −
+1
+2
+} = 0. If
+µmax 
+x > −
+1
+2
+	
+≤ 1 and µmax{x ≥ d} ≥ p, where d > 1
+2
+and 0 < p < 1, then the sequence of moves must contain
+at least √
+3p
+3/2d
+3 moves whose centers are at strictly
+positive positions.
+Proof. We may assume, without loss of generality, that
+the first move in the sequence moves some mass from
+(−∞,
+1
+2
+] into ( 1
+2
+,∞) and that the last move moves some
+mass from (−∞, d) to [d, ∞). Hence, the center of the
+first move must be in (−1, 0] and the center of the last
+move must be at a positive position.
+We shall show how to transform the sequence of distributions
+µ0, µ1, . . . , µ` into a sequence of distributions
+µ
+0
+0
+, µ0
+1
+, . . . , µ0
+`
+0 obtained by applying a sequence of `
+0
+moves, such that µ
+0
+0 = {(0, 1)}, µ
+0
+`
+0{|x| ≥ d} ≥ p, and
+such that the number of moves `
+0
+in the new sequence is
+at most three times the number `
++ of positively centered
+move in the original sequence. The claim of the lemma
+would then follow immediately from Lemma 4.3.
+The first transformation is “negative truncation”, where
+in each distribution µi
+, we shift mass from the interval
+(−∞, −
+1
+2
+) to the point −
+1
+2
+. Formally the resulting
+distribution →
+µi
+is defined by
+→
+µi
+(x) =
+
+
+
+µi(x) if x > −
+1
+2
+1 − µi{x > −
+1
+2
+} if x = −
+1
+2
+0 if x < −
+1
+2
+.
+Note that the total mass of each distribution is 1 and
+that →
+µ0 = {(−
+1
+2
+, 1)}. Let δi = µi − µi−1 be the signed
+distribution associated with the move that transforms
+µi−1 into µi and let [ci −
+1
+2
+, ci +
+1
+2
+] be the interval in
+which it operates. For brevity, we refer to δi as the move
+itself, with its center ci clear from the context. We now
+compare the transformed “moves”
+→
+δi =
+→
+µi −
+→
+µi−1 with
+the original moves δi = µi − µi−1. If ci > 0, then δi
+acts above −
+1
+2
+and
+→
+δi = δi
+. If ci ≤ −1, then δi acts
+at or below −
+1
+2
+, so
+→
+δi
+is null and →
+µi =
+→
+µi−1
+. In the
+transformed sequence, we skip all such null moves. Theremaining case is when the center ci of δi
+is in (−1, 0]. In
+this case
+→
+δi acts within [−
+1
+2
+,
+1
+2
+], and we view it as centered
+at 0. However, typically
+→
+δi does not define a valid move as
+it may change the center of gravity. We call such
+→
+δi semimoves.
+If we have two consecutive semi-moves
+→
+δi and
+→
+δi+1, we combine them into a single semi-move
+→
+δi +
+→
+δi+1,
+taking →
+µi−1 directly to →
+µi+1. In the resulting negatively
+truncated and simplified sequence, we know that at least
+every alternate move is an original, positively centered,
+move. Since the last move in the original sequence was
+positively centered we conclude:
+Claim 1. The sequence obtained by the negative truncation
+transformation and the subsequent clean-up is composed
+of original positively centered moves and semimoves
+(acting within [−
+1
+2
+,
+1
+2
+]). The sequence begins with
+a semi-move and at most half of its elements are semimoves.
+Next, we create a reflected copy of the negatively truncated
+distributions. The reflected copy ←
+µi of →
+µi
+is defined
+by
+←
+µi
+(x) = →
+µi
+(−x), for every x ∈ R.
+We similarly define the reflected (semi-)moves
+←
+δi =
+←
+µi −
+←
+µi−1
+. We can now define the mirrored distributions
+↔
+µi =
+→
+µi +
+←
+µi
+.
+Note that ↔
+µ0 =
+→
+µ0 +
+←
+µ0 = {(−
+1
+2
+, 1),(
+1
+2
+, 1)}. The
+distribution ↔
+µi may be obtained from ↔
+µi−1 by applying
+the (semi-)move
+→
+δi
+, resulting in the distribution →
+µi+
+←
+µi−1
+,
+and then the (semi-)move
+←
+δi
+, resulting in →
+µi +
+←
+µi =
+↔
+µi
+.
+The ↔
+µi
+sequence is therefore obtained by interleaving the
+(semi-)moves
+→
+δi with their reflections
+←
+δi
+. Now comes a
+key observation.
+Claim 2. If
+→
+δi and
+←
+δi are semi-moves, then their sum ↔
+δ i =
+→
+δi +
+←
+δi defines an ordinary move centered at 0 and
+acting on [−
+1
+2
+,
+1
+2
+].
+Proof. Both
+→
+δi and
+←
+δi preserve the total mass. As
+↔
+δ i
+is
+symmetric about 0, it cannot change the center of mass.
+As suggested by the above observation, if
+→
+δi and
+←
+δi are
+semi-moves, we combine them into a single ordinary move
+↔
+δ i centered at 0. We thus obtain a sequence of at most
+3`
++ moves, where `
++ is the number of positively centered
+moves in the original sequence, that transforms ↔
+µ0
+to ↔
+µ`
+.
+Recall from Claim 1 that the first “move”
+→
+δ1 in the
+negatively truncated sequence is a semi-move. The
+first move
+↔
+δ 1, obtained by combining
+→
+δ1 and
+←
+δ1, is
+therefore a move acting on [−
+1
+2
+,
+1
+2
+]. We now replace
+the initial distribution ↔
+µ0 = {(−
+1
+2
+, 1),(
+1
+2
+, 1)} by the
+distribution µ
+0
+0 = {(0, 2)}, which has the same center
+of gravity, and replace the first move by δ
+0
+1 =
+↔
+δ 1 +
+{(−
+1
+2
+, 1),(0, −2),(
+1
+2
+, 1)}. The distribution after the first
+move is then again ↔
+µ1
+.
+We have thus obtained a sequence of at most 3`
++ moves
+that transforms µ
+0
+0 = {(0, 2)} into a distribution ν
+0 =
+↔
+µ`
+with ν
+0{|x| ≥ d} ≥ 2p. Scaling these distributions and
+moves by a factor of 2, we get, by Lemma 4.3, that
+3`
++ ≥ (3p)
+3/2d
+3
+, as claimed.
+4.3 Proofs of Theorems 3.1 and 3.2. We prove the
+following theorem which easily implies Theorem 3.1.
+Theorem 4.2. Let µ0, µ1, . . . , µ` be a sequence of distributions
+obtained by applying a constrained sequence
+of moves to an initial distribution µ0 with µ0{x >
+r} = 0. If µmax{x > r} ≤ n, where n ≥
+1
+5
+, then
+µmax 
+x > r + 6n
+1/3 − 1
+	
+= 0.
+Proof. The proof is by induction on n. If n < 1 then
+there is no move with center greater than r and hence
+µmax 
+x > r +
+1
+2
+	
+= 0. Since 6( 1
+5
+)
+1/3 − 1 > 1/2, the
+result clearly holds.
+Suppose now that µmax {x > r} = n and that the result
+holds for all 1
+5 ≤ n
+0 < n. Let u be the largest number for
+which µmax {x ≥ r + u} >
+n
+5
+. As the distributions µi are
+discrete, it follows that µmax {x > r + u} ≤ n
+5
+. As u ≥ 0,
+we have µ0{x > r + u} = 0. By the induction hypothesis
+with r replaced by r + u, we therefore get that
+µmax n
+x > r + u + 6(n
+5
+)
+1/3 − 1
+o
+= 0 .
+As µ0{x > r} = 0, µmax{x > r} ≤ n and
+µmax {x ≥ r + u} >
+n
+5
+, we get by Theorem 4.1 that the sequence
+must contain at least √
+3( 1
+5
+)
+3/2
+(u−
+1
+2
+)
+3 >
+1
+7
+(u−
+1
+2
+)
+3
+moves whose centers are positive. As the sequence of
+moves is constrained, and as µmax{x > r} ≤ n, there can
+be at most n such moves with centers greater than r, i.e.,
+1
+7
+
+u −
+1
+2
+3
+≤ n . Hence u ≤ (7n)
+1/3 +
+1
+2
+, and so
+u + 6 n
+5
+1/3
+− 1 ≤
+
+7
+1/3 + 6 ·
+
+1
+5
+1/3
+
+n
+1/3 −
+1
+2
+< 5.5n
+1/3 −
+1
+2 ≤ 6n
+1/3 − 1 ,
+for n ≥ 1. This proves the induction step and completes
+the proof.
+Modulo the details deferred to the full version of this extended
+abstract [PPTWZ2007], this completes the proof
+of our main result that the maximum overhang that can
+be achieved using n blocks in at most 6n
+1/3
+.
+Next, we prove the following theorem which easily implies
+Theorem 3.2.Theorem 4.3. Let µ0, µ1, . . . , µn be a sequence of distributions
+obtained by applying a sequence of n moves to an
+initial distribution µ0 with µ0{x ≤ 0} ≤ n and µ0{x >
+0} = 0, where n ≥ 2. Then µn{x > 2n
+1/3
+log2 n} < 1.
+Proof. Suppose that 2k ≤ n < 2
+k+1, where k ≥ 0.
+For 1 ≤ i ≤ k, let ui be the largest number for
+which µmax{x ≥ ui} ≥ n
+2
+i
+. By the discreteness of the
+distributions we again have µmax{x > ui} <
+n
+2
+i
+. Let
+u0 = 0. Assume, for the sake of contradiction, that
+µn{x > 2n
+1/3
+log2 n} ≥ 1. Then, uk ≥ 2kn1/3
+. There
+is then at least one value of i for which ui −ui−1 ≥ 2n
+1/3
+.
+By Theorem 4.1, applied with r = ui−1 and d = ui−ui−1,
+we conclude that the sequence must contain more than n
+moves, a contradiction.
+We believe that a stronger version of the theorem,
+which states under the same conditions that µn{x >
+cn1/3
+(log2 n)
+2/3} < 1, for some c > 0, actually holds.
+This would match an example supplied by Johan H˚astad.
+Theorem 4.3 (and Theorem 3.2) imply an almost tight
+bound on an interesting variant of the overhang problem
+that involves weightless blocks, as discussed in Section 5.
+5 Concluding remarks and open problems
+We have shown that the maximum overhang achieved
+using n homogeneous, frictionless blocks of unit length
+is at most 6n
+1/3
+. Thus, the constructions of [PZ2006]
+cannot be improved by more than a constant factor,
+establishing order n
+1/3 as the asymptotic answer to the
+age-old overhang problem.
+The discussions and results presented so far all refer to the
+standard two-dimensional version of the overhang problem.
+Our results hold, however, in greater generality. We
+briefly discuss some natural generalizations and variants
+of the overhang problem for which our bounds still apply.
+In Section 2 we stipulated that all blocks have a given
+height h. It is easy to see, however, that all our results
+remain valid even if blocks have different heights, but still
+have unit length and unit weight. In particular, blocks are
+allowed to degenerate into sticks, i.e., have height 0. Also,
+even though we required blocks not to overlap, we did not
+use this condition in any of our proofs.
+Loaded stacks, introduced in [PZ2006], are stacks composed
+of standard unit length and unit weight blocks,
+and point weights that can have arbitrary weight. (Point
+weights may be considered to be blocks of zero height and
+length, but nonzero weight.) Our results, with essentially
+no change, imply that loaded stacks of total weight n can
+have an overhang of at most 6n
+1/3
+.
+What happens when we are allowed to use blocks of different
+lengths and weights? Our results can be generalized
+in a fairly straightforward way to show that if a block of
+length ` has weight proportional to `
+3
+, as would be the
+case if all blocks were similar three-dimensional cuboids,
+then the overhang of a stack of total weight n is again of
+order at most n
+1/3
+. It is amusing to note that in this case
+an overhang of order n
+1/3
+can be obtained by stacking
+n unit-length blocks as in the construction of [PZ2006],
+or simply by balancing a single block of length n
+1/3 and
+weight n at the edge of the table! Might this mean that
+there is some physical principle that could have told us,
+without all the calculations, that the right answer to the
+original overhang problem has to be of order n
+1/3
+?
+Theorem 3.2 supplies an almost tight upper bound for
+the following variant of the overhang problem: how far
+away from the edge of a table can a mass of weight 1
+be supported using n weightless blocks of length 1 and
+a collection of point weights of total weight n? The
+overhang in this case beats the classical one by a factor
+of between log2/3 n and log n.
+In all variants considered so far, blocks were assumed to
+have their longest edges parallel to the table’s surface and
+perpendicular to its edge. The assumption of no friction
+then immediately implied that all forces within a stack
+are vertical, and our analysis, which assumes that there
+are no horizontal forces, was applicable. A nice argument,
+communicated to us by Harry Paterson, shows that in the
+frictionless two-dimensional case, horizontal forces cannot
+be present even if some of the blocks are tilted. Our
+results thus apply also in this case.
+Figure 6: A “skintled” 4-diamond.
+We believe that our bounds apply, with slightly adjusted
+constants, also in three dimensions, but proving so remains
+an open problem. Overhang larger by a factor of
+√
+1 + w2 may be obtained with 1 × w × h blocks, where
+h ≤ w ≤ 1, using a technique called skintling (see Figure
+6). In skintling (a term we learned from an edifying
+conversation with John H. Conway about brick-laying)
+each block is rotated about its vertical axis, so that—
+in our case—the diagonal of its bottom face is perpendicular
+to the edge of the table. With suitably adjusted
+notion of length, however, our bounds apply to any threedimensional
+construction that can be balanced using vertical
+forces. It is an interesting open problem whether
+there exist three-dimensional stacks composed of frictionless,
+possibly tilted, blocks that can only be balanced with
+the aid of some nonvertical forces. (We know that this ispossible if the blocks are nonhomogeneous and are of different
+sizes.) As mentioned, we believe that our bounds
+do apply in three dimensions even if it turns out that
+nonvertical forces are sometimes useful, but proving this
+requires some additional arguments.
+We end by commenting on the tightness of the analysis
+presented in this paper. Our main result is a 6n
+1/3 upper
+bound on the overhang that may be obtained using n
+blocks. As we indicate in the full paper, this bound
+can be easily improved to about 4.5n
+1/3
+for sufficiently
+large values of n. Various other small improvements
+in the constants are possible. For example, a careful
+examination of our proofs reveals that whenever we
+apply Lemma 4.1, the distribution µ0 contains at most
+three masses in the interval acted upon by the move
+that produces µ1. (This follows from the fact that a
+block can rest upon at most three other blocks.) The
+constant 3 appearing in Lemma 4.1 can then be improved,
+though it is optimal when no assumption regarding the
+distribution µ0 is made. We believe, however, that new
+ideas would be needed to reduce the upper bound to
+below, say, 3n
+1/3
+.
+total weight ! 1112.88
+overhang ! 10
+Figure 7: An “oil-lamp”-shaped stack
+As mentioned, Paterson and Zwick [PZ2006] describe
+simple balanced n-block stacks that achieve an overhang
+of about 0.57n
+1/3
+. They also present some numerical
+evidence that suggests that the overhang that can be
+achieved using n blocks is at least 1.02n
+1/3
+, for large
+values of n. These larger overhangs are obtained using
+stacks that are shaped like the “oil-lamp” depicted in
+Figure 7. For more details on the figure and on “oil-lamp”
+constructions, see [PZ2006]. (The stack shown in the
+figure is actually a loaded stack, as defined above, with
+the external forces shown representing the point weights.)
+A small gap still remains between the best upper and
+lower bounds currently available for the overhang problem,
+though they are both of order n
+1/3
+. Determining a
+constant c such that the maximum overhang achievable
+using n blocks is asymptotically cn1/3
+is a challenging
+open problem.
+Acknowledgements
+We would like to thank John H. Conway, Johan H˚astad,
+Harry Paterson, Anders Thorup and Benjy Weiss for
+useful discussions observations, some of which appear,
+with due credit, in the full paper.
